@@ -1,5 +1,6 @@
-# Cami Carballo : TARDIS i3 config file
-# LAST EDIT: 20 May 2017
+# TARDIS i3 config file
+# by: Cami Carballo
+# LAST EDIT: 21 May 2017
 
 ############
 ##SETTINGS##
@@ -15,8 +16,7 @@ exec --no-startup-id synclient NaturalScrolling=1 VertScrollDelta=-113
 
 # i3bar
 bar {
-  status_command i3status
-  i3bar_command /home/camelot/.config/i3/i3status.conf
+  status_command i3status -c /home/camelot/.config/i3/i3status.conf
   tray_output primary
   separator_symbol " | "
   colors {
