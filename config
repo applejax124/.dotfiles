@@ -16,7 +16,7 @@ exec --no-startup-id synclient NaturalScrolling=1 VertScrollDelta=-113
 
 # i3bar
 bar {
-  status_command i3status -c /home/camelot/.config/i3/i3status.conf
+  status_command i3status -c ~/.config/i3/i3status.conf
   tray_output primary
   separator_symbol " | "
   colors {
