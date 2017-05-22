@@ -6,7 +6,8 @@
 ##SETTINGS##
 ############
 
-# On Screen Notifications
+# Low Battery Notifiations
+exec_always --no-startup-id ~/.config/i3/battery_notification.py
 
 # Font for Window Titles
 font pango:courier new 10
