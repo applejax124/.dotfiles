@@ -1,13 +1,13 @@
 # TARDIS i3 config file
 # by: Cami Carballo
-# LAST EDIT: 21 May 2017
+# LAST EDIT: 11 July 2017
 
 ############
-##SETTINGS##
+# SETTINGS #
 ############
 
 # Low Battery Notifiations
-exec_always --no-startup-id ~/.config/i3/battery_notification.py
+exec_always --no-startup-id ~/.config/i3/battery_notification.sh
 
 # Font for Window Titles
 font pango:courier new 10
@@ -48,8 +48,8 @@ bindsym XF86AudioLowerVolume exec amixer -D pulse sset Master 5%-
 bindsym XF86AudioRaiseVolume exec amixer -D pulse sset Master 5%+
 
 # Screen brightness controls
-# bindsym XF86MonBrightnessUp exec --no-startup-id sudo bright_up
-# bindsym XF86MonBrightnessDown exec --no-startup-id sudo bright_down
+bindsym XF86MonBrightnessUp exec bright_up
+bindsym XF86MonBrightnessDown exec bright_down
 
 #################
 ##OPEN PROGRAMS##
