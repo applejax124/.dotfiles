@@ -1,19 +1,15 @@
-# TARDIS i3 config file
-# by: Cami Carballo
-# LAST EDIT: 28 August 2017
+# TARDIS i3 config file by: Cami Carballo LAST EDIT: 30 August 2017
 
-############
-# SETTINGS #
-############
+############ SETTINGS # ###########
 
 # Start i3lock on startup
-exec --no-startup-id xautolock -time 7 -locker 'i3lock -d -i ~/Pictures/galaxy.jpg'
+exec --no-startup-id xautolock -time 7 -locker 'lock -t Password Needed to Unlock -f Courier-10-Pitch'
 
 # Start NetworkManager on Startup
 exec --no-startup-id nm-applet
 
 # Low Battery Notifiations
-exec_always --no-startup-id ~/.config/i3/battery_notification.sh
+exec_always --no-startup-id ~/.config/i3/battery_notification.py
 
 # Font for Window Titles
 font pango:courier new 10
@@ -24,6 +20,7 @@ exec --no-startup-id synclient NaturalScrolling=1 VertScrollDelta=-113
 # i3bar
 bar {
   status_command i3status -c ~/.config/i3/i3status.conf
+  position top
   tray_output primary
   separator_symbol " | "
   colors {
@@ -84,6 +81,9 @@ bindsym Mod4+x exec slack
 
 # Open Google Chrome
 bindsym Mod4+g exec google-chrome
+
+# Open Messenger
+bindsym Mod4+m exec messengerfordesktop
 
 ###########
 ##WINDOWS##
