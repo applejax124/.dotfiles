@@ -6,21 +6,38 @@
 
 # i3 config file (v4)
 
-import sys, os
+import sys, os, time
 
-batt = os.popen("acpi -b", 'r')
+while True:
+  batt = os.popen("acpi -b", 'r')
 
-battinfo = batt.read()
-battinfo = battinfo.split()
+  battinfo = batt.read()
+  battinfo = battinfo.split()
 
-percentage = int(battinfo[3].replace('%,', ""))
-status = battinfo[2].replace(',', "")
+  percentage = int(battinfo[3].replace('%,', ""))
+  status = battinfo[2].replace(',', "")
 
-notification = "notify-send 'BATTERY LOW: {}%'".format(percentage)
+  notify_low = "zenity --warning --text='BATTERY LOW: {}%'".format(percentage)
+  notify_v_low = "zenity --warning --text='BATTERY VERY LOW: {}%'".format(percentage)
+  notify_critical = "zenity --warning --text='BATTERY CRITICAL: {}%'".format(percentage)
 
-if status == "Discharging" and percentage == 20:
-  os.system(notification)
+  low = False
+  v_low = False
+  critical = False
 
-if status == "Discharging" and percentage == 10:
-  os.system(notification)
+  if low == False:
+    if status == "Discharging" and percentage <= 20:
+      os.system(notify_low)
+      low = True
 
+  if v_low == False:
+    if status == "Discharging" and percentage <= 10:
+      os.system(notify_v_low)
+      v_low = True
+
+  if critical == False:
+    if status == "Discharging" and percentage <= 5:
+      os.system(notify_critical)
+      critical = True
+
+  time.sleep(300)
