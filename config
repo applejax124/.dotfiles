@@ -1,6 +1,6 @@
 # TARDIS i3 config file 
 # by: Cami Carballo 
-# LAST EDIT: 30 August 2017
+# LAST EDIT: 20 September 2017
 
 ############ SETTINGS # ###########
 
@@ -18,6 +18,9 @@ font pango:courier new 10
 
 # Natural Scrolling
 exec --no-startup-id synclient NaturalScrolling=1 VertScrollDelta=-113
+
+# Make Terminal Transparent
+#exec xcompmgr -c -f -n
 
 # i3bar
 bar {
