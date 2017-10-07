@@ -1,11 +1,13 @@
 # TARDIS i3 config file 
 # by: Cami Carballo 
-# LAST EDIT: 20 September 2017
+# LAST EDIT: 7 October 2017
 
-############ SETTINGS # ###########
+##############
+## SETTINGS ##
+##############
 
 # Start i3lock on startup
-exec --no-startup-id xautolock -time 7 -locker 'lock -t Password Needed to Unlock -f Courier-10-Pitch'
+exec --no-startup-id xautolock -time 7 -locker "./lock.sh"
 
 # Start NetworkManager on Startup
 exec --no-startup-id nm-applet
@@ -19,8 +21,11 @@ font pango:courier new 10
 # Natural Scrolling
 exec --no-startup-id synclient NaturalScrolling=1 VertScrollDelta=-113
 
-# Make Terminal Transparent
-#exec xcompmgr -c -f -n
+# Notification-Daemon (Dunst)
+exec --no-startup-id dunst -config ~/.config/dunst/config
+
+# Set Background
+exec --no-startup-id feh --bg-scale ~/Personal/Pictures/background.jpg
 
 # i3bar
 bar {
@@ -59,9 +64,9 @@ bindsym XF86AudioRaiseVolume exec amixer -D pulse sset Master 5%+
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 
-#################
-##OPEN PROGRAMS##
-#################
+###################
+## OPEN PROGRAMS ##
+###################
 
 # Restart i3 Inplace
 bindsym Mod4+Shift+r restart
@@ -70,7 +75,7 @@ bindsym Mod4+Shift+r restart
 bindsym Mod4+Shift+e exec "i3-nagbar -t warning -m 'Do you really want to exit i3?' -b 'Yes, exit i3' 'i3-msg exit'"
 
 # Open Terminal
-bindsym Mod4+Return exec i3-sensible-terminal
+bindsym Mod4+Return exec terminator
 
 # Open DMenu
 bindsym Mod4+d exec dmenu_run
@@ -90,9 +95,9 @@ bindsym Mod4+g exec google-chrome
 # Open Messenger
 bindsym Mod4+m exec messengerfordesktop
 
-###########
-##WINDOWS##
-###########
+#############
+## WINDOWS ##
+#############
 
 # Kill Focused Window
 bindsym Mod4+Shift+q kill
