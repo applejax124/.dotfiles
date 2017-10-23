@@ -1,6 +1,6 @@
 # TARDIS i3 config file 
 # by: Cami Carballo 
-# LAST EDIT: 7 October 2017
+# LAST EDIT: 23 October 2017
 
 ##############
 ## SETTINGS ##
@@ -30,6 +30,7 @@ exec --no-startup-id feh --bg-scale ~/Personal/Pictures/background.jpg
 # i3bar
 bar {
   status_command i3status -c ~/.config/i3/i3status.conf
+  font pango:DejaVu Sans Mono 10
   position top
   tray_output primary
   separator_symbol " | "
@@ -63,6 +64,9 @@ bindsym XF86AudioRaiseVolume exec amixer -D pulse sset Master 5%+
 # Screen brightness controls
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10
+
+# Fonts
+font pango:DejaVu Sans Mono 10
 
 ###################
 ## OPEN PROGRAMS ##
