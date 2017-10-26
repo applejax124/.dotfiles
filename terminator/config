@@ -1,0 +1,29 @@
+[global_config]
+  inactive_color_offset = 0.39
+  tab_position = hidden
+  title_font = Courier 10 Pitch 12
+  title_transmit_bg_color = "#222222"
+  title_transmit_fg_color = "#bfbfbf"
+  title_use_system_font = False
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.87
+    background_image = /home/camelot/Documents/Personal/Pictures/background.jpg
+    background_type = transparent
+    cursor_shape = ibeam
+    font = Courier 10 Pitch 12
+    icon_bell = False
+    palette = "#86817e:#d75756:#688c7d:#ffb365:#68778c:#fdb3b2:#86abd9:#f7f8f2:#86817e:#a63a3a:#688c7d:#ffb365:#68778c:#8c686a:#86abd9:#f7f8f2"
+    scroll_background = False
+    show_titlebar = False
+    use_system_font = False
