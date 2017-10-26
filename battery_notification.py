@@ -4,8 +4,6 @@
 # by: Cami Carballo
 # LAST EDIT: 20 September 2017
 
-# i3 config file (v4)
-
 import sys, os, time
 
 while True:

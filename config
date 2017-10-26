@@ -7,7 +7,7 @@
 ##############
 
 # Start i3lock on startup
-exec --no-startup-id xautolock -time 7 -locker "./lock.sh"
+exec_always --no-startup-id xautolock -time 7 -locker "./lock.sh"
 
 # Start NetworkManager on Startup
 exec --no-startup-id nm-applet
