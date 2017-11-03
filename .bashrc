@@ -1,6 +1,6 @@
 # bash config file
 # by: Cami Carballo
-# LAST EDIT: 4 October 2017
+# LAST EDIT: 26 October 2017
 
 # DEFAULT TEXT EDITOR
 export EDITOR='vim'
@@ -64,6 +64,7 @@ alias la='ls -A'
 alias l='ls -CF'
 alias rm='rm -i'
 alias woman='man'
+alias vim='vim -S ~/.vimrc'
 
 # connections to remote hosts
 alias student00='ssh -X ccarball@student00.cse.nd.edu'

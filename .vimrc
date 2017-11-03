@@ -1,6 +1,6 @@
 " VIM config file (.vimrc)
 " by: Cami Carballo
-" LAST EDIT : 30 August 2017
+" LAST EDIT : 26 October 2017
 
 " use VIM instead of VI
 set nocompatible
@@ -23,11 +23,10 @@ set shiftwidth=2    "autoindent with 2 spaces
 set number  "show relative line numbers
 set showmatch       "show matching parentheses
 
-"Remap JK to be ESC
-"map <J-K> <Esc>
+"TODO: Remap JK to be ESC
+inoremap jk <ESC>
 
-"Map arrow keys to first line, last line, front, and back
-
+"TODO: Map arrow keys to first line, last line, front, and back
 
 "Force me to use HJKL
 noremap <Up> <NOP>
@@ -40,5 +39,5 @@ noremap <Right> <NOP>
 """"""""""""""""
 set noswapfile      "don't create swap files
 set cursorline!
-hi CursorLine cterm=NONE ctermbg=8 "underline the current line (for quick orientation)
-
+hi CursorLine cterm=NONE ctermbg=8 
+" ^^ highlight the current line (for quick orientation)

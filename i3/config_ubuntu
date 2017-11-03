@@ -2,6 +2,8 @@
 # by: Cami Carballo 
 # LAST EDIT: 25 October 2017
 
+# For Ubuntu
+
 ##############
 ## SETTINGS ##
 ##############
@@ -13,7 +15,7 @@ exec_always --no-startup-id xautolock -time 7 -locker "./lock.sh"
 exec --no-startup-id nm-applet
 
 # Low Battery Notifiations
-exec_always --no-startup-id ./battery_notification.py
+exec_always --no-startup-id ~/.dotfiles/i3/batt_notify_ubuntu.py
 
 # Font for Window Titles
 font pango:courier new 10
@@ -29,7 +31,7 @@ exec --no-startup-id feh --bg-scale ~/Media/Pictures/background.jpg
 
 # i3bar
 bar {
-  status_command i3status -c ./i3status.conf
+  status_command i3status -c ~/.dotfiles/i3/i3status_ubuntu.conf
   font pango:DejaVu Sans Mono 10
   position top
   tray_output primary
