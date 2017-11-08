@@ -1,6 +1,6 @@
 # bash config file
 # by: Cami Carballo
-# LAST EDIT: 26 October 2017
+# LAST EDIT: 7 November 2017
 
 # DEFAULT TEXT EDITOR
 export EDITOR='vim'
@@ -67,12 +67,12 @@ alias woman='man'
 alias vim='vim -S ~/.vimrc'
 
 # connections to remote hosts
-alias student00='ssh -X ccarball@student00.cse.nd.edu'
+alias s00='ccarball@student00.cse.nd.edu'
+alias s04='ccarball@student04.cse.nd.edu'
 alias darrow='ssh -X ccarball@darrow.cc.nd.edu'
-alias crcfe01='ssh -Y ccarball@crcfe01.crc.nd.edu'
 alias www='lftp ccarball@www3ftps.nd.edu'
 alias dsg1='ssh ccarball@dsg1.crc.nd.edu'
-alias droplet='ssh camelot@104.131.182.72'
+alias dorp='ssh camelot@104.131.182.72'
 
 # run some programs
 alias armsim='mono ~/Downloads/ARMSim.exe'
