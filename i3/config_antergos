@@ -1,6 +1,6 @@
 # TARDIS i3 config file 
 # by: Cami Carballo 
-# LAST EDIT: 25 October 2017
+# LAST EDIT: 25 November 2017
 
 # For Antergos
 
@@ -27,7 +27,7 @@ exec --no-startup-id synclient NaturalScrolling=1 VertScrollDelta=-113
 exec --no-startup-id dunst -config ~/.config/dunst/config
 
 # Set Background
-exec --no-startup-id feh --bg-scale ~/Home/Media/Pictures/background.jpg
+exec --no-startup-id feh --bg-scale ~/Media/Pictures/background.jpg
 
 # i3bar
 bar {
@@ -83,23 +83,18 @@ bindsym Mod4+Shift+e exec "i3-nagbar -t warning -m 'Do you really want to exit i
 # Open Terminal
 bindsym Mod4+Return exec terminator
 
-# Open DMenu
-#bindsym Mod4+d exec dmenu_run
-
-# Open Chromium
-bindsym Mod4+c exec chromium
-
-# Open Spotify
-#bindsym Mod4+z exec spotify
-
-# Open Slack
-#bindsym Mod4+x exec slack
+# Open Firefox (teehee)
+#bindsym Mod4+c exec chromium
+bindsym Mod4+c exec firefox
 
 # Open Google Chrome
 bindsym Mod4+g exec google-chrome-stable
 
-# Open Messenger
-#bindsym Mod4+m exec messengerfordesktop
+# Lock Screen
+bindsym Mod4+l exec ~/.config/i3/lock.sh 
+
+# Open Steam
+bindsym Mod4+z exec steam
 
 #############
 ## WINDOWS ##

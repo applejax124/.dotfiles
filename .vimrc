@@ -23,10 +23,8 @@ set shiftwidth=2    "autoindent with 2 spaces
 set number  "show relative line numbers
 set showmatch       "show matching parentheses
 
-"TODO: Remap JK to be ESC
+"Remap JK to be ESC
 inoremap jk <ESC>
-
-"TODO: Map arrow keys to first line, last line, front, and back
 
 "Force me to use HJKL
 noremap <Up> <NOP>
@@ -38,6 +36,6 @@ noremap <Right> <NOP>
 " VIM BEHAVIOR "
 """"""""""""""""
 set noswapfile      "don't create swap files
-set cursorline!
-hi CursorLine cterm=NONE ctermbg=8 
+"set cursorline!
+"hi CursorLine cterm=NONE ctermbg=8
 " ^^ highlight the current line (for quick orientation)

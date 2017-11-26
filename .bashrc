@@ -1,6 +1,6 @@
 # bash config file
 # by: Cami Carballo
-# LAST EDIT: 7 November 2017
+# LAST EDIT: 20 November 2017
 
 # DEFAULT TEXT EDITOR
 export EDITOR='vim'
@@ -69,6 +69,7 @@ alias vim='vim -S ~/.vimrc'
 # connections to remote hosts
 alias s00='ccarball@student00.cse.nd.edu'
 alias s04='ccarball@student04.cse.nd.edu'
+alias s06='ccarball@student06.cse.nd.edu'
 alias darrow='ssh -X ccarball@darrow.cc.nd.edu'
 alias www='lftp ccarball@www3ftps.nd.edu'
 alias dsg1='ssh ccarball@dsg1.crc.nd.edu'
@@ -77,6 +78,13 @@ alias dorp='ssh camelot@104.131.182.72'
 # run some programs
 alias armsim='mono ~/Downloads/ARMSim.exe'
 alias android='/usr/bin/android-studio/bin/studio.sh'
+alias windows='qemu-system-x86_64 -m 6G -cpu host -enable-kvm -drive file=windows.img -cdrom windows.iso'
+
+# run virtualenvwrapper
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
+export VIRTUALENVWRAPPER_VIRTUALENV=/usr/bin/virtualenv
+source /usr/bin/virtualenvwrapper.sh
+export WORKON_HOME=~/Environments
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
