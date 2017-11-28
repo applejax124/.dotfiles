@@ -1,8 +1,8 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/python
 
 # Low Battery Notification on i3wm 
 # by: Cami Carballo
-# LAST EDIT: 20 September 2017
+# LAST EDIT: 27 November 2017
 
 import sys, os, time
 

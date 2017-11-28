@@ -15,7 +15,7 @@ exec_always --no-startup-id xautolock -time 7 -locker "~/.config/i3/lock.sh"
 exec --no-startup-id nm-applet
 
 # Low Battery Notifiations
-exec_always --no-startup-id ~/.config/i3/battery_notification.py
+exec --no-startup-id ~/.config/i3/battery_notification.py
 
 # Font for Window Titles
 font pango:courier new 10
