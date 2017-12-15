@@ -1,6 +1,6 @@
 # bash config file
 # by: Cami Carballo
-# LAST EDIT: 20 November 2017
+# LAST EDIT: 14 December 2017
 
 # DEFAULT TEXT EDITOR
 export EDITOR='vim'
@@ -73,7 +73,7 @@ alias s06='ccarball@student06.cse.nd.edu'
 alias darrow='ssh -X ccarball@darrow.cc.nd.edu'
 alias www='lftp ccarball@www3ftps.nd.edu'
 alias dsg1='ssh ccarball@dsg1.crc.nd.edu'
-alias dorp='ssh camelot@104.131.182.72'
+alias bork='ssh camelot@104.131.182.72'
 
 # run some programs
 alias armsim='mono ~/Downloads/ARMSim.exe'

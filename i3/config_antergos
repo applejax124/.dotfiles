@@ -9,7 +9,7 @@
 ##############
 
 # Start i3lock on startup
-exec_always --no-startup-id xautolock -time 7 -locker "~/.config/i3/lock.sh"
+#exec_always --no-startup-id xautolock -time 7 -locker "~/.config/i3/lock.sh"
 
 # Start NetworkManager on Startup
 exec --no-startup-id nm-applet
