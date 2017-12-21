@@ -1,7 +1,7 @@
 [global_config]
-  inactive_color_offset = 0.39
-  tab_position = hidden
-  title_font = Courier 10 Pitch 12
+  inactive_color_offset = 0.504672897196
+  suppress_multiple_term_dialog = True
+  title_font = Bitstream Vera Sans Mono 11
   title_transmit_bg_color = "#222222"
   title_transmit_fg_color = "#bfbfbf"
   title_use_system_font = False
@@ -17,12 +17,15 @@
 [plugins]
 [profiles]
   [[default]]
-    background_darkness = 0.87
-    background_type = transparent
+    background_color = "#000d1d"
+    background_darkness = 0.3
+    cursor_color = "#aaaaaa"
     cursor_shape = ibeam
-    font = Courier 10 Pitch 12
+    font = Bitstream Vera Sans Mono 11
     icon_bell = False
     palette = "#86817e:#d75756:#688c7d:#ffb365:#68778c:#fdb3b2:#86abd9:#f7f8f2:#86817e:#a63a3a:#688c7d:#ffb365:#68778c:#8c686a:#86abd9:#f7f8f2"
     scroll_background = False
+    scrollback_infinite = True
+    scrollbar_position = hidden
     show_titlebar = False
     use_system_font = False
