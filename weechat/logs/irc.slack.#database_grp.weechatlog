@@ -1,0 +1,274 @@
+2017-10-19 02:18:33	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #database_grp
+2017-10-19 02:18:33	--	Topic for #database_grp is ""
+2017-10-19 02:18:33	--	Channel #database_grp: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-10-19 02:19:00	--	Channel created on Thu, 19 Oct 2017 02:18:59
+2017-10-21 11:17:07	kdodson	hey team, can anyone meet this week? We have like 14 days to be ready for the demo
+2017-10-23 13:44:40	jcioffi	hey! so i actually wont be able to meet this week unless it is Tuesday night :disappointed: I am going to the SWE conference in Texas from Wednesday - Saturday and have two exams Tuesday so tonight will be out for me as well
+2017-10-23 13:50:34	ccarball	I can meet tuesday night
+2017-10-23 14:32:09	kdodson	https://github.com/ikr0m/fullcalendar 
+2017-10-23 15:23:07	ivywang	For Tuesday night I'm only available before 7pm
+2017-10-23 16:45:44	kdodson	Well I'm available most nights so let me know if anyone wants to start tonight!
+2017-10-23 17:07:10	kdodson	@kdodson uploaded a file: Screen Shot 2017-10-23 at 5.06.41 PM.png https://nd-cse.slack.com/files/U27B99WG0/F7NJD491R/screen_shot_2017-10-23_at_5.06.41_pm.png 
+2017-10-23 17:10:48	kdodson	@channel please feel free to change the data types etc. of these tables. Also, are we still planning on displaying a schedule? If so, do we need a new table with all shifts? [cc: ccarball]
+2017-10-23 17:15:38	kdodson	Maybe a table called Shifts with firefighter_id, mutual_id, shift_start_time, shift_end_time ?
+2017-10-23 17:41:54	ivywang	@kdodson i can start tonight but probably after 8:30
+2017-10-23 19:24:51	kdodson	@kdodson uploaded a file: Screen Shot 2017-10-23 at 7.22.44 PM.png https://nd-cse.slack.com/files/U27B99WG0/F7NNBADU2/screen_shot_2017-10-23_at_7.22.44_pm.png  and commented: this is what I have so far today. We need for basic functionality: Show how to insert records to the database
+2017-10-23 19:24:51	kdodson	Show at least one query that searches the database and list or print the returned records
+2017-10-23 19:24:51	kdodson	Show how to update records
+2017-10-23 19:24:51	kdodson	Show how to delete records
+2017-10-23 19:51:27	kdodson	@kdodson uploaded a file: Screen Shot 2017-10-23 at 7.49.42 PM.png https://nd-cse.slack.com/files/U27B99WG0/F7NNKQP4J/screen_shot_2017-10-23_at_7.49.42_pm.png  and commented: ok now we have at least basic functionality!
+2017-10-25 10:35:51	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #database_grp
+2017-10-25 10:35:51	--	Topic for #database_grp is ""
+2017-10-25 10:35:51	--	Channel #database_grp: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-10-25 10:37:00	--	Channel created on Wed, 25 Oct 2017 10:37:00
+2017-10-25 11:35:26	kdodson	@ccarball @ivywang let's meet up today or sometime soon! I'm done with class at 4 and might go to lug from 5-6 but otherwise I'm free
+2017-10-25 11:37:37	ivywang	I’m available from 5:30-7 and after 8:30
+2017-10-25 11:47:16	kdodson	sweet, I'd be able to meet during either of those times. @ccarball any preference?
+2017-10-25 12:27:07	ccarball	I can do after 6!
+2017-10-25 13:57:54	kdodson	Sweet, how does 8:30 at the Innovation Lab sound? We can solidify the current functionality and get started on some advanced functions.
+2017-10-25 14:00:10	ccarball	can we meet at 6 instead? like ffrom 6-7 to just kinda go through what we have and divide up the work? I have a bunch of stuff to do today specifically, but can work on my part on my own this weekend
+2017-10-25 14:34:45	kdodson	no problem!
+2017-10-25 15:44:09	ccarball	cool cool
+2017-10-25 18:01:22	kdodson	@ccarball: we will be there soon
+2017-10-25 18:08:21	ccarball	I’m running a little late too
+2017-10-25 18:08:21	ccarball	Be there soon
+2017-10-26 15:18:45	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #database_grp
+2017-10-26 15:18:45	--	Topic for #database_grp is ""
+2017-10-26 15:18:45	--	Channel #database_grp: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-10-26 15:19:37	--	Channel created on Thu, 26 Oct 2017 15:19:37
+2017-10-27 10:33:34	kdodson	@jcioffi hope you're having an awesome time at the conference! when you have some time, could you let us know what you are envisioning for the app? We just want to make sure we are going in the right direction :slightly_smiling_face:
+2017-10-27 11:42:58	jcioffi	Hi! Thanks so much! I’m sure whatever you guys have is great and we can work with whatever. Essentially what I was thinking was basically a way to enter users into the database and update their profiles as they receive training and have been most recently scheduled, and a place for a user to enter the tentative shift and receive any conflicts in return or an approval if it all works
+2017-10-27 14:15:30	ivywang	Weninger just posted the signup sheet
+2017-10-27 14:16:01	kdodson	when are you all free Weds/Thus?
+2017-10-27 14:16:38	kdodson	@kdodson uploaded a file: Screen Shot 2017-10-27 at 2.16.17 PM.png https://nd-cse.slack.com/files/U27B99WG0/F7R4581FV/screen_shot_2017-10-27_at_2.16.17_pm.png 
+2017-10-27 14:18:15	ivywang	I can do 12:20-2pm or after 3 on Wednesday and before 9:30am or after 12:20pm on Thursday
+2017-10-27 14:19:58	kdodson	I can do 11:30-3 on Weds and before 11 or after 12:15 on Thurs
+2017-10-27 17:07:24	kdodson	@channel when can you all meet Weds/Thurs? [cc: ccarball]
+2017-10-27 17:12:58	kdodson	We temporarily took the 12:30 Wednesday spot. Please let us know if you would prefer a different time.
+2017-10-27 17:28:25	ccarball	That works for me
+2017-10-27 19:51:52	jcioffi	I technically have a philo class but I'd rather not go to it lol
+2017-10-29 00:58:49	--	irc: disconnected from server
+2017-10-29 00:59:00	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #database_grp
+2017-10-29 00:59:00	--	Topic for #database_grp is ""
+2017-10-29 00:59:00	--	Channel #database_grp: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-10-29 01:00:15	--	Channel created on Sun, 29 Oct 2017 01:00:15
+2017-10-30 10:54:49	jcioffi	hey guys, I have links that have a lot of info that will be useful to us, and will be talking to my dad later today!
+2017-10-30 10:54:49	jcioffi	https://data.cityofnewyork.us/Public-Safety/FDNY-Firehouse-Listing/hc8x-tcnd 
+2017-10-30 10:54:49	jcioffi	above is the data regarding the information of NYC firehouses and some other data with them as well, like address etc
+2017-10-30 10:54:49	jcioffi	http://www1.nyc.gov/assets/fdny/downloads/pdf/about/org-chart.pdf 
+2017-10-30 10:54:49	jcioffi	above is a hierarchy of the leadership win the FDNY but that may be too broad for us
+2017-10-30 10:54:49	jcioffi	http://www1.nyc.gov/site/fdny/index.page 
+2017-10-30 10:54:49	jcioffi	above is the FDNY .gov site with info such as history, mission, etc
+2017-10-30 10:54:49	jcioffi	http://www.fdnysmart.org/team-members/ 
+2017-10-30 10:54:49	jcioffi	above clarifies some of the different roles/apparatus teams play
+2017-10-30 10:54:49	jcioffi	http://www.fdnysmart.org/firehouse/ 
+2017-10-30 10:54:49	jcioffi	above has info about the equipment and other things used by firemen in a firehouse
+2017-10-30 10:55:17	jcioffi	hopefully this helps paint a bigger picture!
+2017-10-30 10:55:39	jcioffi	also wikipedia has some pretty good info on their site as well
+2017-10-30 16:44:58	kdodson	@channel I was thinking - we should share the burden and claim 1 table each to populate with data. I can take the Firehouses table if that's okay [cc: ccarball]
+2017-10-30 16:50:14	jcioffi	I can do firefighters, I think that makes the most sense
+2017-10-30 16:57:30	ivywang	What's left?
+2017-10-30 18:25:59	kdodson	apparatuses and shifts i think @ivywang
+2017-10-30 18:26:51	ivywang	I can do either!
+2017-10-30 18:29:26	kdodson	can you take apparatuses @ivywang?
+2017-10-30 18:29:49	ivywang	Sure!!
+2017-10-30 18:32:23	ccarball	okay then i got shifts
+2017-10-30 18:32:29	ivywang	Just to clarify, I should use the data in the above database right?
+2017-10-30 18:58:26	kdodson	Firehouses is done! So we at least have some real data :+1:
+2017-10-30 19:19:43	jcioffi	@kdodson where should i go to start populating the table?
+2017-10-30 19:21:53	kdodson	Like in MySQL?
+2017-10-30 19:23:15	jcioffi	yeah, how do i switch to our info?
+2017-10-30 19:23:38	jcioffi	is it just use csfd?
+2017-10-30 19:25:00	jcioffi	ah it was haha okay, sorry. i see what you updated, nice!
+2017-10-31 01:14:21	ccarball	do we have any data to input into shifts yet?
+2017-10-31 12:42:20	kdodson	@jcioffi: how did the talk with your dad go last night? Are we even allowed to get the shift data, even if it's just your dad's shifts?
+2017-10-31 13:50:41	jcioffi	yes we can, my dad is sending me firefighter info after he eats lunch today and I’ll just ask him for the shift data with it. @ccarball can we meet up later? I can explain it to you then. It’ll be hard to interpret the data otherwise
+2017-10-31 15:02:43	ivywang	@jcioffi Can we also get the data for apparatus? like how many firefighters, officers, etc are needed in each type of apparatus?
+2017-10-31 15:04:59	jcioffi	truck - 5 firefighters, one officer
+2017-10-31 15:04:59	jcioffi	rescue - 5 SOC firefighters, one officer
+2017-10-31 15:04:59	jcioffi	squad - 5 firefighters, one officer
+2017-10-31 15:04:59	jcioffi	engine - 4 firefighters, one officer
+2017-10-31 15:05:10	jcioffi	with that one officer being either a captain or a lieutenant
+2017-10-31 15:06:47	jcioffi	# of apparatuses per house -> max 2 (ladder and engine)
+2017-10-31 15:06:47	jcioffi	must always have one officer per apparatus
+2017-10-31 15:06:47	jcioffi	always have a chauffeur on duty
+2017-10-31 15:06:47	jcioffi	may or may not have a chief
+2017-10-31 15:06:47	jcioffi	chief does not need a chauffeur - anyone can drive the chiefs car
+2017-10-31 15:06:47	jcioffi	chief gets his own fireman - if all 3, (ladder, engine, battalion)  men 13 total (6 + 5 + 2)
+2017-10-31 15:06:55	jcioffi	@ivywang does that help?
+2017-10-31 15:07:47	jcioffi	also at least two CFRD guys - ideally 2 firefighters - are mandatory in the engine only
+2017-10-31 15:12:42	ivywang	Yes that helps! Thanks Jess!
+2017-10-31 15:17:08	jcioffi	No problem!
+2017-10-31 15:24:34	ccarball	jcioffi: I'm in startup rn if you're free
+2017-10-31 16:26:01	jcioffi	just talked to weninger, he said a months worth of data is fine for now, so we can start with that
+2017-10-31 16:28:07	jcioffi	@ccarball still in innovation?
+2017-10-31 16:29:34	ccarball	only for the next 30 mins
+2017-10-31 23:05:32	kdodson	btw I fixed the Shifts search/insert/update/delete scripts to work with the new Shifts table. I totally forgot about Mutuals - is it okay if we don't have that info for tomorrow?
+2017-10-31 23:09:20	jcioffi	i think that is totally fine for now, because we just need to demonstrate that those capabilities work for the database in general, we dont need to have all of our data in now.  the difference between shifts and mutuals are that the shifts are prescheduled, and mutuals are when the shifts want to be changed by the firemen on them.  so essentially a mutual is when the fireman on the shift wants to replace himself with someone not on the shift, and wed run our checks to make sure that this is possible, which is more along the lines of an advanced function
+2017-10-31 23:10:48	jcioffi	also, i dont think i will be able to miss my philosophy class.  do you guys still want to meet tomorrow at 12:30 with weninger?  If you all can, feel free, he said we all dont have to be there, and you can direct any firemen specific questions he has to me, and i will answer whatever he is confused about. if you want to change the time, we can as well, but that is up to you guys
+2017-10-31 23:12:20	kdodson	I'm willing to present on Thursday, especially since my day tomorrow is pretty crazy. @channel would anyone else want to demo on Thursday? [cc: ccarball]
+2017-10-31 23:20:52	jcioffi	@ccarball
+2017-10-31 23:35:41	kdodson	anyone available at 12:30?
+2017-10-31 23:38:06	jcioffi	that is the one time im not free thursdays. 12:30-1:50 is my one class
+2017-10-31 23:38:27	kdodson	gotcha. 2:30?
+2017-10-31 23:38:41	jcioffi	works for me
+2017-10-31 23:39:34	ivywang	I have a class at 2
+2017-10-31 23:39:44	ivywang	2-3
+2017-10-31 23:40:08	jcioffi	what about earlier? 11:15?
+2017-10-31 23:40:21	ivywang	We have comp arch
+2017-10-31 23:40:24	kdodson	9:30 AM, 9:45, 10:15, 10:30 anyone? (Ivy and I can't do 11)
+2017-10-31 23:40:25	ivywang	until 12:20
+2017-10-31 23:40:34	ccarball	yeah comparch at 11
+2017-10-31 23:41:11	jcioffi	i can do any of those
+2017-10-31 23:41:14	ivywang	I have OS in the morning
+2017-10-31 23:42:37	jcioffi	12:15?
+2017-10-31 23:42:38	kdodson	12:15 then? We could get out of Comp Arch early and Jess could get to her class at 12:30 right after?
+2017-10-31 23:42:55	jcioffi	thats fine for me
+2017-10-31 23:43:09	ivywang	Seems like that's the only feasible one
+2017-10-31 23:43:55	kdodson	I basically fought another student for that time slot just now :joy: But we are on for Thursday at 12:15
+2017-10-31 23:44:07	ivywang	I think it's me
+2017-10-31 23:48:09	jcioffi	awesome!
+2017-11-01 16:18:01	--	irc: disconnected from server
+2017-11-01 16:18:12	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #database_grp
+2017-11-01 16:18:12	--	Topic for #database_grp is ""
+2017-11-01 16:18:12	--	Channel #database_grp: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-11-01 16:19:49	--	Channel created on Wed, 01 Nov 2017 16:19:49
+2017-11-01 17:40:00	--	irc: disconnected from server
+2017-11-01 17:41:32	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #database_grp
+2017-11-01 17:41:32	--	Topic for #database_grp is ""
+2017-11-01 17:41:32	--	Channel #database_grp: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-11-01 17:42:47	--	Channel created on Wed, 01 Nov 2017 17:42:47
+2017-11-02 09:57:26	--	irc: disconnected from server
+2017-11-02 09:58:58	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #database_grp
+2017-11-02 09:58:58	--	Topic for #database_grp is ""
+2017-11-02 09:58:58	--	Channel #database_grp: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-11-02 10:00:14	--	Channel created on Thu, 02 Nov 2017 10:00:14
+2017-11-02 10:14:45	--	irc: disconnected from server
+2017-11-02 10:15:37	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #database_grp
+2017-11-02 10:15:37	--	Topic for #database_grp is ""
+2017-11-02 10:15:37	--	Channel #database_grp: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-11-02 10:17:04	--	Channel created on Thu, 02 Nov 2017 10:17:04
+2017-11-06 17:12:10	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #database_grp
+2017-11-06 17:12:10	--	Topic for #database_grp is ""
+2017-11-06 17:12:10	--	Channel #database_grp: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-11-06 17:12:57	--	Channel created on Mon, 06 Nov 2017 17:12:57
+2017-11-07 19:48:20	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #database_grp
+2017-11-07 19:48:20	--	Topic for #database_grp is ""
+2017-11-07 19:48:20	--	Channel #database_grp: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-11-07 19:49:18	--	Channel created on Tue, 07 Nov 2017 19:49:17
+2017-11-13 09:36:56	kdodson	hey team, can we meet this week on Thursday or Friday?
+2017-11-13 11:07:29	ccarball	Thursday works for me
+2017-11-13 12:21:29	jcioffi	depending on the time - i have my dance co showcase thursday and friday
+2017-11-13 12:22:59	ccarball	^^
+2017-11-13 14:50:04	kdodson	I'm free pretty much whenever Thursday afternoon/evening
+2017-11-13 14:50:47	kdodson	@ivywang would you be able to meet on Thurs?
+2017-11-13 15:00:07	ivywang	I can do before 7 or after 9
+2017-11-13 15:01:15	ivywang	More precisely 3-7pm or after 9
+2017-11-13 23:00:31	kdodson	@jcioffi when is your showcase on Thurs?
+2017-11-13 23:12:09	jcioffi	5:30
+2017-11-14 19:50:04	--	irc: disconnected from server
+2017-11-14 19:50:20	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #database_grp
+2017-11-14 19:50:20	--	Topic for #database_grp is ""
+2017-11-14 19:50:20	--	Channel #database_grp: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-11-14 19:50:58	--	Channel created on Tue, 14 Nov 2017 19:50:58
+2017-11-15 20:42:56	kdodson	How does meeting around 3 or 3:30 sound?
+2017-11-16 00:03:50	ivywang	Works for me!
+2017-11-16 01:35:35	jcioffi	oy im so sorry guys, literally today Reddit scheduled my final round interview from 3:00-5:30 our time (it was 12:00-2:30, but then they clarified that it was in PT instead because they are in San Francisco) but I will work extra hard to make up for this, I feel so bad
+2017-11-16 09:37:51	kdodson	np! Good luck on your interview!!
+2017-11-16 09:38:27	ivywang	Good luck!
+2017-11-16 12:40:02	kdodson	@ccarball I talked to @ivywang and she would prefer moving our meeting to later or another day.. does that work for you? That way, maybe Jess could make it
+2017-11-16 13:44:33	ccarball	yeah works for me better
+2017-11-16 13:44:41	ccarball	that wasnt english
+2017-11-16 18:35:34	jcioffi	thank you all so much!
+2017-11-16 18:39:32	kdodson	@jcioffi hope your interview went super well :blush:
+2017-11-16 18:40:12	jcioffi	I think it did! I’ll find out tomorrow!
+2017-11-17 01:01:33	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #database_grp
+2017-11-17 01:01:33	--	Topic for #database_grp is ""
+2017-11-17 01:01:33	--	Channel #database_grp: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-11-17 01:02:25	--	Channel created on Fri, 17 Nov 2017 01:02:25
+2017-11-26 11:03:58	kdodson	hey @channel, how's it going with the project? How is the calendar going? [cc: ccarball]
+2017-11-26 11:04:08	kdodson	I think we should meet this week!
+2017-11-27 20:55:17	ivywang	Definitely! We are running out of time!
+2017-11-27 20:59:17	kdodson	@jcioffi we were wondering if you have any individual firefighter data
+2017-11-27 20:59:35	kdodson	do we have info about the firefighters with their group number and position/skills?
+2017-11-28 14:00:46	kdodson	Btw @jcioffi could you also possibly get firefighter emails? That will allow us to email all of the firefighters who are available for a shift
+2017-11-28 14:01:16	kdodson	We already added an email column to Firefighters
+2017-11-28 17:59:45	--	irc: disconnected from server
+2017-11-28 17:59:56	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #database_grp
+2017-11-28 17:59:56	--	Topic for #database_grp is ""
+2017-11-28 17:59:56	--	Channel #database_grp: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-11-28 18:00:57	--	Channel created on Tue, 28 Nov 2017 18:00:57
+2017-11-28 23:09:18	jcioffi	firefighters are updated! my dad didnt want to give me the emails of the men because he was concerned that they wouldnt like getting spammed while we are still running tests and stuff, so i just filled it with my email for now to test functionality.  you can add yours in for people too if you want to keep it varied
+2017-11-28 23:26:32	jcioffi	@kdodson when you can, can you give permissions to the rest of us for all of the files? I can't make changes to anything in Requests, Replacements, Shifts, etc
+2017-11-28 23:45:43	kdodson	Sweet I'll do that right now! Sorry about that
+2017-11-28 23:48:12	kdodson	I chmod 775 all the directories and I'll go into the files inside those directories and chmod them too - It looks like you will also need to chmod the Calendar directory for us too
+2017-11-28 23:51:15	kdodson	Let me know if we need 777 permissions I wasn't sure if that was a good idea
+2017-11-29 10:22:09	jcioffi	i chmod-ed it 755 last night!
+2017-11-29 10:23:58	jcioffi	i updated it to 775 just now, so you shouldnt have any issues!
+2017-12-02 13:08:52	kdodson	@kdodson uploaded a file: fullcalendar!! :) https://nd-cse.slack.com/files/U27B99WG0/F884YNZQQ/screen_shot_2017-12-02_at_1.07.45_pm.png 
+2017-12-02 14:31:48	kdodson	Okay it's connected to the 'calendar' table now. It will sync up with whatever the table has. I might add a button to this page that runs a script and syncs the 'Shifts' table with the 'calendar' table so things are easier
+2017-12-02 15:53:04	kdodson	@kdodson uploaded a file: shifts are in the calendar https://nd-cse.slack.com/files/U27B99WG0/F89M6D0MU/screen_shot_2017-12-02_at_3.51.51_pm.png  and commented: @jcioffi let me know if 12AM is a good Morning start time and 12PM is a good Night start time.. I had no clue lol
+2017-12-02 16:07:25	jcioffi	Wait what?! You did it?!
+2017-12-02 16:07:57	jcioffi	sorry that may have sent twice my service is spotty
+2017-12-02 16:26:10	kdodson	I did the calendar part. Except it needs a little more work. Like if you drag an event to another date and refresh the page it goes back to how it was. Also the user has to press an update button at the bottom to update the calendar table with whatever the Shifts table has. It might help to also have December/November shift data but it isn't that important.
+2017-12-02 17:05:02	kdodson	If someone could start thinking about/coding the other advanced function, that would be great. @jcioffi it would be nice for you to spearhead this because I know you have a better understanding of shift replacements than us. Basically, when the user fills out their info in the Requests tab, we want to email all firemen who could replace that shift. I think we will want to eliminate all groups who have shifts += 1 shift away from the replacement. It would also be great if you could factor in skills. If a someone chooses to fill a request, we ideally want that info submitted to the Replacements table.
+2017-12-02 17:08:28	kdodson	Regarding email, we already have a PHPMailer Library: https://github.com/PHPMailer/PHPMailer/wiki/Tutorial 
+2017-12-02 17:19:32	kdodson	@kdodson uploaded a file: here's what the email code might look like https://nd-cse.slack.com/files/U27B99WG0/F88A2S8NM/here_s_what_the_email_code_might_look_like.txt 
+2017-12-03 14:31:51	jcioffi	hey! I'm at the DH now but then I have the rest of the day just to work on this. Lmk when you guys wanna meet later, I'm good wherever whenever
+2017-12-03 17:41:16	kdodson	I'm meeting my comp arch lab group right now but after I can meet!
+2017-12-03 17:41:55	ivywang	I'm at innovation lab and would love to meet whenever you are ready!
+2017-12-03 17:43:30	kdodson	how are things going so far? any questions?
+2017-12-03 18:06:36	jcioffi	I'm in Lewis but I can come to innovation in a few @ivywang
+2017-12-03 18:07:23	ivywang	Do we want to wait for Kelly?
+2017-12-03 18:10:11	jcioffi	we can! I can come by whenever
+2017-12-03 18:10:51	kdodson	Feel free to start without me! I'll join you guys in a little while
+2017-12-03 18:11:36	kdodson	@jcioffi @ccarball if you wanna get started, Ivy and I can join a little bit later
+2017-12-03 18:12:12	jcioffi	idk where @ccarball is, but I'll head to innovation arounf 6:30!
+2017-12-04 15:47:14	jcioffi	@kdodson @ivywang im updating the calendar to go through to december and I am going to work on the video afterwards!  Let me know if you are able to figure out the alert box calendar issue thingy!
+2017-12-04 19:21:22	kdodson	@jcioffi let us know if you need any help with the video!
+2017-12-04 21:06:23	ccarball	Hey guys I made a google doc for the final report
+2017-12-04 21:07:07	ccarball	all it has in it right now is the requirements. I added @jcioffi and @kdodson but I could not find @ivywang
+2017-12-04 21:07:55	ccarball	just kidding, found you @ivywang
+2017-12-04 21:12:13	jcioffi	for the video im thinking mostly a screen capture of a powerpoint, with some of the actual usage thrown in there as well
+2017-12-04 21:12:19	jcioffi	that's what im working on right now
+2017-12-04 21:22:28	jcioffi	can you guys send me pics of you to include in the vid? just 1 each!
+2017-12-04 21:33:07	kdodson	Okay! Also please don't forget that only the admin user (user admin, passwd admin) can use any of the functions of the Shifts tab
+2017-12-04 21:38:30	jcioffi	Will do!
+2017-12-04 21:51:10	kdodson	do we want to meet with Weninger tomorrow to get any last thoughts?
+2017-12-04 22:18:51	ivywang	What is the alert box calendar issue?
+2017-12-04 22:28:07	jcioffi	sure! that's probably a good idea
+2017-12-04 22:28:51	jcioffi	@ivywang the alert box issue is currently when you click the calendar event, a pop up box opens an alert with the shift number in it.  we want the alert to pop up with the group numbers
+2017-12-04 22:29:56	jcioffi	also @ivywang please send me a pic to put in our video!
+2017-12-04 22:37:56	kdodson	@jcioffi to make it easier, you could write a php script and just rename all the event titles to "Shift 1: Groups 1, 20, 2, 4, 5, 3" etc.
+2017-12-04 22:39:17	kdodson	you can use the php implode or php join on the comma character to get the groups part.
+2017-12-05 09:46:48	kdodson	hey @jcioffi any way we can see the video so far?
+2017-12-05 09:47:07	kdodson	I'm excited to see it lol
+2017-12-05 10:58:25	kdodson	Hey all, I think I might ask weninger about the calendar displaying groups situation. I have all the group lists stored in session variables, but I am having trouble getting the JavaScript to alert them.
+2017-12-05 11:33:06	ccarball	session variables?
+2017-12-05 11:56:05	kdodson	php session variables are like so: $_SESSION['key']. They persist during the entire session for each user. For instance, your $_SESSION['username'] can be 'admin.' Right now the calendar has $_SESSION['shift_id_goes_here'] = 1,2,3,4,5,6 where the string of numbers are the groups for that shift id.
+2017-12-05 11:57:08	ccarball	oh okay cool, so the javascript just doesn't understand that var and isnt able to alert it?
+2017-12-05 11:58:28	kdodson	yeah I'm not sure how to get Javascript to alert that. I'm asking Weninger after this class
+2017-12-05 11:58:41	kdodson	feel free to join!
+2017-12-05 12:02:18	ccarball	I have class, but I'd really like to know how you finally get it to work. If weninger can't help, can I take a look at it?
+2017-12-05 12:04:08	kdodson	yep of course!
+2017-12-05 12:49:40	jcioffi	@kdodson @ivywang @ccarball hi guys, i was working on slides for the video last night, but my sister was rushed to the hospital at like 3 in the morning at Cornell and ive been talking to her and my parents all morning regarding what to do about it.  I cant get to her, but I am more able to talk to doctors than my parents and since im family apparently I count.  They are going to be driving up there from NYC in a little bit. I dont really know what to do
+2017-12-05 12:52:42	ccarball	Give me what you have, I'll finish the video
+2017-12-05 12:52:47	ccarball	do what you need to do
+2017-12-05 13:11:48	kdodson	Jess, I'm sorry about your sister. I hope she gets better soon. @ccarball if you're doing the video, Weninger asked us to discuss both advanced functions *and* explain what groups are. Basically give the class some background. He said that a solution to our original issue is that we can send a JavaScript ajax request/xmlhttprequest to a php script that returns the groups.
+2017-12-05 13:13:32	kdodson	Also, Weninger really likes what we have so far- good work @channel [cc: ccarball]
+2017-12-05 13:19:19	jcioffi	@ccarball i can write up what groups are so that the explanation can be easier
+2017-12-05 13:19:34	jcioffi	thanks @kdodson i appreciate it. it's just extra challenging because she is out there alone
+2017-12-05 13:26:25	ccarball	okay cool, just give me all the info for the vid and I'll send it to you guys when im done with it
+2017-12-05 13:46:56	kdodson	@kdodson uploaded a file: it works!! https://nd-cse.slack.com/files/U27B99WG0/F8A2UB9D0/screen_shot_2017-12-05_at_1.46.27_pm.png 
+2017-12-05 13:51:20	ccarball	!!!!
+2017-12-05 13:52:00	ivywang	Hope your sister gets better Jess!!
+2017-12-05 14:20:26	kdodson	hey @ccarball or @ivywang could one of you do a huge favor and test all the functionalities of our app? Especially like the update, search, delete, insert functions and stuff? I would really appreciate it bc I haven't tested everything recently
+2017-12-05 17:28:11	ivywang	I can do the testing
+2017-12-05 17:53:44	ivywang	Right now when we are querying for shift replacement history we have to fill in both spots. Do we want to change that so that it's still usable if we only specify one entry?
+2017-12-05 18:01:42	kdodson	sure, maybe you can add a NULL entry?
+2017-12-05 18:02:02	kdodson	maybe add a single option before the loop that queries the database
+2017-12-05 18:20:54	jcioffi	thank you guys, she is back in her room and has a friend with her so she is hanging in there
+2017-12-05 18:21:03	jcioffi	i can help as much as i can tonight with things
+2017-12-06 01:57:37	ccarball	logout functionality doesn't seem to work for me
+2017-12-06 07:44:14	ccarball	https://youtu.be/Ahr1x3tgYu4
+2017-12-06 08:16:32	kdodson	@ccarball: the logout is just a link to a logout php file... could you make sure the link is not broken in places?

@@ -1,0 +1,246 @@
+2017-10-23 10:56:41	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #comp_arch
+2017-10-23 10:56:41	--	Topic for #comp_arch is ""
+2017-10-23 10:56:41	--	Channel #comp_arch: 3 nicks (0 ops, 0 voices, 3 normals)
+2017-10-23 10:56:41	--	Channel created on Mon, 23 Oct 2017 10:56:41
+2017-10-23 10:58:05	ccarball	c'est officiel
+2017-10-23 10:59:14	catvajiac	oui, vraiment officiel
+2017-10-23 13:21:13	dougsmith	Est-ce officialement toujours en francais?
+2017-10-23 13:38:57	ccarball	oui
+2017-10-23 13:39:19	ccarball	okay but for real, hw5 is due next thursday (so we have time thats fine)
+2017-10-23 13:40:07	ccarball	dougsmith: cat and I were looking at the schedule at there are 2 assignments (hw6 and lab3) due the same day as her comp (11/14) so I told her not to worry about those two cause we would take care of them.. that's fine, right?
+2017-10-23 13:56:11	dougsmith	Totally. Can do. Glad we have time. I will say that 3 of the next 4 weeks are football games and the 4th is scarlet hacks, so if I know what my part is/ I can start things early, I plan on doing that before I disappear.
+2017-10-23 14:02:57	ccarball	okok
+2017-10-23 15:07:48	catvajiac	yeah we will plan, i would still like to contribute to hw6 and lab3 but priority will be lower 5sure
+2017-10-23 16:12:11	dougsmith	As it should be.
+2017-10-23 16:12:17	dougsmith	Not worried about it.
+2017-10-25 10:35:51	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #comp_arch
+2017-10-25 10:35:51	--	Topic for #comp_arch is ""
+2017-10-25 10:35:51	--	Channel #comp_arch: 3 nicks (0 ops, 0 voices, 3 normals)
+2017-10-25 10:36:10	--	Channel created on Wed, 25 Oct 2017 10:36:10
+2017-10-26 15:18:45	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #comp_arch
+2017-10-26 15:18:45	--	Topic for #comp_arch is ""
+2017-10-26 15:18:45	--	Channel #comp_arch: 3 nicks (0 ops, 0 voices, 3 normals)
+2017-10-26 15:19:05	--	Channel created on Thu, 26 Oct 2017 15:19:05
+2017-10-29 00:58:49	--	irc: disconnected from server
+2017-10-29 00:58:59	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #comp_arch
+2017-10-29 00:58:59	--	Topic for #comp_arch is ""
+2017-10-29 00:58:59	--	Channel #comp_arch: 3 nicks (0 ops, 0 voices, 3 normals)
+2017-10-29 00:59:39	--	Channel created on Sun, 29 Oct 2017 00:59:39
+2017-10-31 15:26:15	ccarball	startup lab around 8 still okay with everyone?
+2017-10-31 15:41:01	dougsmith	Yep, taking 9-9:30 off for a project call but otherwise good for the evening.
+2017-10-31 16:29:21	ccarball	only for the next 30 mins
+2017-10-31 16:29:40	ccarball	sorry, forgot to ctrl-x
+2017-10-31 17:31:41	catvajiac	i wont be moving anytime soon, so its good with me
+2017-10-31 23:40:19	ccarball	comparch at 11
+2017-11-01 16:18:01	--	irc: disconnected from server
+2017-11-01 16:18:12	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #comp_arch
+2017-11-01 16:18:12	--	Topic for #comp_arch is ""
+2017-11-01 16:18:12	--	Channel #comp_arch: 3 nicks (0 ops, 0 voices, 3 normals)
+2017-11-01 16:19:13	--	Channel created on Wed, 01 Nov 2017 16:19:13
+2017-11-01 17:40:00	--	irc: disconnected from server
+2017-11-01 17:41:32	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #comp_arch
+2017-11-01 17:41:32	--	Topic for #comp_arch is ""
+2017-11-01 17:41:32	--	Channel #comp_arch: 3 nicks (0 ops, 0 voices, 3 normals)
+2017-11-01 17:42:11	--	Channel created on Wed, 01 Nov 2017 17:42:11
+2017-11-01 20:50:12	ccarball	Okay so I'm probably just stupid and don't know what I'm doing, but I got a completely different answer for 1a and 1b
+2017-11-01 20:58:52	ccarball	okay yeah no now that im looking at it, i think you guys calculated blocks for l1 data, not sets
+2017-11-01 21:37:52	ccarball	for 2e: I think you have an extra 0 in x. I believe it should be 3.57%
+2017-11-01 21:43:22	dougsmith	1A: also have 2^6 sets and 2^9 blocks
+2017-11-01 21:44:04	dougsmith	Which propagates to 1B
+2017-11-01 21:45:19	dougsmith	1C: Do we agree that 4.66 CCs qualifies as masking expensive memory operations?
+2017-11-01 21:47:35	ccarball	well if its being compared to 4, if the average is 4.6(86)or 4.6(64) then that masks the miss penalty of 100 to main memory
+2017-11-01 21:47:36	ccarball	right?
+2017-11-01 21:47:43	ccarball	thats how i thought about it atlast
+2017-11-01 21:49:08	dougsmith	I think so, but democracy requires voting on things before they become facts.
+2017-11-01 21:49:30	ccarball	fsck democracy. this is a dictatorship.
+2017-11-01 21:51:10	dougsmith	Good luck getting that to go over.
+2017-11-01 21:56:43	dougsmith	For L2 in 2B: since 2^12< 3 * 2^11 < 2^13, does the index need to be 13?
+2017-11-01 21:59:02	ccarball	hm
+2017-11-01 22:05:08	dougsmith	2e: getting 3.57%
+2017-11-01 22:30:27	ccarball	3d: 3,8 are spatial, but 6 is temporal ccause it was the first element that was asked for from that set
+2017-11-01 22:30:46	dougsmith	^
+2017-11-01 23:05:51	catvajiac	2e, also getting 3.57%
+2017-11-01 23:06:48	catvajiac	i agree with 3d, 6 being temporal
+2017-11-02 09:57:26	--	irc: disconnected from server
+2017-11-02 09:58:58	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #comp_arch
+2017-11-02 09:58:58	--	Topic for #comp_arch is ""
+2017-11-02 09:58:58	--	Channel #comp_arch: 3 nicks (0 ops, 0 voices, 3 normals)
+2017-11-02 09:59:40	--	Channel created on Thu, 02 Nov 2017 09:59:40
+2017-11-02 10:14:45	--	irc: disconnected from server
+2017-11-02 10:15:36	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #comp_arch
+2017-11-02 10:15:36	--	Topic for #comp_arch is ""
+2017-11-02 10:15:36	--	Channel #comp_arch: 3 nicks (0 ops, 0 voices, 3 normals)
+2017-11-02 10:16:28	--	Channel created on Thu, 02 Nov 2017 10:16:28
+2017-11-06 17:12:08	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #comp_arch
+2017-11-06 17:12:08	--	Topic for #comp_arch is ""
+2017-11-06 17:12:08	--	Channel #comp_arch: 3 nicks (0 ops, 0 voices, 3 normals)
+2017-11-06 17:12:27	--	Channel created on Mon, 06 Nov 2017 17:12:27
+2017-11-06 17:17:34	ccarball	we should start working on comparch tomorrow maybe
+2017-11-06 17:19:11	catvajiac	im down
+2017-11-06 20:02:52	dougsmith	I'll be free tomorrow after practice. 8:00PM
+2017-11-07 19:48:19	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #comp_arch
+2017-11-07 19:48:19	--	Topic for #comp_arch is ""
+2017-11-07 19:48:19	--	Channel #comp_arch: 3 nicks (0 ops, 0 voices, 3 normals)
+2017-11-07 19:48:39	--	Channel created on Tue, 07 Nov 2017 19:48:39
+2017-11-14 19:50:04	--	irc: disconnected from server
+2017-11-14 19:50:19	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #comp_arch
+2017-11-14 19:50:19	--	Topic for #comp_arch is ""
+2017-11-14 19:50:19	--	Channel #comp_arch: 3 nicks (0 ops, 0 voices, 3 normals)
+2017-11-14 19:50:38	--	Channel created on Tue, 14 Nov 2017 19:50:38
+2017-11-14 20:54:19	ccarball	okay but seriously
+2017-11-14 20:54:23	ccarball	wtf is going on
+2017-11-14 20:56:46	dougsmith	On the assignment? It looks like Project 1 is all modifying a matrix multiply to track memory usage
+2017-11-14 20:59:37	dougsmith	I'm also assuming we can treat the cache as empty at the start of the multiplication.
+2017-11-14 21:01:24	ccarball	dougsmith: is direct mapped == fully associative?
+2017-11-14 21:03:07	dougsmith	Yes
+2017-11-14 21:03:18	dougsmith	1 set ==== 1 block
+2017-11-17 01:01:33	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #comp_arch
+2017-11-17 01:01:33	--	Topic for #comp_arch is ""
+2017-11-17 01:01:33	--	Channel #comp_arch: 3 nicks (0 ops, 0 voices, 3 normals)
+2017-11-17 01:01:57	--	Channel created on Fri, 17 Nov 2017 01:01:57
+2017-11-27 17:52:42	dougsmith	When were we planning to finish the comparch HW?
+2017-11-28 13:18:52	dougsmith	Also picked up the labs and HW after class if anyone wants to look at those.
+2017-11-28 14:40:02	ccarball	I would like to see them pleasee
+2017-11-28 15:22:17	dougsmith	ccarball: They're in my bag. I'll make sure I hand them over next time I see you [cc: ccarball]
+2017-11-28 17:59:45	--	irc: disconnected from server
+2017-11-28 17:59:56	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #comp_arch
+2017-11-28 17:59:56	--	Topic for #comp_arch is ""
+2017-11-28 17:59:56	--	Channel #comp_arch: 3 nicks (0 ops, 0 voices, 3 normals)
+2017-11-28 18:00:37	--	Channel created on Tue, 28 Nov 2017 18:00:37
+2017-12-01 12:52:29	dougsmith	When would everyone be free to finish up the comparch lab? Niemier couldn't help me with the unexpected behavior in Part C so I want to leave Monday open for follow-up questions on that.
+2017-12-01 22:10:23	catvajiac	would peeps be free sunday morning to work
+2017-12-01 22:10:35	catvajiac	b/c if so, i can stay at nd saturday night, and then we can work of stuffs
+2017-12-01 23:23:36	ccarball	i have work sunday morning but you guys can sit in there with me and work
+2017-12-02 01:02:24	catvajiac	i am okay with that
+2017-12-02 13:56:18	dougsmith	Sorry, just turned on IRC. I'm free whenever/wherever Sunday Morning
+2017-12-02 13:56:53	dougsmith	It'd be cool to get Parts A and B done for sure, even if we can't troubleshoot part C
+2017-12-02 14:07:25	catvajiac	agreed
+2017-12-02 14:07:41	catvajiac	ccarball: does jess have futon or something? [cc: ccarball]
+2017-12-02 14:07:55	catvajiac	i.e. place i can sleep
+2017-12-02 14:09:21	ccarball	she has little chairs
+2017-12-02 14:09:26	ccarball	no futon
+2017-12-02 14:26:23	catvajiac	damn
+2017-12-02 14:51:46	dougsmith	Does jess need a futon?
+2017-12-02 15:09:42	catvajiac	it's fine, maybe i wont stay
+2017-12-02 15:09:57	catvajiac	we can do stuffs in the evening in that case
+2017-12-02 15:12:56	dougsmith	Like comp_arch stuffs?
+2017-12-02 15:13:07	dougsmith	Or fun stuffs?
+2017-12-02 15:24:32	catvajiac	i was thinking comp arch
+2017-12-02 15:24:36	catvajiac	but if we get done, fun stuffs
+2017-12-02 15:30:38	dougsmith	Fun after work...
+2017-12-02 15:30:42	dougsmith	is motivated
+2017-12-02 15:32:05	ccarball	meh
+2017-12-02 15:32:59	ccarball	dougsmith: do u have a sleeping bag? << for catvajiac 
+2017-12-02 15:36:26	dougsmith	Yep.
+2017-12-02 15:36:39	dougsmith	Or I could just move my futon to a girls' dorm
+2017-12-02 15:36:54	dougsmith	It's easier than it sounds
+2017-12-02 15:42:25	ccarball	futon wont fit in either of our rooms
+2017-12-02 15:42:57	dougsmith	Can't measure, so I'll take your word for it.
+2017-12-02 15:43:09	dougsmith	has never had a single to furnish
+2017-12-02 15:44:55	ccarball	cause if i can borrow your sleeping bag then catvajiac can sleep on my bed
+2017-12-02 15:45:25	ccarball	also, I have to do some grading for corey then im gonna take a look at lab again
+2017-12-02 15:51:56	dougsmith	All the section B code should be on gitlab. Still have to fininshed the windowed multiply. Section C straight-up hasn't worked the way the lab says it should, so I emailed Niemier
+2017-12-02 15:52:29	ccarball	okay, is A finished except for q2?
+2017-12-02 15:52:38	ccarball	Cause i can read up on that paper and answer that
+2017-12-02 15:58:13	dougsmith	I have a gut answer to Q2, which is yes, but I hesitate to write it b/c he advises us to do B first for added insights... like q2 is a trick question or something... I'm curious what B will tell us
+2017-12-02 15:58:38	ccarball	okie we wait then
+2017-12-02 15:59:10	dougsmith	Sorry...
+2017-12-02 15:59:28	ccarball	why sorry?
+2017-12-02 15:59:35	dougsmith	Whatever we write down I'm taking to Niemiers office hours on Monday b/c I'm suspicious
+2017-12-02 15:59:48	ccarball	when are his OH? i'll come with 
+2017-12-02 15:59:49	dougsmith	feels comparch filling his head with paranoid thoughts
+2017-12-02 16:00:05	ccarball	your head is always filled with paranoid thoughts though
+2017-12-02 16:00:54	dougsmith	wonders how ccarball knew that... [cc: ccarball]
+2017-12-02 16:01:02	dougsmith	concludes illuminati
+2017-12-02 16:01:12	ccarball	boy i know you
+2017-12-02 16:01:14	ccarball	come on
+2017-12-02 16:01:23	dougsmith	You don't know me.
+2017-12-02 16:01:27	dougsmith	You don't know my story
+2017-12-02 16:01:30	ccarball	right
+2017-12-02 16:01:32	ccarball	not friends
+2017-12-02 16:01:34	ccarball	right
+2017-12-02 16:01:35	dougsmith	You don't know what I've had to do
+2017-12-02 16:01:37	ccarball	sorry stranger
+2017-12-02 16:01:47	dougsmith	You don't know what I don't do anymore
+2017-12-02 16:10:47	catvajiac	ccarball: i will not make u sleep on ur floor [cc: ccarball]
+2017-12-02 16:11:05	catvajiac	sorry havent looked properly at lab stuff yet, cant rn but will tomorrow
+2017-12-02 16:12:59	dougsmith	No rush, I've spent most of my time stonewalled and giving up.
+2017-12-02 16:13:13	dougsmith	It's not too bad, I'm just convinced part c is broken
+2017-12-02 16:13:44	catvajiac	bork bork
+2017-12-02 16:14:41	dougsmith	^
+2017-12-02 16:23:25	ccarball	bork
+2017-12-02 16:23:35	ccarball	catvajiac: not on floor, on sleeping bag
+2017-12-02 16:37:58	catvajiac	sleeping bag on floor tho
+2017-12-02 16:38:02	catvajiac	i dont like
+2017-12-02 16:43:52	ccarball	girl
+2017-12-02 16:43:54	ccarball	be calm
+2017-12-02 17:54:24	catvajiac	no
+2017-12-02 17:57:58	ccarball	dougsmith: so can i borrow that sleeping bag?
+2017-12-02 17:58:51	dougsmith	Yeah. When does it need to be delivered?
+2017-12-02 17:59:03	dougsmith	There is a same-day fee, but you can apply for a waiver
+2017-12-02 18:00:06	ccarball	./apply_for_waiver.py3
+2017-12-02 18:09:58	ccarball	dougsmith: ^
+2017-12-02 18:12:57	dougsmith	Yeah. When does it need to be delivered?
+2017-12-02 18:14:35	ccarball	could you just drop it off on your way to lewis? i wait 5 you
+2017-12-02 18:21:30	dougsmith	Cool. will text when I'm headed over.
+2017-12-02 18:22:20	ccarball	perfect, thank you!! 
+2017-12-03 09:58:09	catvajiac	im awake
+2017-12-03 09:58:19	catvajiac	grabbimg breakfast then off to como
+2017-12-03 10:05:09	ccarball	I was about to message you guys
+2017-12-03 12:06:53	dougsmith	Oh shoot, slack didn't update my phone. What room in Como or is your shift over ccarball? [cc: ccarball]
+2017-12-03 12:07:47	dougsmith	All the SectionC simulations are run, I'm starting to summarize them on A1
+2017-12-03 18:07:56	ccarball	im getting dinner at 6:30 should be free to meet around 7:30 
+2017-12-03 19:31:16	dougsmith	your group didn't get this. it went to comparch
+2017-12-03 19:32:48	ccarball	fark
+2017-12-03 19:33:00	ccarball	thanks dougsmith 
+2017-12-03 21:16:48	ccarball	buffer merges are helpful
+2017-12-03 21:16:54	ccarball	but confusing when cami has not slept
+2017-12-03 21:24:48	dougsmith	Pro tip: 50 buffers
+2017-12-03 21:53:05	ccarball	ew no
+2017-12-03 21:53:09	ccarball	i cant look at that
+2017-12-03 21:53:16	ccarball	it would be so painful
+2017-12-03 22:05:30	dougsmith	/buffer ftw
+2017-12-03 22:05:40	dougsmith	double-hotkeys to win more
+2017-12-03 22:11:50	ccarball	ahhh
+2017-12-03 22:23:42	ccarball	dougsmith: what is left to do for lab?
+2017-12-03 22:25:43	dougsmith	Debug that part of B.
+2017-12-03 22:25:54	dougsmith	I have to draft a pres. first, then give me 45 min.
+2017-12-03 22:27:16	ccarball	kk
+2017-12-03 22:27:21	ccarball	lmk if theres something i can do
+2017-12-03 22:27:24	ccarball	php doesnt like me
+2017-12-03 22:30:32	dougsmith	PHP hates everybody, and everybody hates it back
+2017-12-03 22:31:31	ccarball	well okay then good
+2017-12-03 22:31:39	ccarball	give me something to do other than talk about tacos
+2017-12-03 22:31:45	ccarball	cause its getting me hungre
+2017-12-04 03:56:12	dougsmith	For the record, we can build feature maps in assembly now.
+2017-12-04 03:56:29	dougsmith	Someone remind me to ask Niemier about the thresholding on it tomorrow.
+2017-12-04 03:56:51	dougsmith	And also to scale to 4x4 when that's done.
+2017-12-04 03:57:06	dougsmith	Have a super morning everyone.
+2017-12-04 03:57:23	dougsmith	Go lug-ernaughts!
+2017-12-04 08:00:16	catvajiac	holy karp
+2017-12-05 13:30:31	ccarball	hey guys, I was planning on getting to comparch tonight after finishing networks, but some stuff happened and I am now in charge of making the demo video for our databases project (which is due tomorrow) so the earliest I'll be able to look at comparch hw is tomorrow. I'm sorry. If I finish the video early enough I'll start on hw8. Unless catvajiac we think diggums is more pressing. Let me
+2017-12-05 13:30:31	ccarball	know what you guys need from me. I will not be sleeping the next two nights
+2017-12-05 13:56:50	catvajiac	that's okay, i dont want to super get to comp arch tonight anyway
+2017-12-05 13:56:53	catvajiac	tonight i am actually sleeping
+2017-12-05 13:59:11	dougsmith	closes comparch notebook
+2017-12-05 13:59:39	dougsmith	I'm super not worried about this assignment now. It'll be fine
+2017-12-05 14:00:06	dougsmith	ccarball: you can help the group by getting at least _some_ sleep [cc: ccarball]
+2017-12-06 19:29:09	catvajiac	when do things fam
+2017-12-06 19:36:47	ccarball	we in eng lib
+2017-12-06 19:37:06	ccarball	dougsmith is working on diggums but i am comparching until i literally cant function anymore
+2017-12-06 19:38:39	catvajiac	y u move
+2017-12-06 19:38:41	catvajiac	sad
+2017-12-06 19:38:50	ccarball	andrew is here
+2017-12-06 19:38:54	ccarball	cause diggums
+2017-12-06 19:39:13	ccarball	catvajiac: sorry, i could have sworn i told you i was heading here
+2017-12-06 19:40:26	dougsmith	Sorry for disrupting workflow. Am quintuple-threading tonight
+2017-12-06 19:54:21	catvajiac	ur fine!
+2017-12-06 19:54:25	catvajiac	i'll be over in a little bit
+2017-12-06 19:54:40	catvajiac	i'm doing something right quick
+2017-12-06 19:54:44	ccarball	okie
+2017-12-06 19:54:49	ccarball	bring your pretty self
+2017-12-06 19:55:10	dougsmith	No rush. As long as we all compare notes before we turn in a piece of paper tomorrow.
+2017-12-06 19:56:20	catvajiac	i dont have that many notes tbh
+2017-12-06 19:56:23	catvajiac	am bit confused on this
+2017-12-06 19:56:26	catvajiac	but it's okie
+2017-12-06 19:56:32	ccarball	i think i get it

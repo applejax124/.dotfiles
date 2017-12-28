@@ -1,0 +1,9 @@
+2017-10-19 01:06:20	--	irc: connecting to server localhost/6667...
+2017-10-19 01:06:20	=!=	irc: connection refused
+2017-10-19 01:06:20	--	irc: reconnecting to server in 10 seconds
+2017-10-19 01:06:30	--	irc: reconnecting to server...
+2017-10-19 01:06:30	--	irc: connecting to server localhost/6667...
+2017-10-19 01:06:30	=!=	irc: connection refused
+2017-10-19 01:06:30	--	irc: reconnecting to server in 20 seconds
+2017-10-19 01:06:36		irc: auto-reconnection is cancelled
+2017-10-19 01:06:36	--	irc: disconnected from server

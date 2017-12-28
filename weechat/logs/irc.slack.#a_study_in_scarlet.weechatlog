@@ -1,0 +1,509 @@
+2017-10-19 02:18:33	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #a_study_in_scarlet
+2017-10-19 02:18:33	--	Topic for #a_study_in_scarlet is ""
+2017-10-19 02:18:33	--	Channel #a_study_in_scarlet: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-10-19 02:18:56	--	Channel created on Thu, 19 Oct 2017 02:18:56
+2017-10-19 02:19:32	8bit	^
+2017-10-19 02:19:56	ccarball	guys guys guys
+2017-10-19 02:20:01	ccarball	IM ON WEECHAT
+2017-10-19 02:20:54	8bit	weewt
+2017-10-19 02:21:26	ccarball	dis kewl
+2017-10-19 02:23:02	catvajiac	yeah it is
+2017-10-19 02:24:34	dougsmith	Is your backlog up too?
+2017-10-19 02:25:36	ccarball	backlog is up
+2017-10-19 02:25:38	ccarball	its super cool
+2017-10-19 02:25:49	ccarball	jump on the bandwagon dougsmith 
+2017-10-19 02:25:54	catvajiac	^
+2017-10-19 02:26:38	dougsmith	I don't bandwagon. Where do you think these messages are coming from?
+2017-10-19 02:26:50	ccarball	slack
+2017-10-19 02:26:53	ccarball	....
+2017-10-19 02:27:13	catvajiac	slack web client
+2017-10-19 02:27:16	catvajiac	(sad)
+2017-10-19 02:27:26	8bit	Wait wait wait how did you get backlog set up?????????????
+2017-10-19 02:27:33	ccarball	made a do droplet
+2017-10-19 02:27:38	ccarball	called cameldroplet
+2017-10-19 02:28:00	8bit	So do you just copy over the log files to local?
+2017-10-19 02:28:04	8bit	(lold)
+2017-10-19 02:28:32	ccarball	huh?
+2017-10-19 02:29:03	8bit	_I really don't know_
+2017-10-19 02:29:18	catvajiac	no u always keep weechat running in droplet
+2017-10-19 02:29:37	catvajiac	but for real backlog written to file, pbuis notification script will take u places
+2017-10-19 02:29:37	ccarball	^
+2017-10-19 02:29:41	ccarball	and u ssh in
+2017-10-19 02:29:42	catvajiac	but idk how to make it work on droplet yet
+2017-10-19 02:29:47	catvajiac	the notifications i mean
+2017-10-19 02:29:58	dougsmith	catvajiac: bad guess, I've been bouncing between weechat and irssi all day.
+2017-10-19 02:30:04	catvajiac	am planning to bother him tomorrow about it, b/c going 5 days w/o notifications is thewurst
+2017-10-19 02:31:37	ccarball	dougsmith: since ur on weechat already, join #ndlug on snoonet
+2017-10-19 02:32:10	8bit	can we please merge the weechat convos my head hurts
+2017-10-19 02:32:49	ccarball	?
+2017-10-19 02:33:58	8bit	wee chat talk in here
+2017-10-19 02:34:02	8bit	weechat talk in weirdos
+2017-10-19 02:35:06	ccarball	now ctrl-x and im in here
+2017-10-19 02:35:08	ccarball	wooo
+2017-10-19 02:36:45	8bit	woosh
+2017-10-19 02:48:04	dougsmith	8bit: can I talk about irssi in here still?
+2017-10-19 02:48:20	ccarball	dougsmith: yeah cause its on the same buffer for me
+2017-10-19 02:53:58	8bit	ccarball: won't that eventually end up with you responding to the wrong chan? [cc: ccarball]
+2017-10-19 02:54:55	ccarball	nah
+2017-10-19 02:55:00	ccarball	i see colors
+2017-10-19 02:56:21	8bit	i do too
+2017-10-19 02:56:47	8bit	I'm a particular fan of red
+2017-10-19 02:57:04	8bit	particular shades of red even
+2017-10-19 02:57:25	ccarball	like.... scarlet
+2017-10-19 02:57:41	catvajiac	excuse me
+2017-10-19 02:57:43	catvajiac	i dont see color
+2017-10-19 02:58:06	ccarball	dougsmith: boi get ur weeshit together
+2017-10-19 02:58:20	catvajiac	teehee
+2017-10-19 02:58:22	catvajiac	weeshit
+2017-10-19 02:58:24	catvajiac	teehee
+2017-10-19 02:58:27	ccarball	_is punny_
+2017-10-19 02:58:30	catvajiac	teeMOTHERFUCKINGhee
+2017-10-19 02:58:37	8bit	SIR
+2017-10-19 02:58:45	ccarball	southern motherfucking democratic republicans
+2017-10-19 02:58:46	catvajiac	IMMA NEED U
+2017-10-19 02:58:47	catvajiac	TO CALM
+2017-10-19 02:58:48	8bit	IMMANEEDUTOCALMDOWN
+2017-10-19 02:58:49	catvajiac	DOWN
+2017-10-19 02:59:37	dougsmith	Can somebody tell me when #ndlug has any interesting content. I don't feel like lurking
+2017-10-19 02:59:57	8bit	on nsoote?
+2017-10-19 03:00:06	8bit	or snoonet*
+2017-10-19 03:00:07	ccarball	sad
+2017-10-19 03:00:10	ccarball	dont lurk
+2017-10-19 03:00:11	ccarball	just talk
+2017-10-19 03:00:14	dougsmith	The second one
+2017-10-19 03:00:14	ccarball	messaaage
+2017-10-19 03:00:38	8bit	┻━┻︵ \(°u°)/ ︵ ┻━┻
+2017-10-19 03:01:09	8bit	ᶠᶸᶜᵏ:hearts:ᵧₒᵤ
+2017-10-19 03:01:09	8bit	ok some of these are wonderfu
+2017-10-19 03:01:17	8bit	dammit it made it a heart
+2017-10-19 03:01:19	8bit	like an emoji
+2017-10-19 03:01:27	8bit	not an ascii
+2017-10-19 03:01:35	ccarball	heart
+2017-10-19 03:01:52	dougsmith	8bit: you mean autocorrect did that?
+2017-10-19 03:01:54	8bit	i wante it to be a different heart
+2017-10-19 03:01:59	8bit	no I don't use autocorrect
+2017-10-19 03:02:02	8bit	slacke did that
+2017-10-19 03:02:30	8bit	I have a weird hatred of autocorrect
+2017-10-19 03:02:32	ccarball	hart
+2017-10-19 03:02:33	ccarball	yee
+2017-10-19 03:02:47	dougsmith	-autocorrect
+2017-10-19 03:02:59	catvajiac	tries all the things
+2017-10-19 03:03:22	 *	ccarball is ignored by pnutzh4x0r
+2017-10-19 03:03:31	dougsmith	?
+2017-10-19 03:03:53	dougsmith	Sorry, I meant to type: '?????!!!?!??'
+2017-10-19 03:04:06	catvajiac	sad
+2017-10-19 03:04:17	catvajiac	OH
+2017-10-19 03:04:19	catvajiac	LIT
+2017-10-19 03:04:30	catvajiac	thats how h4x does it
+2017-10-19 03:04:32	catvajiac	ccarball: ! [cc: ccarball]
+2017-10-19 03:04:33	ccarball	so thats what it looks like in slack....
+2017-10-19 03:04:41	ccarball	who atted me?
+2017-10-19 03:04:45	catvajiac	moi
+2017-10-19 03:04:55	catvajiac	italics for all the things
+2017-10-19 03:04:55	 *	ccarball cant see cause color scheme
+2017-10-19 03:05:04	catvajiac	moimoimoi
+2017-10-19 03:05:11	ccarball	dougsmith: wut confuses you sir?
+2017-10-19 03:20:14	8bit	•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■vvvv•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■•_•)>⌐■-■v
+2017-10-19 03:20:17	8bit	oh no
+2017-10-19 03:20:20	8bit	it did the thing
+2017-10-19 03:22:17	catvajiac	WUT
+2017-10-19 03:22:19	catvajiac	IS
+2017-10-19 03:22:21	catvajiac	THAT
+2017-10-19 03:22:31	ccarball	im lost
+2017-10-19 03:22:39	ccarball	8bit: be calm son
+2017-10-19 03:23:26	8bit	it was an emoji
+2017-10-19 03:23:41	8bit	that got pasted aproximately 804280 times
+2017-10-19 03:23:52	ccarball	h4x is ignoring me
+2017-10-19 03:24:31	8bit	tbt to systems
+2017-10-19 03:26:30	catvajiac	TRU
+2017-10-19 03:26:32	catvajiac	omg
+2017-10-22 19:18:27	ccarball	since its just us 4
+2017-10-22 19:18:32	ccarball	when are we meeting?
+2017-10-22 19:26:41	8bit	hmmmm
+2017-10-22 19:26:47	8bit	maybe like an hour
+2017-10-22 19:30:47	ccarball	so late
+2017-10-22 19:30:48	ccarball	meh
+2017-10-22 19:35:35	8bit	Half? 7?
+2017-10-22 19:36:56	ccarball	8 you mean?
+2017-10-22 19:37:06	8bit	oops
+2017-10-22 19:37:11	8bit	I haven't switched to est
+2017-10-22 19:37:15	ccarball	lol
+2017-10-22 19:37:18	ccarball	do that
+2017-10-22 19:37:20	ccarball	8 works
+2017-10-22 19:37:24	ccarball	i just finished i think
+2017-10-22 19:37:31	8bit	Cool Cool
+2017-10-22 19:44:01	dougsmith	Just pulled this back up. 8PM EST where?
+2017-10-22 19:44:59	8bit	I'm not sure
+2017-10-22 19:46:54	dougsmith	...
+2017-10-22 19:47:09	8bit	hmmm
+2017-10-22 19:47:09	dougsmith	:facepalmsunday:
+2017-10-22 19:47:26	8bit	obscure places...
+2017-10-22 19:47:59	8bit	idk maybe cav 24 hr? idk idk
+2017-10-22 19:49:04	dougsmith	Jordan and Stinson both scored "far away" out of 10, so that sounds safe.
+2017-10-22 19:51:08	ccarball	its raining
+2017-10-22 19:51:12	ccarball	close is better
+2017-10-22 19:51:13	ccarball	CAT
+2017-10-22 19:51:47	ccarball	dfkjb
+2017-10-22 19:52:12	ccarball	(sry those last 2 cause cat testing notifications)
+2017-10-22 19:52:27	dougsmith	_Sings Its Raining on Prom Night to no one in particular_
+2017-10-22 19:53:21	dougsmith	Can we please start a sandbox before weechat kills us all?
+2017-10-22 19:53:46	8bit	Yay if it's in cav its so close to my home
+2017-10-22 19:54:00	8bit	oh shit thats five minutes
+2017-10-22 19:54:06	8bit	I need to finish up this question
+2017-10-22 19:59:29	ccarball	stanford?
+2017-10-22 19:59:36	ccarball	dont u have tv dougsmith?
+2017-10-22 20:00:31	dougsmith	There's one in room, but its small, going down to the basement to see if its free.
+2017-10-22 20:03:07	dougsmith	Nope, basketball gamewatch.
+2017-10-22 20:03:23	dougsmith	I have a 20" vizio and that's about it.
+2017-10-22 20:03:50	ccarball	thats better than 15" laptop
+2017-10-22 20:03:53	8bit	I'm in cav basement i thoufht that was the agreement
+2017-10-22 20:03:58	8bit	im.fine with moving
+2017-10-22 20:04:02	8bit	just tell me.where to go
+2017-10-22 20:04:06	ccarball	oh ahh
+2017-10-22 20:04:07	ccarball	sry
+2017-10-22 20:04:10	8bit	it okei
+2017-10-22 20:04:12	dougsmith	Is cav basement open?
+2017-10-22 20:04:16	ccarball	is it?
+2017-10-22 20:04:33	ccarball	8bit: come visit 
+2017-10-22 20:04:35	8bit	the tv part is open there are a few people down here otherwise
+2017-10-22 20:04:37	ccarball	cat in my room
+2017-10-22 20:04:40	8bit	whoch room agaun
+2017-10-22 20:04:44	ccarball	ew gross no not ppl
+2017-10-22 20:04:45	ccarball	221
+2017-10-22 20:06:25	dougsmith	Have fun guys.
+2017-10-22 20:10:55	ccarball	well
+2017-10-22 20:10:58	ccarball	networks is turned in
+2017-10-22 20:11:11	dougsmith	+networks
+2017-10-22 20:11:27	8bit	whefe do we go@
+2017-10-22 20:12:36	8bit	nvm i was informed
+2017-10-22 20:13:13	8bit	we are on our way
+2017-10-22 20:13:35	dougsmith	On your way where?
+2017-10-25 10:35:51	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #a_study_in_scarlet
+2017-10-25 10:35:51	--	Topic for #a_study_in_scarlet is ""
+2017-10-25 10:35:51	--	Channel #a_study_in_scarlet: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-10-25 10:36:46	--	Channel created on Wed, 25 Oct 2017 10:36:46
+2017-10-26 15:18:45	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #a_study_in_scarlet
+2017-10-26 15:18:45	--	Topic for #a_study_in_scarlet is ""
+2017-10-26 15:18:45	--	Channel #a_study_in_scarlet: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-10-26 15:19:29	--	Channel created on Thu, 26 Oct 2017 15:19:29
+2017-10-29 00:58:49	--	irc: disconnected from server
+2017-10-29 00:59:00	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #a_study_in_scarlet
+2017-10-29 00:59:00	--	Topic for #a_study_in_scarlet is ""
+2017-10-29 00:59:00	--	Channel #a_study_in_scarlet: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-10-29 01:00:07	--	Channel created on Sun, 29 Oct 2017 01:00:07
+2017-10-31 13:42:48	ccarball	are we planning on tagging along with the computer club, or planning our own way there?
+2017-10-31 15:47:22	dougsmith	Last I heard the computer club was just encouraging everyone to buy tickets on the train, which is what we'd do anyway.
+2017-11-01 16:18:01	--	irc: disconnected from server
+2017-11-01 16:18:12	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #a_study_in_scarlet
+2017-11-01 16:18:12	--	Topic for #a_study_in_scarlet is ""
+2017-11-01 16:18:12	--	Channel #a_study_in_scarlet: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-11-01 16:19:41	--	Channel created on Wed, 01 Nov 2017 16:19:41
+2017-11-01 17:40:00	--	irc: disconnected from server
+2017-11-01 17:41:32	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #a_study_in_scarlet
+2017-11-01 17:41:32	--	Topic for #a_study_in_scarlet is ""
+2017-11-01 17:41:32	--	Channel #a_study_in_scarlet: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-11-01 17:42:39	--	Channel created on Wed, 01 Nov 2017 17:42:39
+2017-11-02 09:57:26	--	irc: disconnected from server
+2017-11-02 09:58:58	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #a_study_in_scarlet
+2017-11-02 09:58:58	--	Topic for #a_study_in_scarlet is ""
+2017-11-02 09:58:58	--	Channel #a_study_in_scarlet: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-11-02 10:00:06	--	Channel created on Thu, 02 Nov 2017 10:00:06
+2017-11-02 10:14:45	--	irc: disconnected from server
+2017-11-02 10:15:37	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #a_study_in_scarlet
+2017-11-02 10:15:37	--	Topic for #a_study_in_scarlet is ""
+2017-11-02 10:15:37	--	Channel #a_study_in_scarlet: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-11-02 10:16:56	--	Channel created on Thu, 02 Nov 2017 10:16:56
+2017-11-02 22:53:56	ccarball	@ccarball uploaded a file: Image uploaded from iOS https://nd-cse.slack.com/files/U3SU6R6H5/F7UEJ1RNH/img_6754.jpg 
+2017-11-04 12:44:52	ccarball	you three are my home screen background
+2017-11-04 12:44:54	ccarball	<3
+2017-11-04 13:16:43	catvajiac	<3
+2017-11-04 13:29:14	8bit	<3
+2017-11-06 17:12:09	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #a_study_in_scarlet
+2017-11-06 17:12:09	--	Topic for #a_study_in_scarlet is ""
+2017-11-06 17:12:09	--	Channel #a_study_in_scarlet: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-11-06 17:12:53	--	Channel created on Mon, 06 Nov 2017 17:12:53
+2017-11-07 19:48:20	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #a_study_in_scarlet
+2017-11-07 19:48:20	--	Topic for #a_study_in_scarlet is ""
+2017-11-07 19:48:20	--	Channel #a_study_in_scarlet: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-11-07 19:49:13	--	Channel created on Tue, 07 Nov 2017 19:49:13
+2017-11-09 23:45:08	-->	silv3r (silv3r@irc.tinyspeck.com) has joined #a_study_in_scarlet
+2017-11-10 17:18:11	silv3r	What’s the move
+2017-11-10 17:18:26	silv3r	Have they posted prizes / categories yet?
+2017-11-10 17:28:28	dougsmith	Hi y'all! I'm not sure if everybody heard my ramblings on getting to Chicago tomorrow, so here's where the plan stands:
+2017-11-10 17:28:28	dougsmith	Morning (early): wake up, drink pbui smoothie,and pile in Doug's car
+2017-11-10 17:28:28	dougsmith	8:48: customary w31rd0s arrival time. Sprint into train slow motion style.
+2017-11-10 17:28:28	dougsmith	10:47: Doug fails to adjust for time change. Spends 60 seconds talking about "stupid time zones."
+2017-11-10 17:28:28	dougsmith	10:48: arrival at museum stop, disembark for IIC.
+2017-11-10 17:28:28	dougsmith	12:00 hacking commences, Doug stops interacting with outside world except through code and GitHub issues.
+2017-11-10 17:28:28	dougsmith	Sunday
+2017-11-10 17:28:28	dougsmith	3:00 Chicago kicks us out, Doug comes out of trance
+2017-11-10 17:28:28	dougsmith	3:01 team fills Doug in on events of past 24 hours
+2017-11-10 17:28:28	dougsmith	6:00 return to ND. Sleep and count prize money.
+2017-11-10 17:32:32	ccarball	dh breakfast?
+2017-11-10 17:32:51	ccarball	To make sure everyone is alive and didnt accidentally set their alarms to pm instead of am
+2017-11-10 22:40:37	silv3r	What’s the themeeee
+2017-11-10 22:47:50	dougsmith	Down for DH breakfast say around 7(AM) to get us on the road by 8:15? (AM)
+2017-11-10 22:52:28	silv3r	I may or may not go leave and go find boba and ramen and other food
+2017-11-10 22:52:41	silv3r	May or may not continue working while eating said food
+2017-11-10 22:52:47	silv3r	You all can join
+2017-11-10 22:52:56	dougsmith	@silv3r If you leave mid-hackathon you are dead to me.
+2017-11-10 22:53:00	silv3r	But this would be like a train stop away probably
+2017-11-10 22:53:00	dougsmith	Just kidding,
+2017-11-10 22:53:02	silv3r	WOAHWOAHOWAH
+2017-11-10 22:53:06	silv3r	imma be working
+2017-11-10 22:53:08	ccarball	Go get me food yay
+2017-11-10 22:53:11	silv3r	I’ll bring my lappy
+2017-11-10 22:53:16	silv3r	Mobile hot spot
+2017-11-10 22:53:21	silv3r	Never stop coding
+2017-11-10 22:53:34	dougsmith	@silv3r you got more done than anyone last time, taking a break would help us keep up.
+2017-11-10 22:53:48	silv3r	Lol sureeeeeee
+2017-11-10 22:54:06	silv3r	I’ll bring back what treasures I find
+2017-11-10 22:54:12	silv3r	If I go find treasures
+2017-11-10 22:55:03	ccarball	True
+2017-11-10 22:55:03	ccarball	Cause im a scrubbbb
+2017-11-10 22:55:09	ccarball	Holy shit keenan is LIT RN
+2017-11-10 22:55:36	silv3r	Lmao
+2017-11-10 22:55:59	silv3r	Zahm zoo is tonight too
+2017-11-10 22:56:06	silv3r	@8bit
+2017-11-10 22:56:15	ccarball	YEAH BUT STUPID ZOO IS QUIET
+2017-11-10 22:56:26	ccarball	Literally chillin alone in 8bits common room rn
+2017-11-10 22:58:16	silv3r	Lol
+2017-11-10 22:58:34	dougsmith	Maybe the real zoo was the zoo of friendship
+2017-11-10 22:59:38	silv3r	OMG
+2017-11-10 22:59:41	silv3r	IIT IS LIKE
+2017-11-10 22:59:46	silv3r	ONE STOP FROM CHINA TOWN
+2017-11-10 22:59:49	silv3r	YASSSSSSSSSSSSS
+2017-11-10 23:00:41	silv3r	OMGOMGOMGOMGOMGOMG
+2017-11-10 23:01:10	dougsmith	silv3r: isn't it you who told me China Towns were great places for limitless cheap food?
+2017-11-10 23:09:49	ccarball	This is tim.  Hi!
+2017-11-10 23:16:36	dougsmith	Hi tim
+2017-11-10 23:22:40	ccarball	Hi tim
+2017-11-10 23:22:47	ccarball	Oh wait im woth tim
+2017-11-10 23:23:14	ccarball	With*
+2017-11-10 23:23:43	dougsmith	is confused
+2017-11-10 23:42:31	silv3r	Yeah in SF it was idk about Chicago
+2017-11-10 23:42:47	silv3r	I went to a boba place there with a friend before tho and it was f I r E
+2017-11-10 23:47:39	silv3r	Bobabobabobaboba
+2017-11-10 23:48:34	dougsmith	FIRE, with a lowercase 'r'
+2017-11-10 23:48:38	dougsmith	seems legit
+2017-11-11 01:54:49	silv3r	C y’all at 7?
+2017-11-11 03:54:36	ccarball	Make sure im awake dudes
+2017-11-11 09:39:19	ccarball	"can you do it to your grandma?" -- 8bit 
+2017-11-11 10:53:00	dougsmith	@silv3r read up on raspberry pi blutooth on the train. We're doing a Bluetooth-based raspberry pi network protocol.
+2017-11-11 10:59:30	silv3r	Wut
+2017-11-11 12:37:05	silv3r	Omg
+2017-11-11 12:37:17	silv3r	The uber dude is taking forever to come
+2017-11-11 12:48:23	silv3r	Ok so read up on Bluetooth tech?
+2017-11-11 13:07:35	silv3r	I get carsick reading but I’ll try
+2017-11-11 14:30:38	8bit	https://developer.qualcomm.com/download/db410c/mlh-quick-start-guide.pdf 
+2017-11-11 14:32:54	silv3r	Thanks
+2017-11-11 14:33:22	silv3r	Getting dinner with a HS friend at 7 but other than that I’ll be 100% h4xing
+2017-11-11 14:33:26	silv3r	Should arrive around 3
+2017-11-11 14:35:04	8bit	:dancing_left_shark:
+2017-11-11 14:35:41	silv3r	So we r using this
+2017-11-11 14:35:44	silv3r	Not a pi?
+2017-11-11 14:35:57	dougsmith	:dejected_right_shark:
+2017-11-11 14:36:01	8bit	They have no pis
+2017-11-11 14:36:15	silv3r	Since it’s arduino processor it’s in C right
+2017-11-11 14:36:19	silv3r	Rip
+2017-11-11 14:36:24	dougsmith	No pi-s, qualcomm has a very similar board
+2017-11-11 14:36:26	silv3r	I shoulda brought the one I stole from pbui
+2017-11-11 14:36:28	silv3r	SORRYYY
+2017-11-11 14:36:38	dougsmith	Dragonboard runs Debian
+2017-11-11 14:36:43	silv3r	we woulda had to flash a new OS on my sd card tho
+2017-11-11 14:37:01	silv3r	But is there a python library for interacting with the gpio pins or whatever
+2017-11-11 14:37:32	silv3r	Idk how this all works so maybe u don’t even need a library
+2017-11-11 14:37:37	silv3r	:P
+2017-11-11 14:37:56	silv3r	Wait nvm I see now it has python stuff
+2017-11-11 15:37:16	silv3r	What building?
+2017-11-11 15:44:19	silv3r	ETA 3:15
+2017-11-11 15:47:24	silv3r	Anyone me want boba
+2017-11-11 15:47:34	silv3r	I have to take the train from china town so imma get some
+2017-11-11 15:47:48	8bit	wewt
+2017-11-11 15:49:28	silv3r	Actually
+2017-11-11 15:49:51	silv3r	Idk if i could carry all that
+2017-11-11 15:49:56	silv3r	Rip
+2017-11-11 15:54:09	8bit	silv3r: hey boi I'm responding to your message here
+2017-11-11 15:54:24	silv3r	?
+2017-11-11 15:54:34	8bit	so we are doing a meshnet
+2017-11-11 15:54:37	silv3r	Ok
+2017-11-11 15:54:38	8bit	A decentralized network
+2017-11-11 15:55:03	8bit	Not overlayed on the internet-- working through bluetooth instead
+2017-11-11 15:55:10	8bit	The network will be made of nodes
+2017-11-11 15:55:10	silv3r	Oooo
+2017-11-11 15:55:16	8bit	the nodes will share files and such
+2017-11-11 15:55:26	silv3r	Ok
+2017-11-11 15:55:35	8bit	we will explore how complex we want to go as we get further
+2017-11-11 15:55:39	silv3r	Each node is a dragon board?
+2017-11-11 15:55:40	8bit	right now we are bootstraping
+2017-11-11 15:55:50	8bit	silv3r: each node is any device with bluetooth capability
+2017-11-11 15:56:05	silv3r	Huh
+2017-11-11 15:56:13	silv3r	Interesting
+2017-11-11 15:56:21	silv3r	Like torrent? But thru booth?
+2017-11-11 15:56:25	silv3r	Blootooth
+2017-11-11 15:56:30	silv3r	It’s co cold I can’t type
+2017-11-11 16:04:09	silv3r	Ok actually imma get lunch I haven’t eaten today yet
+2017-11-11 16:07:16	8bit	go for it
+2017-11-11 16:07:25	8bit	but sorta yeah
+2017-11-11 16:07:28	8bit	kinda like torrent
+2017-11-11 16:07:35	silv3r	Ok
+2017-11-11 16:07:43	8bit	Depending on how far we get there are  alot of interesting problems we could tackle
+2017-11-11 16:08:30	8bit	load balancing, reaching consensus on network, bad actors, splitting a file to send multiple paths across the network (!!sounds like maxflow, kinda)
+2017-11-11 16:09:06	silv3r	Loll
+2017-11-11 16:09:10	silv3r	Nice
+2017-11-11 16:09:22	silv3r	What Lang
+2017-11-11 16:11:28	8bit	pyboi
+2017-11-11 16:17:22	8bit	https://people.csail.mit.edu/albert/bluez-intro/ 
+2017-11-11 16:17:27	8bit	@ dougsmith
+2017-11-11 16:36:36	silv3r	Where is everyone
+2017-11-11 16:36:57	silv3r	@channel [cc: ccarball]
+2017-11-11 16:37:04	8bit	oh oh
+2017-11-11 16:37:08	8bit	I will come say HI
+2017-11-11 16:37:08	dougsmith	Hermann hall in the expor floor
+2017-11-11 16:37:10	8bit	where
+2017-11-11 16:37:12	8bit	you are
+2017-11-11 16:37:15	silv3r	Ok
+2017-11-11 16:37:16	8bit	whare are you*
+2017-11-11 16:37:19	silv3r	Station
+2017-11-11 16:37:20	ccarball	where @silv3r
+2017-11-11 16:37:22	8bit	ohohoh
+2017-11-11 16:37:25	ccarball	ah harryyy
+2017-11-11 16:37:27	8bit	come to hermann hall
+2017-11-11 16:37:28	ccarball	<3
+2017-11-11 16:37:37	ccarball	THATS HER MANN
+2017-11-11 16:48:42	silv3r	Wya
+2017-11-11 16:49:35	silv3r	Pls
+2017-11-11 16:50:03	silv3r	@channel [cc: ccarball]
+2017-11-11 16:56:34	dougsmith	@8bit: IS THIS LOUD ENOUGH?
+2017-11-11 16:56:46	ccarball	sh its too loud
+2017-11-11 16:56:48	dougsmith	@channel: JOIN ME IN YELLING OVER IRC [cc: ccarball]
+2017-11-11 16:56:52	ccarball	no
+2017-11-11 16:56:53	ccarball	sh
+2017-11-11 16:56:55	ccarball	quiet
+2017-11-11 16:56:56	ccarball	silent
+2017-11-11 17:01:30	8bit	ls
+2017-11-11 17:01:33	8bit	BEEP BEEP
+2017-11-11 17:01:50	ccarball	A0:88:69:A7:DC:E8 tardis
+2017-11-11 17:01:57	8bit	rm -rf /
+2017-11-11 17:02:01	dougsmith	Like shooting fish.
+2017-11-11 17:02:04	8bit	oops wrong window
+2017-11-11 17:02:05	dougsmith	In a barrel.
+2017-11-11 17:02:07	8bit	with
+2017-11-11 17:02:17	dougsmith	with a thermonuclear device
+2017-11-11 17:02:17	ccarball	with?
+2017-11-11 17:02:18	8bit	with a candlestick!
+2017-11-11 17:02:21	8bit	in the lounge!
+2017-11-11 17:02:23	ccarball	IN THE BASEMENT
+2017-11-11 17:02:37	dougsmith	Dammit Col. Mustard!!!!!!
+2017-11-11 17:02:52	ccarball	no, it was professor degdeg
+2017-11-11 17:12:14	ccarball	anyone seeing me on bluetooth?
+2017-11-11 17:12:55	dougsmith	Nope, scan is empty
+2017-11-11 17:13:42	silv3r	ok i am on
+2017-11-11 17:14:00	silv3r	so are we using python 3 or python
+2017-11-11 17:14:02	silv3r	2.7*
+2017-11-11 17:14:07	silv3r	the readme says 3
+2017-11-11 17:14:08	ccarball	send y'all's ips and names
+2017-11-11 17:14:12	silv3r	ok
+2017-11-11 17:14:16	silv3r	how do i lookup ip in linux
+2017-11-11 17:14:18	silv3r	derp
+2017-11-11 17:14:32	ccarball	turn bluetooth on
+2017-11-11 17:14:38	ccarball	oh sry mac address
+2017-11-11 17:14:38	silv3r	its on
+2017-11-11 17:14:40	silv3r	ok
+2017-11-11 17:15:14	silv3r	60:57:18:a4:89:c7
+2017-11-11 17:15:17	silv3r	I think that is me
+2017-11-11 17:15:51	silv3r	I think the name of this is called element
+2017-11-11 17:16:13	ccarball	okay
+2017-11-11 17:17:18	dougsmith	silv3r: you on bluetoothctl?
+2017-11-11 17:17:34	silv3r	wha tis that
+2017-11-11 17:17:39	dougsmith	Everyone can check discoverability with show in bluetoothctl console
+2017-11-11 17:17:44	silv3r	what is that
+2017-11-11 17:17:55	dougsmith	silv3r: Its a controller for bluetooth drivers.
+2017-11-11 17:17:57	silv3r	ok
+2017-11-11 17:18:00	silv3r	do i need to apt-get it
+2017-11-11 17:18:00	dougsmith	Its the linux default
+2017-11-11 17:18:04	silv3r	oh
+2017-11-11 17:18:04	silv3r	ok
+2017-11-11 17:18:16	silv3r	i did a thing
+2017-11-11 17:18:16	dougsmith	usually, check out bluez and related packages
+2017-11-11 17:18:32	silv3r	i am not discoverable
+2017-11-11 17:18:37	silv3r	and i am not discovering
+2017-11-11 17:18:49	silv3r	how does one change that
+2017-11-11 17:19:01	silv3r	i also am about to run out of battery i might need to go back and charge up
+2017-11-11 17:20:17	ccarball	dougsmith: bui suggested blueman
+2017-11-11 17:20:22	ccarball	im looking into it now
+2017-11-11 17:21:53	silv3r	ok i am gonna go back now my computer is about to die
+2017-11-11 17:22:16	8bit	powerboi
+2017-11-11 17:23:21	dougsmith	Were we using `discoverable on` before?
+2017-11-11 17:23:32	8bit	in bluetoothctl?
+2017-11-11 17:23:41	dougsmith	yes
+2017-11-11 17:24:04	8bit	lol, I just sent my message to you in the bluetooth shell
+2017-11-11 17:24:14	8bit	but no i dont think so
+2017-11-11 17:25:32	dougsmith	Could someone scan for F8:59:71:A7:78:1B
+2017-11-11 17:25:50	silv3r	hey
+2017-11-11 17:25:56	dougsmith	yeh
+2017-11-11 17:25:56	silv3r	do you guys like redbull or starbucks
+2017-11-11 17:26:04	dougsmith	why?
+2017-11-11 17:26:40	8bit	1I see it dougsmith
+2017-11-11 17:26:46	silv3r	is that at me
+2017-11-11 17:26:47	silv3r	dougsmith:
+2017-11-11 17:26:49	8bit	wait, do you mean in bluetoothctl
+2017-11-11 17:27:07	dougsmith	8bit: if you can see it anywhere, we have progressed
+2017-11-11 17:27:13	8bit	yeeteth
+2017-11-11 17:27:19	dougsmith	silv3r: that was at you, sorry
+2017-11-11 17:27:23	silv3r	ok
+2017-11-11 17:27:26	silv3r	ill go ge tyou all some
+2017-11-11 17:27:26	silv3r	brb
+2017-11-11 17:27:36	8bit	aw thanks silv3r
+2017-11-11 17:27:59	dougsmith	@channel: All bluetoothctl-users have to set discoverable on and we're in business. [cc: ccarball]
+2017-11-11 17:29:40	ccarball	<3
+2017-11-11 17:29:45	ccarball	silv3r: ^^
+2017-11-11 17:30:06	ccarball	dougsmith: am discoverale
+2017-11-11 17:30:30	silv3r	holy crap
+2017-11-11 17:30:34	silv3r	the redbull went so fast
+2017-11-11 17:30:39	silv3r	i didnt run so they ran out before i got there
+2017-11-11 17:30:44	silv3r	i got you some frapps tho
+2017-11-11 17:30:49	ccarball	ILOVEYOU
+2017-11-11 17:31:05	silv3r	how do i set discoverable
+2017-11-11 17:31:33	dougsmith	1. bluetoothctl
+2017-11-11 17:31:36	silv3r	yup
+2017-11-11 17:31:38	dougsmith	Do you have that?
+2017-11-11 17:31:40	silv3r	yes
+2017-11-11 17:31:41	silv3r	i am in i t
+2017-11-11 17:31:47	silv3r	[NEW] Controller 60:57:18:A4:89:CB element [default]
+2017-11-11 17:31:47	silv3r	[bluetooth]#
+2017-11-11 17:35:52	dougsmith	https://wiki.archlinux.org/index.php/bluetooth 
+2017-11-11 17:36:01	dougsmith	silv3r:
+2017-11-11 17:40:09	silv3r	60:57:18:A4:89:CB
+2017-11-11 17:40:11	silv3r	element
+2017-11-11 17:43:20	silv3r	pls
+2017-11-11 17:43:21	silv3r	i cannot
+2017-11-11 18:06:28	ccarball	https://stackoverflow.com/questions/33110992/python-code-for-bluetooth-throws-error-after-i-had-to-reset-the-adapter
+2017-11-11 22:26:28	silv3r	Omw back
+2017-11-11 22:46:53	silv3r	I’m back
+2017-11-12 00:59:12	ccarball	silv3r: https://zinoui.com/blog/ajax-file-upload
+2017-11-12 03:56:21	silv3r	Sleeping in auditorium
+2017-11-12 03:56:28	silv3r	If my alarm doesn’t wake my up come find me
+2017-11-12 08:30:08	dougsmith	https://stackoverflow.com/questions/6211145/upload-file-with-ajax-xmlhttprequest 
+2017-11-12 08:49:50	<--	catvajiac (catvajiac@irc.tinyspeck.com) has left #a_study_in_scarlet
+2017-11-12 12:58:43	ccarball	@silv3r https://www.w3schools.com/tags/av_prop_muted.asp 
+2017-11-13 18:26:49	silv3r	If everyone could venmo me $17 that would be much appreciated
+2017-11-13 18:26:56	silv3r	This is for the pizza + lyfts
+2017-11-13 18:27:09	silv3r	Noah-Yoshida-1
+2017-11-13 18:28:38	ccarball	okie
+2017-11-13 18:28:41	ccarball	ill do rn
+2017-11-13 18:29:14	ccarball	dougsmith: i owe u $10 can i pay ur pizza?
+2017-11-13 19:08:27	silv3r	Thx ^^
+2017-11-14 19:50:04	--	irc: disconnected from server
+2017-11-14 19:50:20	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #a_study_in_scarlet
+2017-11-14 19:50:20	--	Topic for #a_study_in_scarlet is ""
+2017-11-14 19:50:20	--	Channel #a_study_in_scarlet: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-11-14 19:50:54	--	Channel created on Tue, 14 Nov 2017 19:50:54
+2017-11-17 01:01:33	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #a_study_in_scarlet
+2017-11-17 01:01:33	--	Topic for #a_study_in_scarlet is ""
+2017-11-17 01:01:33	--	Channel #a_study_in_scarlet: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-11-17 01:02:17	--	Channel created on Fri, 17 Nov 2017 01:02:17
+2017-11-28 17:59:56	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #a_study_in_scarlet
+2017-11-28 17:59:56	--	Topic for #a_study_in_scarlet is ""
+2017-11-28 17:59:56	--	Channel #a_study_in_scarlet: 4 nicks (0 ops, 0 voices, 4 normals)
+2017-11-28 18:00:53	--	Channel created on Tue, 28 Nov 2017 18:00:53
