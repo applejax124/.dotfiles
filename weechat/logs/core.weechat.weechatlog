@@ -2221,3 +2221,115 @@
 2017-12-26 06:23:53		Options saved to relay.conf
 2017-12-26 06:23:53		Options saved to buffers.conf
 2017-12-26 06:23:53		Options saved to script.conf
+2017-12-29 14:31:55		New key binding (context "default"): meta-meta-OQ => /bar scroll buflist * e
+2017-12-29 14:31:55		New key binding (context "default"): meta-meta-OP => /bar scroll buflist * b
+2017-12-29 14:31:55		New key binding (context "default"): meta-OQ => /bar scroll buflist * +100%
+2017-12-29 14:31:55		New key binding (context "default"): meta-OP => /bar scroll buflist * -100%
+2017-12-29 14:31:55		script: 351 scripts for WeeChat 1.9.1
+2017-12-29 14:31:55		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, relay, script, trigger, xfer
+2017-12-29 14:31:55		Upgrade done (1.72s)
+2017-12-29 14:32:01		fifo: pipe closed
+2017-12-29 14:32:06		script: 351 scripts for WeeChat 1.9.1
+2017-12-29 14:32:06		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, relay, script, trigger, xfer
+2017-12-29 14:32:17		Options reloaded from sec.conf
+2017-12-29 14:32:17		Options reloaded from weechat.conf
+2017-12-29 14:32:17		Options reloaded from plugins.conf
+2017-12-29 14:32:17		Options reloaded from charset.conf
+2017-12-29 14:32:17		Options reloaded from logger.conf
+2017-12-29 14:32:17		Options reloaded from exec.conf
+2017-12-29 14:32:17		Options reloaded from trigger.conf
+2017-12-29 14:32:17		Options reloaded from alias.conf
+2017-12-29 14:32:17		Options reloaded from buflist.conf
+2017-12-29 14:32:17		Options reloaded from fifo.conf
+2017-12-29 14:32:17		Options reloaded from xfer.conf
+2017-12-29 14:32:17		Options reloaded from irc.conf
+2017-12-29 14:32:17		Options reloaded from relay.conf
+2017-12-29 14:32:17		Options reloaded from script.conf
+2017-12-29 14:38:33		Options reloaded from sec.conf
+2017-12-29 14:38:33		Options reloaded from weechat.conf
+2017-12-29 14:38:33		Options reloaded from plugins.conf
+2017-12-29 14:38:33		Options reloaded from charset.conf
+2017-12-29 14:38:33		Options reloaded from logger.conf
+2017-12-29 14:38:33		Options reloaded from exec.conf
+2017-12-29 14:38:33		Options reloaded from trigger.conf
+2017-12-29 14:38:33		Options reloaded from alias.conf
+2017-12-29 14:38:33		Options reloaded from buflist.conf
+2017-12-29 14:38:33		Options reloaded from fifo.conf
+2017-12-29 14:38:33		Options reloaded from xfer.conf
+2017-12-29 14:38:33		Options reloaded from irc.conf
+2017-12-29 14:38:33		Options reloaded from relay.conf
+2017-12-29 14:38:33		Options reloaded from script.conf
+2017-12-29 14:38:39		Options saved to sec.conf
+2017-12-29 14:38:39		Options saved to weechat.conf
+2017-12-29 14:38:39		Options saved to plugins.conf
+2017-12-29 14:38:39		Options saved to charset.conf
+2017-12-29 14:38:39		Options saved to logger.conf
+2017-12-29 14:38:39		Options saved to exec.conf
+2017-12-29 14:38:39		Options saved to trigger.conf
+2017-12-29 14:38:39		Options saved to alias.conf
+2017-12-29 14:38:39		Options saved to buflist.conf
+2017-12-29 14:38:39		Options saved to fifo.conf
+2017-12-29 14:38:39		Options saved to xfer.conf
+2017-12-29 14:38:39		Options saved to irc.conf
+2017-12-29 14:38:39		Options saved to relay.conf
+2017-12-29 14:38:39		Options saved to script.conf
+2017-12-29 14:38:51		Options reloaded from sec.conf
+2017-12-29 14:38:51		Options reloaded from weechat.conf
+2017-12-29 14:38:51		Options reloaded from plugins.conf
+2017-12-29 14:38:51		Options reloaded from charset.conf
+2017-12-29 14:38:51		Options reloaded from logger.conf
+2017-12-29 14:38:51		Options reloaded from exec.conf
+2017-12-29 14:38:51		Options reloaded from trigger.conf
+2017-12-29 14:38:51		Options reloaded from alias.conf
+2017-12-29 14:38:51		Options reloaded from buflist.conf
+2017-12-29 14:38:51		Options reloaded from fifo.conf
+2017-12-29 14:38:51		Options reloaded from xfer.conf
+2017-12-29 14:38:51		Options reloaded from irc.conf
+2017-12-29 14:38:51		Options reloaded from relay.conf
+2017-12-29 14:38:51		Options reloaded from script.conf
+2017-12-29 14:39:51		Options reloaded from buflist.conf
+2017-12-29 14:44:14		Options reloaded from buflist.conf
+2017-12-29 14:45:01		Options reloaded from buflist.conf
+2017-12-29 14:45:42		Options reloaded from buflist.conf
+2017-12-29 14:45:59		Options reloaded from buflist.conf
+2017-12-29 14:46:17		Options reloaded from buflist.conf
+2017-12-29 14:46:50		Options reloaded from buflist.conf
+2017-12-29 14:47:20		Options reloaded from buflist.conf
+2017-12-29 14:48:37		Options reloaded from buflist.conf
+2017-12-29 14:54:44		script: script "colorize_nicks.py" can not be installed because plugin "python" is not loaded
+2017-12-29 14:57:35	=!=	Error: unknown command "/load" (type /help for help)
+2017-12-29 14:57:40		script: script "colorize_nicks.py" can not be installed because plugin "python" is not loaded
+2017-12-29 14:58:09	=!=	Error: unable to load plugin "python": Error loading shared library python: No such file or directory
+2017-12-29 14:58:09	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2017-12-29 14:58:30	=!=	Error with command "/plugin install python" (help on command: /help plugin)
+2017-12-29 14:58:35		[core]  /plugin  list|listfull [<name>]
+2017-12-29 14:58:35		                 load <filename> [<arguments>]
+2017-12-29 14:58:35		                 autoload [<arguments>]
+2017-12-29 14:58:35		                 reload [<name>|* [<arguments>]]
+2017-12-29 14:58:35		                 unload [<name>]
+2017-12-29 14:58:35		list/load/unload plugins
+2017-12-29 14:58:35		     list: list loaded plugins
+2017-12-29 14:58:35		 listfull: list loaded plugins (verbose)
+2017-12-29 14:58:35		     load: load a plugin
+2017-12-29 14:58:35		 autoload: autoload plugins in system or user directory
+2017-12-29 14:58:35		   reload: reload a plugin (if no name given, unload all plugins, then autoload plugins)
+2017-12-29 14:58:35		   unload: unload a plugin (if no name given, unload all plugins)
+2017-12-29 14:58:35		 filename: plugin (file) to load
+2017-12-29 14:58:35		     name: a plugin name
+2017-12-29 14:58:35		arguments: arguments given to plugin on load
+2017-12-29 14:58:35		Without argument, this command lists loaded plugins.
+2017-12-29 15:03:14		Options reloaded from sec.conf
+2017-12-29 15:03:14	=!=	Warning: /home/camel/.weechat/weechat.conf, line 122: invalid value for option: save_layout_on_exit = on
+2017-12-29 15:03:14		Options reloaded from weechat.conf
+2017-12-29 15:03:14		Options reloaded from plugins.conf
+2017-12-29 15:03:14		Options reloaded from charset.conf
+2017-12-29 15:03:14		Options reloaded from logger.conf
+2017-12-29 15:03:14		Options reloaded from exec.conf
+2017-12-29 15:03:14		Options reloaded from trigger.conf
+2017-12-29 15:03:14		Options reloaded from alias.conf
+2017-12-29 15:03:14		Options reloaded from buflist.conf
+2017-12-29 15:03:14		Options reloaded from fifo.conf
+2017-12-29 15:03:14		Options reloaded from xfer.conf
+2017-12-29 15:03:14		Options reloaded from irc.conf
+2017-12-29 15:03:14		Options reloaded from relay.conf
+2017-12-29 15:03:14		Options reloaded from script.conf

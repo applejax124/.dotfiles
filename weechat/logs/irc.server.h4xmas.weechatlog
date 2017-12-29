@@ -725,3 +725,15 @@
 2017-12-26 06:15:17	--	Message of the day
 2017-12-26 06:15:17	--	WELCOME TO SLACK...
 2017-12-26 06:15:17	--	End of MOTD command
+2017-12-29 14:32:06	--	irc: connecting to server h4xmas.irc.slack.com/6667...
+2017-12-29 14:32:07	--	irc: connected to h4xmas.irc.slack.com/6667 (52.71.207.146)
+2017-12-29 14:32:07	--	CTCP requested by slackbot: VERSION
+2017-12-29 14:32:07	--	CTCP reply to slackbot: VERSION WeeChat 1.9.1 (Sep 24 2017)
+2017-12-29 14:32:07	--	IRC-SLACK gateway
+2017-12-29 14:32:07	--	Welcome to Slack IRC Gateway server camila.g.carballo.1!~camila.g.carballo.1@10.0.128.178
+2017-12-29 14:32:07	--	MAP SILENCE=15 WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE MODES=6 MAXCHANNELS=100 SAFELIST :are supported by this server
+2017-12-29 14:32:07	--	NICKLEN=32 TOPICLEN=160 AWAYLEN=160 CHANTYPES=# PREFIX=(ov)@+ CHANMODES=b,k,l,rimnpst CASEMAPPING=rfc1459 :are supported by this server
+2017-12-29 14:32:07	--	there are 8 users
+2017-12-29 14:32:07	--	Message of the day
+2017-12-29 14:32:07	--	WELCOME TO SLACK...
+2017-12-29 14:32:07	--	End of MOTD command

@@ -2424,3 +2424,50 @@
 2017-12-26 06:21:36	--	Channel #a_study_in_scarlet created on Tue, 26 Dec 2017 06:21:36
 2017-12-26 06:21:38	--	Mode #database_grp [+nt]
 2017-12-26 06:21:38	--	Channel #database_grp created on Tue, 26 Dec 2017 06:21:38
+2017-12-29 14:32:24	--	irc: connecting to server nd-cse.irc.slack.com/6667...
+2017-12-29 14:32:24	--	irc: connected to nd-cse.irc.slack.com/6667 (52.72.52.186)
+2017-12-29 14:32:24	--	CTCP requested by slackbot: VERSION
+2017-12-29 14:32:24	--	CTCP reply to slackbot: VERSION WeeChat 1.9.1 (Sep 24 2017)
+2017-12-29 14:32:24	--	IRC-SLACK gateway
+2017-12-29 14:32:24	--	Welcome to Slack IRC Gateway server ccarball!~ccarball@10.0.245.56
+2017-12-29 14:32:24	--	MAP SILENCE=15 WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE MODES=6 MAXCHANNELS=100 SAFELIST :are supported by this server
+2017-12-29 14:32:25	--	NICKLEN=32 TOPICLEN=160 AWAYLEN=160 CHANTYPES=# PREFIX=(ov)@+ CHANMODES=b,k,l,rimnpst CASEMAPPING=rfc1459 :are supported by this server
+2017-12-29 14:32:25	--	there are 688 users
+2017-12-29 14:32:25	--	Message of the day
+2017-12-29 14:32:25	--	WELCOME TO SLACK...
+2017-12-29 14:32:25	--	Hi! In addition to the normal Slack channels,
+2017-12-29 14:32:25	--	you can join the following channels:
+2017-12-29 14:32:25	--	#mpdm-jcioffi--jeffrey--8bit--ccarball-1
+2017-12-29 14:32:25	--	    Group messaging with: @jcioffi @jeffrey @8bit @ccarball
+2017-12-29 14:32:25	--	#mpdm-ccarball--catvajiac--dougsmith-1
+2017-12-29 14:32:25	--	    Group messaging with: @ccarball @catvajiac @dougsmith
+2017-12-29 14:32:25	--	#mpdm-catvajiac--brynne--ccarball-1
+2017-12-29 14:32:25	--	    Group messaging with: @catvajiac @brynne @ccarball
+2017-12-29 14:32:25	--	#mpdm-8bit--alitteke--catvajiac--dougsmith--ccarball-1
+2017-12-29 14:32:25	--	    Group messaging with: @8bit @alitteke @catvajiac @dougsmith @ccarball
+2017-12-29 14:32:25	--	#mpdm-bdevorem--cshinave--jcioffi--wbadart--jeffrey--8bit--ccarball-1
+2017-12-29 14:32:25	--	    Group messaging with: @bdevorem @cshinave @jcioffi @wbadart @jeffrey @8bit @ccarball
+2017-12-29 14:32:25	--	#mpdm-ccarball--catvajiac--tmurray5-1
+2017-12-29 14:32:25	--	    Group messaging with: @ccarball @catvajiac @tmurray5
+2017-12-29 14:32:25	--	#mpdm-ccarball--8bit--dougsmith-1
+2017-12-29 14:32:25	--	    Group messaging with: @ccarball @8bit @dougsmith
+2017-12-29 14:32:25	--	#mpdm-ccarball--alitteke--dougsmith-1
+2017-12-29 14:32:25	--	    Group messaging with: @ccarball @alitteke @dougsmith
+2017-12-29 14:32:25	--	#mpdm-bobbit--jcioffi--ccarball-1
+2017-12-29 14:32:25	--	    Group messaging with: @bobbit @jcioffi @ccarball
+2017-12-29 14:32:25	--	#mpdm-pbui--catvajiac--ccarball-1
+2017-12-29 14:32:25	--	    Group messaging with: @pbui @catvajiac @ccarball
+2017-12-29 14:32:25	--	#mpdm-pbui--bobbit--catvajiac--ccarball-1
+2017-12-29 14:32:25	--	    Group messaging with: @pbui @bobbit @catvajiac @ccarball
+2017-12-29 14:32:25	--	#mpdm-catvajiac--dougsmith--brynne--pkwak1--ccarball-1
+2017-12-29 14:32:25	--	    Group messaging with: @catvajiac @dougsmith @brynne @pkwak1 @ccarball
+2017-12-29 14:32:25	--	#mpdm-8bit--catvajiac--brynne--ccarball-1
+2017-12-29 14:32:25	--	    Group messaging with: @8bit @catvajiac @brynne @ccarball
+2017-12-29 14:32:25	--	#mpdm-jcioffi--catvajiac--ccarball-1
+2017-12-29 14:32:25	--	    Group messaging with: @jcioffi @catvajiac @ccarball
+2017-12-29 14:32:25	--	#mpdm-phale1--catvajiac--ccarball-1
+2017-12-29 14:32:25	--	    Group messaging with: @phale1 @catvajiac @ccarball
+2017-12-29 14:32:25	--	#mpdm-jcioffi--wbadart--jeffrey--8bit--ccarball-1
+2017-12-29 14:32:25	--	    Group messaging with: @jcioffi @wbadart @jeffrey @8bit @ccarball
+2017-12-29 14:32:25	--	You may disable this notice by appending '-no_mpdm_greet' to your password token.
+2017-12-29 14:32:25	--	End of MOTD command
