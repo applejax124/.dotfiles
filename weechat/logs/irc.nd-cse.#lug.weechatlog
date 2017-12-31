@@ -1,0 +1,2636 @@
+2017-12-09 10:02:53	wtheisen	@ewilli23 I️ve got a good friend at EA if you want to talk to someone
+2017-12-09 10:04:26	wtheisen	pbui we can do better than those examples!
+2017-12-09 10:07:13	bdevorem	My labmate's research made it on hacker news
+2017-12-09 10:07:16	bdevorem	https://news.ycombinator.com/item?id=15882858 
+2017-12-09 10:07:27	bdevorem	Apparently at 7am it was on the front page
+2017-12-09 10:13:42	walter.scheirer	neat
+2017-12-09 11:07:50	pbui	https://danluu.com/anon-benchmark/ 
+2017-12-09 11:08:11	walter.scheirer	haha
+2017-12-09 11:09:21	pbui	@bdevorem: https://www.cs.cmu.edu/~popl-interviews/index.html 
+2017-12-09 11:09:26	walter.scheirer	"Anonymous assassination markets appear to be a joke, but how about anonymous markets for benchmarks?"
+2017-12-09 11:09:26	pbui	when will u be on this list of people
+2017-12-09 11:09:38	walter.scheirer	i've always wondered why this never really materialized
+2017-12-09 11:09:42	walter.scheirer	especially in the era of leaks
+2017-12-09 11:12:11	pbui	im surprised this is enforcable
+2017-12-09 11:12:17	pbui	well not surprised, but more annoyed
+2017-12-09 11:12:27	pbui	u cant benchmark something u paid for?
+2017-12-09 11:12:29	pbui	wtf
+2017-12-09 11:12:38	pbui	or i guess, u cant publish it
+2017-12-09 11:15:10	walter.scheirer	this is widespread in commercial software
+2017-12-09 11:15:20	walter.scheirer	i see this kind of clause all of the time in biometrics software
+2017-12-09 11:15:41	pbui	i dont use commercial software, so i havent been exposed to this bizarre world
+2017-12-09 11:15:46	walter.scheirer	haha
+2017-12-09 11:37:52	wtheisen	so compilers was great, but where do I️ go after that?
+2017-12-09 11:39:36	wtheisen	embedded devices? or reverse engineering?
+2017-12-09 11:55:57	pbui	algorithms
+2017-12-09 12:01:22	wtheisen	REEEEEEEE no please god
+2017-12-09 12:06:59	wtheisen	I need something a bit easier than that
+2017-12-09 12:07:35	walter.scheirer	to me, reverse engineering is a lot more difficult that algorithms
+2017-12-09 12:07:46	walter.scheirer	given the complexity of today's codebases
+2017-12-09 12:08:20	wtheisen	I just really liked playing around with the assembly in compilers
+2017-12-09 12:08:40	wtheisen	It finally felt like coding was fun and challenging again
+2017-12-09 12:09:24	walter.scheirer	@wtheisen: take a look at GPUs
+2017-12-09 12:09:49	wtheisen	in what context?
+2017-12-09 12:10:58	walter.scheirer	a logical extension of what you just learned in compilers
+2017-12-09 12:11:04	walter.scheirer	but different arch.
+2017-12-09 12:11:23	wtheisen	Nice, I'll definitely do that then
+2017-12-09 12:11:39	walter.scheirer	code acceleration with GPUs is a growing area
+2017-12-09 12:11:44	walter.scheirer	for general purpose problems
+2017-12-09 12:12:29	wtheisen	So would that be like "how do I separate this problem into a set that allows me to fully utilize all these cores on the GPU" ?
+2017-12-09 12:13:13	walter.scheirer	yep
+2017-12-09 12:14:19	pbui	that's what i did for my masters
+2017-12-09 12:14:21	pbui	GPGPU
+2017-12-09 12:14:28	walter.scheirer	there you go
+2017-12-09 12:14:35	walter.scheirer	following in the footsteps of @pbui
+2017-12-09 12:14:39	pbui	cuda 1.0
+2017-12-09 12:14:41	pbui	good times
+2017-12-09 12:14:43	walter.scheirer	wow
+2017-12-09 12:14:58	walter.scheirer	cuda is still relatively primitive
+2017-12-09 12:15:02	walter.scheirer	remarkably
+2017-12-09 12:15:03	pbui	we were jsut transitioning from using opengl shaders to to cuda
+2017-12-09 12:15:11	walter.scheirer	there are many optimizations for many problems that are not baked into the library
+2017-12-09 12:16:22	pbui	wtheisen: there has been some interesting work on creating compilers for different languages that target GPUs
+2017-12-09 12:16:42	pbui	b/c the GPU has a very different execution model, perhaps a new language paradigm is needed
+2017-12-09 12:17:00	pbui	if u are considering ND for grad school, u might want to talk to kogge or brockman about this
+2017-12-09 12:17:15	pbui	b/c they are interested in compilers for their fancy arch
+2017-12-09 12:18:29	walter.scheirer	aren't they kind of distracted these days with their company?
+2017-12-09 12:18:42	pbui	http://www.emutechnology.com/ 
+2017-12-09 12:18:48	pbui	probably
+2017-12-09 12:39:13	bdevorem	omg i was just invited to emery's surprise 50th bday party
+2017-12-09 12:39:24	ewilli23	Is there any analog of python generators in C/C++?
+2017-12-09 12:42:08	pbui	Iterators can be used to build generators I think
+2017-12-09 12:42:15	pbui	Not a common practice
+2017-12-09 12:44:13	pbui	https://stackoverflow.com/questions/9059187/equivalent-c-to-python-generator-pattern#9060689 
+2017-12-09 12:48:32	ewilli23	I was just thinking a generator would be useful for the OS project to be able to write a function to load an inode without having to re-read the block every time (if you’re iterating through all the inodes, say)
+2017-12-09 12:54:15	pbui	yeah, it would
+2017-12-09 13:22:22	dchiang	Might be able to fake it with setjmp/longjmp
+2017-12-09 13:23:18	dchiang	http://fanf.livejournal.com/105413.html 
+2017-12-09 18:26:10	wtheisen	So I don't have access to my unofficial transcripts for the schools I used to attend, but ND only asks for the unofficial ones, wat do?
+2017-12-09 18:33:54	walter.scheirer	you can send us anything
+2017-12-09 18:33:58	walter.scheirer	it's fine...
+2017-12-09 18:34:56	wtheisen	Okay, so it's not a problem if I send the official ones?
+2017-12-09 18:35:02	walter.scheirer	no problem at all
+2017-12-09 18:35:14	walter.scheirer	i think the unofficial guideline is meant to make your life easier
+2017-12-09 18:36:56	wtheisen	Yeah I figured. So do I just upload something that says, transcript sent officially so the web interface doesn't complain at me?
+2017-12-09 18:37:13	walter.scheirer	sure
+2017-12-09 18:38:46	wtheisen	sweet, thanks @walter.scheirer
+2017-12-09 18:46:15	jcioffi	unofficial transcript you can just pull from insideND @wtheisen
+2017-12-09 18:46:37	wtheisen	I have my ND one, just not one from the other two schools
+2017-12-09 18:46:46	jcioffi	oh sorry misread
+2017-12-09 18:47:06	jcioffi	did you transfer or something?
+2017-12-09 18:47:19	jcioffi	_is confused_
+2017-12-09 18:48:04	wtheisen	No but in highschool I took a bunch of college classes, then I took one over the summer freshman year
+2017-12-09 18:48:16	wtheisen	and all the gradschools want ALL of the transcripts
+2017-12-09 18:48:20	wtheisen	which is really annoying
+2017-12-09 20:47:44	androidkitkat	whats the proper way to ask for an extension on an assignment
+2017-12-09 21:00:49	jbaker10	Ask and give email
+2017-12-09 21:47:50	androidkitkat	that simple?
+2017-12-09 21:47:57	androidkitkat	ill do that
+2017-12-09 22:03:47	pbui	androidkitkat: sacrifice a child process
+2017-12-09 22:12:00	jcioffi	@wtheisen I did something similar. I guess that means I took classes at a total of 4 undergraduate universities. notre Dame wouldn't count any of them though
+2017-12-09 22:12:49	androidkitkat	@pbui that was painless
+2017-12-09 22:22:25	bdevorem	@wtheisen i took community college classes in high school and i just didnt include them in my grad apps.
+2017-12-09 22:23:33	bdevorem	seemed irrelevant to graduate studies in PL
+2017-12-09 22:23:48	bdevorem	@wtheisen u applying to umass
+2017-12-09 22:23:49	bdevorem	?
+2017-12-09 22:23:57	bdevorem	@jcioffi you applying to grad school?
+2017-12-09 22:24:11	bdevorem	@jbaker10 _you_ applying to umass?
+2017-12-09 22:36:20	bdevorem	ugh who is too busy on a saturday night to talk to me, rude!
+2017-12-09 22:37:38	catvajiac	bdevorem: hi i'm not too busy
+2017-12-09 22:37:47	catvajiac	unless you count failing to understand comp arch as too busy
+2017-12-09 22:38:07	pbui	@bdevorem: o/
+2017-12-09 22:38:10	jeffrey	I say we make Ajit Pai watch the Who Shot Mr. Burns episode.
+2017-12-09 22:38:24	pbui	jeffrey: he'd just spoof that too
+2017-12-09 22:39:16	jeffrey	"Here is a business man doing something against the people's will at a town hall. Notice that when he leaves he gets shot and the entire town has a motive, and then they don't even arrest who did it"
+2017-12-09 22:43:42	pbui	what do u mean against the people's will?
+2017-12-09 22:43:48	pbui	all those comments were fake
+2017-12-09 22:44:02	pbui	also we need to look at the quality of the comments, not just the quantity
+2017-12-09 22:46:34	jeffrey	Yes, we do need to look at the comments
+2017-12-09 22:46:50	jeffrey	So investigate the mass botting
+2017-12-09 22:47:15	pbui	u know the internet wasnt broken in 2014
+2017-12-09 22:47:26	pbui	this is just typical government overreach
+2017-12-09 22:47:36	pbui	do u want obama telling u want u can have on the internet?
+2017-12-09 22:47:39	pbui	that's censorship
+2017-12-09 22:47:56	pbui	just let the free market give us the best quality servic
+2017-12-09 22:48:09	pbui	innovation is being held back by over regulation
+2017-12-09 22:50:28	jeffrey	Yes, free market. So why can't I run my own fiber lines, or broadcast my own nationwide chain of access points?
+2017-12-09 22:50:40	jeffrey	Also
+2017-12-09 22:50:59	jeffrey	@jeffrey uploaded a file: 3b70613.jpg https://nd-cse.slack.com/files/U0L54J0MD/F8CAP2HQS/3b70613.jpg 
+2017-12-09 22:51:42	pbui	if only that would work
+2017-12-09 23:03:17	androidkitkat	Asking for an extension worked
+2017-12-09 23:03:19	androidkitkat	got until friday
+2017-12-09 23:03:55	jeffrey	"https://southbend.craigslist.org/sop/d/apple-studio-display-monitor/6400712509.html "
+2017-12-09 23:04:05	jeffrey	"Flat screen display"
+2017-12-09 23:05:30	jeffrey	That is a CRT. There is nothing remotely flat panel about it.
+2017-12-09 23:05:59	jeffrey	That said CRTs that big are getting hard to find
+2017-12-09 23:12:19	androidkitkat	we had a 50' CRT at home for the longest time
+2017-12-09 23:12:24	androidkitkat	it even had HDMI
+2017-12-09 23:13:26	jeffrey	Fifty footer, wow
+2017-12-09 23:13:29	jeffrey	Wait HDMI
+2017-12-09 23:13:31	jeffrey	How
+2017-12-09 23:13:33	jeffrey	What
+2017-12-09 23:16:47	pbui	U sure it wasn't a dlp?
+2017-12-09 23:16:57	pbui	I had one of those in grad school
+2017-12-09 23:26:54	androidkitkat	@jeffrey it was huge
+2017-12-09 23:26:58	androidkitkat	weighed a tonne
+2017-12-09 23:27:08	androidkitkat	needed like 4 people to carry
+2017-12-09 23:29:35	androidkitkat	ok so it was 36
+2017-12-09 23:29:41	androidkitkat	a little overexageration
+2017-12-09 23:29:41	androidkitkat	but
+2017-12-09 23:29:44	androidkitkat	still
+2017-12-09 23:30:03	androidkitkat	had HDMI
+2017-12-09 23:30:04	androidkitkat	10/10
+2017-12-10 03:17:08	jbaker10	@bdevorem looked into it. How many Theory people?
+2017-12-10 08:41:42	pbui	Comcast is injecting 400+ lines of JavaScript into web pages - https://news.ycombinator.com/item?id=15890551 
+2017-12-10 09:45:24	mflanag6	o no
+2017-12-10 09:45:54	walter.scheirer	that hasn't happened to me
+2017-12-10 12:34:16	bdevorem	Hi @catvajiac
+2017-12-10 12:34:42	bdevorem	@jbaker10 we have a good theory department
+2017-12-10 13:13:09	catvajiac	bdevorem: how's grad school?
+2017-12-10 14:43:22	walter.scheirer	wow, comcast is awfully slow today at the foundry
+2017-12-10 14:43:27	walter.scheirer	i had to resort to eduroam
+2017-12-10 14:44:10	androidkitkat	just route all your traffic thru DNS
+2017-12-10 14:44:16	walter.scheirer	lol
+2017-12-10 14:44:23	androidkitkat	it works
+2017-12-10 14:44:27	androidkitkat	technically
+2017-12-10 14:44:37	walter.scheirer	not sure how that will help my speed problem, but...
+2017-12-10 14:44:45	walter.scheirer	eduroam is working quite well
+2017-12-10 14:44:48	androidkitkat	thats a first
+2017-12-10 14:44:50	walter.scheirer	maybe i will cancel comcast
+2017-12-10 14:44:59	androidkitkat	i would
+2017-12-10 14:45:21	pbui	Pringles cans
+2017-12-10 14:45:32	androidkitkat	we were on CenturyTel at home for a bit
+2017-12-10 14:45:42	androidkitkat	but they refuse to give speeds faster than 10 Mb/s
+2017-12-10 14:47:16	androidkitkat	@pbui why not just mail everything at that point
+2017-12-10 14:57:22	walter.scheirer	nah, effective antenna
+2017-12-10 14:57:40	walter.scheirer	i used many a pringles can in the early days of wifi
+2017-12-10 14:58:10	walter.scheirer	then my college house got a yagi
+2017-12-10 14:58:21	androidkitkat	omg really
+2017-12-10 14:58:29	walter.scheirer	and we could pull reliable wireless from the university from blocks away
+2017-12-10 14:58:31	androidkitkat	thought he meant can and string
+2017-12-10 14:58:38	androidkitkat	this is news
+2017-12-10 14:58:53	androidkitkat	also i like an idiot opened something in vim as read only and typed like 50 lines
+2017-12-10 14:59:03	androidkitkat	do i have to start over
+2017-12-10 15:01:29	8bit	I think you can save it as another file and then move it
+2017-12-10 15:01:37	8bit	gimme a sec, just don't close it
+2017-12-10 15:01:47	androidkitkat	that makes sense
+2017-12-10 15:02:04	androidkitkat	dont know how to do that but i havent closed it yet
+2017-12-10 15:02:23	walter.scheirer	:w file
+2017-12-10 15:02:34	pbui	:w /tmp/new.file
+2017-12-10 15:02:38	androidkitkat	ty
+2017-12-10 15:02:47	androidkitkat	just learned something new
+2017-12-10 15:02:54	androidkitkat	prob should have known that
+2017-12-10 15:03:08	catvajiac	i always accidentally do that with '
+2017-12-10 15:03:14	catvajiac	b/c it's right next to :
+2017-12-10 15:03:26	androidkitkat	just remap ' to :
+2017-12-10 15:03:40	androidkitkat	problem solved temporarily
+2017-12-10 15:03:41	pbui	chmod 420 blaze.it 
+2017-12-10 15:03:50	androidkitkat	chmod 400 any file you want to not see again
+2017-12-10 15:04:14	catvajiac	pbui: you have to wait another hour or so
+2017-12-10 15:04:29	8bit	catvajiac: please don't remind me I wasted most of today
+2017-12-10 15:04:35	catvajiac	same
+2017-12-10 15:04:38	catvajiac	oops
+2017-12-10 15:05:18	pbui	What's great is when u have perms to remove a fine but canr
+2017-12-10 15:05:23	pbui	Can't*
+2017-12-10 15:05:32	pbui	Bc of extended attributes
+2017-12-10 15:05:43	pbui	So u have to do chattr
+2017-12-10 15:05:51	androidkitkat	windows sometimes just straight up removes your admin permissions sometimes
+2017-12-10 15:05:59	pbui	But no one ever remembers those
+2017-12-10 15:06:13	androidkitkat	!g chattr
+2017-12-10 15:06:14	bobbit	@androidkitkat: https://yld.me/z7g 
+2017-12-10 15:07:48	pbui	Chattr +i make things immutable
+2017-12-10 15:08:11	8bit	`$ man lsattr`  => "Bugs: There are none :-)"  lol
+2017-12-10 15:08:27	8bit	Can you not chattr -i afterwards?
+2017-12-10 15:08:57	androidkitkat	attrib +S C:\Windows /D
+2017-12-10 15:10:16	androidkitkat	attrib +R C:\autoexec.bat
+2017-12-10 15:33:09	pbui	Yeah u can change the attribute afterwards
+2017-12-10 17:37:03	jbaker10	anyone know Algol 60?
+2017-12-10 18:09:11	pbui	@pbui uploaded a file: IMG_20171210_180801602.jpg https://nd-cse.slack.com/files/U0HK21CP2/F8CK3ERD3/img_20171210_180801602.jpg  and commented: Lug Christmas gift
+2017-12-10 18:16:50	dchiang	Why do you want to know Algol 60??
+2017-12-10 18:17:12	dchiang	I wish I could say I knew it -- very significant language
+2017-12-10 18:17:35	dchiang	Pseudocode is based on Algol so it should look very familiar
+2017-12-10 18:25:05	jbaker10	The book you gave me on Denotational Semantics uses it. That book is actually really really good. I'm reading the whole thing. read about 1/3 last night
+2017-12-10 18:26:54	dchiang	Oh good
+2017-12-10 18:27:45	jbaker10	I'm not entirely sure how to write a tutorial on it though
+2017-12-10 18:27:47	jbaker10	oh well
+2017-12-10 18:31:28	flynn	makes mental note to offer a HoPL course some day (History of Programming Languages)
+2017-12-10 18:32:21	wtheisen	add embedded devices, hobby electronics, and cracking/reverse engineering to that list
+2017-12-10 18:33:26	flynn	Yep all of that too
+2017-12-10 18:34:52	flynn	SDR
+2017-12-10 18:37:16	flynn	so many topics could easily be their own course. Some obscure, some extremely relevant and current
+2017-12-10 19:31:39	bdevorem	@catvajiac tis good. how's ND?
+2017-12-10 19:33:27	catvajiac	pretty good, i'm hanging in there for finals week
+2017-12-10 20:31:06	wtheisen	what's a three address RISC architecture mean?
+2017-12-10 20:33:00	alitteke	I think when you use an assembly language it's the maximum number of register that are used in any one instruction
+2017-12-10 20:33:00	alitteke	x86 is two (maybe?) because you have /
+2017-12-10 20:33:12	alitteke	Add r1 r2
+2017-12-10 20:33:29	alitteke	but ARM is three because you have```ADD R1 R2 R3```
+2017-12-10 20:34:51	wtheisen	But what about the fancy ones for array access with like 3 or 4 registers?
+2017-12-10 20:34:54	wtheisen	in x86
+2017-12-10 20:37:31	alitteke	That's still one address
+2017-12-10 20:38:20	alitteke	The calculation may involve more, but the instruction itself is only dealing with two addresses
+2017-12-10 20:45:47	jeffrey	That's a different address mode @wtheisen
+2017-12-10 20:46:11	jeffrey	I interpreted it the same way as @alitteke
+2017-12-10 20:46:30	wtheisen	Yeah apparently ARM and MIPS are 3-RISC
+2017-12-10 20:47:23	jbaker10	mips 4 lyfe
+2017-12-10 20:47:35	jeffrey	I feel we covered a different set of things than that final though
+2017-12-10 20:48:15	wtheisen	I mean that's the only questions that had things I didn't immediately recognize on it
+2017-12-10 20:52:44	jeffrey	I guess I mean for 5 we covered conservative gc for like 7 minutes, and for 3 we never coded any optimizations
+2017-12-10 20:58:08	wtheisen	Yeah but if you're familiar with the code, I don't think building an optimizer for a specific sub-case is *TOO* tricky
+2017-12-10 20:59:18	jeffrey	I wonder how specific that one should be. What if they multiplication is swapped?
+2017-12-10 20:59:44	jeffrey	Also, for a "highly optimized compiler" is it trying to use as few registers as possible, or the opposite?
+2017-12-10 20:59:44	wtheisen	Yeah we were wondering how much we could assume as well
+2017-12-10 21:00:00	jeffrey	Be as fast as possivle
+2017-12-10 21:00:02	wtheisen	I got it down to 4 registers, I'm pretty sure that's the min
+2017-12-10 21:00:20	wtheisen	well it says "Clearly state the minimum number of registers needed"
+2017-12-10 21:00:36	jeffrey	Right, but it doesn't say "use the minimum"
+2017-12-10 21:01:01	jeffrey	I also figure we're supposed to do that dependency graph for the minimum number
+2017-12-10 21:01:25	wtheisen	Yeah it wasn't very clear there either
+2017-12-10 21:01:44	jeffrey	I do not want a question like that
+2017-12-10 21:01:57	jeffrey	Mixing in IRs
+2017-12-10 21:02:05	wtheisen	I'd much prefer that over a follow table
+2017-12-10 21:02:37	jeffrey	But I don't wanna convert it to SSA
+2017-12-10 21:02:43	jeffrey	And maybe a stack
+2017-12-10 21:04:50	wtheisen	ewww yeah I just noticed the last line stating they were arguments
+2017-12-10 21:05:10	wtheisen	:no_good: no managing the stack pls
+2017-12-10 21:10:42	jeffrey	That's the "lower the average by 20 points" question
+2017-12-10 21:11:35	wtheisen	On a ten point question lol
+2017-12-10 21:11:44	wtheisen	That's how hard it is
+2017-12-10 21:18:02	jeffrey	He said something about things being "open ended" right?
+2017-12-10 21:18:21	jeffrey	So maybe as long as you have a clue for that type of question you won't die
+2017-12-10 21:19:30	jeffrey	I figure we will have a "make this grammar LL(1) and write a recursive descent parser" question for it
+2017-12-10 21:22:03	wtheisen	Algs is the final I'm truly worried about
+2017-12-10 21:22:54	jeffrey	I'm more worried for compilers. Mostly because I get 3 days for algs, which should be good.
+2017-12-10 23:15:17	jeffrey	I'm most worried for grad apps
+2017-12-10 23:20:52	bdevorem	Compilers final was quite fair last year for everyone who is wondering.
+2017-12-10 23:21:17	bdevorem	Know how to generate code and typecheck.
+2017-12-10 23:21:21	bdevorem	Know assembly.
+2017-12-10 23:31:11	wtheisen	@jeffrey yeah I feel, I'm definitely limping across the line for applications
+2017-12-10 23:47:32	wtheisen	@walter.scheirer have you read the book "Practical Malware Analysis" by Sikorski and Honig?
+2017-12-10 23:47:39	wtheisen	if so can you recommend?
+2017-12-11 01:31:38	jeffrey	I totally forgot to do CIFs
+2017-12-11 01:32:50	jeffrey	Now I gotta wait till Christmas for grades
+2017-12-11 07:30:45	walter.scheirer	@wtheisen: i have not...
+2017-12-11 10:11:18	androidkitkat	@silv3r do you know where the calc 3 exam is
+2017-12-11 10:17:43	silv3r	Not sure
+2017-12-11 10:18:19	silv3r	Oh gosh
+2017-12-11 10:18:39	silv3r	It’s at Stepan Center @androidkitkat
+2017-12-11 10:18:55	silv3r	Tomorrow
+2017-12-11 10:19:05	androidkitkat	o boi
+2017-12-11 10:19:22	silv3r	Make sure to wear layers. It will either be very very hot or very very cold
+2017-12-11 10:19:37	silv3r	I can’t remember if the heat works very well in there
+2017-12-11 10:19:49	silv3r	Also how well do you know calc
+2017-12-11 10:19:59	silv3r	I’m lost
+2017-12-11 10:34:04	silv3r	Hmu if u want to study today
+2017-12-11 11:02:32	wtheisen	calc three was unpleasant
+2017-12-11 11:04:33	silv3r	RT
+2017-12-11 11:04:58	wtheisen	Don't worry linear is far far worse :slightly_smiling_face:
+2017-12-11 11:06:32	a3qz	I preferred 3 to 2
+2017-12-11 11:06:49	silv3r	I also like how they leave out any explanations on the answer keys
+2017-12-11 11:06:55	a3qz	which is such a low compliment that its basically not one
+2017-12-11 11:06:57	silv3r	:upside_down_face:
+2017-12-11 11:28:33	ewilli23	“The proof is left as an exercise to the student”
+2017-12-11 11:53:39	pbui	https://www.reddit.com/r/sysadmin/comments/7j2rta/reddit_now_tracks_user_information_by_default_ive/ 
+2017-12-11 12:08:31	androidkitkat	@silv3r i did an item analysis
+2017-12-11 12:08:37	androidkitkat	want me to send it to you
+2017-12-11 12:14:48	silv3r	I am shook
+2017-12-11 12:14:50	silv3r	Thanks
+2017-12-11 12:19:01	androidkitkat	sorry for the weird #ing
+2017-12-11 12:19:12	androidkitkat	but test 1 and test 4 are the ones they gave us
+2017-12-11 12:19:25	androidkitkat	and it seems that those are really similar
+2017-12-11 12:19:33	androidkitkat	so either theyre trolling us
+2017-12-11 12:19:42	androidkitkat	or its going to be like final
+2017-12-11 12:20:37	silv3r	:3
+2017-12-11 12:21:10	wtheisen	usually the practice tests are pretty accurate for math
+2017-12-11 14:11:08	androidkitkat	who wants to fill out a good old fashioned google form
+2017-12-11 14:11:09	androidkitkat	https://goo.gl/forms/RqzxNZ6TQ69IzRVk2 
+2017-12-11 14:11:18	androidkitkat	ignore the typos
+2017-12-11 14:17:19	androidkitkat	Who selected MorphOS
+2017-12-11 14:17:26	androidkitkat	No one uses MorphOS
+2017-12-11 14:17:29	jeffrey	My calc2 final apparently WAS the practice test
+2017-12-11 14:17:52	wtheisen	I remember there were 5 questions exactly the same on the calc 2 final
+2017-12-11 14:18:00	androidkitkat	two people put ur mom
+2017-12-11 14:19:46	jeffrey	You know, ur mom linux, the distro with automatic garbage collection and organization of old files that automatically renames every game to "nintendo" and adds pause buttons to multiplayer games.
+2017-12-11 14:20:51	androidkitkat	No one has chosen System 7
+2017-12-11 14:21:45	androidkitkat	which if anything, is the best
+2017-12-11 14:25:51	jeffrey	"Gigabyte 980 TI
+2017-12-11 14:25:51	jeffrey	High-end gaming GPU. Capable of running games at their highest settings" South Bend Craigslist, why must you lie.
+2017-12-11 14:26:48	androidkitkat	a 980 Ti is no slouch tho
+2017-12-11 14:27:17	jeffrey	I'm not saying it is, but it is roughly a 1070. If someone buys it for 1440p or 4k, they will be disappointed.
+2017-12-11 14:29:34	jeffrey	I just want the local Craigslist to be precise and honest
+2017-12-11 14:32:09	androidkitkat	call the police on him
+2017-12-11 14:33:20	androidkitkat	that will teach him
+2017-12-11 14:33:31	jeffrey	He's not as bad as some people. I saw someone selling a gtx 750 ti for $200.
+2017-12-11 14:34:16	androidkitkat	thats about a $100 markup
+2017-12-11 14:34:37	jeffrey	"Plays all games at high settings"
+2017-12-11 14:34:59	androidkitkat	sets PUBG to high
+2017-12-11 14:35:14	jeffrey	You need the GTX 2080 for that
+2017-12-11 14:35:35	androidkitkat	its been getting more optimized
+2017-12-11 14:35:48	androidkitkat	Nvidia says  a 1080 Ti can run it high @ 4k
+2017-12-11 14:36:30	jeffrey	It should not be a $30 right now
+2017-12-11 14:36:38	jeffrey	I mean, from a value perspective
+2017-12-11 14:36:49	androidkitkat	i mean ive put over 200 hours since the summer
+2017-12-11 14:36:51	jeffrey	It sold well enough that it was a good price
+2017-12-11 14:36:57	androidkitkat	its coming to xbox
+2017-12-11 14:37:00	androidkitkat	so
+2017-12-11 14:37:10	androidkitkat	its probably getting some optimzations
+2017-12-11 14:37:30	jeffrey	What if they just shrink the map
+2017-12-11 14:37:40	androidkitkat	xbox plays with pc iirc
+2017-12-11 14:37:47	jeffrey	What? No way
+2017-12-11 14:37:53	jeffrey	A mouse is a HUGE advantage
+2017-12-11 14:37:54	androidkitkat	i could be wrong
+2017-12-11 14:37:56	androidkitkat	ik
+2017-12-11 14:38:41	jeffrey	My opinion though is $30 puts it at like the top 3% most expensive steam games
+2017-12-11 14:39:57	jeffrey	I usually follow a $1/hr upper bound, and don't see myself putting in 30 hours.
+2017-12-11 14:41:43	androidkitkat	its a fun game
+2017-12-11 14:41:46	androidkitkat	i enjoy the BR
+2017-12-11 14:42:05	androidkitkat	they do the genre better than Fortnite
+2017-12-11 14:50:48	jeffrey	Fortnite was a different game with BR slapped on
+2017-12-11 14:51:29	jeffrey	That said I enjoy Fortnite. It runs well and is free, but having played both PUBG is definitely the better game.
+2017-12-11 14:51:46	androidkitkat	the free part of it is the seller
+2017-12-11 14:51:48	androidkitkat	or
+2017-12-11 14:51:53	androidkitkat	not seller?
+2017-12-11 14:52:58	jeffrey	I'm not a fan of long range gameplay though. When I'm home and play pubg on a laptop at 720p I am at such a disadvantage since everyone is a blur
+2017-12-11 14:54:02	androidkitkat	fun fact: the only solo pubg games ive won were on a dual core mobile i7 and a gtx 820m
+2017-12-11 14:54:29	jeffrey	I came in second in a trio game. Then killed my teammates.
+2017-12-11 14:54:58	jeffrey	Or rather, was in a firefight with the only other team, and grenaded my two teammates.
+2017-12-11 14:55:05	androidkitkat	oh lol
+2017-12-11 14:55:16	androidkitkat	i enjoy solo games
+2017-12-11 14:55:26	androidkitkat	squads with 3 other real friends is fun
+2017-12-11 14:55:37	androidkitkat	bc we can discord and troll in all chat
+2017-12-11 14:55:45	walter.scheirer	yay, i now have functional ethernet jacks in my office
+2017-12-11 14:55:49	walter.scheirer	goodbye eduroam
+2017-12-11 14:55:56	androidkitkat	rip eduroam
+2017-12-11 14:56:24	jeffrey	The internet ruined online gaming
+2017-12-11 14:56:53	pbui	now that walter.scheirer is no longer bogarting the wifis, maybe it will work
+2017-12-11 14:56:58	jeffrey	I'm glad games are finally splitting solo from squads though
+2017-12-11 14:57:00	walter.scheirer	ha
+2017-12-11 14:57:17	walter.scheirer	this is like night and day
+2017-12-11 14:57:25	walter.scheirer	in terms of connectivity
+2017-12-11 14:57:43	jeffrey	@pbui I've been using pingfs, might that slow down the network?
+2017-12-11 14:58:02	pbui	possibly
+2017-12-11 14:59:43	jeffrey	If I run it, will the FBI be like "why are you DOSing google?" And I'll be like "I'm just saving my grad apps..."
+2017-12-11 15:00:19	jeffrey	Also ND urged me to consider their student life and proximity to Chicago.
+2017-12-11 15:01:03	walter.scheirer	haha
+2017-12-11 15:01:05	jeffrey	I wonder if I can convince them to fly me in for a visit, but just use my return ticket to go home for Spring Break.
+2017-12-11 15:02:48	pbui	https://arstechnica.com/gadgets/2017/12/apple-has-acquired-shazam/ 
+2017-12-11 15:32:48	flynn	@flynn uploaded a file: Wang03-shazam.pdf https://nd-cse.slack.com/files/U3VAZJ9L6/F8CAYD4SU/wang03-shazam.pdf  and commented: The technical idea behind Shazam (at time of launch, anyway) was documented in a wonderfully accessible paper. Summary: constellation matching in the spectrogram.
+2017-12-11 15:54:56	jeffrey	@wtheisen @alitteke where is the compilers exam
+2017-12-11 15:56:20	alitteke	125 Debart
+2017-12-11 15:56:29	alitteke	Tomorrow though
+2017-12-11 15:56:53	jeffrey	Yeah
+2017-12-11 15:56:59	jeffrey	Thanks
+2017-12-11 16:01:06	wtheisen	It's gonna be lit
+2017-12-11 16:07:29	jeffrey	I'm terrified
+2017-12-11 16:17:15	wtheisen	we're pre-gaming right?
+2017-12-11 16:17:41	8bit	yep, you are, tell me how that goes
+2017-12-11 16:18:07	wtheisen	balmer peak bb
+2017-12-11 16:19:52	8bit	don't overshoot bb
+2017-12-11 16:23:41	jeffrey	I mean, I took shots while studying data structures...
+2017-12-11 16:24:26	jeffrey	I also practiced the GRE after a drink and a half and did better than I did on the real test
+2017-12-11 16:57:51	jeffrey	For `FADD %r1, %r3 -> %r4 live: %r2 %r3 %r4`, why is %r2 live but not %r1?
+2017-12-11 16:58:24	jeffrey	https://www3.nd.edu/~dthain/compilerbook/chapter8.pdf , page 11
+2017-12-11 17:03:57	alitteke	I think it is a typo
+2017-12-11 17:04:02	alitteke	mine!
+2017-12-11 17:05:21	jbaker10	:P
+2017-12-11 17:05:49	jeffrey	should it be 1?
+2017-12-11 17:17:53		[ccarball back: gone 00:00:09]
+2017-12-11 17:56:29	alitteke	I think so
+2017-12-11 17:56:37	alitteke	I doesn't really make sense otherwise?
+2017-12-11 20:50:42	pbui	jbaker10: https://arstechnica.com/gadgets/2017/12/microsofts-q-quantum-programming-language-out-now-in-preview/ 
+2017-12-11 21:00:09	ewilli23	Q Sharp is not a note though
+2017-12-11 21:00:55	8bit	yeah, they'd have to rename it Q flat.
+2017-12-11 21:01:43	ewilli23	….. that’s not a note either though
+2017-12-11 21:02:29	jeffrey	https://www.reddit.com/r/me_irl/comments/7j5b5n/meirl/ 
+2017-12-11 21:02:50	jeffrey	It's not actually NSFW
+2017-12-11 21:03:10	jeffrey	It does spoil Shrek 1 though
+2017-12-11 21:04:29	silv3r	Tfw you erase your correct answer right before you hand in your exam
+2017-12-11 21:05:25	ncarroll	thats why you do exams in pen
+2017-12-11 21:05:39	catvajiac	that's why u power move: don't take exams
+2017-12-11 21:05:42	silv3r	Tfw you switched to pencil halfway through the exam
+2017-12-11 21:05:46	silv3r	> is bad
+2017-12-11 21:05:52	dougsmith	silv3r: Do you want a hug?
+2017-12-11 21:06:00	silv3r	I want my 8% of my exam back
+2017-12-11 21:06:02	jeffrey	Super power move: give the professor an exam
+2017-12-11 21:06:46	silv3r	“This solution is quite obvious, and the proof will be left to the instructor”
+2017-12-11 21:06:59	pbui	super power move: never show up to class and get an A anyways
+2017-12-11 21:07:01	pbui	oh wait
+2017-12-11 21:07:08	silv3r	Oh wait
+2017-12-11 21:07:22	pbui	put in place
+2017-12-11 21:07:41	silv3r	That would be me if I remembered that argc = 1 if nothing is passed into the command line
+2017-12-11 21:07:42	jeffrey	@pbui prove the problem of finding spiders in a bed is NP-Hard.
+2017-12-11 21:07:52	silv3r	I think I’m still fine tho ;)
+2017-12-11 21:08:44	jeffrey	In the best of operating systems argc=2 and there are always two arguments passed.
+2017-12-11 21:09:01	jeffrey	And they are the program name and the word "run"
+2017-12-11 21:49:25	dchiang	arelat
+2017-12-11 21:55:11	walter.scheirer	https://twitter.com/rgov/status/940411543295946752 
+2017-12-11 23:07:06	-->	cnailos (cnailos@irc.tinyspeck.com) has joined #lug
+2017-12-11 23:07:17	cnailos	fellas, is it still considered using linux if you downloaded it from the Windows app store and never actually boot into linux? :flushed: :thinking_face:
+2017-12-11 23:07:29	cnailos	asking for a friend
+2017-12-11 23:07:41	wtheisen	Do you feel like things are way more difficult than they need to be?
+2017-12-11 23:11:35	jeffrey	I mean, what you downloaded from the app store is not just Linux, but GNU/Linux+NT-Linux, or as I've taken to calling it, GNU/NT.
+2017-12-11 23:11:44	wtheisen	Oh no
+2017-12-11 23:11:56	jeffrey	+Ubuntu
+2017-12-11 23:11:58	wtheisen	hide your toenail food it's RMS
+2017-12-11 23:12:01	ccarball	a wild cnailos appears!!!
+2017-12-11 23:12:21	cnailos	sounds pretty complicated, I think I better just stick with windows 10. It has cortana after all
+2017-12-11 23:12:26	dougsmith	cnailos: well, you're _using_ it... so yeah
+2017-12-11 23:12:35	jcioffi	wow
+2017-12-11 23:12:38	jcioffi	hi @cnailos
+2017-12-11 23:12:51	wtheisen	I do like bash for windows tbh
+2017-12-11 23:13:18	jeffrey	It's made even better after you install PowerShell on Bash on Ubuntu on Windows
+2017-12-11 23:13:51	cnailos	^4D chess at its finest
+2017-12-11 23:14:00	dougsmith	Seems needlessly recursive...
+2017-12-11 23:14:20	8bit	i was gonna say, I got wine working on my distro so I could run vmware running my distro
+2017-12-11 23:14:22	cnailos	hi jess. will u take my OS final? pbui is pbulli
+2017-12-11 23:14:35	dougsmith	... Like me using a vm to ssh into a vm through a proxy running in my dorm room
+2017-12-11 23:14:35	wtheisen	lol
+2017-12-11 23:14:51	ccarball	cnailos: ill take it for ya
+2017-12-11 23:15:06	dougsmith	cnailos: are you still on the campaign trail from the groupme?
+2017-12-11 23:15:34	cnailos	crooked bui must be stopped at all costs. How else will we make Hagar great again?
+2017-12-11 23:15:45	ccarball	Haggar*
+2017-12-11 23:16:06	jeffrey	When the psych department leaves you drop the second g
+2017-12-11 23:16:13	dougsmith	cnailos: Haggar has always been great
+2017-12-11 23:16:15	cnailos	I prefer the alternative non-fake news spelling please and thanks
+2017-12-11 23:16:16	jeffrey	It's a weird grammar rule I know, but it's proper
+2017-12-11 23:16:21	8bit	cnailos: just remember that everything is a lie
+2017-12-11 23:16:27	jcioffi	@cnailos youdont want me taking that for ya
+2017-12-11 23:16:29	dougsmith	It's getting greater b/c we work there
+2017-12-11 23:16:43	ccarball	cnailos: like i said, ill take the os final for you
+2017-12-11 23:16:46	cnailos	well ya know I mean yeah i figured but hey dell still hired you so...
+2017-12-11 23:16:47	ccarball	i really want to take it
+2017-12-11 23:16:53	jcioffi	rude
+2017-12-11 23:17:06	jeffrey	@wtheisen @alitteke what about IR and GC are you guys focusing on?
+2017-12-11 23:17:37	wtheisen	Not much focus on IR, for gc the names, methods, and the pros and cons
+2017-12-11 23:18:02	alitteke	I'm doing the same for GC with just the different benefit each IR presents
+2017-12-11 23:18:49	wtheisen	Did IRs really appear on the practice exams?
+2017-12-11 23:19:14	alitteke	There was the one about register counting
+2017-12-11 23:19:35	wtheisen	I mean you didn't have to know too much about IRs right?
+2017-12-11 23:19:42	wtheisen	Just make up a psuedo-dag
+2017-12-11 23:19:49	wtheisen	and you;d be fine
+2017-12-11 23:20:27	jeffrey	For #4 it says "write out how it would be in any intermediary forms"
+2017-12-11 23:20:46	alitteke	I thought it would be better in as a Linear IR
+2017-12-11 23:21:11	wtheisen	I mean that would make mopre sense for the purpose of register tracking
+2017-12-11 23:21:16	jeffrey	I tried LIR and SSA,
+2017-12-11 23:21:25	wtheisen	I was just gonna solve the graph color problem
+2017-12-11 23:21:33	wtheisen	Same diff
+2017-12-11 23:21:35	jeffrey	A smart thing would combine all of the (a+b)s, but how do you do that
+2017-12-11 23:21:56	jeffrey	Yeah but how do you find the dependencies for the coloring problem?
+2017-12-11 23:22:45	wtheisen	I dunno just make something up, that's how I usually get through those sort of problems
+2017-12-12 01:01:34	jbaker10	Just use compactness for coloring
+2017-12-12 01:01:37	jbaker10	Btw
+2017-12-12 09:11:11	pbui	https://www.servethehome.com/say-farewell-putty-microsoft-adds-openssh-client-windows-10/ 
+2017-12-12 09:11:28	walter.scheirer	about time
+2017-12-12 09:12:42	jeffrey	I am faced with important decision - study compilers more, or polish up a grad app due at 5
+2017-12-12 09:18:51	pbui	jeffrey: more smash bros
+2017-12-12 09:21:14	jeffrey	Smash bros? The gamem
+2017-12-12 09:21:21	jeffrey	?
+2017-12-12 09:26:30	pbui	yes
+2017-12-12 09:27:39	pbui	jeffrey: u still have project sheets left right?
+2017-12-12 09:29:55	jeffrey	I have 4 left, assuming I don't literally die during compilers there is no chance I don't submit grades tonight
+2017-12-12 09:41:37	pbui	ok
+2017-12-12 09:48:10	jeffrey	!!! Someone wrote "no dank memes" on my returned algs homework 7
+2017-12-12 09:48:16	jeffrey	no dank memes?*
+2017-12-12 09:48:23	pbui	sad
+2017-12-12 09:56:22	wtheisen	@jeffrey pls stop talking about applications you’re stressing me out dude
+2017-12-12 09:56:27	wtheisen	triggered
+2017-12-12 09:56:51	jeffrey	but NYU is due at 5
+2017-12-12 09:57:00	ncarroll	@wtheisen applications are fun
+2017-12-12 09:57:06	jeffrey	and today I got an email saying "lol rewrite your essay it sux"
+2017-12-12 09:57:14	walter.scheirer	haha
+2017-12-12 09:57:35	wtheisen	@ncarroll DH babby?
+2017-12-12 09:58:03	ncarroll	@wtheisen Im studying
+2017-12-12 09:58:06	jeffrey	The copy pasta is right though, finals are a stressful time
+2017-12-12 09:58:08	wtheisen	so yes
+2017-12-12 09:58:16	wtheisen	i’ll come up to ur room
+2017-12-12 10:46:11	walter.scheirer	https://twitter.com/nathanielpopper/status/940335494235267072 
+2017-12-12 10:46:55	pbui	wtheisen: letters submitted o7
+2017-12-12 10:46:59	pbui	bonne chance mon ami
+2017-12-12 10:51:59	wtheisen	merci beaucoup @pbui
+2017-12-12 10:54:09	pbui	de nada
+2017-12-12 10:56:01	wtheisen	Je ne parle pas espagnol
+2017-12-12 10:56:12	wtheisen	Pardon
+2017-12-12 10:57:42	ncarroll	baka
+2017-12-12 10:58:19	silv3r	先輩のバカ！(● ˃̶͈̀ロ˂̶͈́)੭ꠥ⁾⁾
+2017-12-12 10:58:24	wtheisen	desu nick-san
+2017-12-12 10:58:33	silv3r	キャアー
+2017-12-12 11:05:33	wtheisen	anyoner installed the google play store on an amazon fire before?
+2017-12-12 11:08:51	wtheisen	wow it worked first try
+2017-12-12 11:08:55	wtheisen	feels good man
+2017-12-12 11:09:05	jeffrey	no
+2017-12-12 11:10:04	wtheisen	that was the easiest "jailbreak" I've ever done
+2017-12-12 13:36:15	pbui	http://blog.moertel.com/posts/2013-06-12-recursion-to-iteration-4-trampolines.html 
+2017-12-12 13:59:29	pbui	http://shitcode.net/best 
+2017-12-12 14:03:22	ncarroll	theres a lot of hot tips for my programming there
+2017-12-12 14:16:51	pbui	http://seem2018.se-edu.org/ 
+2017-12-12 14:16:57	pbui	how do we teach these millenials
+2017-12-12 14:17:05	walter.scheirer	haha
+2017-12-12 14:17:35	walter.scheirer	have a lot of avocado toast on-hand for hacking snacks
+2017-12-12 14:21:55	catvajiac	woah woah avocado toast is great
+2017-12-12 14:26:09	pbui	my kids love avocado toast
+2017-12-12 14:26:52	ncarroll	I think our resident hipster @wtheisen loves avocado toast
+2017-12-12 14:27:23	wtheisen	I dont eat toast
+2017-12-12 16:10:52	jbaker10	toast is for the weak
+2017-12-12 16:18:11	silv3r	Me_irl
+2017-12-12 16:21:53	bdevorem	so umass does final exams starting wednesday and then ending next wednesday
+2017-12-12 16:22:00	bdevorem	so like, there's a whole weekend in between
+2017-12-12 16:22:08	walter.scheirer	wow, that's late
+2017-12-12 16:22:23	bdevorem	we started a week after ND
+2017-12-12 16:22:39	bdevorem	but like, they have a whole weekend break in between exams
+2017-12-12 16:22:47	bdevorem	that's weird, right?
+2017-12-12 16:35:12	jbaker10	I think a little bit yeah
+2017-12-12 16:35:25	walter.scheirer	when i was in college i recall having a two-week final period
+2017-12-12 16:36:31	bdevorem	I think I like this setup
+2017-12-12 16:36:43	bdevorem	I don't have finals this semester so can't be entirely sure
+2017-12-12 16:36:59	walter.scheirer	haha
+2017-12-12 16:37:16	bdevorem	I do have a wacko final project but def better than exam
+2017-12-12 16:40:44	jbaker10	what is it?
+2017-12-12 16:43:56	bdevorem	basically rewrite (a subset of) javascript so that it doesn't ever lock up the browser
+2017-12-12 16:44:15	bdevorem	if you're super interested: https://people.cs.umass.edu/~arjun/courses/compsci631-fall2017/hw/nonstopjs.pdf 
+2017-12-12 16:44:28	bdevorem	using continuations
+2017-12-12 16:50:02	jbaker10	oh continuations are the bane of my existence
+2017-12-12 16:50:28	bdevorem	mix that with javascript and you get the worst of all worlds
+2017-12-12 16:50:34	jbaker10	continuation passing style is grosssss
+2017-12-12 16:50:46	bdevorem	again, mix that with javascript
+2017-12-12 16:50:48	bdevorem	not pretty
+2017-12-12 16:50:50	jbaker10	:stuck_out_tongue:
+2017-12-12 16:50:55	jbaker10	i'm working on my project rn too
+2017-12-12 16:50:58	jbaker10	but should be studying
+2017-12-12 16:51:01	jbaker10	or grad appls
+2017-12-12 16:51:08	bdevorem	woot woot
+2017-12-12 16:51:16	bdevorem	killin it
+2017-12-12 16:52:00	jbaker10	did you talk about denotational semantics?
+2017-12-12 16:55:42	bdevorem	not explicitly, but we use it in every class
+2017-12-12 16:56:03	jbaker10	thats my final project for PL
+2017-12-12 16:56:15	bdevorem	doing what?
+2017-12-12 17:09:34	jbaker10	Writing a basic intro to the idea of it. Using lattices and domains
+2017-12-12 17:09:43	bdevorem	neat
+2017-12-12 18:06:46	wtheisen	man that was wayyy suckier than I️ thought it would be
+2017-12-12 18:09:03	jeffrey	It wasn't as bad as I was expecting, but definitely rougher than the midterm
+2017-12-12 18:12:23	wtheisen	those first two, especially one made me very sad
+2017-12-12 18:29:33	pbui	bdevorem: sounds like u are learning a lot at umass
+2017-12-12 18:29:35	pbui	proud of u
+2017-12-12 18:29:45	pbui	wtheisen: booty blast?
+2017-12-12 18:29:58	jeffrey	Wtf
+2017-12-12 18:34:26	jeffrey	Crud I forgot to pop %r10 and %r11
+2017-12-12 18:35:20	pbui	dood
+2017-12-12 18:35:22	pbui	how could u
+2017-12-12 18:36:09	jeffrey	I broke the stack
+2017-12-12 18:36:18	jeffrey	Those poor people
+2017-12-12 18:42:06	alitteke	I used the follow instead of the first for the table, because...
+2017-12-12 18:42:07	alitteke	idk
+2017-12-12 18:42:26	pbui	well, at least it is over with
+2017-12-12 18:42:32	pbui	and u can start christmas
+2017-12-12 18:51:50	wtheisen	definitely a booty-blast for me
+2017-12-12 18:51:57	wtheisen	Those freaking grammars and tables
+2017-12-12 18:52:03	wtheisen	ugh so theoretical
+2017-12-12 18:52:39	pbui	3theoretical5me
+2017-12-12 19:03:27	jeffrey	I would rather it have been "write a compiler for this simple calculator language"
+2017-12-12 19:09:19	jeffrey	Hello strucr expr my old friend
+2017-12-12 19:49:28	silv3r	1% below a grade cutoff for calc and physics
+2017-12-12 19:49:57	silv3r	Does calc 3/physics 2 get curved at all :3
+2017-12-12 19:50:45	androidkitkat	@silv3r is your final in?
+2017-12-12 19:50:53	silv3r	Yeah
+2017-12-12 19:50:58	androidkitkat	worries
+2017-12-12 19:51:01	androidkitkat	mine isnt yet
+2017-12-12 19:51:10	androidkitkat	under the exam section on sakai?
+2017-12-12 19:51:14	silv3r	Probs cuz I turned it in late
+2017-12-12 19:51:20	silv3r	I was there till the end
+2017-12-12 19:51:26	silv3r	So I was on top of the pile
+2017-12-12 19:51:29	silv3r	Yeah
+2017-12-12 19:51:38	androidkitkat	i left 3 minutes early ish
+2017-12-12 19:51:43	androidkitkat	more like 5
+2017-12-12 19:51:44	androidkitkat	but
+2017-12-12 19:51:50	androidkitkat	im so stressed
+2017-12-12 19:52:34	silv3r	Is ok
+2017-12-12 19:52:37	silv3r	:+1::skin-tone-4:
+2017-12-12 20:01:36	pbui	I heard fund comp was brutal
+2017-12-12 20:01:44	silv3r	Was it
+2017-12-12 20:01:48	silv3r	Uhhhhh
+2017-12-12 20:01:53	silv3r	:3
+2017-12-12 20:02:06	silv3r	I forgot the whole argc argv thing but other than that
+2017-12-12 20:02:10	silv3r	That makes me worried
+2017-12-12 20:02:22	pbui	I heard recursion messed peeps up
+2017-12-12 20:02:35	silv3r	I almost ffed it up
+2017-12-12 20:02:45	silv3r	But I fixed it at the last second
+2017-12-12 20:03:08	silv3r	Recursively adding a list
+2017-12-12 20:03:23	pbui	We ll revisit argc and argv next semester
+2017-12-12 20:03:54	silv3r	Should be like return list[i] + func(list, i-1) right
+2017-12-12 20:04:35	pbui	Something like that
+2017-12-12 20:04:43	silv3r	I had list [i-1] and returned at i == 0
+2017-12-12 20:04:53	silv3r	Yay
+2017-12-12 20:05:01	pbui	Did u have a base case?
+2017-12-12 20:05:14	silv3r	Base was return at i==0
+2017-12-12 20:05:20	pbui	Ok
+2017-12-12 20:05:31	silv3r	Cuz in mine I actually had return list[i-1]
+2017-12-12 20:05:38	silv3r	Since i begins as the list size
+2017-12-12 21:16:13	walter.scheirer	wow, i'm spending $550 on Azure each month for just three instances
+2017-12-12 21:25:04	androidkitkat	thats insane
+2017-12-12 21:25:33	androidkitkat	just become a student again
+2017-12-12 21:25:40	androidkitkat	and get "free" amazon web servies
+2017-12-12 21:33:50	wmarkley	Does anyone know how to print a text file to a printer/pdf from bash?
+2017-12-12 21:34:14	walter.scheirer	well, i'm not actually paying $550 in real money
+2017-12-12 21:34:21	walter.scheirer	MSR gave me $20K in credits
+2017-12-12 21:34:54	walter.scheirer	i'm more shocked at the amount of money such a simple setup burns through
+2017-12-12 21:36:41	ewilli23	@wmarkley http://www.tldp.org/HOWTO/Printing-Usage-HOWTO-2.html 
+2017-12-12 21:38:00	ewilli23	`lpr -p [printer] [filename]`
+2017-12-12 21:38:19	wmarkley	Looks great. Thanks! @ewilli23
+2017-12-13 07:28:03	jeffrey	There's a spider on my ceiling
+2017-12-13 07:28:43	pbui	kill it w/ fire
+2017-12-13 07:30:41	jeffrey	It's too high up
+2017-12-13 07:36:11	jeffrey	It escaped
+2017-12-13 08:22:16	8bit	anyone know if the huddle sells batteries?
+2017-12-13 08:22:35	pbui	8bit: bookstore
+2017-12-13 08:26:43	8bit	sad
+2017-12-13 08:26:45	8bit	so far
+2017-12-13 08:26:47	8bit	away
+2017-12-13 08:35:27	jeffrey	The huddle definitely does
+2017-12-13 08:59:04	walter.scheirer	those batteries are probably like $20 a piece at the huddle
+2017-12-13 09:17:19	dchiang	What kind of batteries?
+2017-12-13 09:17:34	dchiang	AA and 9 volts are free in DeBartolo
+2017-12-13 09:18:23	8bit	My calculator takes AAA.
+2017-12-13 09:29:44	androidkitkat	wait free double As/
+2017-12-13 09:45:00	dchiang	yes, in the av office. just ask at the counter
+2017-12-13 09:45:28	silv3r	Dang
+2017-12-13 09:45:30	dchiang	after every lecture they toss two AAs into a recycling bin and if you ask, you can take as many as you want
+2017-12-13 09:45:41	dchiang	they are used batteries, but only used for 90 minutes
+2017-12-13 09:45:48	silv3r	Wow
+2017-12-13 09:45:51	catvajiac	what
+2017-12-13 09:45:53	jeffrey	WHAT
+2017-12-13 09:45:55	catvajiac	i didnt know they did that
+2017-12-13 09:45:56	dchiang	they have a few 9V also
+2017-12-13 09:46:01	dchiang	isn't it crazy?
+2017-12-13 09:46:07	catvajiac	wow, yeah
+2017-12-13 09:46:12	silv3r	Tfw lug runs Debart dry of batteries now
+2017-12-13 09:46:20	dchiang	they throw them out twice a semester so right now the bucket is full
+2017-12-13 09:47:20	pbui	yeah, ND is so wasteful
+2017-12-13 09:47:22	pbui	it's sad
+2017-12-13 09:48:07	dchiang	but you can help by taking home free batteries
+2017-12-13 10:03:07	androidkitkat	why would the battery only be used for 90 minutes?
+2017-12-13 10:03:23	dchiang	just one lecture
+2017-12-13 10:03:42	androidkitkat	like for a remote or?
+2017-12-13 10:05:12	walter.scheirer	https://twitter.com/NEHgov/status/940959752372310017 
+2017-12-13 10:05:17	walter.scheirer	woo, it's official
+2017-12-13 10:05:18	dchiang	for wireless mics
+2017-12-13 10:05:21	dchiang	congrats!
+2017-12-13 10:05:23	walter.scheirer	thanks
+2017-12-13 10:16:26	dchiang	does anyone here use a nas?
+2017-12-13 10:16:45	dchiang	or what do you use to store your music?
+2017-12-13 10:17:00	walter.scheirer	custom small-form factor PC
+2017-12-13 10:17:01	pbui	i have a file server, but it's just a small computer
+2017-12-13 10:17:04	pbui	yeah, same
+2017-12-13 10:17:38	walter.scheirer	last time I checked its uptime, it was nearing 1,000 days
+2017-12-13 10:17:44	pbui	wow
+2017-12-13 10:17:59	walter.scheirer	which means it hasn't rebooted since I plugged it in after moving in
+2017-12-13 10:18:08	walter.scheirer	a trust testament to the stability of linux
+2017-12-13 10:18:33	pbui	so u set it up when u moved and never power cycled it?
+2017-12-13 10:18:39	walter.scheirer	correct
+2017-12-13 10:18:49	walter.scheirer	it's not accessible from the internet
+2017-12-13 10:18:52	pbui	i reboot mine regularly for kernel updates
+2017-12-13 10:18:54	walter.scheirer	so no need to update
+2017-12-13 10:19:02	pbui	all, mine is internet facing
+2017-12-13 10:19:09	pbui	behind a router/firewall
+2017-12-13 10:19:16	pbui	it's what i ssh into
+2017-12-13 10:19:23	walter.scheirer	the only thing i want it to do is serve music
+2017-12-13 10:19:25	walter.scheirer	and it does that just fine
+2017-12-13 10:19:26	walter.scheirer	as is
+2017-12-13 10:19:42	jeffrey	I want my music to be served over telephone
+2017-12-13 10:20:08	walter.scheirer	backs away slowly
+2017-12-13 10:20:29	jeffrey	That way I don't use 100MB of data on the bus to Chicago
+2017-12-13 10:21:05	walter.scheirer	i have unlimited data
+2017-12-13 10:21:07	walter.scheirer	no worries for me!
+2017-12-13 10:21:29	pbui	i just use a sd card in my phone
+2017-12-13 10:25:31	androidkitkat	is it an SD card or a SD card
+2017-12-13 10:25:36	androidkitkat	bc i say an SSD
+2017-12-13 10:26:03	pbui	2grammar4me
+2017-12-13 10:26:14	androidkitkat	and i dont have unlimited data i just have enough data and storage where spotify caches most things
+2017-12-13 10:27:10	walter.scheirer	pronounced "es-dee", which implies the use of "an"
+2017-12-13 10:27:16	walter.scheirer	but you could also use a
+2017-12-13 10:27:27	walter.scheirer	and it would be correct according to most style guides
+2017-12-13 10:27:36	walter.scheirer	because the first S stands for Solid
+2017-12-13 10:30:20	androidkitkat	I thought the S in SD stood for Secure
+2017-12-13 10:30:32	androidkitkat	but im prob wrong
+2017-12-13 10:30:46	walter.scheirer	really?
+2017-12-13 10:30:49	androidkitkat	it is Secure Digital
+2017-12-13 10:30:52	androidkitkat	https://en.wikipedia.org/wiki/Secure_Digital 
+2017-12-13 10:30:57	walter.scheirer	solid-state drive
+2017-12-13 10:31:01	androidkitkat	oh in SSD
+2017-12-13 10:31:03	androidkitkat	yea
+2017-12-13 10:31:45	walter.scheirer	same rule applies to secure
+2017-12-13 11:14:01	walter.scheirer	https://www.cnbc.com/2017/12/11/people-are-taking-out-mortgages-to-buy-bitcoin-says-joseph-borg.html 
+2017-12-13 11:32:04	pbui	walter.scheirer: my wife said she was at her her salon and a bunch of people were talking about bitcoin
+2017-12-13 11:32:13	pbui	i think we gonna see a bubble
+2017-12-13 11:33:31	silv3r	Bbbut bbut r/bitcoin said hodl
+2017-12-13 11:33:52	silv3r	*clutches onto bitcoin furiously*
+2017-12-13 11:35:08	wtheisen	trusting reddit on anything kek
+2017-12-13 11:37:44	8bit	hodl to the moon
+2017-12-13 11:38:16	jeffrey	Is there any real crypto currency
+2017-12-13 11:38:18	jeffrey	Like
+2017-12-13 11:38:32	jeffrey	One that is stable and usable as, you know, currency
+2017-12-13 11:42:52	8bit	dogecoin?
+2017-12-13 11:43:25	8bit	nyancoin?
+2017-12-13 11:44:48	walter.scheirer	whoppercoin
+2017-12-13 11:46:20	8bit	confessioncoin https://github.com/ConfessionCoin/confessioncoin 
+2017-12-13 11:50:38	jeffrey	Ugh now I want a whopper
+2017-12-13 11:50:40	jeffrey	Thanks a lot
+2017-12-13 11:50:48	pbui	me too
+2017-12-13 11:51:25	silv3r	Ask your wife for some coupons
+2017-12-13 11:52:39	pbui	gp
+2017-12-13 11:52:50	mflanag6	is eduroam being real spotty for anyone else?
+2017-12-13 11:54:40	jeffrey	Yes
+2017-12-13 11:57:56	walter.scheirer	+100 wired connection
+2017-12-13 11:58:37	androidkitkat	all crypto needs to go up for at least a week
+2017-12-13 11:58:39	jeffrey	Even my wired connection cut out for a few minutes
+2017-12-13 11:58:51	androidkitkat	so once coinbase delivers mine i can seel
+2017-12-13 11:58:53	androidkitkat	sell
+2017-12-13 12:01:48	silv3r	Lol
+2017-12-13 12:04:25	androidkitkat	esp litecoin
+2017-12-13 12:04:41	jeffrey	A prof from umass didn't respond to my email from a month ago, so when I pick up Breanna next week I think I should go to his office and complain
+2017-12-13 12:04:42	androidkitkat	i stupidly bought it at its peak when i thought it would keep rising
+2017-12-13 12:12:01	8bit	mflanag6: Always.
+2017-12-13 12:29:32	jeffrey	Why do grad apps ask for my SSN?
+2017-12-13 12:29:38	jeffrey	I don't know my SSN.
+2017-12-13 12:29:40	wtheisen	it's optional
+2017-12-13 12:29:44	wtheisen	almost always
+2017-12-13 12:30:05	jeffrey	I always just go to insideND and download my W2
+2017-12-13 12:30:10	wtheisen	Also how do you not know your SSN
+2017-12-13 12:30:10	jeffrey	And copy it from that
+2017-12-13 12:31:40	jeffrey	Every time I'm at the DMV or my doctors office they're like "what's your social" and I'm like no clue, and they're like "... do you know your address?"
+2017-12-13 12:33:08	walter.scheirer	"have you experienced missing time, or a sensation that you have left your body?"
+2017-12-13 12:36:13	androidkitkat	@wtheisen ikr
+2017-12-13 13:01:44	mflanag6	I used to not know my ssn but apparently it's like a pretty essential piece of information
+2017-12-13 13:02:55	8bit	I've tried memorizing it multiple times...
+2017-12-13 13:04:17	8bit	thankfully now I keep on my droplet now, where I also host my website with spidey from Systems!
+2017-12-13 13:05:03	mflanag6	it's not even the length of a phone number, just memorize it
+2017-12-13 13:05:36	pbui	what's a SSN?
+2017-12-13 13:05:38	androidkitkat	mine is 123456789
+2017-12-13 13:05:53	androidkitkat	a Social Security Number?
+2017-12-13 13:06:02	wtheisen	these millenials
+2017-12-13 13:06:22	wtheisen	I remember when I had to memorize all my friends home phone numbers so I could reach them
+2017-12-13 13:07:59	jeffrey	I'm afraid that if I memorize it someone will steal my identity
+2017-12-13 13:09:05	8bit	yes, the $5 wrench attack
+2017-12-13 13:10:49	silv3r	@silv3r uploaded a file: iOS からアップロードされた画像 https://nd-cse.slack.com/files/U6PJXGG0K/F8F3NFG6S/ios________________________________________.jpg 
+2017-12-13 13:11:02	silv3r	About to be me on this discrete exam
+2017-12-13 13:13:08	8bit	retweet
+2017-12-13 14:19:42	pbui	silv3r: +1
+2017-12-13 14:19:47	pbui	good thing the test is as 7pm
+2017-12-13 14:20:10	silv3r	I’m so burnt out
+2017-12-13 14:20:15	silv3r	It’s hard to focus
+2017-12-13 14:20:59	pbui	yep
+2017-12-13 14:21:05	pbui	go play some pokemon go
+2017-12-13 14:21:17	silv3r	And my tennis elbow is coming back from all this writing
+2017-12-13 14:21:20	silv3r	>_<
+2017-12-13 14:30:15	8bit	wya silv3r
+2017-12-13 14:30:49	silv3r	Watching YouTube videos in bed
+2017-12-13 15:00:06	silv3r	Does anyone know how to permanently disable headers on google drive
+2017-12-13 15:00:22	silv3r	When you drag images to the top of the doc they automatically get added as a header to all docs
+2017-12-13 15:01:38	silv3r	You know what, I’m just going to use google slides...
+2017-12-13 16:34:21	walter.scheirer	boy, this "Adobe Licensing Problems" email looks awfully like a phishing email...
+2017-12-13 16:39:57	dchiang	http://superliminal.com/cube/2x2x2x2/ 
+2017-12-13 16:48:41	pbui	walter.scheirer: wow, it does look phishy
+2017-12-13 16:48:47	ewilli23	@ewilli23 uploaded a file: Screen Shot 2017-12-13 at 4.48.25 PM.jpg https://nd-cse.slack.com/files/U3SRYR1P1/F8ECRAE92/screen_shot_2017-12-13_at_4.48.25_pm.jpg  and commented: Good thing literally none of the engineering apparel is orange…
+2017-12-13 16:51:02	pbui	just download this file from google drive
+2017-12-13 16:52:10	walter.scheirer	i know, right?
+2017-12-13 17:07:10	pbui	http://sjcpl.lib.in.us/node/11466?_ga=2.6698737.2110346187.1513195772-1524219472.1443538127 
+2017-12-13 18:04:10	jeffrey	Fam, I think compilers is up using the sakai trick
+2017-12-13 18:04:41	wtheisen	exam or codegen?
+2017-12-13 18:05:04	jeffrey	Exam
+2017-12-13 18:06:30	jeffrey	I have an entry for  252769 which I believe is the final
+2017-12-13 18:07:16	jcioffi	welp I’m not checking
+2017-12-13 18:07:16	jcioffi	fark that
+2017-12-13 18:08:41	pbui	wtheisen: I sent jcioffi my address
+2017-12-13 18:08:43	jeffrey	I just want algs posted
+2017-12-13 18:35:48	silv3r	What’s the Sakai trick? @jeffrey
+2017-12-13 18:36:50	jeffrey	View the network traffic and read the json file `startup`, which will have all of your submitted grades (including unreleased grades)
+2017-12-13 18:37:29	silv3r	:3
+2017-12-13 18:38:01	silv3r	_types a few things on computer, gives up_
+2017-12-13 19:12:17	jeffrey	In Google chrome you right click -> inspect, go to the network tab, go to the sakai gradebook, search for startup in the network tab, and then you get a big blob of json
+2017-12-13 19:23:50	ewilli23	@ewilli23 uploaded a file: Screen Shot 2017-12-13 at 7.23.01 PM.jpg https://nd-cse.slack.com/files/U3SRYR1P1/F8DTTBGUR/screen_shot_2017-12-13_at_7.23.01_pm.jpg  and commented: I just discovered that Piazza archives all your old courses so I could go back to fundcomp and reread this and it made my night
+2017-12-13 21:03:50	alitteke	Was compilers out of 40?
+2017-12-13 21:04:56	jbaker10	or was it out of 400?
+2017-12-13 21:08:23	jeffrey	40
+2017-12-13 21:08:27	jeffrey	Each was worth 10
+2017-12-13 21:09:27	alitteke	Ok, I feel a little better then
+2017-12-13 21:11:13	jbaker10	or was each worth 100!?
+2017-12-13 21:19:38	jeffrey	It was 5 5 5 5 10 7 3
+2017-12-13 21:20:01	jeffrey	Where only number 3 was one part worth 10
+2017-12-13 21:26:03	alitteke	Ah ok that’s what I thought
+2017-12-13 21:26:14	alitteke	What’s the chance you think he curves final grades?
+2017-12-13 21:27:53	jeffrey	I'd wager something like 50/50
+2017-12-13 21:28:33	jeffrey	He said cutoffs are at the 10s
+2017-12-13 21:28:49	jeffrey	With border grades getting pluses and minuses
+2017-12-13 21:28:58	jeffrey	But idk what is border
+2017-12-13 21:29:17	androidkitkat	any input on using LVM in my Solus install
+2017-12-13 21:35:11	androidkitkat	i have too many linux installs
+2017-12-13 21:53:41	dougsmith	androidkitkat: when it comes to linux, there's no such thing as "too many"
+2017-12-13 21:53:59	androidkitkat	every disk i have either has personal files or a linux install on it
+2017-12-13 21:54:52	dougsmith	every disk I own is a linux installer, boot key, or rpi image... what are "personal files"
+2017-12-13 21:56:47	androidkitkat	backups from when im formatting my pc
+2017-12-13 21:56:57	androidkitkat	ie the Windows 7 VM image
+2017-12-13 21:57:10	androidkitkat	and ~/Documents/School
+2017-12-13 22:27:29	silv3r	Alright... now that the dumpster fire that was my discrete exam is over, time to install arch @androidkitkat
+2017-12-13 22:33:32	androidkitkat	@silv3r install Solus
+2017-12-13 22:33:36	androidkitkat	its what im using now
+2017-12-13 22:33:47	androidkitkat	bui got me to install solus
+2017-12-13 22:34:53	androidkitkat	i wanted to try void
+2017-12-13 22:35:01	androidkitkat	but he said solus is the new ubuntu
+2017-12-13 23:03:07	jeffrey	arch is the best distro
+2017-12-13 23:03:21	jeffrey	If your system boots you're doing something wrong
+2017-12-13 23:08:14	androidkitkat	lol
+2017-12-13 23:08:20	androidkitkat	well i cant get spotify to run
+2017-12-13 23:08:24	androidkitkat	on solus
+2017-12-13 23:08:27	androidkitkat	404ing
+2017-12-13 23:13:29	jeffrey	Thanks, Pai!
+2017-12-13 23:14:26	androidkitkat	lol
+2017-12-13 23:19:52	pbui	so u dont like solus?
+2017-12-13 23:19:54	pbui	sad
+2017-12-13 23:20:18	androidkitkat	i do
+2017-12-13 23:20:21	androidkitkat	but i cant get spotify
+2017-12-13 23:20:35	androidkitkat	solus 404'd itr
+2017-12-13 23:21:21	pbui	did u try the software center?
+2017-12-13 23:21:42	pbui	http://www.fosslinux.com/1434/how-to-install-and-uninstall-spotify-in-solus.htm 
+2017-12-13 23:21:59	androidkitkat	yes
+2017-12-13 23:22:01	androidkitkat	it 404s
+2017-12-13 23:22:11	pbui	sad
+2017-12-13 23:22:17	pbui	maybe hitup their irc channel
+2017-12-13 23:26:47	pbui	ethics podcast hot take: better coverage of web programming is needed
+2017-12-13 23:26:48	androidkitkat	ill have to
+2017-12-13 23:37:07	androidkitkat	yay linux
+2017-12-13 23:37:12	androidkitkat	a reboot borked wifi
+2017-12-13 23:37:33	pbui	a student appreciates that we are abet accreditated
+2017-12-13 23:37:36	pbui	that's a first
+2017-12-13 23:38:46	androidkitkat	@pbui well wifi is broken
+2017-12-13 23:38:48	androidkitkat	it was working
+2017-12-13 23:38:50	androidkitkat	and now it isnt
+2017-12-13 23:38:53	pbui	:|
+2017-12-13 23:39:15	androidkitkat	like it shows up in lspci
+2017-12-13 23:39:30	androidkitkat	what distro next
+2017-12-13 23:39:45	pbui	just go back to arch
+2017-12-13 23:40:05	androidkitkat	i dont like the lock screen
+2017-12-13 23:40:25	pbui	u can try something kde
+2017-12-13 23:40:31	pbui	since u like flashy stuff
+2017-12-13 23:40:39	pbui	like kde neon
+2017-12-13 23:42:23	pbui	androidkitkat: deepin https://www.deepin.org/en/ 
+2017-12-13 23:42:23	androidkitkat	but what
+2017-12-13 23:42:27	androidkitkat	oo
+2017-12-13 23:42:37	pbui	https://neon.kde.org/ 
+2017-12-13 23:43:21	pbui	ethics podcast hot take #2: need more AI coverage
+2017-12-13 23:50:34	androidkitkat	i think im going to try deepin
+2017-12-13 23:51:19	pbui	just bite the bullet and gentoo
+2017-12-13 23:54:41	androidkitkat	lol no
+2017-12-13 23:54:47	androidkitkat	what package manager does deepin use\
+2017-12-13 23:55:34	androidkitkat	propraitary?
+2017-12-13 23:56:27	androidkitkat	also its a Chinese distro
+2017-12-13 23:56:27	androidkitkat	so
+2017-12-13 23:56:30	androidkitkat	i might pass
+2017-12-13 23:57:16	pbui	wow
+2017-12-13 23:57:19	pbui	xenophobia
+2017-12-13 23:57:26	pbui	gentoo it
+2017-12-13 23:57:32	pbui	it's christmas
+2017-12-13 23:57:34	pbui	might as well
+2017-12-13 23:57:39	pbui	so u can understand the memes
+2017-12-13 23:57:55	androidkitkat	is it xenophobia?
+2017-12-13 23:58:18	pbui	i think if u install deepin, u cant work for the NSA anymore
+2017-12-13 23:58:47	androidkitkat	i just dont want all my stuff potentially going to china
+2017-12-13 23:59:07	pbui	u'd rather it go to NSA?
+2017-12-13 23:59:18	androidkitkat	Prob ya
+2017-12-13 23:59:21	pbui	fair enough
+2017-12-13 23:59:25	pbui	kde neon
+2017-12-13 23:59:29	androidkitkat	but ubuntu
+2017-12-13 23:59:35	pbui	ugh
+2017-12-13 23:59:37	pbui	gentoo
+2017-12-13 23:59:52	androidkitkat	i might as well just use kde neon
+2017-12-14 00:00:00	pbui	elementary?
+2017-12-14 00:00:17	androidkitkat	not a big fan of their Design language
+2017-12-14 00:00:26	androidkitkat	just a personal thing
+2017-12-14 00:00:36	pbui	too applely
+2017-12-14 00:00:40	pbui	u love apple
+2017-12-14 00:01:07	androidkitkat	yeah but id rather just use apple at that point
+2017-12-14 00:01:24	pbui	fair
+2017-12-14 00:01:55	androidkitkat	if solus didnt break my wifi and spotify worked, id use it
+2017-12-14 00:02:07	pbui	can u fix the wifi?
+2017-12-14 00:02:10	androidkitkat	no clue
+2017-12-14 00:02:17	pbui	maybe i can look at it tomorrow
+2017-12-14 00:02:47	androidkitkat	its weird bc like i went into the "propriatary driver" section
+2017-12-14 00:02:54	androidkitkat	and installed the Broadcom drivers
+2017-12-14 00:03:05	androidkitkat	this was while it was working
+2017-12-14 00:03:42	androidkitkat	and it doesnt work
+2017-12-14 00:03:46	androidkitkat	even when uninstalling them
+2017-12-14 00:03:57	androidkitkat	lspci | grep Wireless finds it
+2017-12-14 00:06:37	pbui	what does dmesg say
+2017-12-14 00:07:50	androidkitkat	what should i be looking for
+2017-12-14 00:08:50	androidkitkat	when i look for wireless no dice
+2017-12-14 00:09:09	androidkitkat	but my pc can use the bluetooth portion of my wireless car
+2017-12-14 00:09:10	androidkitkat	d
+2017-12-14 00:09:24	pbui	do u have internet?
+2017-12-14 00:09:30	androidkitkat	i have an ethernet
+2017-12-14 00:09:31	pbui	could you paste the dmesg
+2017-12-14 00:09:38	androidkitkat	the whole dmesg?
+2017-12-14 00:09:44	pbui	dmesg |  curl -F 'sprunge=<-' http://sprunge.us 
+2017-12-14 00:09:46	pbui	yes
+2017-12-14 00:09:51	androidkitkat	ok lol
+2017-12-14 00:11:44	androidkitkat	http 500 error wut
+2017-12-14 00:11:57	pbui	wut
+2017-12-14 00:12:09	androidkitkat	i typed it in correctly i thought
+2017-12-14 00:12:14	pbui	wait, i get the same
+2017-12-14 00:12:23	androidkitkat	lol
+2017-12-14 00:12:48	pbui	dmesg |  curl --data-binary @- https://yld.me/paste 
+2017-12-14 00:12:50	pbui	use yld.me 
+2017-12-14 00:13:33	androidkitkat	https://yld.me/gPA 
+2017-12-14 00:14:33	androidkitkat	dont think this is relevant, but i am using Legacy Boot not UEFI
+2017-12-14 00:16:31	androidkitkat	i might as well just reinstall solus
+2017-12-14 00:16:38	androidkitkat	but if you can get it working
+2017-12-14 00:16:44	androidkitkat	you be Linux Jesus
+2017-12-14 00:16:45	pbui	i dont see a broadcom device
+2017-12-14 00:16:52	androidkitkat	the b/t is BCM
+2017-12-14 00:16:55	androidkitkat	i think
+2017-12-14 00:16:59	pbui	but i dont see the wireless
+2017-12-14 00:17:05	androidkitkat	yeah
+2017-12-14 00:17:06	pbui	what does ip addr say
+2017-12-14 00:17:34	androidkitkat	66.254.253.11
+2017-12-14 00:17:43	androidkitkat	thats the ethernet
+2017-12-14 00:18:01	androidkitkat	like the computer can see the hardware it just wont touch it
+2017-12-14 00:21:36	pbui	does ip addr list a wireless card
+2017-12-14 00:21:58	androidkitkat	no
+2017-12-14 00:22:18	androidkitkat	only ether
+2017-12-14 00:25:10	androidkitkat	ill just reinstall\
+2017-12-14 00:26:22	pbui	y not
+2017-12-14 00:26:26	pbui	the night is young
+2017-12-14 00:26:33	pbui	androidkitkat: it seems like the driver is not loaded
+2017-12-14 00:26:38	pbui	i dunno what happened
+2017-12-14 00:26:43	androidkitkat	neither do i
+2017-12-14 00:27:28	androidkitkat	also going to set it up as UEFI
+2017-12-14 00:28:18	androidkitkat	if i even can
+2017-12-14 00:29:40	androidkitkat	heres what dmesg says on the live usb just if youre wondering
+2017-12-14 00:30:20	androidkitkat	yld.me/r9n 
+2017-12-14 00:39:39	pbui	brcmfmac 0000:3a:00.0 wlp58s0: renamed from wlan0
+2017-12-14 00:39:46	pbui	that is ur wireless driver
+2017-12-14 00:40:10	pbui	i think what happened is u upgraded the kernel, but didnt updated the wireless driver
+2017-12-14 00:40:21	pbui	the previous dmesg had a newer kernel
+2017-12-14 00:42:55	androidkitkat	ah
+2017-12-14 00:43:30	pbui	catvajiac: has a similar problem
+2017-12-14 00:43:36	pbui	i bet the driver uses dkms
+2017-12-14 00:43:45	pbui	which means it needs to be recompiled for each new kernel
+2017-12-14 00:43:53	androidkitkat	ah
+2017-12-14 00:44:18	androidkitkat	can i manually compile it
+2017-12-14 00:44:52	androidkitkat	or do i need to downgrade my kernel
+2017-12-14 00:45:03	pbui	with a recent kernel, i dont know if u need the proprietary driver
+2017-12-14 00:46:01	pbui	https://solus-project.com/forums/viewtopic.php?t=238 
+2017-12-14 00:46:09	pbui	looks like they have two versions of the driver
+2017-12-14 00:46:14	pbui	a lts and a current
+2017-12-14 00:46:50	androidkitkat	ah
+2017-12-14 00:50:00	jeffrey	@jeffrey uploaded a file: these solutions tho https://nd-cse.slack.com/files/U0L54J0MD/F8EDVKJTD/hw7_solutions-1.pdf 
+2017-12-14 00:50:37	jeffrey	I
+2017-12-14 00:50:44	jeffrey	am really salty about the algs homework solutions
+2017-12-14 00:52:20	jeffrey	I think if you are going to give solutions, you should give /why/ the solutions are right, especially since 1/4th of the problem requirements is to explain why your solution is right.
+2017-12-14 00:53:17	jeffrey	I figure that different TAs made different solutions, and that 2 cared more than the other 2.
+2017-12-14 00:56:26	jeffrey	@pbui "a student appreciates that we are abet accreditated" - I argued in the chat a few months ago that I wouldn't have come here if we weren't ABET accredited
+2017-12-14 01:06:47	androidkitkat	okay so now solus isnt working
+2017-12-14 01:06:53	androidkitkat	...
+2017-12-14 01:07:46	jeffrey	not booting?
+2017-12-14 01:08:31	androidkitkat	it boots
+2017-12-14 01:08:45	androidkitkat	but xorg isnt showing any window manager buttons
+2017-12-14 01:08:52	androidkitkat	like close minimize etc
+2017-12-14 01:09:00	jeffrey	good
+2017-12-14 01:09:09	jeffrey	now
+2017-12-14 01:09:11	jeffrey	install i3
+2017-12-14 01:09:43	androidkitkat	or i just install kde neon
+2017-12-14 01:09:44	jeffrey	what did you do exactly? Upgrade the kernel then revert? Or update and then just reboot?
+2017-12-14 01:09:51	androidkitkat	i reinstalled from start
+2017-12-14 01:10:04	jeffrey	and now it doesn't work?!
+2017-12-14 01:10:13	jeffrey	is this on real hardware or a vm?
+2017-12-14 01:10:57	androidkitkat	real hardware
+2017-12-14 01:11:01	androidkitkat	my laptop
+2017-12-14 01:11:50	jeffrey	did you reinstall from your original installation media, or did you make a new one that was potentially a different version?
+2017-12-14 01:12:12	androidkitkat	i used the same one
+2017-12-14 01:12:23	jeffrey	could it have been modified in some way?
+2017-12-14 01:12:29	androidkitkat	nope
+2017-12-14 01:12:44	androidkitkat	good thing i already had kde downloaded
+2017-12-14 01:13:37	jeffrey	you know they say gnome is supposed to be better
+2017-12-14 01:14:13	pbui	jeffrey: oh yeah, i remember
+2017-12-14 01:14:30	androidkitkat	gnome died on me
+2017-12-14 01:14:49	jeffrey	@pbui there are dozens of us, dozens!
+2017-12-14 01:15:04	jeffrey	@androidkitkat I was just trying to reference Mr. Robot. I can't use kde or gnome
+2017-12-14 01:16:06	androidkitkat	lol
+2017-12-14 01:33:58	androidkitkat	I hate ubuntu
+2017-12-14 01:35:24	pbui	androidkitkat: this thread is for u: https://www.reddit.com/r/linuxmasterrace/comments/7jlpi7/sell_me_on_your_favorite_distribution/ 
+2017-12-14 01:35:35	androidkitkat	ill use Deepin
+2017-12-14 01:35:40	androidkitkat	doesnt care
+2017-12-14 01:35:50	androidkitkat	I cant use Ubuntu
+2017-12-14 01:35:50	silv3r	Anyone have thoughts on using JavaScript to make apps
+2017-12-14 01:36:09	silv3r	Using angular native / native script over swift /java
+2017-12-14 01:38:31	jeffrey	I like it
+2017-12-14 01:38:52	jeffrey	It becomes a big pain for things that need to use hardware
+2017-12-14 01:39:12	jeffrey	And some of the systems (like phonegap) can be really hard to configure to let you do something simple like connect to a website
+2017-12-14 01:39:27	androidkitkat	will i regret deepin
+2017-12-14 01:39:57	silv3r	Like if I wanted to use camera / ir sensor etc?
+2017-12-14 01:40:01	silv3r	Or speakers
+2017-12-14 01:40:03	jeffrey	But easy cross platform, not having to deal with swift, and a lot of resources is pretty nice
+2017-12-14 01:40:14	jeffrey	Camera might not be hard to use
+2017-12-14 01:40:19	silv3r	Hmm ok
+2017-12-14 01:40:28	jeffrey	And speakers are probably easy
+2017-12-14 01:40:34	silv3r	As a busy student I think that’s the move over learning Swift / java
+2017-12-14 01:40:44	silv3r	JavaScript for everything
+2017-12-14 01:40:45	silv3r	Rip
+2017-12-14 01:41:04	cnailos	but swift has emoji variables
+2017-12-14 01:41:11	jeffrey	does javascript not?
+2017-12-14 01:41:36	silv3r	I wouldn’t be surprised if it did
+2017-12-14 01:41:42	jeffrey	huh, it doesn't
+2017-12-14 01:41:51	jeffrey	`var 😃 = 5;`
+2017-12-14 01:41:56	pbui	cnailos: go to bed
+2017-12-14 01:42:00	silv3r	If anything these YouTube videos have taught me is that JavaScript has everything
+2017-12-14 01:42:07	silv3r	Almost** everything
+2017-12-14 01:42:08	jeffrey	`Uncaught SyntaxError: Invalid or unexpected token`
+2017-12-14 01:42:18	jeffrey	Does C++?
+2017-12-14 01:42:20	cnailos	pbui: i have yet to begin studying
+2017-12-14 01:42:39	pbui	:coffin:
+2017-12-14 01:42:42	cnailos	i slept from 2:30-10 so i got a full nights sleep
+2017-12-14 01:42:48	cnailos	pm
+2017-12-14 01:42:53	pbui	:ok_hand:
+2017-12-14 01:42:55	silv3r	Studying is good
+2017-12-14 01:43:02	silv3r	Makes you not be sad when you take exams
+2017-12-14 01:43:05	silv3r	Would recommend
+2017-12-14 01:43:13	cnailos	i've yet to see that scientifically proven
+2017-12-14 01:44:13	cnailos	also javascript supports UTF8 so idk about emojis but you can do `var ಠ_ಠ = 5;`
+2017-12-14 01:44:32	jeffrey	I am a firm believer that sleep is more important than studying.
+2017-12-14 01:45:45	jeffrey	c++ should accept emoji as per the language definition
+2017-12-14 01:50:36	pbui	ethics podcast hot take #3: we want capstone
+2017-12-14 01:53:37	androidkitkat	So deepin wont boot
+2017-12-14 01:55:04	androidkitkat	great
+2017-12-14 01:59:44	androidkitkat	i might just go BACK to solus\
+2017-12-14 01:59:57	pbui	third time?
+2017-12-14 02:00:09	pbui	maybe u messed up w/ UEFI
+2017-12-14 02:00:14	androidkitkat	but it booted
+2017-12-14 02:00:17	androidkitkat	just the GUI was messed up
+2017-12-14 02:00:27	pbui	sad
+2017-12-14 02:00:31	pbui	should just get a mac
+2017-12-14 02:01:11	androidkitkat	lol
+2017-12-14 02:01:14	androidkitkat	the only issue with that
+2017-12-14 02:01:17	androidkitkat	is my stickers
+2017-12-14 02:04:02	silv3r	I’d love a MacBook Air if they ever make a new one smh
+2017-12-14 02:04:39	alitteke	I think the new macbook air is the macbook
+2017-12-14 02:04:52	androidkitkat	The price tag says otherwise but
+2017-12-14 02:05:06	pbui	alitteke: should i use my startup funds to get an imac pro?
+2017-12-14 02:05:13	androidkitkat	yes
+2017-12-14 02:05:22	alitteke	for the shiny space blackness
+2017-12-14 02:05:23	androidkitkat	that way 10 years down the line some lucky freshman gets an iMac Pro
+2017-12-14 02:05:35	pbui	lol
+2017-12-14 02:05:56	alitteke	can demonstrate a lot of multiproccessing on that
+2017-12-14 02:06:12	alitteke	just think how fast hulk will smash on 18 cores and 256 GB of ram
+2017-12-14 02:06:27	pbui	hmm
+2017-12-14 02:06:32	androidkitkat	@pbui
+2017-12-14 02:06:37	androidkitkat	buy a Titan V
+2017-12-14 02:06:57	pbui	so the ethics podcasts have some good ideas
+2017-12-14 02:06:59	cnailos	i refuse to believe the thermals on the imac pro are remotely ok, especially on the 18 core model
+2017-12-14 02:07:05	pbui	im not sure how to incorporate them
+2017-12-14 02:07:18	pbui	i definitely will be incorporating more testing and Ci in systems
+2017-12-14 02:07:40	alitteke	Who knows? they may have learned from the Mac Pro trashcan
+2017-12-14 02:07:58	pbui	one group suggested polling
+2017-12-14 02:08:04	pbui	i think i can use that more
+2017-12-14 02:08:08	pbui	rather than fish for answers
+2017-12-14 02:08:23	alitteke	That would be interesting
+2017-12-14 02:08:37	alitteke	One of my physics professors used it
+2017-12-14 02:08:45	pbui	i really wish i could incorporate go or node.js in one of my classes
+2017-12-14 02:08:48	alitteke	I thought it was helpful
+2017-12-14 02:08:51	pbui	but i think that goes in paradigms
+2017-12-14 02:09:01	pbui	yeah, but i dont like the equipment involved
+2017-12-14 02:09:10	pbui	did they use like an app or was it just hands?
+2017-12-14 02:09:11	cnailos	dont use iclickers
+2017-12-14 02:09:13	androidkitkat	^
+2017-12-14 02:09:18	pbui	i dont want to use iclickers
+2017-12-14 02:09:18	alitteke	They used an app
+2017-12-14 02:09:24	pbui	yeah, i dunno
+2017-12-14 02:09:24	alitteke	Poll everywhere
+2017-12-14 02:09:30	cnailos	cant you just do like strawpoll or something
+2017-12-14 02:09:31	pbui	im too luddite for that
+2017-12-14 02:09:31	alitteke	I think
+2017-12-14 02:09:39	cnailos	write your own
+2017-12-14 02:09:43	alitteke	https://www.polleverywhere.com 
+2017-12-14 02:09:45	pbui	i dont want to fiddle w/ technology in class
+2017-12-14 02:10:13	pbui	im open to what we call informal assessment
+2017-12-14 02:10:32	cnailos	like when you call ppl up to code?
+2017-12-14 02:10:41	androidkitkat	youve called people up to code?
+2017-12-14 02:10:45	pbui	yes
+2017-12-14 02:10:54	androidkitkat	i feel like id mess that up
+2017-12-14 02:10:58	pbui	that's ok
+2017-12-14 02:11:03	pbui	that produces teaching moments
+2017-12-14 02:11:04	cnailos	some people really dont like being in the front like that tho
+2017-12-14 02:11:08	pbui	yes
+2017-12-14 02:11:18	pbui	that is true
+2017-12-14 02:12:28	cnailos	i remember ramzi made ppl ssh to their own accounts and I was always paranoid about getting called because I name random files less-than-appropriate names sometimes when I'm frustrated
+2017-12-14 02:12:49	pbui	lol
+2017-12-14 02:12:57	pbui	i usually use my account
+2017-12-14 02:13:00	androidkitkat	isnt that something everyone does
+2017-12-14 02:14:03	alitteke	My organization is a hierarchal masterpiece to behold
+2017-12-14 02:14:21	cnailos	all my project git repos sit in my home dir
+2017-12-14 02:14:23	alitteke	except for the masses of files called: test.c test.py test.cpp test.js
+2017-12-14 02:14:36	alitteke	And the directories that only have one file inside
+2017-12-14 02:16:47	androidkitkat	i have a lot of those
+2017-12-14 02:16:49	androidkitkat	on windows
+2017-12-14 02:19:14	cnailos	when my laptop broke, I had OIT recover my HDD. I like to think that whatever guy was transferring the files appreciated that i had taken the time to categorize my memes,  while a folder called useless stuff was where I stored all my homework assignments
+2017-12-14 02:19:33	androidkitkat	you let OIT fix your stuff?
+2017-12-14 02:19:54	cnailos	theyre super cheap
+2017-12-14 02:20:22	androidkitkat	id just get out the trusty Acronis True Image or some other linux tool
+2017-12-14 02:20:28	cnailos	and the apple store wouldnt service it
+2017-12-14 02:20:40	cnailos	the physical machine was broken lol
+2017-12-14 02:21:06	androidkitkat	always keeps a drive sled handy
+2017-12-14 02:21:34	pbui	g9 yall
+2017-12-14 02:21:37	androidkitkat	nite
+2017-12-14 02:21:40	pbui	bonne chance tomorrow
+2017-12-14 02:21:46	cnailos	sleep snug, smug
+2017-12-14 02:22:19	jeffrey	@alitteke my home directory is always a few directories and t.py t.c t.cpp t.s
+2017-12-14 02:22:29	alitteke	let's not forget test.cminor
+2017-12-14 02:22:58	jeffrey	I'm willing to bet t.c is the file name I use most
+2017-12-14 07:31:04	pbui	hmm
+2017-12-14 07:31:06	pbui	lots of snow
+2017-12-14 07:43:48	flynn	cold too - thinking of building a fire in my office JUST KIDDING
+2017-12-14 07:44:15	walter.scheirer	there is that fireplace in the old engineering library...
+2017-12-14 07:44:41	flynn	Wonder if the chimney for that still exists - we will have to explore that
+2017-12-14 07:53:55	flynn	figuratively
+2017-12-14 08:34:13	jeffrey	Is there a fireplace on campus?
+2017-12-14 08:35:09	dchiang	The student lounge is our old library???
+2017-12-14 08:36:00	walter.scheirer	that's what i heard, anyway
+2017-12-14 08:36:21	walter.scheirer	seems plausible, given the room is surrounded by empty shelving
+2017-12-14 08:52:44	pbui	from flynn: https://cra.org/analysis-current-future-computer-science-needs-via-advertised-faculty-searches-2018/ 
+2017-12-14 08:53:00	pbui	job market is hot even for cs academia
+2017-12-14 08:53:46	walter.scheirer	wow, bioinformatics has the lowest demand
+2017-12-14 08:54:11	flynn	Apparently the old engineering library appeared in Rudy
+2017-12-14 08:54:17	walter.scheirer	lol, really?
+2017-12-14 08:54:48	flynn	Yep - I was told this
+2017-12-14 08:54:55	flynn	but you know gossip
+2017-12-14 08:55:25	walter.scheirer	compilers a hotter area than games???
+2017-12-14 08:55:47	walter.scheirer	i think i'm OK with that
+2017-12-14 08:57:10	walter.scheirer	the fact that there are so few arch. postings bodes well for us
+2017-12-14 09:30:23	pbui	games isnt really a research area
+2017-12-14 09:30:47	pbui	a number of schools have more vocational game programming CS programs
+2017-12-14 09:30:53	pbui	but there isnt much research in that field
+2017-12-14 09:31:56	walter.scheirer	game AI
+2017-12-14 09:31:58	walter.scheirer	graphics
+2017-12-14 09:32:05	walter.scheirer	HCI
+2017-12-14 09:32:12	walter.scheirer	there's quite a bit of interesting research one can do
+2017-12-14 09:32:25	walter.scheirer	AR/VR
+2017-12-14 09:32:28	pbui	ai, gfx, hci are broken out into their own categories
+2017-12-14 09:32:35	walter.scheirer	true
+2017-12-14 09:32:53	pbui	if u aggregate all of those, u'd have more jobs than compilers
+2017-12-14 09:33:21	pbui	either way data science and security is where it is currently at
+2017-12-14 09:33:38	walter.scheirer	yep
+2017-12-14 09:34:07	pbui	https://arstechnica.com/information-technology/2017/12/disney-to-buy-part-of-21st-century-fox-for-52-billion/ 
+2017-12-14 09:34:13	pbui	disney could own deadpool?
+2017-12-14 09:34:15	pbui	oh no
+2017-12-14 09:43:42	catvajiac	hey good luck today OS people!
+2017-12-14 09:47:51	pbui	o7
+2017-12-14 09:49:10	jeffrey	o7
+2017-12-14 10:04:17	wtheisen	at what point is disney considered a monopoly? They own way too much already
+2017-12-14 10:05:18	jeffrey	They will own like a quarter of their market.
+2017-12-14 10:06:01	jeffrey	I'm not happy with their whole make their own streaming service thing though
+2017-12-14 10:06:11	jeffrey	And now they own a lot of Hulu
+2017-12-14 11:01:50	wtheisen	they own a lot of everything
+2017-12-14 11:05:19	wtheisen	I can't believe their size doesn't bother you @jeffrey
+2017-12-14 11:07:40	wtheisen	also is anyone else's internet just foobar rn?
+2017-12-14 11:08:04	pbui	Yes
+2017-12-14 11:13:44	wtheisen	How am I supposed to avoid studying if I can't play videogames?
+2017-12-14 11:15:12	pbui	I dunno
+2017-12-14 11:15:40	wtheisen	when is the exam pbui?
+2017-12-14 11:15:47	pbui	Now
+2017-12-14 11:16:01	wtheisen	how many tears have been shed thus far?
+2017-12-14 11:16:14	pbui	None
+2017-12-14 11:31:11	wtheisen	holy cow this internet
+2017-12-14 11:39:32	walter.scheirer	yes, the internet is an exciting thing
+2017-12-14 11:39:46	wtheisen	no it's absolutely crawling for me rn
+2017-12-14 11:39:52	wtheisen	This is unbearable
+2017-12-14 11:40:18	walter.scheirer	It's OK in Stinson
+2017-12-14 11:42:33	wtheisen	anyone seen the star wars movie yet?
+2017-12-14 12:06:39	8bit	Anybody else get some lag right after they unplug their laptop?
+2017-12-14 12:09:21	pbui	wtheisen: it's a net neutrality simulation
+2017-12-14 12:09:48	pbui	Just pay up and all will be better
+2017-12-14 12:24:46	wtheisen	woah my ND fee got waived
+2017-12-14 12:24:49	wtheisen	feels good man
+2017-12-14 12:25:08	walter.scheirer	yep
+2017-12-14 12:25:12	walter.scheirer	free for domestic applicants
+2017-12-14 13:52:30	walter.scheirer	https://www.nytimes.com/2017/12/14/technology/net-neutrality-repeal-vote.html 
+2017-12-14 13:53:17	silv3r	:<
+2017-12-14 13:56:06	wtheisen	@wtheisen uploaded a file: image.png https://nd-cse.slack.com/files/U0KQYK7DK/F8FPHS08N/image.png 
+2017-12-14 14:15:53	silv3r	https://www.reddit.com/r/CringeAnarchy/comments/7jpa6j/ajit_pai_defends_repealing_netneutrality_with_a/?st=JB6V7L0J&sh=ed78a2e8 https://www.reddit.com/r/CringeAnarchy/comments/7jpa6j/ajit_pai_defends_repealing_netneutrality_with_a/?st=JB6V7L0J&amp;sh=ed78a2e8 
+2017-12-14 16:07:11	ewilli23	@pbui re: ethics blog wanting a capstone: switch to CPEG
+2017-12-14 16:07:56	ewilli23	re: polling: my physics professor handed us sheets on the first day with 1-4 printed on one side and 5-8 printed on the other. He had us fold them so that our answer was showing and just hold up the cards
+2017-12-14 16:08:09	ewilli23	technology-free polling
+2017-12-14 16:11:10	pbui	ewilli23: ive heard of the card technique before
+2017-12-14 16:11:15	pbui	how many kids in the class
+2017-12-14 16:11:22	pbui	im not sure that scales to 150
+2017-12-14 16:11:33	pbui	cs majors can take capstone i think
+2017-12-14 16:11:36	pbui	even if they arent cpeg
+2017-12-14 16:11:39	pbui	it's just no one does
+2017-12-14 16:13:02	ewilli23	We filled up one of the lecture halls in Nieuwland. So yeah idk about systems. Could work in something like OS though
+2017-12-14 16:14:45	pbui	yeah, i can see it in OS
+2017-12-14 16:14:48	pbui	so how did it work?
+2017-12-14 16:15:07	pbui	he asked a question, and kids just held up their card?
+2017-12-14 16:15:22	pbui	ive heard this w/ colored index cards
+2017-12-14 16:15:37	pbui	how often did he poll the class?
+2017-12-14 16:16:54	ewilli23	Yeah. tbf I didn’t really go to that lecture all that much
+2017-12-14 16:17:06	ewilli23	But as I recall he polled most class days that I was there
+2017-12-14 16:22:06	ewilli23	PollEverywhere is a pretty popular option though.
+2017-12-14 17:09:44	jeffrey	Why are compiler grades disabled now
+2017-12-14 17:14:14	pbui	did u hack the system?
+2017-12-14 17:18:55	jeffrey	No
+2017-12-14 17:20:13	pbui	it's dthain throttling u
+2017-12-14 17:20:21	pbui	now that net neutrality is dead
+2017-12-14 17:20:34	pbui	he is giving certain students fast lanes to their grade
+2017-12-14 17:20:40	pbui	it's genius
+2017-12-14 17:20:49	pbui	free market innovation and all that
+2017-12-14 17:23:01	pbui	silv3r: that is a spicy troll video
+2017-12-14 17:23:06	pbui	got to give him credit
+2017-12-14 17:23:14	pbui	im glad internet freedom has been restored
+2017-12-14 17:23:19	pbui	and i can still gram my food
+2017-12-14 17:24:44	bdevorem	erik learned miller is in my lab rn for emery's surprise party
+2017-12-14 17:24:52	bdevorem	and emery's kids, just as weird
+2017-12-14 17:24:56	bdevorem	(theyre my age)
+2017-12-14 17:25:00	pbui	cute
+2017-12-14 17:25:02	pbui	oh
+2017-12-14 17:25:05	pbui	nvm
+2017-12-14 17:25:07	pbui	lol
+2017-12-14 17:25:08	bdevorem	yeah
+2017-12-14 17:25:21	pbui	i was like wait, u like kids!
+2017-12-14 17:25:24	bdevorem	his daughter is a junior cs major here, son is a frosh cs major here
+2017-12-14 17:25:42	bdevorem	lol if only they were 5
+2017-12-14 17:25:50	bdevorem	but also, it's emery's 50th
+2017-12-14 17:25:54	bdevorem	he isnt 12 like you pj
+2017-12-14 17:28:28	pbui	dayum
+2017-12-14 17:28:32	pbui	my bday is in 10 days
+2017-12-14 17:28:34	pbui	let's be calm
+2017-12-14 17:28:39	pbui	im about to level up
+2017-12-14 17:29:01	bdevorem	cute, finally a teenager
+2017-12-14 17:29:40	pbui	i think i ll finally be old enough to stay home alone
+2017-12-14 17:34:35	walter.scheirer	lol
+2017-12-14 17:34:45	walter.scheirer	i wouldn't go that far...
+2017-12-14 17:35:02	bdevorem	+1
+2017-12-14 17:35:05	jeffrey	So something like 4/5 kids believe birthdays cause aging
+2017-12-14 17:35:17	jeffrey	Do you @pbui
+2017-12-14 17:35:48	pbui	birthdays cause aging?
+2017-12-14 17:51:10	silv3r	Birthdays are a ruse by big pharma to make us age, and then need to buy medication to stay healthy
+2017-12-14 18:01:41	wtheisen	time for algs ooo baby
+2017-12-14 18:02:27	wtheisen	I️ can feel the impending bootyblast
+2017-12-14 18:05:03	jeffrey	Time for?
+2017-12-14 18:05:08	jeffrey	It's not till tomorrow at 10 right
+2017-12-14 18:06:38	wtheisen	10? 12:30 i️ thought
+2017-12-14 18:07:59	jeffrey	I have 1030 to 1230
+2017-12-14 18:08:10	wtheisen	fugg
+2017-12-14 18:08:26	wtheisen	must have gotten start and end times swapped
+2017-12-14 18:08:39	jeffrey	Sad
+2017-12-14 18:08:47	wtheisen	at least i️ know now
+2017-12-14 18:08:53	jeffrey	Yeah
+2017-12-14 18:15:11	pbui	wut?
+2017-12-14 18:15:17	pbui	i thought  already had algs final
+2017-12-14 18:26:17	pbui	http://www.commitstrip.com/en/2017/12/14/usa-the-end-of-net-neutrality/ 
+2017-12-14 18:51:40	androidkitkat	is reddit.com  dead
+2017-12-14 18:51:45	androidkitkat	im getting a 503
+2017-12-14 18:52:34	pbui	i can confirm, it ded
+2017-12-14 18:52:41	androidkitkat	apps work tho
+2017-12-14 18:53:18	catvajiac	down for me too
+2017-12-14 18:53:27	silv3r	Is rip
+2017-12-14 18:53:30	androidkitkat	@ssjohns you killed reddit
+2017-12-14 18:54:29	silv3r	He rm -r *’ed it
+2017-12-14 18:54:37	dougsmith	Reddit In Pieces
+2017-12-14 18:54:47	silv3r	Wait
+2017-12-14 18:54:50	silv3r	It’s working for me
+2017-12-14 18:55:03	androidkitkat	hits refresh
+2017-12-14 18:55:04	silv3r	The front page loaded in
+2017-12-14 18:55:09	dougsmith	^
+2017-12-14 18:55:10	silv3r	After a veryyyy long time
+2017-12-14 18:55:12	androidkitkat	it works
+2017-12-14 18:55:14	silv3r	Aaaaaaand now it’s gone
+2017-12-14 18:55:16	dougsmith	Has the sun returned?
+2017-12-14 18:55:28	8bit	You need the dank meymeys package to view reddit.com !
+2017-12-14 18:59:07	ssjohns	`sudo rm -rf`
+2017-12-14 18:59:14	ssjohns	Right in our servers!
+2017-12-14 18:59:32	ssjohns	I like how someone immediately knows when reddit is down everytime.
+2017-12-14 18:59:49	ssjohns	@androidkitkat Don't you have finals?
+2017-12-14 18:59:59	silv3r	It’s back
+2017-12-14 19:00:02	androidkitkat	i dont
+2017-12-14 19:00:21	androidkitkat	thankfully
+2017-12-14 19:00:59	jeffrey	Fam, anyone for Mario kart tomorrow night?
+2017-12-14 19:01:03	jeffrey	Maybe jackbox?
+2017-12-14 19:01:10	jeffrey	Especially those I'll never see again
+2017-12-14 19:01:27	dougsmith	from ccarball: yes [cc: ccarball]
+2017-12-14 19:04:30	ccarball	I'm super in for mario kart
+2017-12-14 19:16:18	walter.scheirer	and comcast is flaky again... i blame the net neutrality repeal
+2017-12-14 19:17:13	jeffrey	i wonder if they ever do things like throttle heavily during peak hours, then have high bandwidth during off hours, and be like "well, your average bandwidth is 25Mb/s, so..."
+2017-12-14 19:17:22	walter.scheirer	ha
+2017-12-14 19:19:36	pbui	comcast is charging me an extra $1.50 this month
+2017-12-14 19:19:39	pbui	why? who knows
+2017-12-14 19:19:43	pbui	i blame obama
+2017-12-14 19:19:44	walter.scheirer	i hate that
+2017-12-14 19:51:59	wtheisen	Oh no I have to install npm feelsbadman
+2017-12-14 19:54:33	pbui	shouldnt that be npm install feelsbadman
+2017-12-14 20:01:02	ewilli23	Are you sure Reddit is/was down or did ND just not buy the Reddit package from Comcast?
+2017-12-14 20:01:29	pbui	reddit violates dulac
+2017-12-14 20:01:34	pbui	so it has been let go
+2017-12-14 20:01:57	jeffrey	@wtheisen I think codegen grades are visible with the sakai trick
+2017-12-14 20:02:56	jeffrey	MY BOSS FROM TWO SUMMERS AGO JUST POSTED AN ANTI NET NEUTRALITY THING ON FACEBOOK
+2017-12-14 20:03:08	pbui	fire him
+2017-12-14 20:03:11	pbui	i mean
+2017-12-14 20:03:13	pbui	hire him
+2017-12-14 20:03:13	walter.scheirer	not my boss
+2017-12-14 20:03:19	pbui	#notmyformerboss
+2017-12-14 20:03:21	cnailos	which thing in the network inspector has the grades?
+2017-12-14 20:03:22	walter.scheirer	haha
+2017-12-14 20:03:27	ewilli23	Actually though if this whole thing goes into effect like people think it will how will ND decided which packages to buy?
+2017-12-14 20:03:45	jeffrey	`startup` @cnailos
+2017-12-14 20:04:01	ewilli23	Or will it be like TV where people have to sign up for individual subscriptions if they want to pay for anything above the baseline
+2017-12-14 20:04:01	walter.scheirer	@jeffrey: i didn't know you did an internship at the FCC
+2017-12-14 20:04:03	walter.scheirer	coughs
+2017-12-14 20:04:38	wtheisen	They really need to fix that sakai hack
+2017-12-14 20:04:46	jeffrey	I might make a browser plugin that shows hidden sakai grades
+2017-12-14 20:05:20	pbui	boys just want one thing... sakai grades
+2017-12-14 20:05:24	pbui	cant do the meme right
+2017-12-14 20:05:32	ewilli23	I think the sakai hack only works for classes using the “Gradebook 2” on sakai
+2017-12-14 20:05:58	jeffrey	You sure they posted the grades at all?
+2017-12-14 20:06:09	ewilli23	My circuit analysis class uses “Gradebook” (which has a much nicer interface and seems newer) and I don’t think the hack works
+2017-12-14 20:06:27	jeffrey	Algs has gradebook and it is just gradebook 2
+2017-12-14 20:06:38	cnailos	i feel like the grades arent even in a particular order
+2017-12-14 20:07:46	walter.scheirer	i refuse to use any of those services
+2017-12-14 20:07:52	walter.scheirer	especially sakai
+2017-12-14 20:08:08	ewilli23	But Sakai is open source!
+2017-12-14 20:08:23	walter.scheirer	ha
+2017-12-14 20:08:48	ewilli23	Actually that’s a good point @jeffrey you should submit a pull request to fix that hack
+2017-12-14 20:09:11	ewilli23	Idk where the gradebook code is though; if that’s part of Sakai or somewhere else
+2017-12-14 20:25:59	pbui	ewilli23: grades up, gj, highest grade so far
+2017-12-14 20:26:41	ewilli23	In the class or on the exam? Bc I thought I bombed that exam
+2017-12-14 20:26:55	pbui	exam
+2017-12-14 20:27:31	ewilli23	:open_mouth:
+2017-12-14 20:27:45	ewilli23	_is nervous to look_
+2017-12-14 20:27:57	cnailos	its like a 60
+2017-12-14 20:28:17	cnailos	_guessing_
+2017-12-14 20:29:38	jeffrey	Ugh what if I don't get in anywhere
+2017-12-14 20:30:47	walter.scheirer	then you have to get a job
+2017-12-14 20:30:58	walter.scheirer	or go on funemployment
+2017-12-14 20:32:02	ewilli23	@pbui you didn’t make them visible
+2017-12-14 20:32:19	ewilli23	_is too lazy to comb through the json_
+2017-12-14 20:32:40	cnailos	crooked bui at it again
+2017-12-14 20:33:56	ccarball	+1
+2017-12-14 20:34:08	walter.scheirer	haha
+2017-12-14 20:34:30	cnailos	i was so happy when that was the second question on the exam
+2017-12-14 20:34:56	catvajiac	u gotta call out the french spies like u see 'em
+2017-12-14 20:35:15	cnailos	i doodled that in the front of the exam
+2017-12-14 20:35:30	pbui	ewilli23: released
+2017-12-14 20:35:54	catvajiac	i saw
+2017-12-14 20:35:59	catvajiac	made me super happy
+2017-12-14 20:36:10	catvajiac	spread the word
+2017-12-14 20:36:17	catvajiac	he will be outed
+2017-12-14 20:36:51	cnailos	instead of finding the size of the double indirect pointer i drew that. overall id say it was worth the points lost
+2017-12-14 20:37:22	catvajiac	^
+2017-12-14 20:38:40	ewilli23	@pbui how far through them are you
+2017-12-14 20:38:51	pbui	12/75?
+2017-12-14 20:39:00	catvajiac	gl hf o7
+2017-12-14 20:39:00	ewilli23	Oh
+2017-12-14 20:39:07	ccarball	o7
+2017-12-14 20:39:16	pbui	i need more umm hydration to finish these
+2017-12-14 20:39:34	catvajiac	"hydration"
+2017-12-14 20:39:41	ccarball	"umm"
+2017-12-14 20:39:47	pbui	"finish"
+2017-12-14 20:39:49	cnailos	funny i need more "hydration" to finish project 6! Any suggestions?
+2017-12-14 20:39:51	catvajiac	"\n"
+2017-12-14 20:40:18	pbui	cnailos: sounds like fake news
+2017-12-14 20:40:31	ccarball	"\0"
+2017-12-14 20:42:56	wtheisen	@pbui we're grading at brothers tomorrow right?
+2017-12-14 20:43:04	cnailos	hydrate or dydrate @pbui
+2017-12-14 20:43:17	pbui	wtheisen: no?
+2017-12-14 20:43:34	pbui	wtheisen: we can grab something from chen's after ur final and then chinese and grade
+2017-12-14 20:43:38	pbui	like old times
+2017-12-14 20:43:41	pbui	ie last semester
+2017-12-14 20:43:42	ewilli23	Oooh can we have brothers grading parties next semester for Systems?
+2017-12-14 20:43:55	cnailos	Actually tho
+2017-12-14 20:43:55	ewilli23	_will be 21 next semester_
+2017-12-14 20:43:59	pbui	u dont grade at brothers
+2017-12-14 20:44:07	wtheisen	Yeah, I'lll come to your office when I'm done getting rekt
+2017-12-14 20:44:11	ewilli23	y not
+2017-12-14 20:44:14	cnailos	have you tried to yet?
+2017-12-14 20:44:16	ewilli23	Get paid to be at brothers
+2017-12-14 20:44:22	pbui	meh
+2017-12-14 20:44:26	cnailos	hold office hours at brothers
+2017-12-14 20:44:29	walter.scheirer	the 'backer is a better grading venue
+2017-12-14 20:44:29	pbui	id rather do it at my kitchen table
+2017-12-14 20:44:33	ewilli23	+21k
+2017-12-14 20:44:38	ewilli23	@cnailos
+2017-12-14 20:44:45	pbui	dont u mean +60k
+2017-12-14 20:44:47	pbui	ie. ur tuition
+2017-12-14 20:44:51	walter.scheirer	haha
+2017-12-14 20:45:07	pbui	actually one thing i was considering was doing a virtual office hours, over twitch
+2017-12-14 20:45:14	ewilli23	ooh
+2017-12-14 20:45:16	pbui	like i can live stream and then show people how to do stuff on the computer
+2017-12-14 20:45:21	cnailos	doesnt only like 10% of the student body actually pay that much
+2017-12-14 20:45:22	pbui	would just be one night a week
+2017-12-14 20:45:27	ewilli23	Do normie cs majors know what twitch is though
+2017-12-14 20:45:32	silv3r	Yes
+2017-12-14 20:45:33	pbui	someone from va tech does that
+2017-12-14 20:45:37	silv3r	This winter
+2017-12-14 20:45:38	ewilli23	Like all the pre-meds who switch in second semetser
+2017-12-14 20:45:39	pbui	i think it's pretty cool
+2017-12-14 20:45:40	cnailos	also i like this idea
+2017-12-14 20:45:51	silv3r	@pbui  do it
+2017-12-14 20:46:00	pbui	i ll have to consider how to do it
+2017-12-14 20:46:03	silv3r	How about u teach me systems this winter
+2017-12-14 20:46:06	silv3r	As a test run
+2017-12-14 20:46:09	catvajiac	^
+2017-12-14 20:46:10	pbui	lol
+2017-12-14 20:46:13	catvajiac	do it
+2017-12-14 20:46:15	pbui	u will do it in the spring
+2017-12-14 20:46:18	pbui	no need to rush
+2017-12-14 20:46:23	silv3r	Wel
+2017-12-14 20:46:27	silv3r	I wanna get ahead
+2017-12-14 20:46:31	silv3r	Imma be busy
+2017-12-14 20:46:34	pbui	i guess ill need to setup obs and junk
+2017-12-14 20:46:48	ewilli23	Actually speaking of office hours are there rules about where TAs can hold office hours?
+2017-12-14 20:47:14	ewilli23	Like is there anything stopping me from holding office hours in my dorm
+2017-12-14 20:47:32	pbui	one person did that 2 years ago
+2017-12-14 20:47:33	silv3r	Also tuition is 69k
+2017-12-14 20:47:38	ewilli23	Nice
+2017-12-14 20:47:39	silv3r	When you add everything up
+2017-12-14 20:47:40	pbui	i dont like it b/c i dont think people go there
+2017-12-14 20:47:44	cnailos	yeah, nice
+2017-12-14 20:47:55	pbui	so i prefer people choose places students are familiar w/
+2017-12-14 20:48:03	ewilli23	Fair
+2017-12-14 20:48:05	jeffrey	can i hold office hours in ndh
+2017-12-14 20:48:14	cnailos	a comp arch ta did
+2017-12-14 20:48:15	silv3r	Feve?
+2017-12-14 20:48:21	cnailos	^^^^^^
+2017-12-14 20:48:24	ewilli23	Students are very familiar with feve
+2017-12-14 20:49:02	jeffrey	algs gonna be lit af fam
+2017-12-14 20:49:23	pbui	jeffrey: i saw a prof do that yesterday actually
+2017-12-14 20:49:27	pbui	he was doing office hours in sdh
+2017-12-14 20:49:41	jeffrey	in the dining area?
+2017-12-14 20:50:57	cnailos	pbui: whyd you mention grading exams, im sitting here just smashing the refresh button on sakai :cold_sweat:
+2017-12-14 20:51:13	pbui	jeffrey: yes
+2017-12-14 20:51:18	pbui	cnailos: soon
+2017-12-14 20:51:20	pbui	soon
+2017-12-14 20:51:23	pbui	soon...
+2017-12-14 20:51:31	pbui	queues up more bon iver
+2017-12-14 20:51:32	cnailos	kill me fam
+2017-12-14 20:53:30	jeffrey	but why does paper beat rock
+2017-12-14 20:53:38	walter.scheirer	bon iver... that's weak, i usually grade to pantera
+2017-12-14 20:53:47	cnailos	715 - CR∑∑KS
+2017-12-14 20:54:08	pbui	i need to feel the cold and haunting loneliness of a good winter
+2017-12-14 20:54:34	pbui	it's actually quite remarkable how accurately bon iver captures eau claire
+2017-12-14 20:54:48	walter.scheirer	haha
+2017-12-14 20:54:52	cnailos	isnt he from minnesota or something
+2017-12-14 20:54:59	pbui	listening to them reminds me of my time there
+2017-12-14 20:55:02	pbui	a simpler life
+2017-12-14 20:55:05	pbui	where i didnt have 200+ students
+2017-12-14 20:55:12	pbui	cnailos: they are from eau claire, wi
+2017-12-14 20:55:30	pbui	i had students who hung out w/ them
+2017-12-14 20:55:38	pbui	the lead singer of bon iver graduated from uwec
+2017-12-14 20:55:54	cnailos	i thought bon iver was just the 1 guy
+2017-12-14 20:55:59	cnailos	but hey thats neat
+2017-12-14 20:56:00	pbui	basically is
+2017-12-14 20:56:04	pbui	justin vernon
+2017-12-14 20:56:43	pbui	i think it's like the foo fighers, where it is basically dave grohl and a bunch of scrubs
+2017-12-14 21:07:13	bdevorem	@pbui I'm in line for the last jedi rn
+2017-12-14 21:07:21	pbui	bdevorem: jelly
+2017-12-14 21:07:28	pbui	i hope to go this weekend w/ the kids
+2017-12-14 21:07:32	bdevorem	Should be
+2017-12-14 21:07:39	bdevorem	Cute!
+2017-12-14 21:07:52	cnailos	reddit  may have spoiled it for me and im so peeved
+2017-12-14 21:08:15	bdevorem	That's why you don't internet until you see it!
+2017-12-14 21:08:21	bdevorem	Anyways, logging off now
+2017-12-14 21:08:39	bdevorem	But just so everyone knows, I'm calling it: rey is kenobi
+2017-12-14 21:08:49	bdevorem	That is my conspiracy.
+2017-12-14 21:08:51	bdevorem	K bye
+2017-12-14 21:08:53	pbui	wut
+2017-12-14 21:09:16	ccarball	wut
+2017-12-14 21:24:29	flynn	@flynn uploaded a file: wut https://nd-cse.slack.com/files/U3VAZJ9L6/F8F1T28RZ/pasted_image_at_2017_12_14_09_25_pm.png 
+2017-12-14 21:26:47	pbui	cnailos: gj
+2017-12-14 21:29:13	cnailos	i can die happy now
+2017-12-14 21:31:30	pbui	u should finish project 06
+2017-12-14 21:31:58	cnailos	workin on it
+2017-12-14 21:53:37	ewilli23	https://www.bloomberg.com/news/articles/2017-12-07/silicon-valley-is-sneaking-models-into-this-year-s-holiday-parties 
+2017-12-14 21:58:00	cnailos	hire models to attend Systems so bui wont feel bad when attendance drops
+2017-12-14 21:59:54	ccarball	cnailos: catvajiac is already gonna be going, he doesn't need to hire more models
+2017-12-14 22:02:32	pbui	actually, looking at the os class today
+2017-12-14 22:02:37	pbui	my attendance wasnt that bad
+2017-12-14 22:02:46	pbui	i guess i didnt realize how many people dropped
+2017-12-14 22:02:52	pbui	also, people came in late
+2017-12-14 22:02:58	pbui	so at 9:30 it was half empty
+2017-12-14 22:03:07	pbui	but by 9:45 it was 3/4
+2017-12-14 22:03:16	pbui	so meh, attendance wasnt too bad
+2017-12-14 22:03:44	catvajiac	am i?
+2017-12-14 22:03:59	catvajiac	checks schedule
+2017-12-14 22:04:17	catvajiac	oh, actually i cant make it on mondays, but i theoretically could on the other days
+2017-12-14 22:05:46	pbui	ccarball: she's not a TA [cc: ccarball]
+2017-12-14 22:07:26	ccarball	pbui: oh yeah....
+2017-12-14 22:10:10	cnailos	pbui: my plan is still to play mario kart the entire class
+2017-12-14 22:11:53	pbui	...
+2017-12-14 22:14:02	catvajiac	ccarball: way to rub in the pain tho [cc: ccarball]
+2017-12-14 22:14:44	ccarball	...
+2017-12-14 22:22:22	ewilli23	@pbui when do we find out about TA things
+2017-12-14 22:22:43	pbui	sometime in january
+2017-12-14 22:22:50	pbui	i ll send an email, we ll have a meeting
+2017-12-14 22:23:25	pbui	is so unmotivated right now
+2017-12-14 22:27:59	catvajiac	u just had ur final today, i think u can be unmotivated
+2017-12-14 22:35:39	pbui	but i need to grade
+2017-12-14 22:55:09	cnailos	ez only grade the tests you think will have good grades
+2017-12-14 22:55:23	catvajiac	^ this guy's ready to TA next semester
+2017-12-15 00:42:59	bdevorem	The movie was great. 10/10 recommend
+2017-12-15 00:44:32	jeffrey	Great now it's ruined
+2017-12-15 00:45:11	jeffrey	Now I know obli kenobli is Rey Skywalker's grandfather
+2017-12-15 00:46:57	jeffrey	!g yt Homer ruins revenge of the sith
+2017-12-15 00:46:59	bobbit	@jeffrey: https://yld.me/rYp 
+2017-12-15 00:47:18	jeffrey	I botched that, but bobbit still saved the day
+2017-12-15 00:54:15	bdevorem	not to spoil the movie but
+2017-12-15 00:54:22	bdevorem	darth vader is leia's father
+2017-12-15 01:20:49	silv3r	NOOOOOOOO
+2017-12-15 01:21:15	silv3r	@silv3r uploaded a file: iOS からアップロードされた画像 https://nd-cse.slack.com/files/U6PJXGG0K/F8F5F2R26/ios________________________________________.jpg 
+2017-12-15 01:21:29	silv3r	I’m a filthy reposter I know I’m sorry
+2017-12-15 01:21:36	silv3r	It was just so applicable
+2017-12-15 01:29:23	cnailos	Ur meme is bad and u should feel bad
+2017-12-15 01:39:18	jeffrey	The worst change to star wars was adding a scream while Luke falls after that scene
+2017-12-15 03:56:35	jeffrey	I found a Cornell prof who does research into detecting online trolling
+2017-12-15 03:56:39	jeffrey	That's so perfect
+2017-12-15 03:56:45	jeffrey	They gotta admit me
+2017-12-15 04:07:18	jeffrey	And Cornell will be like "why you fail algs?" And I'll be like "I was reading about one of your profs"
+2017-12-15 04:08:27	jeffrey	And UMass will be like "why you fail algs?" And I'll be like "I watched a video from a PhD from CMU who showed reduction from graph coloring by coloring in a picture of a horse."
+2017-12-15 04:12:34	jeffrey	Why does the wells fargo app need to be updated
+2017-12-15 04:13:41	jeffrey	Ugh, rip savings, you're paying the grad apps now
+2017-12-15 04:21:16	jeffrey	Woah, fam, what if the mass FCC comment fraud was supposed to be exposed?
+2017-12-15 04:21:51	jeffrey	So now they can go "see? Voter fraud is real, we need voter ID laws!"
+2017-12-15 07:15:30	wtheisen	The algs sheets can be typed right?
+2017-12-15 07:33:40	jeffrey	Yes
+2017-12-15 07:44:15	wtheisen	cool thanks
+2017-12-15 07:44:24	wtheisen	finally decided to start studying :stuck_out_tongue:
+2017-12-15 08:06:27	jeffrey	I didn't want to wake up so early
+2017-12-15 08:06:54	wtheisen	10:30, what room is it in? Do you know offhand?
+2017-12-15 08:07:07	jeffrey	But my Wi-Fi lights turned on full brightness
+2017-12-15 08:07:11	jeffrey	126 dbrt
+2017-12-15 08:07:17	wtheisen	danke
+2017-12-15 08:10:42	wtheisen	breakfast time
+2017-12-15 08:10:48	wtheisen	most important meal of the day
+2017-12-15 08:11:07	pbui	gl
+2017-12-15 08:27:38	jeffrey	@jeffrey uploaded a file: 83e.jpg https://nd-cse.slack.com/files/U0L54J0MD/F8EPX0TC1/83e.jpg 
+2017-12-15 08:41:59	wtheisen	breakfast complete
+2017-12-15 08:42:11	jeffrey	NP complete?
+2017-12-15 08:43:37	wtheisen	It was a linear time, pre-computed run
+2017-12-15 08:43:41	wtheisen	So no
+2017-12-15 08:44:01	wtheisen	O(2n + m)
+2017-12-15 08:51:55	jeffrey	Fam,  $3 says one of the algs questions will be "show that the lower bound of convex hull is nlogn"
+2017-12-15 08:52:58	wtheisen	that sounds hard
+2017-12-15 08:54:44	jeffrey	For each element x in the set you want to sort, put (x, x^2) on a graph, then run convex hull on that
+2017-12-15 08:55:02	jeffrey	If you traverse the created boundary you would follow the points in sorted order
+2017-12-15 08:55:40	jeffrey	It is O(n) to go to and from that, so the lower bound of sorting applies to convex hull as well
+2017-12-15 08:57:23	phale1	I'm scared
+2017-12-15 09:00:44	jeffrey	@phale1 Mario kart tonight?
+2017-12-15 09:02:25	jeffrey	My last undergraduate exam thoooo
+2017-12-15 09:08:10	phale1	I have plans otherwise I would!
+2017-12-15 09:23:03	phale1	If this exam gives me diabetes issues think I won't have to take it?
+2017-12-15 09:23:25	wtheisen	that sounds unethical
+2017-12-15 09:23:37	wtheisen	imma be honest probably worth a shot though
+2017-12-15 09:31:50	jeffrey	$5 says one question will be "John says that X problem is NP complete because " and then an algorithm for X that uses a known NP hard problem to solve X, and then "is he right?"
+2017-12-15 09:32:53	wtheisen	I'll take you up on that one
+2017-12-15 09:33:00	wtheisen	also just got a free fridge
+2017-12-15 09:33:03	wtheisen	feelsgoodman
+2017-12-15 09:34:56	jeffrey	Ok, three hours and the nightmare of Algs will be over
+2017-12-15 09:35:13	wtheisen	you'll be fine @jeffrey
+2017-12-15 09:35:18	wtheisen	you'll kill it
+2017-12-15 09:35:23	jeffrey	I'm way more worried about grad apps
+2017-12-15 09:35:38	jeffrey	But I'm also worried I'll just space out on a question or 2 during algs
+2017-12-15 09:35:50	jeffrey	Like that one discrete midterm
+2017-12-15 09:36:11	jeffrey	Where it asked something like how many ways can you organize the alphabet so 10 letters are in order
+2017-12-15 09:36:30	wtheisen	@wtheisen uploaded a file: image.png https://nd-cse.slack.com/files/U0KQYK7DK/F8ELUDUV6/image.png 
+2017-12-15 09:36:32	jeffrey	And then it asked how many 7 digit numbers have their digits sum to 9
+2017-12-15 09:36:44	jeffrey	And I put down nothing for those two problems
+2017-12-15 09:36:53	wtheisen	wait the gif isn't playing
+2017-12-15 09:37:07	jeffrey	That's a png
+2017-12-15 09:37:13	jeffrey	Maybe slack can't do animated pngs
+2017-12-15 09:37:15	wtheisen	this is better
+2017-12-15 09:37:33	wtheisen	right click copy image doesn't copy gifs in chrome apparently
+2017-12-15 09:37:35	wtheisen	@wtheisen uploaded a file: itllbegreat.gif https://nd-cse.slack.com/files/U0KQYK7DK/F8GCV2UQP/itllbegreat.gif 
+2017-12-15 09:38:05	jeffrey	What can he ask about graph algorithms though
+2017-12-15 09:40:40	jeffrey	Also not a fan of the lack of hw8 grades
+2017-12-15 09:48:32	phale1	Same
+2017-12-15 09:49:00	phale1	Bill I am taking this exam screwed up sugars or not
+2017-12-15 09:49:15	phale1	I took my OS final with a low blood sugar and made it through
+2017-12-15 09:49:18	phale1	It was painful
+2017-12-15 09:49:23	phale1	But I did it
+2017-12-15 09:49:42	jeffrey	Personally I wanna hear happy give the speech from independents day
+2017-12-15 09:49:49	jeffrey	Independence
+2017-12-15 09:50:45	phale1	I've never seen it
+2017-12-15 09:50:48	phale1	But I'll do it
+2017-12-15 09:52:18	ewilli23	https://youtu.be/oj16vfbsM9A 
+2017-12-15 10:00:27	wtheisen	cheat sheet status: printed
+2017-12-15 10:02:05	wtheisen	4 pages is a lot
+2017-12-15 10:02:22	wtheisen	I started printing full wiki articles at the end
+2017-12-15 10:02:22	jeffrey	Ikr
+2017-12-15 10:02:26	jeffrey	Lol
+2017-12-15 10:06:55	phale1	wait looking back
+2017-12-15 10:07:01	phale1	what does he mean by transformation
+2017-12-15 10:12:41	wtheisen	good luck guys, see you on the other side
+2017-12-15 10:17:18	catvajiac	good luck algs people!
+2017-12-15 10:23:36	phale1	In actuality my pump did run out of battery
+2017-12-15 10:25:28	phale1	I brought a spare
+2017-12-15 10:25:44	phale1	But if this bodes for how the exam will go I'm scared
+2017-12-15 10:38:23	cnailos	https://engineering.instagram.com/let-your-code-type-hint-itself-introducing-open-source-monkeytype-a855c7284881 
+2017-12-15 10:43:11	pbui	cnailos: finish project 06 plox
+2017-12-15 10:43:32	cnailos	Hold your horses fam I just woke up
+2017-12-15 10:43:41	cnailos	We just need read write tho
+2017-12-15 10:47:30	walter.scheirer	https://www.nytimes.com/2017/12/15/style/know-your-meme.html 
+2017-12-15 11:42:11	walter.scheirer	unsurprisingly, the know your meme moderators are an odd bunch
+2017-12-15 11:50:58	walter.scheirer	https://twitter.com/taviso/status/941710362717470720 
+2017-12-15 11:51:04	walter.scheirer	oh windows...
+2017-12-15 11:51:12	walter.scheirer	shakes his head
+2017-12-15 11:54:50	phale1	IM FREEEEEEEE
+2017-12-15 11:55:31	walter.scheirer	congrats!
+2017-12-15 11:59:02	phale1	Also Walter I have not gotten an email with those documents....who should I contact?
+2017-12-15 11:59:16	walter.scheirer	which documents?
+2017-12-15 11:59:24	walter.scheirer	we sent you the paper via slack
+2017-12-15 12:00:25	catvajiac	hey gj phale1 :)
+2017-12-15 12:00:28	catvajiac	go relax!
+2017-12-15 12:10:40	phale1	Ah I thought there was another paper
+2017-12-15 12:10:44	phale1	Perhaps I was mistaken
+2017-12-15 12:11:07	walter.scheirer	oh, i think we may have suggested you look at the of the other papers from the project in addition
+2017-12-15 12:11:10	walter.scheirer	i will send you links in a PM
+2017-12-15 12:18:02	jeffrey	@phale1 you live?
+2017-12-15 12:22:48	walter.scheirer	the silence is not reassuring
+2017-12-15 12:23:27	catvajiac	she'll be missed
+2017-12-15 12:23:48	jeffrey	Rip Happy, 1994-2017
+2017-12-15 12:55:27	phale1	1995
+2017-12-15 12:56:09	jeffrey	I considered that
+2017-12-15 12:56:20	jeffrey	But I figured you were more than 6 months older than me
+2017-12-15 12:59:55	walter.scheirer	wow, i was hacking linux kernel code back in 1995...
+2017-12-15 13:17:36	jbaker10	me too
+2017-12-15 13:18:47	jeffrey	Anyone else down for Mario kart tonight?
+2017-12-15 13:41:03	ssjohns	Guys! I'm going to Austin in March and Reddit is having a few famous artist perform at parties. Last year we had Snoop Dogg.
+2017-12-15 13:41:47	walter.scheirer	haha
+2017-12-15 13:44:30	jeffrey	I don't buy thain's answer for taking away our gradebook
+2017-12-15 13:44:45	walter.scheirer	"you can't handle the truth!"
+2017-12-15 13:45:10	jeffrey	I can't handle anything right now, I'm exhausted
+2017-12-15 13:45:23	jeffrey	And I gotta do grad apps and NLP
+2017-12-15 13:50:51	ssjohns	Hey what's that link sharing thing everyone always uses? @jeffrey
+2017-12-15 13:51:01	ssjohns	Like you can use it from the commandline
+2017-12-15 13:54:12	jeffrey	Yld.me ?
+2017-12-15 13:55:02	ssjohns	Yes, thank you!
+2017-12-15 13:56:34	silv3r	@pbui your tool is going to be universally used at Reddit now, I hope u feel proud
+2017-12-15 13:58:13	pbui	no
+2017-12-15 13:58:16	pbui	dont use it at reddit
+2017-12-15 13:58:18	pbui	please no
+2017-12-15 13:58:28	pbui	@ssjohns: use http://sprunge.us/ 
+2017-12-15 13:58:34	pbui	my vps cant take the traffic
+2017-12-15 13:58:51	silv3r	It sounds like it’s time for an upgrade then
+2017-12-15 13:58:54	ssjohns	Lol, I only needed it for one thing.
+2017-12-15 13:59:28	ssjohns	Apparently I lose shaqhacks in a few onths if I don't renew the droplet.
+2017-12-15 13:59:34	ssjohns	*months
+2017-12-15 14:05:21	jeffrey	@jeffrey uploaded a file: Screenshot_20171215-140454.jpg https://nd-cse.slack.com/files/U0L54J0MD/F8FKJQSKX/screenshot_20171215-140454.jpg 
+2017-12-15 14:31:43	walter.scheirer	wow, the demise of shaqhacks
+2017-12-15 14:31:45	walter.scheirer	that could be the end of an era
+2017-12-15 15:11:39	jeffrey	"You do not have to fill out additional paperwork for your spring TA position. You are all set to begin work as soon as Professor Scheirer needs you to." ummm
+2017-12-15 15:11:55	jeffrey	@dchiang did you trade me to @walter.scheirer
+2017-12-15 15:12:11	walter.scheirer	lol
+2017-12-15 15:12:13	walter.scheirer	wow...
+2017-12-15 15:12:16	dchiang	dangit
+2017-12-15 15:12:31	dchiang	or maybe @walter.scheirer is teaching theory next semester
+2017-12-15 15:12:38	walter.scheirer	scratches his chin
+2017-12-15 15:12:42	walter.scheirer	hmmm...
+2017-12-15 16:42:00	ssjohns	@jeffrey?? You follow me on IG?
+2017-12-15 16:42:10	ssjohns	I didn't even know you had one.
+2017-12-15 16:42:17	jeffrey	umm no?
+2017-12-15 16:42:24	jeffrey	that was on facebook for me
+2017-12-15 16:42:30	jeffrey	does facebook own IG?
+2017-12-15 16:42:40	ssjohns	Ohh my bad. Yeah sorry.
+2017-12-15 16:42:46	ssjohns	And yes fb does own ig.
+2017-12-15 16:42:53	ssjohns	It's how they plan to kill snapchat.
+2017-12-15 16:43:03	jeffrey	but they don't got snap glasses
+2017-12-15 16:43:28	ssjohns	Snap glasses failed pretty badly haha. Also Snap lost $2 billion this year.
+2017-12-15 16:48:17	jeffrey	Submitted UMass, so 2 down, 2 to go today
+2017-12-15 16:56:42	ssjohns	@jeffrey Apply to Berkeley.
+2017-12-15 16:59:47	jeffrey	wrong coast
+2017-12-15 17:10:14	--	irc: disconnected from server
+2017-12-20 10:40:44	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #lug
+2017-12-20 10:40:44	--	Topic for #lug is "http://ndlug.org  and the inexorability of fate - Welcome to LUGND, where the topic isn't broken, the cool kids come, and where pbui is a good teach.  Meetings are Wednesdays 5pm-6pm in 356A Fitzpatrick Hall  ~~sterm a molge~~"
+2017-12-20 10:40:44	--	Channel #lug: 170 nicks (0 ops, 0 voices, 170 normals)
+2017-12-20 10:41:17	--	Channel created on Wed, 20 Dec 2017 10:41:17
+2017-12-20 11:01:22	pbui	https://www.politico.com/story/2017/12/19/college-university-backlash-elitism-296898 
+2017-12-20 11:04:54	nbrooks3	https://i.redd.it/ipy3vvkma2501.jpg 
+2017-12-20 11:40:47	pbui	The backlash against higher education is real... I experienced it at uwec
+2017-12-20 11:41:14	pbui	I'm somewhat surprised that even ND is not immune from it
+2017-12-20 11:41:20	wtheisen	it’s 100% warranted though
+2017-12-20 11:42:12	pbui	While I agree with the sentiment that ND and other elites don't do enough, I'm not convinced the tax addresses the problem
+2017-12-20 11:42:34	pbui	It's more of a gotcha rather than a real fix
+2017-12-20 11:42:43	wtheisen	we spent 400 million on expansions to the football stadium
+2017-12-20 11:43:49	pbui	Crossroads is more than the stadium though, it is also a student center and new academic buildings
+2017-12-20 11:44:06	pbui	That happen to be next to the stadium
+2017-12-20 11:44:30	wtheisen	I think Notre Dame is a very elitist school, students and faculty alike
+2017-12-20 11:44:39	pbui	Look, I'm not a big fan of the project, but it is important that we get the facts right
+2017-12-20 11:45:05	pbui	Define elitist
+2017-12-20 11:45:53	wtheisen	we just think we’re better than everyone, and students are usually wealthy white kids
+2017-12-20 11:46:10	pbui	I can see that
+2017-12-20 11:46:33	pbui	I'm not sure how faculty play into that
+2017-12-20 11:48:52	ewilli23	I agree that we’re elitist
+2017-12-20 11:48:53	ewilli23	I think the admin has more to do with that than faculty though
+2017-12-20 11:48:59	walter.scheirer	haha
+2017-12-20 11:49:01	wtheisen	College in and of itself is a self-propagating system of elitism
+2017-12-20 11:49:11	wtheisen	okay yeah, admin, not faculty that’s the word
+2017-12-20 11:49:15	walter.scheirer	my lab is the suite of the elite baby
+2017-12-20 11:50:07	walter.scheirer	31337
+2017-12-20 11:50:50	ewilli23	Pro tip: request an official transcript the day before your hold starts and it’ll still go through, but because it takes a couple days to process it’ll have your new grades
+2017-12-20 11:51:37	jeffrey	Really?
+2017-12-20 11:51:51	wtheisen	unfortunately college instills a false sense of superiority in most students, and that continues the dislike of collegiate students, because they’re all dicks
+2017-12-20 11:51:52	jeffrey	So U mass will know my grades before me?
+2017-12-20 11:52:31	ewilli23	Yeah I requested a transcript on Sunday and got it today and it has my fall grades on it
+2017-12-20 12:17:24	pbui	wtheisen: we actually talk about this at the beginning of ethics
+2017-12-20 12:42:38	wtheisen	good I’ll have some hot takes about it
+2017-12-20 12:42:46	wtheisen	man I hate college kids
+2017-12-20 12:48:03	walter.scheirer	lol
+2017-12-20 12:48:51	wtheisen	most kids are exactly like pip in great expectations
+2017-12-20 12:56:29	walter.scheirer	protagonists in a bildungsroman?
+2017-12-20 12:58:17	wtheisen	what a word. they’re like when pip goes home for the first time and he’s like “i’m a gentleman and rich now, everyone will love me” and it’s like no ur just a dick
+2017-12-20 13:01:38	walter.scheirer	https://news.nd.edu/news/kite-notre-dame-break-ground-on-eddy-street-commons-phase-ii/ 
+2017-12-20 13:01:51	pbui	U hate pip?
+2017-12-20 13:06:24	wtheisen	no pip has a good arc and in the original ending is a really tragic character
+2017-12-20 13:18:20	pbui	http://www.omgubuntu.co.uk/2017/12/ubuntu-corrupting-lenovo-laptop-bios 
+2017-12-20 13:56:02	walter.scheirer	https://www.buzzfeed.com/matthewchampion/people-keep-on-getting-wrongly-arrested-due-to-ip-address?utm_term=.okBpM2jrK#.nuLAXdJrW 
+2017-12-20 14:09:25	ewilli23	^is that real
+2017-12-20 15:41:21	pbui	Where’s the Next Silicon Valley? VC Is Betting on the Midwest - https://news.ycombinator.com/item?id=15962254 
+2017-12-20 15:41:48	walter.scheirer	affordability is a serious factor
+2017-12-20 15:52:44	pbui	ugh
+2017-12-20 15:52:46	pbui	new stable kernels
+2017-12-20 15:52:51	pbui	i just updated yesterday
+2017-12-20 16:48:08	pbui	http://ndsmcobserver.com/2017/12/stepherson-holmes-arrested-suspended/ 
+2017-12-20 16:48:26	walter.scheirer	facepalms
+2017-12-20 16:48:37	pbui	y would u shoplift at the mall
+2017-12-20 16:48:40	pbui	come on bros
+2017-12-20 16:49:16	walter.scheirer	RIP ND in the citrus bowl
+2017-12-20 16:49:33	walter.scheirer	"If Stepherson misses Notre Dame’s upcoming Citrus Bowl, the Irish will be without two of their top three targets when they take on LSU. Stepherson has 19 catches for 359 yards on the season. Kelly announced last week that sophomore wide receiver Chase Claypool injured his shoulder in practice and will sit out the bowl game due to the injury."
+2017-12-20 16:50:00	pbui	it's not like we pass the ball anyways
+2017-12-20 17:52:30	cnailos	"Stepherson was arrested for shoplifting a pair of sweatpants from Macy's at the University Park Mall in Mishawaka. He was picked up walking out of the store wearing an allegedly stolen $59 pair of Nautica sweatpants."
+2017-12-20 17:52:30	cnailos	bruh... at least take something worth shoplifting
+2017-12-20 17:54:17	ewilli23	Sweatpants?
+2017-12-20 17:54:24	ewilli23	All the free UA swag isn’t enough?
+2017-12-20 19:00:52	jeffrey	I must confess
+2017-12-20 19:01:11	jeffrey	I deleted my Ubuntu partition and installed Windows, for the vidyo games
+2017-12-20 19:01:31	jeffrey	When the Christmas ends, I will install arch on this, and be pure once more
+2017-12-20 19:04:52	dougsmith	Nothing but arch? Or just a partition?
+2017-12-20 19:05:05	dougsmith	How can one game without windows?
+2017-12-20 19:11:58	jbaker10	you could use Mac ;)
+2017-12-20 19:12:33	silv3r	Overwatch tho
+2017-12-20 19:22:45	jeffrey	My desktop has the windows for the games
+2017-12-20 19:22:57	jeffrey	But for break I need games
+2017-12-20 19:46:25	jeffrey	I tried using wine but it failed me
+2017-12-20 19:54:47	catvajiac	4
+2017-12-20 19:54:59	walter.scheirer	uh huh
+2017-12-20 19:56:01	catvajiac	oops, mobile is not kind to me
+2017-12-20 19:57:34	pbui	jeffrey: rms is disappointed
+2017-12-20 19:57:46	pbui	That is negative in the freedom dimension
+2017-12-20 20:16:24	jeffrey	I'm disappointed too
+2017-12-20 20:16:46	pbui	A Brainfuck interpreter inside a single printf statement - https://news.ycombinator.com/item?id=15971877 
+2017-12-20 21:12:24	jbaker10	“Freedom”
+2017-12-21 09:12:34	pbui	nothing like fixing obscure encoding errors in python3
+2017-12-21 09:12:37	pbui	sigh
+2017-12-21 09:21:40	pbui	https://www.reddit.com/r/GradSchool/comments/7l3x0z/tis_the_season_for_emails_like_this/ 
+2017-12-21 09:24:27	pbui	oh hey, we did this: https://news.ycombinator.com/item?id=15974483 
+2017-12-21 09:27:08	pbui	their malloc assignment is much more hardcore than mine...
+2017-12-21 09:29:33	pbui	we didnt focus on performance at all
+2017-12-21 09:39:45	pbui	wait, this was a sigcse paper and it had nsf funding?
+2017-12-21 09:39:51	pbui	i could have done this...
+2017-12-21 09:39:53	pbui	sigh
+2017-12-21 09:42:36	pbui	looking at the actual lab writeup, this just simulates malloc
+2017-12-21 09:42:42	pbui	it doesnt directly use sbrk or mmap
+2017-12-21 09:43:02	pbui	we actually replaced malloc and used the system calls, even allowed untouched binaries to use our malloc
+2017-12-21 09:43:13	pbui	so in that sense, we were actually more low level, which is pretty neat
+2017-12-21 09:43:17	pbui	take that CMU
+2017-12-21 09:45:20	pbui	oh wow, part of the grading rubric at purdue is to look at the git log: https://docs.google.com/document/d/1vqhihitmfrytadVymmjGo_mf01cB-fZ1FOpE_IAUP9k/pub 
+2017-12-21 09:45:22	pbui	@pbui shared a file: Lab1 - Code Review 1 https://nd-cse.slack.com/files/U0HK21CP2/F8J5AFNTX/lab1_-_code_review_1 
+2017-12-21 09:45:43	pbui	i should consider that in the future
+2017-12-21 09:58:58	silv3r	Sleep in @pbui it’s winter break
+2017-12-21 09:59:16	pbui	kids still need to go to school
+2017-12-21 09:59:25	silv3r	Oh yeah
+2017-12-21 09:59:29	silv3r	That’s a thing
+2017-12-21 10:01:40	silv3r	We go up thru chapter 20 of the Linux book right?
+2017-12-21 10:02:11	pbui	no idea
+2017-12-21 10:02:18	pbui	i dont remember off the top of my head
+2017-12-21 10:06:07	silv3r	Ok. Tbh I’ll probably just read the whole thing, it’s pretty awesome
+2017-12-21 10:06:43	silv3r	I finally sorta understand what all those cool commands you use are
+2017-12-21 10:08:43	pbui	that's good
+2017-12-21 10:29:31	walter.scheirer	https://news.harvard.edu/gazette/story/2017/12/harvard-president-voices-concern-after-endowment-tax-passes/ 
+2017-12-21 10:29:56	walter.scheirer	ND gets a shoutout in this gazette article
+2017-12-21 10:34:30	wtheisen	@walter.scheirer If I go to ND I can start in the summer right?
+2017-12-21 10:34:38	walter.scheirer	yep
+2017-12-21 10:34:56	walter.scheirer	that's a nice perk
+2017-12-21 10:35:04	walter.scheirer	from my perspective anyway
+2017-12-21 10:35:05	walter.scheirer	hehe
+2017-12-21 10:51:56	pbui	https://www.bloomberg.com/news/articles/2017-12-21/more-american-universities-are-building-1-billion-endowments 
+2017-12-21 10:52:19	walter.scheirer	we're a top dog endowment
+2017-12-21 10:55:35	walter.scheirer	"Many major donors insist their funds be used for specific purposes. Others don’t even give money. Princeton University, for example, would struggle to convert the largest gift in its history into tuition assistance: a collection of 2,500 rare books valued at almost $300 million."
+2017-12-21 10:55:59	walter.scheirer	i'm pretty sure christie's can help princeton out with liquidating that collection
+2017-12-21 10:59:49	pbui	https://www.bloomberg.com/news/articles/2017-12-21/crypto-craze-sees-long-island-iced-tea-rename-as-long-blockchain 
+2017-12-21 10:59:53	pbui	wtf is this pivot
+2017-12-21 11:00:02	pbui	how do u go from drinks to cryptocurrency
+2017-12-21 11:00:15	walter.scheirer	lol
+2017-12-21 11:00:35	silv3r	Krypto Krazy
+2017-12-21 11:01:12	walter.scheirer	https://twitter.com/BoredSynBio/status/913430237228171264 
+2017-12-21 11:01:32	walter.scheirer	not really george church, but great idea!
+2017-12-21 11:01:39	silv3r	LugCoin
+2017-12-21 11:01:42	walter.scheirer	haha
+2017-12-21 11:01:49	walter.scheirer	great club fundraiser!
+2017-12-21 11:07:59	pbui	i seriously dont get the pivot
+2017-12-21 11:08:09	pbui	how do u go from iced tea to blockchains
+2017-12-21 11:08:17	wtheisen	@walter.scheirer do you think bitcoin is gonna pop? Everyone asks me
+2017-12-21 11:08:24	wtheisen	I need a real opinion
+2017-12-21 11:08:27	pbui	does wall street not vet these things
+2017-12-21 11:09:11	walter.scheirer	of course it's going to pop
+2017-12-21 11:09:21	walter.scheirer	it's a giant speculative bubble
+2017-12-21 11:09:46	wtheisen	That's what I said but my friends didn't believe me
+2017-12-21 11:13:03	silv3r	Short them
+2017-12-21 11:15:57	pbui	not whoppercoin though
+2017-12-21 11:16:06	pbui	burger king 5 ever
+2017-12-21 11:26:13	silv3r	I wonder if @androidkitkat has seen gains in his doge coin investment
+2017-12-21 11:28:07	silv3r	Lug’s resident coin mogul
+2017-12-21 11:28:16	silv3r	The coin connoisseur
+2017-12-21 11:31:45	androidkitkat	I sold my btc
+2017-12-21 11:31:50	androidkitkat	Made a few bucks
+2017-12-21 11:32:04	androidkitkat	I’d rather invest in something else
+2017-12-21 11:32:11	silv3r	“Made a few bucks”
+2017-12-21 11:32:20	silv3r	_drives away in lambo_
+2017-12-21 11:32:21	androidkitkat	I made like $20
+2017-12-21 11:32:29	silv3r	O_O
+2017-12-21 11:32:47	androidkitkat	I cashed out pretty quickly once it hit 20k
+2017-12-21 11:32:50	silv3r	Here u dropped these (^_^)/000.00
+2017-12-21 11:32:57	androidkitkat	Lol
+2017-12-21 11:33:37	androidkitkat	So with my deep pockets I’m building a Mac
+2017-12-21 11:34:35	silv3r	:apple:
+2017-12-21 11:35:09	androidkitkat	I have a cpu and gpu hat work so I just need a board
+2017-12-21 11:35:30	androidkitkat	And I have copies of Mavericks.app thru High Sierra.app
+2017-12-21 11:36:25	silv3r	Hackintosh?
+2017-12-21 11:36:47	androidkitkat	Yeah
+2017-12-21 11:36:56	silv3r	Deng
+2017-12-21 11:37:01	androidkitkat	Need “Apple” ram or whatever that is
+2017-12-21 11:37:35	silv3r	I’m sure you can download some from the App Store
+2017-12-21 11:38:29	androidkitkat	Lol
+2017-12-21 11:38:37	androidkitkat	But not all ram is created equal
+2017-12-21 11:40:39	silv3r	Get your custom ND RAM™️ at the Hammes Bookstore on campus today! Special Fr. Jenkins signed sticks available today!
+2017-12-21 11:47:47	pbui	oooh
+2017-12-21 11:47:51	pbui	blessed RAM
+2017-12-21 11:47:58	pbui	to ward off evil bits
+2017-12-21 11:49:42	pbui	https://www.reddit.com/r/notredame/comments/7l79p9/just_trying_to_get_a_better_feel_for_campus/ 
+2017-12-21 11:51:39	androidkitkat	i saw that @pbui
+2017-12-21 11:51:48	pbui	u contribute?
+2017-12-21 11:51:57	androidkitkat	thought about it
+2017-12-21 11:52:07	androidkitkat	but i wasnt sure what account i was logged into on my phone
+2017-12-21 11:52:15	pbui	uve only had 1 semester
+2017-12-21 11:52:16	androidkitkat	and i cant use my main account willy nilly
+2017-12-21 11:52:31	androidkitkat	that too
+2017-12-21 11:54:39	pbui	i like the "menbrozas"
+2017-12-21 11:54:44	pbui	not sure if that was intentional
+2017-12-21 11:59:22	androidkitkat	thats what we call mendoza students
+2017-12-21 12:07:30	androidkitkat	@silv3r https://pcpartpicker.com/list/gKmzbj 
+2017-12-21 12:07:34	androidkitkat	this is what im thinking
+2017-12-21 12:07:42	androidkitkat	but i can cut costs with the case if i want to
+2017-12-21 12:18:14	silv3r	Mini ITX is so dope
+2017-12-21 12:44:12	wtheisen	RE that reddit thread: Political discourse at ND is surprisingly good, pretty much everyone is intelligent enough not to just go all crazy with their opinions and what not. Defintiely one fo the best aspects of the college in my opinion
+2017-12-21 12:46:58	androidkitkat	I love mini it’s
+2017-12-21 12:47:00	androidkitkat	Itx
+2017-12-21 13:00:55	silv3r	Scrolling through a ML YouTube videos comments
+2017-12-21 13:01:14	silv3r	“Why duz python exist when there are better languages like JavaScript??”
+2017-12-21 13:01:48	silv3r	:(
+2017-12-21 13:42:14	mflanag6	o no
+2017-12-21 14:27:10	jeffrey	Why does JavaScript exist when there are better languages like Arrows
+2017-12-21 14:27:15	walter.scheirer	lol
+2017-12-21 14:27:24	8bit	jeffrey askin the real questions here
+2017-12-21 14:27:56	walter.scheirer	i'm hard at work on arrOwS, a new open source kernel, written entirely in arrows
+2017-12-21 14:28:19	8bit	Do you distribute it in print?
+2017-12-21 14:33:08	jeffrey	Are there any good git diff algorithms for images?
+2017-12-21 14:35:33	silv3r	Did you see that post in r/programmerhumor @8bit
+2017-12-21 14:35:53	8bit	silv3r: I think so
+2017-12-21 14:36:03	silv3r	The dude who wrote his research paper in C and made a custom compiler for it since he could only use the bits for ascii characters or whatever
+2017-12-21 14:36:23	8bit	Wow no I did not see that
+2017-12-21 14:36:26	8bit	lol
+2017-12-21 14:36:43	8bit	jeffrey: Probably no good ones yet.  perhaps you could write one...in arrows.
+2017-12-21 14:38:37	jeffrey	Oh, Tom Murphy VII @silv3r
+2017-12-21 14:38:47	jeffrey	I link his videos all the time here
+2017-12-21 14:39:14	jeffrey	https://youtu.be/LA_DrBwkiJA 
+2017-12-21 14:39:55	jeffrey	It was for SIGBOVIK, a conference for joke executions of joke ideas, joke executions of serious ideas, or serious executions of joke ideas.
+2017-12-21 14:48:08	androidkitkat	oh wow my iPhone battery has degraded a ton
+2017-12-21 14:48:21	androidkitkat	ive had it for under a year and its already 80% capacity
+2017-12-21 14:48:24	androidkitkat	dies
+2017-12-21 14:48:44	alitteke	Well if it's a 6S there was a battery recall
+2017-12-21 14:48:50	androidkitkat	its a 6S+
+2017-12-21 14:48:59	androidkitkat	and its a "new" 32 GB one
+2017-12-21 14:49:06	androidkitkat	so its not a launch phone
+2017-12-21 14:49:09	alitteke	hm
+2017-12-21 14:49:28	androidkitkat	i bet apple used refurb parts in the "new" 6S phones
+2017-12-21 14:49:53	androidkitkat	bc like my mom's i7 has 95% and its from launch
+2017-12-21 14:50:30	androidkitkat	and my brother's launch i6 has 85%
+2017-12-21 14:52:17	jeffrey	You are assuming your usage is the same and you are not doing something to degrade it faster
+2017-12-21 14:52:41	androidkitkat	i just use reddit and irc
+2017-12-21 14:52:49	androidkitkat	my bro likes games and crap
+2017-12-21 14:53:11	androidkitkat	but live and let live
+2017-12-21 14:53:23	jeffrey	Maybe he keeps it at 40% more often while gaming
+2017-12-21 14:53:38	androidkitkat	ive no clue
+2017-12-21 14:53:43	jeffrey	I hear lithium batteries like that
+2017-12-21 14:54:10	jeffrey	I hate that modern phones are built to last 2 years then have no more battery
+2017-12-21 14:55:32	androidkitkat	well it seems that according to this (https://www.reddit.com/r/iphone/comments/7inu45/psa_iphone_slow_try_replacing_your_battery/ ) reddit post
+2017-12-21 14:55:38	androidkitkat	i still have max freq
+2017-12-21 14:55:46	androidkitkat	so there goes 99 cents
+2017-12-21 14:57:08	alitteke	https://www.apple.com/support/iphone6s-unexpectedshutdown/ 
+2017-12-21 14:57:14	alitteke	You could check this
+2017-12-21 14:57:40	androidkitkat	it doesnt apply to 6S+ i thouht
+2017-12-21 14:57:42	androidkitkat	thought
+2017-12-21 14:58:10	alitteke	I wasn’t sure
+2017-12-21 14:59:02	androidkitkat	either way my serial is not in the recall
+2017-12-21 16:02:41	walter.scheirer	https://bugs.chromium.org/p/project-zero/issues/detail?id=1454&desc=3 https://bugs.chromium.org/p/project-zero/issues/detail?id=1454&amp;desc=3 
+2017-12-21 16:02:46	walter.scheirer	have we discussed this gem?
+2017-12-21 16:03:15	walter.scheirer	" any tiny slip-up in the arithmetic range
+2017-12-21 16:03:15	walter.scheirer	tracking now turns into an arbitrary read+write in the full kernel address
+2017-12-21 16:03:15	walter.scheirer	space, which is easily exploitable"
+2017-12-21 16:18:46	pbui	iptables ftw?
+2017-12-21 16:21:59	walter.scheirer	haha
+2017-12-21 16:43:54	walter.scheirer	email from John Affleck-Graves on the tax bill states "Our early estimates suggest the additional annual cost to the University will be in the $12 million to $15 million range."
+2017-12-21 16:48:04	pbui	it's ok, it's about time we start taxing the rich
+2017-12-21 16:48:10	pbui	and making them pay their fair share
+2017-12-21 17:19:24	pbui	Blizzard's Battle.net  Silently Adds Root CA - https://www.reddit.com/r/heroesofthestorm/comments/7lb8vq/hey_blizzard_whats_the_deal_with_this_sneaky_root/ 
+2017-12-21 17:25:30	wtheisen	kek playing heroes of the storm unironically
+2017-12-21 17:31:13	cnailos	...i like hots
+2017-12-21 17:32:47	jeffrey	lol
+2017-12-21 17:32:51	dougsmith	The only good Hots is Heart of the Swarm.
+2017-12-21 17:32:59	jeffrey	I also like heroes of the storm
+2017-12-21 17:33:27	jbaker10	hots is like the worst moba ever
+2017-12-21 17:33:41	jeffrey	mobas suck anyway
+2017-12-21 17:33:49	jeffrey	being the worst makes it better
+2017-12-21 17:33:51	wtheisen	@wtheisen uploaded a file: Image uploaded from iOS https://nd-cse.slack.com/files/U0KQYK7DK/F8HJGGHEC/img_0578.jpg 
+2017-12-21 17:34:06	cnailos	is that from the new jumanji?
+2017-12-21 17:34:07	wtheisen	reeee why isn’t my gif playing
+2017-12-21 17:34:30	wtheisen	is it a gif for you guys?
+2017-12-21 17:34:44	jeffrey	it is not
+2017-12-21 17:34:47	wtheisen	shucks
+2017-12-21 17:34:51	wtheisen	well it’s really funny
+2017-12-21 17:34:54	jeffrey	it is a jpeg
+2017-12-21 17:35:11	wtheisen	stupid apple
+2017-12-21 17:36:28	wtheisen	@wtheisen uploaded a file: lemme try again https://nd-cse.slack.com/files/U0KQYK7DK/F8J69BWD9/lemme_try_again.gif 
+2017-12-21 17:36:42	wtheisen	okay is this one a gif?
+2017-12-21 17:36:53	jeffrey	yes
+2017-12-21 17:37:13	wtheisen	well that’s how I feel about people unironically playing HOTS
+2017-12-21 17:37:33	jeffrey	it's an easy moba
+2017-12-21 17:37:33	wtheisen	play the superior game LOL
+2017-12-21 17:37:39	jeffrey	some of us want casual ok
+2017-12-21 17:37:45	jeffrey	like how some people like Super Smash Bros.
+2017-12-21 17:37:46	wtheisen	wait league is so casual
+2017-12-21 17:37:55	silv3r	^
+2017-12-21 17:38:09	jeffrey	but isn't hots more casual?
+2017-12-21 17:38:23	jbaker10	i thought so
+2017-12-21 17:38:55	cnailos	hots skips the laning bullshit
+2017-12-21 17:39:25	silv3r	Laning is fun tho :three
+2017-12-21 17:39:34	silv3r	Why does it do that ugh : 3
+2017-12-21 17:39:42	silv3r	My emoji face doesn’t work in slack
+2017-12-21 17:39:43	jeffrey	:three:
+2017-12-21 17:39:47	silv3r	Oh
+2017-12-21 17:39:50	jeffrey	:3
+2017-12-21 17:39:55	silv3r	Wut
+2017-12-21 17:39:57	cnailos	:b:
+2017-12-21 17:40:07	silv3r	:\3
+2017-12-21 17:40:08	jeffrey	owo :3
+2017-12-21 17:40:10	silv3r	....
+2017-12-21 17:40:12	jeffrey	OwO
+2017-12-21 17:40:20	silv3r	Pls
+2017-12-21 18:10:15	wtheisen	laning is one of the best parts of the game
+2017-12-21 18:10:35	wtheisen	except when I constantly get 4-5 manned bot
+2017-12-21 18:10:44	silv3r	1v1 me @wtheisen
+2017-12-21 18:10:46	silv3r	Zed mid
+2017-12-21 18:10:50	wtheisen	Pls no
+2017-12-21 18:10:58	silv3r	Lee sin
+2017-12-21 18:11:07	wtheisen	I only know how to right-click
+2017-12-21 18:11:14	silv3r	Lol
+2017-12-21 18:55:36	ewilli23	@ewilli23 uploaded a file: Image uploaded from iOS https://nd-cse.slack.com/files/U3SRYR1P1/F8J99M2GJ/image_uploaded_from_ios.jpg  and commented: Just ran this guy through the faucet... prayers appreciated
+2017-12-21 19:05:20	pbui	Mad lad
+2017-12-21 19:06:42	ewilli23	My father has a penchant for spilling scotch on it
+2017-12-21 19:07:07	pbui	oh like catvajiac
+2017-12-21 19:07:14	pbui	laptop was thirsty
+2017-12-21 19:09:22	ewilli23	Yeah
+2017-12-21 19:09:32	ewilli23	Thankfully it’s not a laptop
+2017-12-21 19:09:51	ewilli23	But mac keyboards are ridiculously expensive
+2017-12-21 19:12:48	ccarball	:praying-hands:
+2017-12-21 19:19:38	catvajiac	ewilli23: been there, best of luck
+2017-12-21 21:42:49	jeffrey	I think my first Ethics blog will be me ranting about the movie Home Alone
+2017-12-21 21:47:25	pbui	what's wrong w/ home alone
+2017-12-21 21:47:42	jeffrey	the first 70 minutes of it
+2017-12-21 21:47:55	jeffrey	and that it is a movie
+2017-12-21 21:48:56	jbaker10	i never quite understood why there were so many of them
+2017-12-21 21:49:05	jeffrey	$$$
+2017-12-21 21:55:07	wtheisen	i can’t wait to display my true power level in ethics
+2017-12-21 22:02:21	jeffrey	I'm still not sure if I go serious, troll, or what
+2017-12-21 22:07:24	jbaker10	does it actually matter?
+2017-12-21 22:08:06	jeffrey	Why would it not?
+2017-12-21 22:09:30	wtheisen	yeah I don’t know if I can go all the way in on it
+2017-12-21 22:09:45	wtheisen	I don’t want to get ostracized
+2017-12-21 23:26:47	ewilli23	https://chicago.suntimes.com/news/apple-sued-in-chicago-for-slowing-down-older-iphones/ 
+2017-12-21 23:35:51	alitteke	That feels like a dumb lawsuit to try to make
+2017-12-21 23:37:28	alitteke	I feel like the people trying to make the claim kinda contradict themselves
+2017-12-21 23:46:28	ewilli23	What do you mean contradict themselves
+2017-12-21 23:46:36	8bit	jeffrey: do you have something against Home Alone
+2017-12-21 23:50:53	ewilli23	@ewilli23 uploaded a file: Image uploaded from iOS https://nd-cse.slack.com/files/U3SRYR1P1/F8HRANQ1F/image_uploaded_from_ios.jpg  and commented: @walter.scheirer giving cards to lug, 2017, colorized
+2017-12-21 23:51:50	alitteke	"They're making it so I have to get a new phone, but it can be fixed if I replace my battery"
+2017-12-21 23:52:13	alitteke	Is what it sounds like they're saying
+2017-12-21 23:52:23	ewilli23	Yeah
+2017-12-21 23:53:33	alitteke	If Apple truly made this change because of the phones crashing because it asks to much from the battery, throttling the CPU makes the phone last longer, although they should've been more transparent
+2017-12-21 23:53:41	ewilli23	Like they’re not getting a new phone bc they’re unhappy with their battery life, but because their phone is slow. But Apple never told them that replacing the battery would speed up their phone.
+2017-12-21 23:53:57	alitteke	And they should do that
+2017-12-21 23:53:58	ewilli23	Yeah I think the transparency is the issue
+2017-12-21 23:54:06	alitteke	But it crashing is also not expected behavior
+2017-12-21 23:54:18	alitteke	and that's sort of a physics issue
+2017-12-21 23:54:41	alitteke	they did try to make expected behavior, which is the phone not crashing, be the more ideal state
+2017-12-21 23:54:53	alitteke	But they should say so
+2017-12-21 23:55:05	ewilli23	Yeah I don’t think the argument is that they shouldn’t have done it, but that they were being deceptive about it
+2017-12-21 23:56:12	ewilli23	They should have said “if your phone is slowing down, pay us $99 to replace your battery,” not “if your phone is slowing down, spend $800 to buy a new phone”
+2017-12-21 23:56:45	alitteke	I don't think the people making this case will win if only because Apple doesn't _have_ to disclose this since they never actually say how fast it's supposed to go in the first place
+2017-12-21 23:57:18	alitteke	I don't know the ins and outs, but I don't know if it's entirely viable
+2017-12-21 23:57:46	ewilli23	Idk though I think it falls under deceptive marketing practices
+2017-12-21 23:58:08	alitteke	but they didn't lie when asked
+2017-12-21 23:58:50	ewilli23	Now, but the official line up till now has been that the phones just slow down bc newer OSs require more resources
+2017-12-21 23:59:02	ewilli23	Regardless I’m sure they’ll settle
+2017-12-21 23:59:06	alitteke	This feature wasn't rolled out until iOS 11
+2017-12-21 23:59:10	ewilli23	Then continue to do it
+2017-12-21 23:59:18	ewilli23	Oh really
+2017-12-21 23:59:23	ewilli23	I hadn’t heard that
+2017-12-21 23:59:37	alitteke	I think so
+2017-12-21 23:59:57	ewilli23	Wait so then why did crashing suddenly become an issue
+2017-12-22 00:00:07	alitteke	It was always a problem in the older phones
+2017-12-22 00:00:17	alitteke	this was the update they decided to try to do something about it
+2017-12-22 00:00:30	ewilli23	It was?
+2017-12-22 00:00:57	alitteke	I've had people that have had problems that they're phones used to die with like 40% left occasionally after 2 years of use
+2017-12-22 00:03:31	alitteke	Or like when phones got cold with low battery they'd crash
+2017-12-22 00:09:23	ewilli23	I know people talk about phones suddenly dying with charge left but it seems like if that were the sort of peak-current issue Apple describes than your phone should be able to restart
+2017-12-22 00:09:44	ewilli23	But usually after it crashes like that you get a dead-battery sign
+2017-12-22 00:10:11	alitteke	I have had those happen too, I think it's a mix depending on where your battery is when it died
+2017-12-22 00:10:28	alitteke	From everything I've heard, it seems to come in with iOS 11
+2017-12-22 00:11:27	ewilli23	Apple’s statement says they rolled it out a year ago
+2017-12-22 00:11:54	alitteke	oh, iOS 11.2 is when they're doing it with the 7 maybe
+2017-12-22 00:11:57	ewilli23	So yeah it’s not as big a conspiracy as people are making it out to be
+2017-12-22 00:12:02	ewilli23	Yes
+2017-12-22 00:12:04	alitteke	It's really not
+2017-12-22 00:12:14	ewilli23	But still they should’ve been more transparent
+2017-12-22 00:12:16	alitteke	It's a transparency issue yes
+2017-12-22 00:12:29	alitteke	I think apple was hoping their implementation was a little cleaner
+2017-12-22 00:12:40	alitteke	and that it didn't hit phones so suddenly
+2017-12-22 00:12:50	ewilli23	Also according to reddit comments the same thing happens to MacBooks, even if they’re running off AC
+2017-12-22 00:13:08	ewilli23	And to my knowledge they’ve never announced anything like this
+2017-12-22 00:13:18	alitteke	they haven't
+2017-12-22 00:16:29	androidkitkat	@a3qz can you get on the xbox team and enable same console halo 5 campaign
+2017-12-22 00:17:35	a3qz	Unfortunately that team only has a few openings and I didn't get one
+2017-12-22 00:17:47	a3qz	I know someone who did though I'll see what I can do
+2017-12-22 00:19:29	androidkitkat	Or at least let halo 6 have the noble team from Reach
+2017-12-22 00:20:17	androidkitkat	Noble 6 ex machina
+2017-12-22 06:44:35	ssjohns	Did bitcoin just crash?
+2017-12-22 07:17:29	walter.scheirer	it took a big plunge
+2017-12-22 07:17:35	walter.scheirer	but it tends to do that
+2017-12-22 07:30:16	pbui	there goes my retirement fund
+2017-12-22 07:30:26	walter.scheirer	RIP
+2017-12-22 07:32:18	pbui	http://ndsmcobserver.com/2017/12/alize-mack-suspended-citrus-bowl/ 
+2017-12-22 07:32:27	pbui	so... we have like no WR and TEs
+2017-12-22 07:32:30	pbui	lol
+2017-12-22 07:33:29	pbui	we probably still ended up trying to throw it 70% of the time
+2017-12-22 09:07:06	walter.scheirer	And there’s still over a week to go before the game
+2017-12-22 09:07:59	walter.scheirer	“Internal team matter”
+2017-12-22 09:10:05	walter.scheirer	Kelly may get desperate and call up some students from lug to suit up
+2017-12-22 09:10:11	walter.scheirer	Be prepared!
+2017-12-22 09:12:04	pbui	id do it
+2017-12-22 09:16:36	walter.scheirer	Haha
+2017-12-22 10:17:37	jeffrey	Now's a good time to start my football career
+2017-12-22 10:30:49	silv3r	What do people thing about iota
+2017-12-22 10:31:08	silv3r	The internet tells me that’s the new hot thing coming into 2018
+2017-12-22 10:42:00	pbui	hmm
+2017-12-22 10:42:24	pbui	epic just emailed me, one of our students got an internship there and they were impressed and want me to send them more students
+2017-12-22 10:42:29	pbui	i think it is a form email though
+2017-12-22 10:42:33	pbui	still, pretty cool
+2017-12-22 10:43:45	silv3r	LUG student or general cse student?
+2017-12-22 10:44:27	pbui	general cse
+2017-12-22 10:44:42	silv3r	Why’d they email u lol
+2017-12-22 11:30:43	pbui	i dunno
+2017-12-22 11:30:48	pbui	so impressed i guess
+2017-12-22 11:30:54	pbui	i was a reference for the student
+2017-12-22 11:30:56	pbui	https://www.reddit.com/r/ProgrammerHumor/comments/7le4bg/learn_to_code_in_15_minutes/ 
+2017-12-22 11:37:20	ssjohns	Huh, Epic is a pretty shady company though aren't they? Don't they work new grads to the bone without really giving them any extra compensation?
+2017-12-22 11:37:26	wtheisen	that comic is so accurate
+2017-12-22 11:37:34	ssjohns	Also, we got a Christmas bonus. I'm so happy.
+2017-12-22 11:42:36	pbui	ssjohns: grats
+2017-12-22 11:42:51	pbui	re: epic, i heard it depends on the type of position
+2017-12-22 11:43:06	pbui	consultants burn out quickly at epic
+2017-12-22 12:08:46	walter.scheirer	@pbui and i got paid yesterday; that's almost like a Christmas bonus
+2017-12-22 12:08:51	walter.scheirer	coughs
+2017-12-22 12:10:09	catvajiac	haha close enough
+2017-12-22 12:10:13	walter.scheirer	ahhh, my last visit to O'hare in 2017
+2017-12-22 12:31:11	pbui	we got paid?
+2017-12-22 12:31:19	pbui	#news2me
+2017-12-22 12:31:23	walter.scheirer	lol
+2017-12-22 12:41:37	dchiang	Wait you guys get paid?
+2017-12-22 12:42:17	walter.scheirer	i know, most folks assume we're just two students...
+2017-12-22 12:46:23	androidkitkat	@ssjohns do more updoots gib moar monies
+2017-12-22 13:59:15	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #lug
+2017-12-22 13:59:15	--	Topic for #lug is "http://ndlug.org  and the inexorability of fate - Welcome to LUGND, where the topic isn't broken, the cool kids come, and where pbui is a good teach.  Meetings are Wednesdays 5pm-6pm in 356A Fitzpatrick Hall  ~~sterm a molge~~"
+2017-12-22 13:59:15	--	Channel #lug: 170 nicks (0 ops, 0 voices, 170 normals)
+2017-12-22 13:59:36	--	Channel created on Fri, 22 Dec 2017 13:59:36
+2017-12-22 15:43:20	ssjohns	Yep. One to one correlation.
+2017-12-22 15:54:01	myle_killer	If I was sitting down to start a project when would I chose Go? Like is it just good for when you need concurrency? Or does it have other merits too?
+2017-12-22 15:54:27	pbui	portabilility
+2017-12-22 15:54:33	pbui	performance
+2017-12-22 15:54:41	pbui	go compiles down to a single static executable
+2017-12-22 15:54:46	pbui	so it's easier to deploy
+2017-12-22 15:54:57	myle_killer	Oh really? Always?
+2017-12-22 15:54:57	pbui	b/c it's compiled, it's generally faster than say python
+2017-12-22 15:55:08	pbui	yes, go generates static executables by design
+2017-12-22 15:55:27	myle_killer	Ohh that’s awesome
+2017-12-22 15:56:03	pbui	go has a lot of things builtin
+2017-12-22 15:56:16	pbui	so if u want a middle ground between python and c++, go is a good candidate
+2017-12-22 15:56:55	myle_killer	Makes sense, since I’ve never used it does t have a steep learning curve?
+2017-12-22 15:57:05	pbui	i dont think so
+2017-12-22 15:57:11	myle_killer	Makes sense, since I’ve never used it does it have a steep learning curve?
+2017-12-22 15:57:16	pbui	at uwec, i taught comp arch by starting w/ golang
+2017-12-22 15:57:24	pbui	to teach them concurrency and parallelism
+2017-12-22 15:57:29	pbui	most people were able to pick it up
+2017-12-22 15:57:33	pbui	it's very c-like
+2017-12-22 15:57:56	pbui	i recommend u just work through the go playground
+2017-12-22 15:58:02	pbui	!give myle_killer !g go playground
+2017-12-22 15:58:04	bobbit	@myle_killer: https://yld.me/AUa 
+2017-12-22 15:58:47	pbui	oops
+2017-12-22 15:58:52	pbui	i meant a tour of go: https://tour.golang.org/welcome/1 
+2017-12-22 15:59:07	pbui	it will walk you through the basic syntax of the language
+2017-12-22 15:59:08	myle_killer	Thanks!
+2017-12-22 16:00:35	pbui	also: http://www.golang-book.com/books/intro 
+2017-12-22 16:02:51	myle_killer	Awesome thank you! Maybe I’ll try to implement one of our os projects in go, I feel like that would be a good way to dive in
+2017-12-22 16:04:02	pbui	cool
+2017-12-22 16:04:07	pbui	i wish i could teach OS in go
+2017-12-22 16:04:10	pbui	maybe one day
+2017-12-22 16:04:13	wtheisen	the shell would be cool
+2017-12-22 16:04:14	ewilli23	@ewilli23 uploaded a file: giphy.gif https://nd-cse.slack.com/files/U3SRYR1P1/F8J5VG3A5/giphy.gif  and commented: @myle_killer
+2017-12-22 16:04:40	wtheisen	implement an io buffer and add back grounding tasks
+2017-12-22 16:04:50	pbui	i sort of want to do go in systems
+2017-12-22 16:04:57	pbui	but we dont have the bandwidth for that
+2017-12-22 16:07:18	myle_killer	Didn’t you say at the beginning of os we had the option to do the projects in go if we wanted?
+2017-12-22 16:07:39	pbui	i dont remember
+2017-12-22 16:07:42	pbui	maybe for one of them
+2017-12-22 16:09:06	myle_killer	Ahh maybe that’s what I was just for the first project
+2017-12-22 17:04:33	walter.scheirer	Just landed... at the wrong airport
+2017-12-22 17:05:05	silv3r	..?
+2017-12-22 17:05:09	silv3r	0_0
+2017-12-22 17:09:08	8bit	...how?
+2017-12-22 17:10:31	ewilli23	Did another major airport lose power?
+2017-12-22 17:10:49	silv3r	Or did you walk onto the wrong plane
+2017-12-22 17:10:54	silv3r	:airplane:
+2017-12-22 17:11:51	walter.scheirer	The radio system failed at my destination airport
+2017-12-22 17:12:13	walter.scheirer	So now I am stranded in Harrisburg Pennsylvania
+2017-12-22 17:12:45	walter.scheirer	Though it seems like we may refuel and try again later
+2017-12-22 17:13:02	catvajiac	wow, what random luck
+2017-12-22 17:15:09	walter.scheirer	Just a normal a travel day for me... it will end well if I don’t have to sleep in the Harrisburg airport
+2017-12-22 17:15:30	silv3r	:skull_and_crossbones:
+2017-12-22 17:16:03	ewilli23	Where are you trying to go?
+2017-12-22 17:16:55	walter.scheirer	Allentown PA
+2017-12-22 17:17:19	walter.scheirer	Which actually isn’t far from here
+2017-12-22 17:17:48	walter.scheirer	I could probably rent a car and drive there if this flight never takes off
+2017-12-22 17:26:29	jeffrey	Just drive
+2017-12-22 17:26:37	jeffrey	Or come visit me
+2017-12-22 17:27:04	jeffrey	I guess Allentown is closer than Harrisburg, and I'm currently headed to Amherst
+2017-12-22 17:27:08	jeffrey	So don't visit me
+2017-12-22 17:36:51	walter.scheirer	lol
+2017-12-22 17:37:15	walter.scheirer	That was a pretty narrow window for a visit
+2017-12-22 17:37:28	walter.scheirer	The plane is currently being fueled
+2017-12-22 17:37:54	walter.scheirer	Hmmmn
+2017-12-22 17:38:08	walter.scheirer	Some stairs were just wheeled up to the door
+2017-12-22 17:38:19	walter.scheirer	Probably not a good sign
+2017-12-22 17:41:00	walter.scheirer	The flight attendant just attempted to call the United customer service number — all lines were busy
+2017-12-22 17:41:03	walter.scheirer	Typical
+2017-12-22 17:45:50	pbui	sad
+2017-12-22 17:46:54	pbui	http://phdcomics.com/comics.php?f=1989 
+2017-12-22 17:48:10	wtheisen	looking forward to that
+2017-12-22 17:55:01	wtheisen	I hear so many conflicting things about the difficulty of grad school
+2017-12-22 17:55:10	pbui	https://www.cnbc.com/2017/12/22/bitcoin-plunges-below-12000-on-coinbase-as-rout-accelerates-now-down-40-percent-from-record.html 
+2017-12-22 17:55:18	pbui	it's like bitcoin wtheisen
+2017-12-22 17:55:25	pbui	up and down
+2017-12-22 18:32:48	walter.scheirer	Hurray, my plane is taking off
+2017-12-22 18:33:04	pbui	o7
+2017-12-22 18:33:09	walter.scheirer	Hope we land in the correct place this time
+2017-12-22 18:34:15	pbui	http://klowner.com/wallpaper/christmas_tux_2017/ 
+2017-12-22 18:42:23	pbui	wtheisen: https://news.ycombinator.com/item?id=15986100 
+2017-12-22 18:52:30	ssjohns	@pbui you or anyone there want a Data Scientist speaker next semester? A friend is looking to give practice talks at Universities.
+2017-12-22 18:53:23	pbui	i probably dont need one
+2017-12-22 18:55:45	ssjohns	Well if you hear anything let me know.
+2017-12-22 18:58:36	pbui	ok, np
+2017-12-22 19:04:06	walter.scheirer	Woo... made it to Allentown
+2017-12-22 19:07:43	pbui	gratz
+2017-12-22 19:07:47	pbui	merry christmas
+2017-12-22 19:10:55	catvajiac	yay!
+2017-12-22 19:25:35	jeffrey	!g yt Allentown Billy Joel
+2017-12-22 19:25:37	bobbit	@jeffrey: https://yld.me/si7 
+2017-12-22 19:26:43	pbui	https://www.southbendtribune.com/sports/college/notre-dame-wr-kevin-stepherson-charged-with-possession-of-marijuana/article_8cee648c-e75e-11e7-bb35-5b481dbe9b38.html 
+2017-12-22 19:27:17	pbui	RKGs
+2017-12-22 19:27:28	silv3r	Holy moly
+2017-12-22 19:27:44	silv3r	Internet is backup... apparently we have fiber and it was cut/broken
+2017-12-22 19:28:16	silv3r	If only eduroam was this fast
+2017-12-22 19:35:21	walter.scheirer	You’d think that the day after you got arrested you’d be trying hard to not get arrested...
+2017-12-22 19:35:35	pbui	this was the day before
+2017-12-22 19:35:38	pbui	apparently
+2017-12-22 19:35:44	walter.scheirer	Yep
+2017-12-22 19:35:53	pbui	oh, i see what u mean
+2017-12-22 19:35:55	pbui	lol
+2017-12-22 19:35:57	pbui	either way...
+2017-12-22 22:06:16	mflanag6	hey at least we still have that all american o-line amirite
+2017-12-22 22:21:01	wtheisen	why is our football team so dumb
+2017-12-22 22:21:21	wtheisen	no wonder no one is impressed when I say ND back home
+2017-12-22 22:43:21	wtheisen	anyone have a copy of a gen chem practice final?
+2017-12-22 22:43:25	wtheisen	please?
+2017-12-22 22:44:41	silv3r	@androidkitkat
+2017-12-22 22:45:14	androidkitkat	Lol @wtheisen I do
+2017-12-22 22:45:17	androidkitkat	One sec
+2017-12-22 22:45:25	androidkitkat	This year’s or any
+2017-12-22 22:45:25	silv3r	I do too actually
+2017-12-22 22:45:35	silv3r	I archived my gen chem folder someone gave me
+2017-12-22 22:45:36	wtheisen	just a recent one
+2017-12-22 22:45:37	androidkitkat	I have a gdrive folder with a ton
+2017-12-22 22:45:40	silv3r	Multiple practice finals
+2017-12-22 22:45:50	wtheisen	I need to prove a point to my semester
+2017-12-22 22:45:55	wtheisen	sister
+2017-12-22 22:46:00	androidkitkat	Oh lol
+2017-12-22 22:46:24	silv3r	Lmao
+2017-12-22 22:46:31	silv3r	I think I shared it with u
+2017-12-22 22:46:38	androidkitkat	Ok you got it?
+2017-12-22 22:46:41	silv3r	Good luck @wtheisen
+2017-12-22 23:02:24	wtheisen	thanks guys
+2017-12-22 23:02:29	wtheisen	point was proven
+2017-12-23 00:52:45	jbaker10	Aka it’s easy?
+2017-12-23 09:14:41	wtheisen	my mom was telling me that my sister could totally do our gen chem because she got an A at wittenberg
+2017-12-23 09:14:51	wtheisen	I said otherwise
+2017-12-23 10:02:04	pbui	what was her reaction to the sample exam
+2017-12-23 10:03:30	wtheisen	@wtheisen uploaded a file: Image uploaded from iOS https://nd-cse.slack.com/files/U0KQYK7DK/F8JS6S51A/image_uploaded_from_ios.gif 
+2017-12-23 10:05:07	pbui	lol
+2017-12-23 10:05:17	pbui	it's sort of like the ball state situation
+2017-12-23 10:05:29	pbui	ND may not be top tier, but we arent terrible
+2017-12-23 10:05:38	pbui	i dare say we are pretty good
+2017-12-23 10:05:46	pbui	far from perfect of course
+2017-12-23 10:05:52	wtheisen	aren’t we top tier though?
+2017-12-23 10:06:13	pbui	in CS?
+2017-12-23 10:07:23	pbui	i dont think so
+2017-12-23 10:07:58	wtheisen	not CS just in general
+2017-12-23 10:08:02	pbui	again, we are good (imo), but i wouldnt put us near the top
+2017-12-23 10:08:27	pbui	meh, general rankings are meaningless to me
+2017-12-23 10:08:35	pbui	i think we are like 14-18 or something
+2017-12-23 10:10:15	pbui	wtheisen: i take it that your friends and family are not impressed u go to ND
+2017-12-23 10:32:58	wtheisen	it’s not that they’re not impressed, just that they can’t fathom how much more difficult it is
+2017-12-23 10:33:43	pbui	do they get it now?
+2017-12-23 10:34:03	wtheisen	haha my sister does
+2017-12-23 10:34:55	wtheisen	if you go from getting all As to getting all As it’s probably hard to imagine
+2017-12-23 10:36:12	wtheisen	suppose that’s what you did though
+2017-12-23 10:42:29	pbui	i was humbled my first year by gen chem and calc
+2017-12-23 10:42:50	pbui	wtheisen: http://third-bit.com/teaching/ 
+2017-12-23 10:43:01	pbui	that has a lot of really good pro-tips about teaching
+2017-12-23 12:17:38	wtheisen	thanks, I’ll read it when I get home. Anybody think the ayyyy lmao Pentagon thing is real this time? There’s surprisingly little reaction to it
+2017-12-23 14:17:42	walter.scheirer	possibly because it's a hoax
+2017-12-23 14:20:19	walter.scheirer	https://www.scientificamerican.com/article/the-truth-about-those-alien-alloys-in-the-new-york-times-ufo-story/ 
+2017-12-23 14:20:33	walter.scheirer	"There are no alloys that are sitting in some warehouse that we cannot figure out what they are. In fact, it's pretty simple, and any reasonably good metallurgical grad student can do it for you"
+2017-12-23 14:53:47	wtheisen	awwwww
+2017-12-23 14:54:00	wtheisen	knew it was too good to be true
+2017-12-23 17:53:57	jeffrey	THEY PLAYED CANTICLE OF THE TURNING AT MASS
+2017-12-23 19:08:32	jeffrey	Should lug invest in OS badge stickers for members?
+2017-12-23 19:31:21	silv3r	Does anyone have a solution for screen tearing in Ubuntu? I got my nvidia drivers installed and messed with the settings to get vsync to work properly, but it’s still tearing in most videos. WM is gnome
+2017-12-23 20:05:41	wtheisen	compton?
+2017-12-23 20:08:47	silv3r	I use pantheon but I can switch to XFCE I guess
+2017-12-23 20:40:52	wtheisen	you don’t have to be on xfce for compton do you? @jeffrey
+2017-12-23 20:55:13	jeffrey	I do nod
+2017-12-23 20:55:46	jeffrey	@silv3r I had screen tearing when web browsing with Ubuntu so got angry and broke my laptop.
+2017-12-23 20:56:02	silv3r	Rip
+2017-12-24 08:31:58	pbui	https://grasshoppermouse.github.io/2017/12/05/academic-success-is-either-a-crapshoot-or-a-scam/ 
+2017-12-24 10:38:33	jeffrey	Happy birthday @pbui
+2017-12-24 10:38:39	bdevorem	HBDPJ
+2017-12-24 10:39:00	silv3r	:champagne:
+2017-12-24 10:45:01	wtheisen	happy bday pb! Can you drink yet?
+2017-12-24 10:45:25	pbui	thnx everyone
+2017-12-24 10:45:27	pbui	wtheisen: almost
+2017-12-24 10:46:42	catvajiac	one day pbui, one day...
+2017-12-24 10:48:05	bdevorem	Never @catvajiac
+2017-12-24 10:48:13	jeffrey	Also Merry Pringles everyone
+2017-12-24 10:48:22	bdevorem	me too thx
+2017-12-24 11:01:56	jeffrey	Me too thanks
+2017-12-24 11:02:39	bdevorem	@bdevorem uploaded a file: IMG_20171223_205715_470.jpg https://nd-cse.slack.com/files/U0HK5M997/F8JA68K6C/img_20171223_205715_470.jpg  and commented: Merry Christmas from the Effreys
+2017-12-24 11:03:06	pbui	2cute
+2017-12-24 11:07:39	jeffrey	Now everyone knows what one corner of my house looks like
+2017-12-24 11:10:53	catvajiac	s'cute
+2017-12-24 11:11:37	jeffrey	Also that photo will be the last one with my long hair :(
+2017-12-24 12:07:01	pbui	@wtheisen: @jeffrey http://programminggroundup.blogspot.ca/ 
+2017-12-24 12:07:05	pbui	maybe of interest
+2017-12-24 12:13:40	jeffrey	Haha yes
+2017-12-24 12:26:20	wtheisen	That looks fun
+2017-12-24 12:30:20	walter.scheirer	linux assembly language???
+2017-12-24 12:30:23	wtheisen	holy guacamole sympy is over a gig
+2017-12-24 12:30:35	wtheisen	RIP grandparents internet
+2017-12-24 12:32:18	pbui	http://www.daemonology.net/blog/2012-10-08-software-development-final-exam.html 
+2017-12-24 12:33:27	pbui	i should steal some of these questions for next year
+2017-12-24 12:33:36	walter.scheirer	"If you do not have access to a GNU/Linux machine, you can look for a hosting provider who offers a Linux shell account, which is a command-line only interface to a Linux machine."
+2017-12-24 12:33:48	walter.scheirer	what year was this written in???
+2017-12-24 12:33:59	pbui	2012
+2017-12-24 12:34:07	walter.scheirer	facepalms
+2017-12-24 12:37:27	pbui	wow, i did it
+2017-12-24 12:37:33	pbui	ive been working on cleaning up my bookmarks
+2017-12-24 12:37:43	pbui	i did about 25%
+2017-12-24 12:39:22	pbui	correction, about 15%
+2017-12-24 12:39:24	pbui	but still
+2017-12-24 12:39:27	pbui	got a lot done
+2017-12-24 12:49:23	catvajiac	pbui: its ur birthday go do something excite
+2017-12-24 12:50:21	walter.scheirer	what could be more exciting than cleaning up bookmarks?
+2017-12-24 12:50:37	pbui	ikr
+2017-12-24 12:52:29	pbui	im just killing time until church
+2017-12-24 12:56:16	pbui	I'm also working my way through ready player one
+2017-12-24 13:07:37	jeffrey	Remember you gotta go to mass twice
+2017-12-24 13:07:54	jeffrey	Once for the fourth Sunday of advent and once for Christmas
+2017-12-24 13:08:08	jeffrey	According to my priest, who just wants more friends
+2017-12-24 13:58:40	jeffrey	Why is GPS still blocked for me? I can view my grades, but not my graduation progress.
+2017-12-24 14:16:08	pbui	jeffrey: yeah, our priest told us the same thing
+2017-12-24 14:16:23	pbui	does anyone have experience w/ a chromecast w/ a dual band router?
+2017-12-24 14:16:40	pbui	our chromecast doesnt appear to work w/ our new dual band router
+2017-12-24 14:16:48	pbui	it takes a long time to be discovered (10 min)
+2017-12-24 14:16:55	pbui	if it ever gets discovered
+2017-12-24 14:17:13	pbui	i looked around an google says chromecast needs to run on the 2.4ghz band
+2017-12-24 14:17:34	pbui	anyway, i switched back to my old router and it gets discovered right away
+2017-12-24 14:17:38	pbui	so im guessing that is the problem
+2017-12-24 14:18:59	pbui	https://ww2.kqed.org/mindshift/2017/12/10/tools-harvard-computer-science-students-use-to-collaborate-stay-organized/ 
+2017-12-24 14:42:11	wtheisen	Ha my neural network is running
+2017-12-24 14:42:24	wtheisen	feels awesome
+2017-12-24 14:42:44	silv3r	:D
+2017-12-24 14:51:42	jeffrey	What are you doing with it @wtheisen ?
+2017-12-24 14:52:19	wtheisen	i’m following a tutorial for python
+2017-12-24 14:52:40	wtheisen	It’s supposed to make little creatures that chase down food and evolve over generations
+2017-12-24 14:52:54	wtheisen	I’m trying to add a visualization to it atm
+2017-12-24 14:53:12	wtheisen	Then I’ll mod the creatures and the reproduction paramus
+2017-12-24 15:15:41	wtheisen	coding is a lot harder without wifi though:grimacing:
+2017-12-24 15:16:03	silv3r	What Tutorial?
+2017-12-24 15:16:54	wtheisen	Evolving Simple Organisms using a Genetic Algorithm and Deep Learning from Scratch with Python – nathanrooy.github.io 
+2017-12-24 15:16:54	wtheisen	https://nathanrooy.github.io/posts/2017-11-30/evolving-simple-organisms-using-a-genetic-algorithm-and-deep-learning/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more https://nathanrooy.github.io/posts/2017-11-30/evolving-simple-organisms-using-a-genetic-algorithm-and-deep-learning/?utm_source=mybridge&amp;utm_medium=blog&amp;utm_campaign=read_more 
+2017-12-24 15:17:19	wtheisen	It’s really simple
+2017-12-24 15:17:36	wtheisen	but animating it is proving hard without docs
+2017-12-24 15:18:27	silv3r	:+1::skin-tone-4:
+2017-12-24 15:18:33	silv3r	Found my next project
+2017-12-24 15:21:44	wtheisen	I’ll let you know if I get animation working
+2017-12-24 19:51:31	jeffrey	As is tradition, we are eating Chinese tonight
+2017-12-24 22:17:40	dchiang	Cannibal
+2017-12-24 22:41:04	jeffrey	I blame A Christmas Story
+2017-12-25 08:38:56	wtheisen	Merry Christmas #lug
+2017-12-25 10:39:50	flynn	Merry Christmas!
+2017-12-25 11:28:17	jeffrey	Happy December Global Festivities
+2017-12-25 12:26:05	walter.scheirer	I am in New York at my grandmother’s house, which does not have Internet service... or any computers
+2017-12-25 12:26:19	silv3r	Oh no
+2017-12-25 12:26:22	walter.scheirer	So this is how people used to live...
+2017-12-25 12:44:19	catvajiac	that's rough buddy
+2017-12-25 12:53:22	walter.scheirer	Indeed
+2017-12-25 12:55:21	catvajiac	i was just away from computers for a week and it was weird
+2017-12-25 12:55:29	catvajiac	typing on a keyboard makes me really happy now
+2017-12-25 13:09:34	jeffrey	@jeffrey uploaded a file: 20171225_124522.jpg https://nd-cse.slack.com/files/U0L54J0MD/F8K38JRUK/20171225_124522.jpg 
+2017-12-25 13:13:28	bdevorem	Strange that they know our address
+2017-12-25 13:17:13	dchiang	I, um, hope you like it
+2017-12-25 13:17:55	walter.scheirer	lol
+2017-12-25 13:24:07	jeffrey	My family has a tradition of putting random names on the from labels. @bdevorem tipped them off this year
+2017-12-25 13:24:32	wtheisen	we have so many profs in here now, whose the dig at?
+2017-12-25 13:24:43	jeffrey	It was a block of wood my dad took from my room btw
+2017-12-25 13:24:51	bdevorem	Your dad requested my assistance, be calm @jeffrey
+2017-12-25 13:30:04	jeffrey	I don't think there was a dig, my dad just likes the "some other third thing" line from The SpongeBob Squarepants movie
+2017-12-25 14:22:33	wtheisen	We are out of the house for 6 days, and my mom brought 5 different bags of her stuff. like wtf is with that
+2017-12-25 16:38:47	walter.scheirer	My grandmother just presented me with a cell phone of late 90s vintage, requesting that I “fix it”
+2017-12-25 16:57:43	bdevorem	My dad refuses to "learn technology" so he only knows how to call (no texting) on his Motorola razr. He breaks it every year and we have to buy a new one off eBay bc they don't sell them anymore
+2017-12-25 17:05:05	walter.scheirer	A razr may be too new fangled for my grandmother
+2017-12-25 18:02:03	jeffrey	@jeffrey uploaded a file: IMG_20171225_180143.jpg https://nd-cse.slack.com/files/U0L54J0MD/F8K687NHG/img_20171225_180143.jpg 
+2017-12-25 18:13:41	dchiang	Oh I think I still have a razr somewhere
+2017-12-25 18:16:33	jcioffi	@walter.scheirer where in NY??
+2017-12-25 18:16:47	jcioffi	also Merry Christmas to all :christmas_tree:
+2017-12-25 18:17:52	walter.scheirer	I’m on Long Island
+2017-12-25 18:18:02	walter.scheirer	In hauppauge
+2017-12-25 18:19:39	jcioffi	My mom is from Long Island!
+2017-12-25 18:19:43	walter.scheirer	Nice
+2017-12-25 18:20:27	jcioffi	Yeah she grew up life 30 minutes from there
+2017-12-25 18:20:36	jcioffi	Like *
+2017-12-25 18:20:45	walter.scheirer	Haha, small world
+2017-12-25 19:27:30	pbui	I watched two episodes of turn... Which takes place on long island
+2017-12-25 20:09:08	jbaker10	I’ve seen Long Island medium
+2017-12-26 05:55:19	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #lug
+2017-12-26 05:55:19	--	Topic for #lug is "http://ndlug.org  and the inexorability of fate - Welcome to LUGND, where the topic isn't broken, the cool kids come, and where pbui is a good teach.  Meetings are Wednesdays 5pm-6pm in 356A Fitzpatrick Hall  ~~sterm a molge~~"
+2017-12-26 05:55:20	--	Channel #lug: 170 nicks (0 ops, 0 voices, 170 normals)
+2017-12-26 05:55:46	--	Channel created on Tue, 26 Dec 2017 05:55:46
+2017-12-26 06:20:52	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #lug
+2017-12-26 06:20:52	--	Topic for #lug is "http://ndlug.org  and the inexorability of fate - Welcome to LUGND, where the topic isn't broken, the cool kids come, and where pbui is a good teach.  Meetings are Wednesdays 5pm-6pm in 356A Fitzpatrick Hall  ~~sterm a molge~~"
+2017-12-26 06:20:52	--	Channel #lug: 170 nicks (0 ops, 0 voices, 170 normals)
+2017-12-26 06:21:26	--	Channel created on Tue, 26 Dec 2017 06:21:26
+2017-12-26 14:02:23	androidkitkat	Merry Christmas
+2017-12-26 17:01:09	silv3r	https://www.reddit.com/r/ProgrammerHumor/comments/7m7ccp/a_machine_learning_algorithm_walked_into_a_bar/?st=JBNVO0AJ&sh=0e6ff6a6 https://www.reddit.com/r/ProgrammerHumor/comments/7m7ccp/a_machine_learning_algorithm_walked_into_a_bar/?st=JBNVO0AJ&amp;sh=0e6ff6a6 
+2017-12-26 17:01:37	silv3r	The comments were amusing too
+2017-12-26 14:49:40	jeffrey	$20 for a star wars ticket
+2017-12-26 14:49:43	jeffrey	3D, but still
+2017-12-26 19:54:48	ssjohns	@ssjohns uploaded a file: Image uploaded from iOS https://nd-cse.slack.com/files/U0KCN2GG1/F8JQG08CQ/image_uploaded_from_ios.png  and commented: I love bugs. Specially since I have friends at Slack now.
+2017-12-26 19:55:56	ssjohns	https://imgur.com/a/QmwiA 
+2017-12-26 20:03:08	walter.scheirer	that's not a bug; it's a feature
+2017-12-26 20:56:05	pbui	http://archive.is/0VPJL 
+2017-12-27 09:30:49	jbaker10	+1
+2017-12-27 11:03:26	dchiang	did current juniors do a recursive descent parser in systems last year?
+2017-12-27 11:08:42	pbui	dchiang: no
+2017-12-27 11:09:27	pbui	the sophomores will do a scheme interpreter in DS this spring, but the juniors dont have that experience (at least not as a group)
+2017-12-27 11:14:28	pbui	!weather
+2017-12-27 11:14:29	bobbit	@pbui: Current weather is 2.57°F, Light Snow
+2017-12-27 11:14:42	silv3r	What
+2017-12-27 11:14:58	silv3r	That’s Fahrenheit right
+2017-12-27 11:15:03	walter.scheirer	oofff
+2017-12-27 11:15:05	pbui	yes
+2017-12-27 11:15:11	silv3r	Yikes
+2017-12-27 11:15:24	pbui	w/ windchill it feels like -5
+2017-12-27 11:15:38	dchiang	it dipped below zero last night, right?
+2017-12-27 11:15:48	pbui	yeah, i think so
+2017-12-27 11:15:50	walter.scheirer	looks like things will warm up just as i return next week
+2017-12-27 11:15:51	walter.scheirer	hehe
+2017-12-27 11:15:59	silv3r	D: I’m glad to have migrated down to the south for the time being
+2017-12-27 11:16:19	pbui	i want to go to the store, but i dont want to freeze
+2017-12-27 11:16:32	pbui	i mean im used to it from my time in eau claire
+2017-12-27 11:16:39	walter.scheirer	solution: amazon
+2017-12-27 11:16:42	pbui	i just dont like it
+2017-12-27 11:16:46	silv3r	Amazon fresh
+2017-12-27 11:16:51	pbui	need to get some baking soda
+2017-12-27 11:16:55	pbui	for experiments
+2017-12-27 11:16:57	pbui	...
+2017-12-27 11:17:03	walter.scheirer	does south bend have task rabbit?
+2017-12-27 11:17:09	pbui	no idea
+2017-12-27 11:17:36	pbui	also my house is a lego construction zone right now
+2017-12-27 11:17:44	walter.scheirer	+10
+2017-12-27 11:17:46	silv3r	Tfti
+2017-12-27 11:17:55	pbui	cant walk anywhere w/out stepping on one
+2017-12-27 11:20:02	dchiang	@pbui try using bleach
+2017-12-27 11:20:05	dchiang	JUST KIDDING
+2017-12-27 11:20:09	walter.scheirer	lol
+2017-12-27 11:22:01	silv3r	I was confused until I looked up ‘bleach and vinegar’
+2017-12-27 11:22:04	silv3r	Yikes
+2017-12-27 11:23:12	walter.scheirer	santa must have left *somebody* the anarchist cookbook...
+2017-12-27 11:23:32	pbui	im still working on declogging the sink
+2017-12-27 11:23:37	pbui	drano doesnt really work
+2017-12-27 11:23:47	pbui	but ive had some success w/ baking soda and vinegar
+2017-12-27 11:24:10	pbui	this is my last resort until i buy a drain snake
+2017-12-27 11:24:13	walter.scheirer	not sure that combo will dissolve legos...
+2017-12-27 11:24:29	dchiang	oh i thought it was a science expt with your kids
+2017-12-27 11:24:34	silv3r	+10
+2017-12-27 11:24:44	pbui	the kids will help
+2017-12-27 11:24:55	pbui	if i can get them to step away from their legos
+2017-12-27 11:26:16	dchiang	actually drano is basically bleach, isn't it
+2017-12-27 11:26:46	walter.scheirer	certainly smells that way
+2017-12-27 11:32:25	dchiang	i've had a couple of drains that had large objects very close to the top, left behind by previous owner
+2017-12-27 11:33:08	dchiang	what kind of drain is it
+2017-12-27 11:37:37	pbui	it's the kitchen sink drain
+2017-12-27 11:37:50	pbui	the clog is not in the pipes directly underneath the sink
+2017-12-27 11:38:04	pbui	ive taken that part out and cleaned it
+2017-12-27 11:39:49	dchiang	how much guidance do students need to implement their first RD parser?
+2017-12-27 11:40:36	dchiang	(a) the grammar (b) lookahead rules (c) explanation of what RD is (d) pseudocode (e) example run
+2017-12-27 12:14:35	pbui	i did (a), briefly (c), and provided (d)
+2017-12-27 12:14:47	pbui	im not sure about (e)
+2017-12-27 12:26:50	jbaker10	I personally like seeing small examples of how certain things are actually working. I know Dchiang did that in data structures. So many scrabble tiles
+2017-12-27 12:27:55	pbui	dchiang: https://www3.nd.edu/~pbui/teaching/cse.30331.fa16/project01.html 
+2017-12-27 12:40:00	dchiang	yeah scheme doesn't need (b)
+2017-12-27 13:20:32	dchiang	but i've been having second thoughts about how much you learn by translating pseudocode into code -- what do students think
+2017-12-27 13:21:15	walter.scheirer	i've always felt that there's more value in translating mathematical expressions into code
+2017-12-27 13:21:40	walter.scheirer	pseudocode is often an unnecessary middle step
+2017-12-27 13:21:46	walter.scheirer	but i may be biased, given my research
+2017-12-27 13:21:52	walter.scheirer	also, i am not a student
+2017-12-27 13:21:54	walter.scheirer	:stuck_out_tongue:
+2017-12-27 14:40:33	walter.scheirer	https://github.com/emmericp/ixy 
+2017-12-27 14:41:03	walter.scheirer	"ixy is designed for educational purposes to learn how a network card works at the driver level. Lack of kernel code and external libraries allows you to look through the whole code from startup to the lowest level of the driver. Low-level functions like handling DMA descriptors are rarely more than a single function call away from your application logic."
+2017-12-27 14:41:08	walter.scheirer	this is extremely cool
+2017-12-27 15:08:43	walter.scheirer	https://www.nytimes.com/2017/12/27/technology/library-congress-tweets.html 
+2017-12-27 15:46:32	walter.scheirer	https://twitter.com/ND_CSE/status/946119409696985089 
+2017-12-27 15:47:56	pbui	atypical
+2017-12-27 15:48:25	walter.scheirer	?
+2017-12-27 15:48:32	tweninger	^^?
+2017-12-27 15:48:39	pbui	Tim describes himself as “an atypical computer scientist who doesn’t study programming languages or compilers or circuits”.
+2017-12-27 15:48:45	walter.scheirer	lol
+2017-12-27 15:48:56	tweninger	:smile: I didn't write it... haven't read it myself
+2017-12-27 15:49:05	tweninger	my graduate students texted it to me
+2017-12-27 15:49:10	walter.scheirer	@pbui is preparing to kick-ban @tweninger from #lug
+2017-12-27 15:49:10	pbui	tweninger: y u gotta keep getting internet points
+2017-12-27 15:49:26	tweninger	internet famous?
+2017-12-27 15:49:53	pbui	also, y u hate on archies
+2017-12-27 15:49:54	tweninger	read by tens of...
+2017-12-27 15:50:01	tweninger	...people
+2017-12-27 15:50:06	pbui	just b/c concrete takes a long time to dry
+2017-12-27 15:50:22	tweninger	aint nobody got time for that
+2017-12-27 15:51:34	silv3r	You gave a ted talk?
+2017-12-27 15:51:49	tweninger	^^ about 3 years ago I guess
+2017-12-27 15:52:26	silv3r	Lol same about the archi thing tho
+2017-12-27 15:53:00	silv3r	Was considering KU/KSU architecture then decided I didn’t like drawing for 8 hrs a day
+2017-12-27 15:53:22	tweninger	instead we pound on a keyboard for 14-16 hours per day?
+2017-12-27 15:53:34	silv3r	:raised_hands::skin-tone-4:
+2017-12-27 15:53:40	tweninger	I suppose architects get to go outside sometimes
+2017-12-27 16:17:47	wtheisen	I'm looking at apartments, being an adult is no bueno
+2017-12-27 16:18:11	walter.scheirer	could be worse... you could be looking at houses
+2017-12-27 16:18:31	wtheisen	:grimacing:
+2017-12-27 16:19:58	wtheisen	what do normal people spend money on?
+2017-12-27 16:20:34	walter.scheirer	housing?
+2017-12-27 16:20:36	walter.scheirer	hehe
+2017-12-27 16:20:58	tweninger	GPUs?
+2017-12-27 16:21:11	walter.scheirer	lol
+2017-12-27 16:21:13	wtheisen	yeah but other than that? What do I have to budget for? I'm a single male that sits inside on a computer all day
+2017-12-27 16:21:17	walter.scheirer	*normal people*
+2017-12-27 16:21:18	walter.scheirer	not us...
+2017-12-27 16:21:26	walter.scheirer	housing, food
+2017-12-27 16:21:42	walter.scheirer	car, if you have one
+2017-12-27 16:21:43	tweninger	housing, food, utilities, vehicle expenses
+2017-12-27 16:21:55	wtheisen	ahhh vehicles that's right
+2017-12-27 16:22:00	pbui	their kids
+2017-12-27 16:22:32	wtheisen	I suppose I'll have to get furniture at some point
+2017-12-27 16:22:38	walter.scheirer	thrift store bro
+2017-12-27 16:22:55	walter.scheirer	furniture won't be a major expense
+2017-12-27 16:22:57	tweninger	furniture is pretty inexpensive relative to
+2017-12-27 16:23:25	pbui	lawn chairs for days
+2017-12-27 16:23:28	walter.scheirer	i bought my current furniture from a law student
+2017-12-27 16:23:44	pbui	i didnt buy furniture until i got the ND job
+2017-12-27 16:23:51	walter.scheirer	nice
+2017-12-27 16:23:53	pbui	so for 3 years in eau claire our living room was empty
+2017-12-27 16:23:58	walter.scheirer	lol
+2017-12-27 16:24:00	wtheisen	guess I'll just chuck it all in a retirement fund
+2017-12-27 16:24:24	tweninger	car and health and life insurance takes some money
+2017-12-27 16:24:32	pbui	yeah, minivan killed us
+2017-12-27 16:24:35	walter.scheirer	he doesn't need life insurance
+2017-12-27 16:24:36	tweninger	if you're single you wont need life instance
+2017-12-27 16:24:51	pbui	what a great way to start off my professoring career... finding out u have twins
+2017-12-27 16:24:55	wtheisen	oh insurance is a thing too
+2017-12-27 16:25:06	walter.scheirer	it's pretty cheap
+2017-12-27 16:25:31	wtheisen	Would I get anything via the university or no?
+2017-12-27 16:25:45	walter.scheirer	the university would provide you with options
+2017-12-27 16:25:51	walter.scheirer	but you still have to pay some small fee
+2017-12-27 16:26:17	walter.scheirer	keep in mind dental insurance at most schools (including ND) is more like a discount
+2017-12-27 16:26:38	walter.scheirer	you probably want to keep an "emergency fund" on-hand
+2017-12-27 16:26:47	walter.scheirer	for unexpected largish expenses
+2017-12-27 16:26:58	tweninger	wtheisen what are you planning for... I haven't kept up in this channel. Are you looking for grad school?
+2017-12-27 16:27:23	wtheisen	how much is a largish expense? like 1k or like 10k @tweninger yeah gonna try and get my PhD
+2017-12-27 16:27:31	wtheisen	be like you guys
+2017-12-27 16:28:00	tweninger	the rule of thumb is to keep 3-6 months of your salary in the bank
+2017-12-27 16:28:13	tweninger	as an emergency fund
+2017-12-27 16:28:15	wtheisen	oh wow
+2017-12-27 16:28:18	wtheisen	okay
+2017-12-27 16:28:21	tweninger	i never did this
+2017-12-27 16:28:28	tweninger	and still dont
+2017-12-27 16:28:53	jeffrey	Before or after tax?
+2017-12-27 16:29:14	walter.scheirer	haha
+2017-12-27 16:29:14	walter.scheirer	i do
+2017-12-27 16:29:23	tweninger	after I guess... its an estimate for "large-ish" expense
+2017-12-27 16:29:31	walter.scheirer	after is fine
+2017-12-27 16:29:35	wtheisen	that's another question, how does the stipend I'd get be taxed?
+2017-12-27 16:29:43	walter.scheirer	before if you are paranoid
+2017-12-27 16:29:53	tweninger	depends on the stipend
+2017-12-27 16:29:57	walter.scheirer	it gets taxed at whatever rate your salary qualifies for
+2017-12-27 16:30:00	tweninger	I had NDSEG and NSF fellowships
+2017-12-27 16:30:19	wtheisen	so it's like getting salary? and you're paid once a month?
+2017-12-27 16:30:21	tweninger	NDSEG was taxed like a regular salary, they took some amount every month
+2017-12-27 16:30:35	tweninger	NSF i had to pay quarterly amounts to goverment
+2017-12-27 16:30:48	tweninger	99% you'll be taxed like a regular employee
+2017-12-27 16:30:53	jeffrey	All governments or just federal?
+2017-12-27 16:31:23	walter.scheirer	it's a regular salary
+2017-12-27 16:31:25	tweninger	well federal is the only one that really matters. as a graduate student you're state tax will be a hundred buck is all
+2017-12-27 16:31:40	jeffrey	I don't want to be a state tax
+2017-12-27 16:31:42	tweninger	anyways, 99% chance for you that it'll be regular witholdings
+2017-12-27 16:32:00	wtheisen	100 a month or 100 a year?
+2017-12-27 16:32:04	tweninger	then you'll get back a few bucks in the spring
+2017-12-27 16:32:33	jeffrey	My state charged me $2 =(
+2017-12-27 16:32:49	tweninger	dont let me confuse the situation, just assume you'll be taxed like a regular employee
+2017-12-27 16:32:51	jeffrey	And I assume I'll make more as a grad student
+2017-12-27 16:34:06	tweninger	when I was a graduate student my #1 expense was housing and utilities, followed by food, then internet and phone, then car expenses
+2017-12-27 16:34:23	pbui	wtheisen: at ND, it's a regular salary
+2017-12-27 16:34:38	pbui	u are paid twice a month i think
+2017-12-27 16:34:48	pbui	and u are taxed like a regular employee
+2017-12-27 16:34:52	pbui	i think i even paid indiana taxes
+2017-12-27 16:35:04	pbui	and st joe county taxes
+2017-12-27 16:36:05	walter.scheirer	grad students are indeed paid twice a month here
+2017-12-27 16:36:23	walter.scheirer	you would make a handsome salary of $30K a year
+2017-12-27 16:36:27	walter.scheirer	at ND
+2017-12-27 16:36:30	tweninger	yeah something around 30-35K annually
+2017-12-27 16:36:58	tweninger	it'll be similar at other universities
+2017-12-27 16:37:14	walter.scheirer	adjusted for cost of living
+2017-12-27 16:37:25	walter.scheirer	big cities pay out a lot more
+2017-12-27 16:37:34	tweninger	Walter you think so? Ithink its 35 at Stanford
+2017-12-27 16:37:51	tweninger	CMU pays less than ND
+2017-12-27 16:37:55	walter.scheirer	i think they have subsidized housing
+2017-12-27 16:37:57	walter.scheirer	at stanford
+2017-12-27 16:38:11	walter.scheirer	Pittsburgh isn't a big city, and it's cheap
+2017-12-27 16:38:19	walter.scheirer	I'm thinking Boston, NYC
+2017-12-27 16:38:22	tweninger	for faculty, I don't know about grad students
+2017-12-27 16:38:38	tweninger	NYC does pay more, but not much
+2017-12-27 16:38:42	tweninger	NYU**
+2017-12-27 16:38:55	walter.scheirer	they may also have subsidized housing
+2017-12-27 16:39:30	tweninger	I chose UIUC over Berkeley primarily because the living standard that the respective salaries could afford
+2017-12-27 16:39:37	tweninger	(I was getting married at the time)
+2017-12-27 16:40:11	tweninger	of course this is ancient history now 8 years ago
+2017-12-27 16:40:13	walter.scheirer	colorado was amazingly affordable when i did my phd
+2017-12-27 16:40:16	walter.scheirer	that is no longer true
+2017-12-27 17:15:05	dchiang	Philly too
+2017-12-27 17:39:01	jeffrey	Philly is no longer affordable?
+2017-12-27 17:39:15	walter.scheirer	it's pretty affordable
+2017-12-27 17:39:21	walter.scheirer	compared to other major cities
+2017-12-27 17:39:25	walter.scheirer	though getting more expensive
+2017-12-27 18:07:42	wtheisen	does anyone here do a passthrough set-up with their desktop?
+2017-12-27 23:14:30	dchiang	mi rogue nation
+2017-12-28 00:07:04	jeffrey	Gpu?
+2017-12-28 00:07:26	jeffrey	That kind of passthrough?
+2017-12-28 00:07:53	dmattia	Subsidised housing at Stanford is a huge saver, can confirm.
+2017-12-28 00:14:47	jjohns48	http://engineering.appfolio.com/appfolio-engineering/2017/12/26/ruby-3-and-jit-where-when-and-how-fast 
+2017-12-28 00:14:59	jjohns48	Ruby > everything else (one day)
+2017-12-28 14:43:51	walter.scheirer	this is interesting: http://inertiawar.com/microcode/ 
+2017-12-28 14:44:46	walter.scheirer	CPUs have bugs, and Intel's update facility is rather opaque
+2017-12-29 14:32:26	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #lug
+2017-12-29 14:32:26	--	Topic for #lug is "http://ndlug.org  and the inexorability of fate - Welcome to LUGND, where the topic isn't broken, the cool kids come, and where pbui is a good teach.  Meetings are Wednesdays 5pm-6pm in 356A Fitzpatrick Hall  ~~sterm a molge~~"
+2017-12-29 14:32:26	--	Channel #lug: 170 nicks (0 ops, 0 voices, 170 normals)
+2017-12-29 14:32:46	--	Channel created on Fri, 29 Dec 2017 19:33:16
+2017-12-29 14:53:45	pbui	https://www.twistlock.com/2017/12/27/escaping-docker-container-using-waitid-cve-2017-5123/ 
+2017-12-29 16:01:08	jeffrey	Anyone wanna do a lug blog post?
+2017-12-29 16:56:32	ewilli23	@walter.scheirer
+2017-12-29 17:28:00	walter.scheirer	haha, yes
+2017-12-29 17:28:04	walter.scheirer	i should write up my talk
+2017-12-29 17:28:06	walter.scheirer	at some point

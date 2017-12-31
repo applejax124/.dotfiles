@@ -1,0 +1,1304 @@
+2017-10-19 02:18:33	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #w31rd0s
+2017-10-19 02:18:33	--	Topic for #w31rd0s is ""
+2017-10-19 02:18:33	--	Channel #w31rd0s: 8 nicks (0 ops, 0 voices, 8 normals)
+2017-10-19 02:18:40	--	Channel created on Thu, 19 Oct 2017 02:18:40
+2017-10-19 02:19:28	ccarball	hi from weechat
+2017-10-19 02:19:43	8bit	Hi from newby firefox
+2017-10-19 02:20:06	catvajiac	ccarball: heyo cool [cc: ccarball]
+2017-10-19 02:20:13	catvajiac	am proud
+2017-10-19 02:21:13	ccarball	yeee
+2017-10-19 02:21:16	ccarball	<3
+2017-10-19 02:22:55	8bit	have any of you set up any other sort of themes or color schemes?
+2017-10-19 02:23:13	catvajiac	for weechat? not yet
+2017-10-19 02:23:18	catvajiac	want to though
+2017-10-19 02:23:28	ccarball	dont know how
+2017-10-19 02:24:02	8bit	me either
+2017-10-19 02:24:04	8bit	all i know
+2017-10-19 02:24:15	8bit	is I want mine to look more like pbui's and less like how it is
+2017-10-19 02:24:24	catvajiac	same
+2017-10-19 02:24:34	catvajiac	he merges buffers, i've done a bit of that but so many buffers
+2017-10-19 02:25:13	ccarball	he merges news and lug i know
+2017-10-19 02:25:16	8bit	what
+2017-10-19 02:25:16	8bit	what does that even mean
+2017-10-19 02:25:23	ccarball	like they all show up on the same window
+2017-10-19 02:25:31	8bit	oh snap]
+2017-10-19 02:26:08	ccarball	yeeteth
+2017-10-19 02:26:09	catvajiac	you can do that ezpz but idk how to speak in them now
+2017-10-19 02:26:15	catvajiac	i wanted to merge all of our channels
+2017-10-19 02:26:25	catvajiac	aka this one and justdougthings and freemus and all those
+2017-10-19 02:26:34	ccarball	oh that would be smrt
+2017-10-19 02:26:36	catvajiac	but then idk how to speak to different channels within that
+2017-10-19 02:26:38	catvajiac	so i haven't
+2017-10-19 02:26:51	catvajiac	u can easily merge/unmerge them which is nice
+2017-10-19 02:26:58	catvajiac	but im just scared
+2017-10-19 02:27:03	ccarball	ahh
+2017-10-19 02:27:06	ccarball	let me google 
+2017-10-19 02:28:42	dougsmith	It looks like the feeds are merged but you interact with one selected channel within those for viewing nick lists / sending messages.
+2017-10-19 02:29:01	dougsmith	My weechat bar does this by default with my servers.
+2017-10-19 02:29:15	ccarball	how long u been using weechat?
+2017-10-19 02:30:03	8bit	how big of a security issue is using the same docean droplet for like a few things
+2017-10-19 02:30:15	8bit	Like, weechat and my wobsite
+2017-10-19 02:30:32	catvajiac	dougsmith: u use weechat?
+2017-10-19 02:30:36	catvajiac	have never seen this
+2017-10-19 02:30:57	ccarball	dougsmith: did u literally set up weechat today?
+2017-10-19 02:31:07	ccarball	cause last time i checked (last night) you were slacking
+2017-10-19 02:31:52	dougsmith	I'm trying to get a backlog solution that isn't persistent app in docean, so I use web for backlogs.
+2017-10-19 02:31:54	8bit	_guys not to be a fanboy but keybase is really, really cool_
+2017-10-19 02:32:36	ccarball	gotcha
+2017-10-19 02:32:39	dougsmith	nd-cse on keybase?
+2017-10-19 02:34:59	ccarball	hi im in w31rd0s
+2017-10-19 02:35:36	8bit	Not sure if there is an irc integration for keybase
+2017-10-19 02:38:21	dougsmith	Hmmmm... roll an IRC integration for hacktoberfest?
+2017-10-19 02:39:00	ccarball	dougsmith: noah.y: yeah is hacktoberfest gonna be a thing finally?
+2017-10-19 02:39:08	noah.y	Oooo
+2017-10-19 02:39:10	noah.y	Yes
+2017-10-19 02:39:18	noah.y	Can I make it so y’all can contribute to my website
+2017-10-19 02:39:23	noah.y	Lol
+2017-10-19 02:39:37	noah.y	@noah.y uploaded a file: Image uploaded from iOS https://nd-cse.slack.com/files/U6PJXGG0K/F7L1VC35X/image_uploaded_from_ios.mov 
+2017-10-19 02:39:48	noah.y	I need JavaScript help
+2017-10-19 02:40:50	ccarball	noah.y: dougsmith can probs help w that
+2017-10-19 02:40:58	ccarball	I, however, am scrub and cannot 
+2017-10-19 02:41:15	noah.y	Rip
+2017-10-19 02:41:40	8bit	I wanna do more projects with you guyzzzzz
+2017-10-19 02:41:43	8bit	am excite
+2017-10-19 02:41:48	ccarball	yeet
+2017-10-19 02:42:27	8bit	yeeteth
+2017-10-19 02:42:39	8bit	now we may contributetoopensourceth
+2017-10-19 02:46:24	dougsmith	Doug's Plugs 2/2: It's hacktoberfest!
+2017-10-19 02:46:49	dougsmith	Let's crowd source some passion projects we want to do, and then all agree to contribute to each other's stuff.
+2017-10-19 02:47:11	dougsmith	This could be collaborating on PR's to opensource things, or our own original ideas.
+2017-10-19 02:47:29	dougsmith	Let split the hogs of war(on closed source)!
+2017-10-19 02:48:00	8bit	Good point: it's only PR's not just commits
+2017-10-19 02:48:01	ccarball	dougsmith: be calm
+2017-10-19 03:05:49	ccarball	dougsmith: akk wants u in ndlug
+2017-10-19 00:35:07	catvajiac	https://www.redbubble.com/people/xd4rker/works/14007503-linux-is-sexy?carousel_pos=5&p=t-shirt&ref=work_carousel_work_recommendation&ref_id=22835917&style=mens https://www.redbubble.com/people/xd4rker/works/14007503-linux-is-sexy?carousel_pos=5&amp;p=t-shirt&amp;ref=work_carousel_work_recommendation&amp;ref_id=22835917&amp;style=mens 
+2017-10-19 00:35:12	catvajiac	hott
+2017-10-19 00:35:57	8bit	lold
+2017-10-19 00:36:33	ccarball	dudes i love my new setup
+2017-10-19 00:36:53	8bit	are you antergosing or unbutusing
+2017-10-19 00:37:30	catvajiac	she means weechat
+2017-10-19 00:37:36	catvajiac	she's customizing all da tings
+2017-10-19 00:37:40	catvajiac	its actually supa dope
+2017-10-19 00:40:05	dougsmith	:facepalm: the shirt
+2017-10-19 00:40:42	8bit	Well I know she's wechating but I was wondering if this was part of a greater change being in distro
+2017-10-19 00:40:48	8bit	that was english I promise
+2017-10-19 00:41:39	ccarball	8bit: i understoof
+2017-10-19 00:41:45	ccarball	that was english i promise
+2017-10-19 00:47:49	ccarball	dougsmith: why you gotta start on the challenges already?
+2017-10-19 00:50:03	catvajiac	yeah man
+2017-10-19 00:55:54	8bit	understanfing is important
+2017-10-19 00:56:00	8bit	yeahman
+2017-10-19 00:57:26	catvajiac	im doing reading02 of os
+2017-10-19 00:57:51	ccarball	y slack nicks not colored
+2017-10-19 00:57:52	ccarball	urggg
+2017-10-19 01:56:10	jcioffi	:heart: you all
+2017-10-19 01:57:32	dougsmith	:heart: you too jcioffi
+2017-10-19 02:15:17	ccarball	Jcioffi: ily <4
+2017-10-19 02:36:57	catvajiac	jcioffi: all da love from meeee
+2017-10-19 08:51:50	8bit	<3
+2017-10-19 09:34:28	8bit	@8bit uploaded a file: ral59jtlxyny.jpg https://nd-cse.slack.com/files/U273L7KJN/F7MSC6B0X/ral59jtlxyny.jpg 
+2017-10-19 10:37:20	catvajiac	yaaaaas
+2017-10-19 10:50:26	ccarball	Catalina Marie Vajiac will be on campus today until around 6pm 
+2017-10-19 10:50:26	ccarball	If you would like to make an appointment to see her, please contact her secretary, Camila G Carballo, via slack or mobile phone.
+2017-10-19 10:50:26	ccarball	Ms. Vajiac will be available all day, however, she will be accompanied by her secretary throughout any appointments made (except between the hours of 12:30pm and 1:30pm) 
+2017-10-19 10:50:26	ccarball	Therefore, if you would prefer a private meeting with Ms. Vajiac, perhaps that middle hour of the day would suit you best.
+2017-10-19 12:10:14	jcioffi	wow so official
+2017-10-19 13:40:11	ccarball	Spotted: catvajiac at smashburger with a h4x0r and some noob
+2017-10-19 14:05:01	ccarball	yeet
+2017-10-19 14:05:04	ccarball	i said this
+2017-10-19 18:45:25	8bit	curl is bae `curl -O http://latenightlinux.com/media/LNL[00-21].ogg `
+2017-10-19 18:45:25	8bit	it was so easy
+2017-10-19 19:08:13	8bit	test
+2017-10-19 19:08:21	8bit	hello from weechat
+2017-10-19 19:08:30	8bit	hello from dropletted weechat
+2017-10-19 19:09:42	8bit	hello again from local weechat
+2017-10-19 19:09:50	8bit	sorry for the spamns
+2017-10-19 19:13:15	8bit	exit
+2017-10-19 19:13:18	8bit	no no sorry
+2017-10-19 19:13:20	8bit	\quit
+2017-10-19 19:13:23	8bit	dammit
+2017-10-19 19:16:26	8bit	wait wait wtf I'm doing all this  stuff to grab backlog... but I see backlog up there
+2017-10-19 19:16:30	8bit	...
+2017-10-19 19:16:32	8bit	...
+2017-10-19 19:16:35	8bit	...
+2017-10-19 19:18:32	8bit	wat
+2017-10-19 19:18:40	8bit	the backlog is from tomorrow
+2017-10-19 19:18:45	8bit	ooh wait no it's not
+2017-10-19 19:19:01	8bit	It's from sep 20 i promise i know what month ist is
+2017-10-19 19:46:59	8bit	... ok the backlog isn't working thats from when I was using irc a month ago
+2017-10-19 19:47:06	8bit	:facepalm:
+2017-10-19 21:24:20	alitteke	https://imgs.xkcd.com/comics/linux_user_at_best_buy.png 
+2017-10-19 22:55:53	ccarball	8bit: you're precious
+2017-10-19 23:32:16	catvajiac	ccarball: agree [cc: ccarball]
+2017-10-19 23:32:24	catvajiac	alitteke: love that
+2017-10-19 23:33:46	ccarball	alitteke: LOLOLOLOL
+2017-10-19 23:59:52	dougsmith	@alitteke: Small detail, I upgraded to a motorized unicycle b/c it better represents the unix philosophy
+2017-10-20 00:02:25	alitteke	Which tenant of the philosophy does that serve?
+2017-10-20 00:02:31	8bit	that sounds like approximately the most dangerous invention I've ever heard
+2017-10-20 00:02:46	alitteke	I don’t think it’s doing any one part well...
+2017-10-20 00:02:57	alitteke	Unless the unicycle is part of a bicycle
+2017-10-20 00:05:25	8bit	depends on the goal
+2017-10-20 00:05:48	8bit	if the goals are severe injuries and efficiency, I'd say it does both wonderfully
+2017-10-20 00:05:56	alitteke	Or death I suppose
+2017-10-20 00:07:06	ccarball	TIL a car is just a large bicycle
+2017-10-20 00:07:34	ccarball	SOME PEOPLE, however, refuse to agree that this is the case
+2017-10-20 00:07:49	alitteke	It’s got four wheels
+2017-10-20 00:08:29	alitteke	Therefore, not bicycle
+2017-10-20 00:10:22	catvajiac	bicycle with lots of training wheels?
+2017-10-20 00:10:36	ccarball	^^^^
+2017-10-20 00:10:42	ccarball	yes exactly what i said catvajiac 
+2017-10-20 00:11:17	catvajiac	where is this coming from tho
+2017-10-20 00:11:37	catvajiac	i need CONTEXT so i can SWITCH to this topic properly
+2017-10-20 00:11:39	catvajiac	zing
+2017-10-20 00:12:24	alitteke	No, becusss training wheels have different sizes
+2017-10-20 00:12:28	alitteke	Because
+2017-10-20 00:12:53	alitteke	Plus, a big bicycle is just a motorcycle
+2017-10-20 00:13:35	jcioffi	woo I'm 21
+2017-10-20 00:13:53	alitteke	:beers::beers::beers::tropical_drink::beer::tropical_drink::beers::beer::beers::tropical_drink:🥂:champagne:🥂:beer::wine_glass:
+2017-10-20 00:13:56	catvajiac	+AYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+2017-10-20 00:14:05	catvajiac	HAPPY BDAY BEAUTIFU:
+2017-10-20 00:14:14	catvajiac	U ROCK MUH SOCKS AND ILY
+2017-10-20 00:14:27	catvajiac	go get a damm drink
+2017-10-20 00:14:28	jcioffi	aw thanks
+2017-10-20 00:14:28	alitteke	🥃🥃🥃🥃🥃🥃🥃🥃🥃🥃🥃🥃🥃🥃🥃🥃🥃🥃🥃🥃🥃
+2017-10-20 00:14:39	jcioffi	I can't get a drink
+2017-10-20 00:14:48	jcioffi	lol I'm probably not gonna be celebrating :p
+2017-10-20 00:14:53	alitteke	I gave you 21 shots
+2017-10-20 00:14:55	catvajiac	sad
+2017-10-20 00:14:59	catvajiac	but be happie anyway
+2017-10-20 00:14:59	jcioffi	lmao thanks Andrew
+2017-10-20 00:15:04	alitteke	_don’t do that though_
+2017-10-20 00:15:09	catvajiac	yeah dont
+2017-10-20 00:16:25	jcioffi	I won't
+2017-10-20 00:16:34	jcioffi	I won't be having any booze :p
+2017-10-20 00:20:20	ccarball	HAPPIE BURFDAE JCIOFFI
+2017-10-20 00:20:45	jcioffi	lol thanks
+2017-10-20 00:36:27	dougsmith	Happy B-day Jess!
+2017-10-20 01:56:44	jcioffi	thank you :slightly_smiling_face:
+2017-10-20 01:56:58	jcioffi	going to the airport in 2 hours
+2017-10-20 01:57:30	catvajiac	jcioffi: did u ever sleep
+2017-10-20 02:01:00	jcioffi	no
+2017-10-20 02:01:18	jcioffi	im tempted to nap now
+2017-10-20 02:01:27	catvajiac	aw, try and get sleep on plane!
+2017-10-20 02:01:31	catvajiac	heart
+2017-10-20 02:01:49	jcioffi	i will :slightly_smiling_face: trust me i will definitely sleep
+2017-10-20 09:40:07	tmurray5	Are any of you guys going to the Passport to Google Chicago thing today?
+2017-10-20 10:39:20	catvajiac	irk what that is
+2017-10-20 10:39:23	catvajiac	idk*
+2017-10-20 11:05:17	ccarball	_has too much stuff to d_
+2017-10-20 11:05:20	ccarball	Do*
+2017-10-20 11:37:33	catvajiac	same, but i'm buying a backpack instead
+2017-10-20 11:37:35	catvajiac	priorities
+2017-10-20 11:39:44	ccarball	catvajiac: oooh what colour?
+2017-10-20 11:41:20	catvajiac	black
+2017-10-20 11:41:29	catvajiac	i like the design of it a lot
+2017-10-20 11:41:36	catvajiac	like the shape and pockets
+2017-10-20 11:42:35	ccarball	oooh
+2017-10-20 11:42:40	ccarball	pic? ;)
+2017-10-20 11:50:34	catvajiac	@catvajiac uploaded a file: dope https://nd-cse.slack.com/files/U31TEG97Z/F7MFJ8PUJ/image_uploaded_from_ios.jpg 
+2017-10-20 11:59:05	ccarball	fave store <3
+2017-10-20 12:04:13	ccarball	Ugh there’s too many people on this damn campus
+2017-10-20 12:06:04	ccarball	_runs off to hide in fitz_
+2017-10-20 12:12:57	catvajiac	ew gross
+2017-10-20 15:16:52	ccarball	I CAN DOWNLOAD
+2017-10-20 18:14:08	8bit	wut
+2017-10-20 18:14:42	8bit	the hackers book is fun
+2017-10-21 11:22:25	catvajiac	@catvajiac uploaded a file: spidey commits https://nd-cse.slack.com/files/U31TEG97Z/F7MTNKAGL/2017-10-21-112112_1280x800_scrot.png  and commented: looking at the end of last semester, my brain was dysfunctional and im surprised i made it out alive
+2017-10-21 11:24:32	catvajiac	@catvajiac uploaded a file: project 1 https://nd-cse.slack.com/files/U31TEG97Z/F7MPVLA2F/2017-10-21-112408_1280x800_scrot.png  and commented: also looking pretty dysfunctional
+2017-10-21 12:35:59	ccarball	guys
+2017-10-21 12:36:18	ccarball	i'm going against everything i believe in and staying on campus to watch ewilli23 dancce
+2017-10-21 12:37:06	catvajiac	u gud person
+2017-10-21 12:37:41	ccarball	nah
+2017-10-21 12:37:43	ccarball	im lazy
+2017-10-21 12:38:00	catvajiac	fair
+2017-10-21 12:38:04	catvajiac	still nice thing to do tho
+2017-10-21 12:38:19	catvajiac	im trying out fonts
+2017-10-21 12:38:26	catvajiac	have it narrowed down to 13 that i might like
+2017-10-21 12:38:37	ccarball	girl
+2017-10-21 12:39:00	ccarball	do ur comp
+2017-10-21 13:09:56	8bit	lol those commit messages we were all dysfunctional
+2017-10-21 13:11:27	8bit	test
+2017-10-21 13:13:19	noah.y	Test
+2017-10-21 13:14:39	8bit	@noah.y how r u friend
+2017-10-21 13:21:01	noah.y	Brute forcing physics
+2017-10-21 13:21:15	noah.y	Otherwise I am swell
+2017-10-21 13:21:19	noah.y	How r u frien
+2017-10-21 13:21:37	catvajiac	miss muh friens
+2017-10-21 13:21:50	ccarball	samee
+2017-10-21 13:21:50	noah.y	@catvajiac my favorite is Julius Sans One
+2017-10-21 13:22:15	noah.y	Font*
+2017-10-21 13:24:37	8bit	@noah.y Kinda sad getting sleep is over but kinda glad break is over
+2017-10-21 13:24:46	8bit	I'm missin muh friends too
+2017-10-21 13:24:57	noah.y	Lmao
+2017-10-21 13:58:02	8bit	finally understanding weechat kinda
+2017-10-21 13:59:01	catvajiac	yey
+2017-10-21 14:21:20	dougsmith	catvajiac: Is there a fancy name for final 13?
+2017-10-21 14:21:20	dougsmith	Also 8bit: +weechat
+2017-10-21 14:21:20	dougsmith	And +friens
+2017-10-21 14:21:20	dougsmith	Is anyone free/on campus for interview prep and/or oculus jam session on Sunday?
+2017-10-21 14:22:38	catvajiac	nope, just in a file called "possible_fonts"
+2017-10-21 14:22:42	catvajiac	also, challenges this week are hard
+2017-10-21 14:23:00	noah.y	Oculus?
+2017-10-21 14:23:05	noah.y	Rift?
+2017-10-21 14:23:06	catvajiac	double also, might be around in the eve of sunday, but probably not the day
+2017-10-21 14:25:32	8bit	+interviewPrepOculusJam
+2017-10-21 14:25:49	8bit	@noah.y I have an oculus rift and we wanna learn how to make stuff for it
+2017-10-21 14:28:05	dougsmith	The challenges are just hard? Not... challenging?
+2017-10-21 14:28:29	noah.y	I know Vive uses unity
+2017-10-21 14:28:37	noah.y	Does the rift as well?
+2017-10-21 14:29:20	noah.y	Looks like it does
+2017-10-21 14:29:22	ccarball	I free sunday
+2017-10-21 14:29:32	noah.y	Time to learn C-hashtag
+2017-10-21 14:30:44	noah.y	I guess unity also has JavaScript too
+2017-10-21 14:30:55	noah.y	Also C++ oo
+2017-10-21 14:30:56	8bit	javascript??
+2017-10-21 14:30:58	8bit	weird
+2017-10-21 14:31:00	8bit	weird
+2017-10-21 14:31:04	8bit	C++ bb
+2017-10-21 14:31:10	noah.y	Yeah the unity engine is either in C# or JavaScript
+2017-10-21 14:31:15	noah.y	But unreal engine is C++
+2017-10-21 14:31:23	8bit	has anyone here gotten unity on linux?
+2017-10-21 14:31:26	8bit	I haven't tried yet
+2017-10-21 14:31:31	ccarball	catvajiac: c++
+2017-10-21 14:31:36	noah.y	I have it on windows
+2017-10-21 14:31:38	alitteke	Programming is musical not popular, therefore it is C-Sharp
+2017-10-21 14:31:45	ccarball	alitteke: +++++
+2017-10-21 14:31:52	noah.y	C-PoundSign
+2017-10-21 14:32:05	alitteke	Y u hurt me
+2017-10-21 14:32:07	noah.y	For us 90s kids
+2017-10-21 14:32:29	noah.y	Wait actually tho
+2017-10-21 14:32:36	noah.y	For my fund comp final project
+2017-10-21 14:32:39	noah.y	Can this be it
+2017-10-21 14:32:47	8bit	I've always hated c-sharp
+2017-10-21 14:32:50	8bit	Like, the note
+2017-10-21 14:32:52	8bit	not the language
+2017-10-21 14:32:57	noah.y	Same
+2017-10-21 14:33:03	noah.y	It hurts me delicate ears
+2017-10-21 14:33:08	alitteke	I prefer cminor
+2017-10-21 14:33:09	8bit	@dougsmith knows why
+2017-10-21 14:33:18	ccarball	i no know notes 
+2017-10-21 14:33:21	ccarball	oops
+2017-10-21 14:33:32	 *	ccarball was in choir
+2017-10-21 14:33:50	8bit	saxophones and c sharp don't mix well
+2017-10-21 14:33:52	8bit	bluh
+2017-10-21 14:36:06	catvajiac	ccarball: omg [cc: ccarball]
+2017-10-21 14:36:24	ccarball	teehee
+2017-10-21 14:36:32	catvajiac	ccarball: be calm [cc: ccarball]
+2017-10-21 14:36:39	ccarball	catvajiac: nooo
+2017-10-21 14:36:53	catvajiac	ugh i dont know how to do anything
+2017-10-21 14:36:55	catvajiac	panics
+2017-10-21 14:37:25	dougsmith	8bit: Sax C# is naturally out of tune on some makes of the instrument. Pros are the ones who know the alternate fingering that brings their make back in tune.
+2017-10-21 14:37:54	dougsmith	Can't hate the c sharp to hard, I'm a huge b-flat blues guy.
+2017-10-21 14:38:24	dougsmith	catvajiac: at least you know how to panic. Start there and build.
+2017-10-21 14:38:35	catvajiac	panic is a terrible foundation
+2017-10-21 14:38:42	ccarball	panic! at the disco
+2017-10-21 14:38:45	noah.y	YO UNITY GAME FOR HACKATHON?
+2017-10-21 14:38:50	noah.y	@dougsmith
+2017-10-21 14:38:57	noah.y	Er
+2017-10-21 14:39:00	noah.y	oculus
+2017-10-21 14:39:04	noah.y	**
+2017-10-21 14:39:28	ccarball	noah.y: u r blue in weechat and everyone else uncolored
+2017-10-21 14:39:31	ccarball	how?
+2017-10-21 14:40:24	8bit	ccarball do you have a theme/ have you done stuff w/ theme.py [cc: ccarball]
+2017-10-21 14:40:40	noah.y	Idk
+2017-10-21 14:40:44	noah.y	I am bloo boi
+2017-10-21 14:40:59	8bit	dougsmith: yeah the other fingering feels pretty weird tho iirc
+2017-10-21 14:41:04	8bit	i haven't played in a whileeeee
+2017-10-21 14:41:06	8bit	sad
+2017-10-21 14:41:09	8bit	I used to love it
+2017-10-21 14:41:17	8bit	not sure i can claim to if i haven't done it in so long
+2017-10-21 14:42:32	ccarball	8bit: err no
+2017-10-21 14:43:55	dougsmith	catvajiac: Panic - Terrible foundation,  great motivator
+2017-10-21 14:43:55	dougsmith	ccarball: Panic! At the Disco - Good songs, inconsistently released
+2017-10-21 14:43:55	dougsmith	noah.y: Unity Games: Why not? We have enough time to learn them. Though I want to do something on-theme...
+2017-10-21 14:43:55	dougsmith	8bit: Saxophone - like riding a bike, can never be forgotten. Claim it, and definitely plan to jam in the future if the mood strikes you. [cc: ccarball]
+2017-10-21 14:44:55	dougsmith	There are now four conversations in this buffer.
+2017-10-21 14:44:58	noah.y	What’s the theme?
+2017-10-21 14:45:08	dougsmith	Hasn't been released.
+2017-10-21 14:45:18	dougsmith	At least not that I can find.
+2017-10-21 14:45:20	8bit	I love interleaving conversations
+2017-10-21 14:45:23	noah.y	Wasn’t there a prize for best use of oculus at tigerhacks
+2017-10-21 14:45:26	noah.y	Or something
+2017-10-21 14:45:28	8bit	is there now five since one is a meta convo
+2017-10-21 14:45:45	8bit	ccarball: what did you err no to [cc: ccarball]
+2017-10-21 14:46:04	dougsmith	I would love to write a filter that forks/flags buffers by content, so I guess I'm the opposite.
+2017-10-21 14:46:32	8bit	dougsmith: I picked my sax up once over break and my tone was so bad
+2017-10-21 14:46:34	8bit	I was sad
+2017-10-21 14:46:40	dougsmith	noah.y: Either that or a general IOT prize, but I'm not sure how sponsor prizes work.
+2017-10-21 14:46:59	dougsmith	8bit: _adage about practice_
+2017-10-21 14:47:45	8bit	you can't _adage about bikes_ and then _adage about practice_
+2017-10-21 14:48:25	catvajiac	i have 6 in this buffer
+2017-10-21 14:48:47	dougsmith	catvajiac: Convos? Or threads?
+2017-10-21 14:48:59	catvajiac	convos
+2017-10-21 14:49:25	ccarball	dougsmith: muy bueno music
+2017-10-21 14:49:32	dougsmith	such convo... so speak... wow
+2017-10-21 14:49:32	dougsmith	8bit: I will adage what I want, when I want, in whatever order I want.
+2017-10-21 14:49:35	ccarball	8bit: have not theme.py
+2017-10-21 14:49:47	ccarball	catvajiac: i has cuatro
+2017-10-21 14:50:05	ccarball	4 hastags in this buffer
+2017-10-21 14:50:39	dougsmith	Oh, by convos I meant active topics of discussion being discussed.
+2017-10-21 14:50:55	dougsmith	I think the technical term for hashtags is groups
+2017-10-21 14:52:23	ccarball	well then 4 groups
+2017-10-21 14:52:30	ccarball	plus 4 convos in one of those groups
+2017-10-21 14:52:34	ccarball	eeh too many words
+2017-10-21 14:52:57	 *	ccarball is cannot interact
+2017-10-21 14:53:35	dougsmith	I think this is just a classification problem, interaction is left as an exercise to the reader.
+2017-10-21 14:54:44	ccarball	dougsmith: so if I just make strange noises and hide in my shirt does that count as interaction?
+2017-10-21 14:55:37	dougsmith	Not the focus of this discourse, so I implicitly have no opinion.
+2017-10-21 14:58:58	ccarball	dougsmith: but it was a direct question and you must answer
+2017-10-21 14:59:54	dougsmith	I'm sorry, this recording has a limited range of responses, you have to ask the right questions.
+2017-10-21 15:00:21	dougsmith	Nowhere is it written that I _have_ to respond to anything?
+2017-10-21 15:00:30	8bit	ccarball: that is my primary form of interaction [cc: ccarball]
+2017-10-21 15:00:33	ccarball	!dougsmith what is interaction?
+2017-10-21 15:00:39	8bit	lol
+2017-10-21 15:00:43	ccarball	8bit: https://www.youtube.com/watch?v=yw6i1SAHetc
+2017-10-21 15:00:52	ccarball	8bit: ahh ok so is interaction
+2017-10-21 15:00:56	ccarball	then i can has interact
+2017-10-21 15:00:57	ccarball	yeee
+2017-10-21 15:01:30	8bit	ccarball: why you gotta play me like that [cc: ccarball]
+2017-10-21 15:01:49	8bit	now I have to listen to this and be emotion
+2017-10-21 15:01:51	ccarball	8bit: it got better... forest just came on
+2017-10-21 15:01:57	8bit	oh snap
+2017-10-21 15:01:59	8bit	shIT
+2017-10-21 15:02:03	ccarball	(lovely is next)
+2017-10-21 15:02:04	ccarball	ahhhh
+2017-10-21 15:02:05	8bit	i said it again
+2017-10-21 15:02:09	ccarball	lol you did
+2017-10-21 15:02:10	8bit	fsck
+2017-10-21 15:02:13	ccarball	<3
+2017-10-21 15:02:20	8bit	.3
+2017-10-21 15:02:22	8bit	<3
+2017-10-21 15:02:24	8bit	*
+2017-10-21 15:02:31	ccarball	why does spotify not have forest
+2017-10-21 15:02:41	8bit	I can hit you up with the mp3 lol
+2017-10-21 15:02:47	ccarball	prs
+2017-10-21 15:03:05	8bit	I haven't figured out how to use files in weechat so imma switch to web brb
+2017-10-21 15:12:30	ccarball	https://www.youtube.com/watch?v=XD3M5JN1uhg&has_verified=1
+2017-10-21 15:12:32	ccarball	whoa
+2017-10-21 15:12:34	ccarball	want watch
+2017-10-21 15:44:00	catvajiac	protip: dont be on campus if u wanna work
+2017-10-21 15:44:08	catvajiac	oops, wrong channel
+2017-10-21 15:44:12	catvajiac	still applies tho
+2017-10-21 15:45:05	dougsmith	depends on the work. There's tons of gameday specific stuff that needs doing.
+2017-10-21 15:45:24	catvajiac	eh, not if ur me
+2017-10-21 15:45:33	catvajiac	but gl hf errybody who is doing gameday stuffs
+2017-10-21 15:45:39	jcioffi	I am
+2017-10-21 15:45:46	jcioffi	yay free food
+2017-10-21 15:45:48	catvajiac	jcioffi: have fun <3
+2017-10-21 15:47:04	jcioffi	thanks!
+2017-10-21 15:54:31	ccarball	jcioffi: where is free food?
+2017-10-21 15:54:37	ccarball	am hungre
+2017-10-21 16:24:44	jcioffi	my friends tailgate lol
+2017-10-21 16:25:29	dougsmith	ccarball: jcioffi: there's no such thing as a free lunch [cc: ccarball]
+2017-10-21 16:25:47	catvajiac	^
+2017-10-21 16:30:10	ccarball	ofc there is such thing as a free lunch...
+2017-10-21 16:30:20	ccarball	its when u get food and dont have to pay for it
+2017-10-21 16:34:06	8bit	you only have to pay for it with crippling student loans
+2017-10-21 16:39:57	ccarball	ahh yes those
+2017-10-21 16:41:38	dougsmith	Thanks 8bit!
+2017-10-21 16:43:42	ccarball	dougsmith: ?
+2017-10-21 16:57:06	ccarball	I just found a video recording of the original cast of hamilton
+2017-10-21 16:57:20	 *	ccarball has goosebumps
+2017-10-21 17:13:54	8bit	niceeeeeeee :D
+2017-10-21 19:16:20	alitteke	@ccarball I’m going to see Les mis instead of the football game
+2017-10-21 19:18:36	ccarball	alitteke: +infinity
+2017-10-21 20:16:58	alitteke	And the new Apple store
+2017-10-21 20:17:00	alitteke	@alitteke uploaded a file: Image uploaded from iOS https://nd-cse.slack.com/files/U274MQ9PS/F7N0DHD1A/image_uploaded_from_ios.jpg 
+2017-10-21 20:37:38	catvajiac	alitteke: where is htat
+2017-10-21 20:39:30	8bit	i wish i could be watching les mis rn
+2017-10-21 20:39:37	8bit	but to.be  fair i always feel that
+2017-10-21 20:39:40	alitteke	Chicago
+2017-10-21 20:39:45	alitteke	It opened yesterday
+2017-10-21 20:40:02	catvajiac	oh, nice
+2017-10-21 20:40:05	catvajiac	it's super pretty
+2017-10-21 20:40:07	ccarball	I'm watching in the heights
+2017-10-21 20:40:14	catvajiac	and also, awesome on the les mis stuff
+2017-10-21 20:40:16	catvajiac	:]
+2017-10-21 23:43:17	noah.y	Me
+2017-10-21 23:43:21	noah.y	@noah.y uploaded a file: Image uploaded from iOS https://nd-cse.slack.com/files/U6PJXGG0K/F7N3KCMD3/image_uploaded_from_ios.jpg 
+2017-10-21 23:51:29	8bit	meirl
+2017-10-21 23:57:59	alitteke	@alitteke uploaded a file: Image uploaded from iOS https://nd-cse.slack.com/files/U274MQ9PS/F7MDPLTNV/image_uploaded_from_ios.jpg 
+2017-10-22 11:41:18	ccarball	That awkward moment when the startup lab is locked.
+2017-10-22 11:42:18	dougsmith	That feeling when the East Lounge isn't. Though the stinson-remick classrooms are quite nice...\
+2017-10-22 11:45:36	ccarball	interview prep in stinson?
+2017-10-22 11:50:58	dougsmith	Going once...
+2017-10-22 11:51:09	dougsmith	... going twice...
+2017-10-22 11:51:19	noah.y	I’m sleep
+2017-10-22 11:51:21	noah.y	Sorry
+2017-10-22 11:51:36	noah.y	This is sleeping Noah talking
+2017-10-22 11:51:42	dougsmith	... interview prep in stinson at 12?
+2017-10-22 11:51:50	dougsmith	-sleeping beauty
+2017-10-22 11:52:05	noah.y	I saw u at the game
+2017-10-22 11:53:22	ccarball	ugh that means i have to walk to stinson
+2017-10-22 11:53:26	ccarball	but fine yes okay
+2017-10-22 11:54:31	dougsmith	noah.y you were at the game? I've been looking for someone in lug to make jokes about the John Jenkins video with.
+2017-10-22 11:58:42	ccarball	Where in stinson?
+2017-10-22 12:01:33	dougsmith	Are the 100s in the atrium open? They have many white boards.
+2017-10-22 12:10:03	8bit	im about to be on campus
+2017-10-22 12:10:09	8bit	where shall i go
+2017-10-22 12:10:49	catvajiac	stinson? woah
+2017-10-22 12:11:10	dougsmith	Stinson 110 seems perfect.
+2017-10-22 12:11:49	dougsmith	@dougsmith uploaded a file: IMG_20171022_121126.jpg https://nd-cse.slack.com/files/U3RQDH6JH/F7N2B3KM0/img_20171022_121126.jpg  and commented: Yeah, but this room though...
+2017-10-22 12:41:54	ccarball	Okay now im really on my way
+2017-10-22 12:42:18	8bit	just unpacking then i'll be there
+2017-10-22 12:46:29	ccarball	Im lost
+2017-10-22 12:56:05	8bit	every door ive tried has been locked so far
+2017-10-22 12:57:55	dougsmith	You need engineering swipe access on game weekends, though they usually screw that up for dual majors. What door are you at?
+2017-10-22 12:58:33	8bit	main door worked
+2017-10-22 12:58:44	8bit	which room
+2017-10-22 13:04:15	catvajiac	ew, reminds me of engineering systems
+2017-10-22 13:04:19	catvajiac	but it is a nice room
+2017-10-22 14:12:26	8bit	rt
+2017-10-22 14:32:16	ccarball	eww
+2017-10-22 14:37:30	ccarball	hi in weirdos
+2017-10-22 14:52:37	dougsmith	Cami saying hi is now a statistically significant portion of the Slack backlog. Weechat will destroy us all.
+2017-10-22 14:57:54	8bit	@8bit uploaded a file: please help me.png https://nd-cse.slack.com/files/U273L7KJN/F7N0UBV6X/please_help_me.png 
+2017-10-22 14:57:55	ccarball	so. much. sass.
+2017-10-22 14:58:24	ccarball	http://digitalspyuk.cdnds.net/16/26/1600x800/landscape-1467299288-doctor-who-david-tennant.jpg
+2017-10-22 14:58:25	ccarball	help me
+2017-10-22 15:07:35	dougsmith	_Help, I need somebody_
+2017-10-22 15:07:39	dougsmith	_Help_
+2017-10-22 15:07:47	dougsmith	_Not just anybody_
+2017-10-22 15:10:48	ccarball	heeelp
+2017-10-22 16:27:39	catvajiac	are people staying up late tonight working on stuffs
+2017-10-22 16:29:01	 *	ccarball needs sleep
+2017-10-22 16:29:04	ccarball	so probs not
+2017-10-22 16:30:00	catvajiac	oh good, git sleep
+2017-10-22 16:33:55	dougsmith	Will need to do all the academic stuff b/c I spent too much time making VMs over break. So probs yes.
+2017-10-22 16:34:07	dougsmith	Also 8bit brought an oculus
+2017-10-22 16:36:40	catvajiac	okie, i might come evening to work, but might now
+2017-10-22 16:36:43	catvajiac	is indecisive
+2017-10-22 16:41:00	dougsmith	@dougsmith uploaded a file: devil https://nd-cse.slack.com/files/U3RQDH6JH/F7P621X7H/devil.jpg  and commented: Make the smart choice or the fun choice? Angel Player or BSD Devil?
+2017-10-22 16:41:21	dougsmith	@dougsmith uploaded a file: angel.jpg https://nd-cse.slack.com/files/U3RQDH6JH/F7N3J0L6N/angel.jpg 
+2017-10-22 16:43:24	catvajiac	@catvajiac uploaded a file: look how pretty instead of doing my real work i reorganized https://nd-cse.slack.com/files/U31TEG97Z/F7P0541AA/img_9196.jpg 
+2017-10-22 16:44:21	catvajiac	problem is i already feel kinda sleepy
+2017-10-22 16:44:25	catvajiac	and i have to start working
+2017-10-22 16:44:27	catvajiac	oops
+2017-10-22 16:44:37	8bit	oh no
+2017-10-22 16:44:40	8bit	i hate that feel
+2017-10-22 16:44:46	dougsmith	Beautiful lighting... _Hides tears because can't cry in front of channel_
+2017-10-22 16:44:53	8bit	that's usually when i ~get a caffeine pill~ go to sleep
+2017-10-22 16:45:07	catvajiac	ugh, probably will do something of the like
+2017-10-22 16:45:12	catvajiac	maybe i'll stay here and work tonight
+2017-10-22 16:45:14	catvajiac	idk
+2017-10-22 16:45:55	ccarball	catvajiac: CHEWABLE COFFEE
+2017-10-22 16:47:14	dougsmith	How the w31rd0s advise catvajiac
+2017-10-22 16:47:24	dougsmith	8bit-pushes caffiene pill
+2017-10-22 16:47:40	dougsmith	ccarball - pushes chewable coffee [cc: ccarball]
+2017-10-22 16:47:48	dougsmith	dougsmith - pushes the devil
+2017-10-22 16:48:47	ccarball	8bit: ccarball: push NGLC
+2017-10-22 16:50:08	8bit	NGLC sounds like a drug and I approve
+2017-10-22 16:50:25	8bit	~testing cross~
+2017-10-22 16:56:39	ccarball	NGLC.pronunciation = angelic
+2017-10-22 16:57:58	8bit	+truth
+2017-10-22 17:03:01	catvajiac	ugh
+2017-10-22 17:03:20	catvajiac	what do
+2017-10-22 18:34:35	8bit	> It's like a docker instance holding a viagra.
+2017-10-22 18:34:35	8bit	Dougsmith
+2017-10-22 18:35:24	catvajiac	wtf am i missing man
+2017-10-22 18:35:37	catvajiac	are u guys movie-ing
+2017-10-22 18:37:19	8bit	yes do you wanna join
+2017-10-22 18:37:27	catvajiac	kinda yeah
+2017-10-22 18:37:30	catvajiac	but work
+2017-10-22 18:37:41	catvajiac	u movieing now?
+2017-10-22 18:37:51	catvajiac	b/c i could be there in like an hour
+2017-10-22 18:38:09	8bit	but s/movie/mrrobot
+2017-10-22 18:38:11	8bit	not yet
+2017-10-22 18:38:18	catvajiac	omg, ur mrroboting
+2017-10-22 18:38:19	8bit	we arent gonna start for a while
+2017-10-22 18:38:20	catvajiac	new one?
+2017-10-22 18:38:23	catvajiac	or old
+2017-10-22 18:38:26	8bit	do a shitton of comp then joinbus
+2017-10-22 18:38:28	8bit	both
+2017-10-22 18:38:34	catvajiac	aghfuck
+2017-10-22 18:38:38	catvajiac	well i just emailed my advisor again
+2017-10-22 18:38:43	catvajiac	for the 3rd time in the last day
+2017-10-22 18:38:44	ccarball	Cat do comp
+2017-10-22 18:38:52	catvajiac	b/c im so confused and i need all da help
+2017-10-22 18:38:57	ccarball	We could also wait and do mrrobot when u here
+2017-10-22 18:39:06	catvajiac	i can probably come in an hr or so
+2017-10-22 18:39:20	catvajiac	gimme 5 mins and ill give u definite answer on that
+2017-10-22 18:44:47	8bit	> You are NOT the quorum
+2017-10-22 18:44:47	8bit	dougsmith
+2017-10-22 18:45:58	catvajiac	ok ill be there within an hour
+2017-10-22 18:52:19	8bit	@8bit uploaded a file: 400px-IndianaPiBillCircle.svg.png https://nd-cse.slack.com/files/U273L7KJN/F7P0P89HC/400px-indianapibillcircle.svg.png 
+2017-10-22 18:52:38	8bit	i love math
+2017-10-22 18:52:42	8bit	math is my passion
+2017-10-22 18:55:13	noah.y	I have to finish physics and calc :( otherwise I’d come :(((
+2017-10-22 18:55:52	noah.y	Need to teach race for the galaxy to everyone too :satellite::rocket::earth_africa:
+2017-10-22 19:15:29	ccarball	noah.y: omg i love that game
+2017-10-22 19:15:36	catvajiac	on my way
+2017-10-22 19:16:38	catvajiac	where errybody
+2017-10-22 19:16:44	ccarball	cav :)
+2017-10-22 19:16:49	ccarball	sorry
+2017-10-22 19:16:55	ccarball	that was supposed to be a winky face
+2017-10-22 19:18:48	8bit	lol
+2017-10-23 00:08:29	8bit	me taking care of responsibilities on time
+2017-10-23 00:08:45	8bit	https://i.imgur.com/LEc75cN.gifv 
+2017-10-23 00:16:25	dougsmith	In that little guys mind, he nailed it!
+2017-10-23 00:59:15	ccarball	Lol me
+2017-10-23 01:34:13	catvajiac	so much same
+2017-10-23 12:00:26	jcioffi	... Today is Monday isn't it
+2017-10-23 12:00:53	jcioffi	Frig I just woke up
+2017-10-23 12:01:02	jcioffi	Ughhhhhhh
+2017-10-23 12:01:03	catvajiac	oh u poor soul
+2017-10-23 12:01:23	jcioffi	I don't even know what to do
+2017-10-23 12:01:40	jcioffi	I'm literally in my bed
+2017-10-23 12:02:35	catvajiac	just stay there, fuck it
+2017-10-23 12:05:03	jcioffi	that's so tempting honestly
+2017-10-23 12:05:20	alitteke	Don’t because you’ll just feel worse
+2017-10-23 12:08:15	jcioffi	You're also right
+2017-10-23 12:08:16	jcioffi	ugh
+2017-10-23 12:08:21	jcioffi	Great post break start
+2017-10-23 12:13:42	catvajiac	and if it's important
+2017-10-23 12:14:20	catvajiac	it depends on what you still have
+2017-10-23 12:29:57	8bit	sorry jess best of luck
+2017-10-23 13:10:13	catvajiac	<3
+2017-10-23 13:11:06	ccarball	jcioffi: on the bright side you didn't miss db cause it was cancelled
+2017-10-23 13:45:01	jcioffi	lol thanks
+2017-10-23 13:45:06	jcioffi	im up and at em now
+2017-10-23 15:30:28	8bit	Anyone wanna get dinner @ ndh?
+2017-10-23 15:46:24	ccarball	Working til 5 but sure
+2017-10-23 16:03:52	dougsmith	Dinner? ndh? 5? Have to leave for practice by 6 but sure.
+2017-10-23 16:24:02	8bit	sounds good sounds good
+2017-10-23 16:25:55	ccarball	okieokie
+2017-10-23 16:27:38	ccarball	I invited a catalina
+2017-10-23 16:27:42	ccarball	she has food tho
+2017-10-23 16:29:04	ccarball	dougsmith: you and cat keep taking my c
+2017-10-23 16:29:06	ccarball	kids
+2017-10-23 16:29:07	ccarball	rude
+2017-10-23 16:32:48	catvajiac	catvajiac: ?
+2017-10-23 16:32:51	jcioffi	youre complaining they are lightening your workload? it's like youre not even a TA
+2017-10-23 16:33:31	ccarball	jcioffi: yeah man
+2017-10-23 16:33:41	ccarball	i'd like to feel competent sometimes in my life
+2017-10-23 16:33:41	jcioffi	geepers
+2017-10-23 16:33:45	ccarball	jcioffi: mister?
+2017-10-23 16:33:57	catvajiac	jcioffi: you're really strong
+2017-10-23 16:34:07	jcioffi	:muscle:
+2017-10-23 16:34:13	ccarball	I WAS GOING FOR INNOCENCE
+2017-10-23 16:35:14	catvajiac	<3
+2017-10-23 16:44:13	dougsmith	Wait: cat stole someone's kids?
+2017-10-23 16:44:48	catvajiac	nope
+2017-10-23 16:45:59	dougsmith	Ok _returns to resting state of confusion_
+2017-10-23 16:48:05	ccarball	dougsmith: she stole my students
+2017-10-23 16:48:20	dougsmith	Oh, wait cat stole my job!
+2017-10-23 16:48:33	ccarball	she did yes
+2017-10-23 16:49:17	catvajiac	i was just a man page once
+2017-10-23 16:49:19	catvajiac	that's all
+2017-10-23 16:50:11	ccarball	dougsmith: 8bit: I'm gonna head to ndh in like 5
+2017-10-23 16:50:37	dougsmith	ccarball: see you there [cc: ccarball]
+2017-10-23 16:52:30	dougsmith	catvajiac: _Just_ a man page? That's all? I'm inserting my picture into the return for `man heartbreak`
+2017-10-23 16:53:05	ccarball	_is confuse_
+2017-10-23 16:53:09	catvajiac	same
+2017-10-23 16:53:21	catvajiac	though i think my picture goes under `man self.dummy`
+2017-10-23 16:53:28	ccarball	as in giver or receiver dougsmith ?
+2017-10-23 16:53:41	ccarball	catvajiac: man self.NOT-dummy
+2017-10-23 16:53:45	catvajiac	false
+2017-10-23 16:53:50	catvajiac	im self.dummy and special
+2017-10-23 16:53:59	catvajiac	oh i mean *special*
+2017-10-23 16:54:02	ccarball	ccarball: man (wrong type expecting pair)
+2017-10-23 16:54:05	catvajiac	SAME
+2017-10-23 16:54:09	catvajiac	triggered
+2017-10-23 16:54:11	dougsmith	Giver = heartbreak-er
+2017-10-23 16:54:14	ccarball	si
+2017-10-23 16:54:22	catvajiac	heartbreaker? ...
+2017-10-23 16:54:25	ccarball	NO
+2017-10-23 16:54:31	catvajiac	sad
+2017-10-23 16:54:34	catvajiac	this is all sad
+2017-10-23 16:54:39	catvajiac	objectively sad
+2017-10-23 16:54:42	ccarball	cant heartbreaker unless you do know-er
+2017-10-23 16:54:43	ccarball	sad
+2017-10-23 16:54:49	catvajiac	tru
+2017-10-23 16:55:30	8bit	i am in the basement
+2017-10-23 16:55:38	ccarball	okie omw
+2017-10-23 17:02:43	dougsmith	catvajiac: stop stealing my bits.
+2017-10-23 23:16:56	ccarball	jcioffi: killed our 50+ day snapstreak
+2017-10-23 23:16:58	ccarball	its fine im fine
+2017-10-23 23:28:17	jcioffi	sorry you all forgot to check if I was even ALIVE
+2017-10-23 23:28:37	ccarball	ahhhhh im sorry i love you
+2017-10-24 02:10:41	dougsmith	When 10% of your final grade comes down to finding one more red fruitloop...
+2017-10-24 09:31:07	catvajiac	jcioffi: good luck today except u dont need it u got skill but im telling u good luck anyway :)
+2017-10-24 09:31:16	catvajiac	u will rock all the things <3
+2017-10-24 10:46:20	ccarball	I wish you success jcioffi
+2017-10-24 10:46:20	ccarball	Because luck is for the weak
+2017-10-24 11:03:34	catvajiac	jcioffi: just overall ur gonna kill it :]
+2017-10-24 16:11:29	ccarball	anyone wanna get dinner at 5?
+2017-10-24 16:32:47	 *	ccarball has one accepted pull request :P
+2017-10-24 16:39:30	dougsmith	Can't today, should either be in a meeting or yelling at people for skipping a meeting.
+2017-10-24 16:40:04	8bit	i cant today
+2017-10-24 16:45:57	 *	ccarball is sad
+2017-10-24 16:46:02	 *	ccarball is also cold
+2017-10-24 16:50:03	dougsmith	ccarball: do you lose credit if I change the project? [cc: ccarball]
+2017-10-24 16:50:52	catvajiac	why is it so rainy
+2017-10-24 16:51:20	dougsmith	_Resists urge to give lecture on precipitation_
+2017-10-24 16:51:38	dougsmith	_Fails, compromises by giving it to nearby empty chair_
+2017-10-24 16:57:04	8bit	ccarball somethinf changed i can if we do sdh [cc: ccarball]
+2017-10-24 16:58:34	8bit	tho i would be a tad late
+2017-10-24 16:59:15	catvajiac	ugh i'm tired i drove the wrong way
+2017-10-24 17:04:10	dougsmith	catvajiac: don't slack while driving.
+2017-10-24 17:04:26	dougsmith	Or irc
+2017-10-24 17:04:42	dougsmith	In fact, refrain from all text-based forms of anything while driving.
+2017-10-24 17:04:56	8bit	wait ccarball are you gonna be there before i go into the rain [cc: ccarball]
+2017-10-24 17:13:25	ccarball	Ahhh
+2017-10-24 17:13:39	ccarball	Im just gonna grab and go
+2017-10-24 17:13:39	ccarball	Sry 8bit
+2017-10-24 17:13:55	ccarball	Dougsmith: i sure hope not, I want a teeshirt
+2017-10-24 17:15:59	dougsmith	Okay, then I'll wait to rebrand until you get your t-shirt
+2017-10-24 17:16:15	dougsmith	Also this:
+2017-10-24 17:16:15	dougsmith	"Due to the poor weather tonight and lack of facilities, we are going to cancel Marching Band and reschedule the Ambassador meeting for next week."
+2017-10-24 17:16:27	dougsmith	Guys: I get an afternoon off!
+2017-10-24 17:22:04	catvajiac	it was after i parked
+2017-10-24 17:22:34	catvajiac	dougsmith: oh yeah tara told me
+2017-10-24 17:22:44	catvajiac	she was excited to not have to trek over here
+2017-10-24 17:29:40	ccarball	ooh woo
+2017-10-24 17:29:57	ccarball	dougsmith: wait if u have freee afternoon? why is startup lab devoid of your presence?
+2017-10-24 17:32:56	dougsmith	B/C I'm in the same booth where my lab mates left me. Crying.
+2017-10-24 17:36:18	noah.y	Booth?
+2017-10-24 17:37:24	catvajiac	lab mates?
+2017-10-24 17:38:23	ccarball	crying?
+2017-10-24 17:38:28	dougsmith	Yes to all three
+2017-10-24 17:38:48	ccarball	pnutzh4x0r says no self.deprecation() and crying is a form of that so 
+2017-10-24 17:38:49	ccarball	stop
+2017-10-24 17:41:20	dougsmith	Crying != self.deprecation()
+2017-10-24 17:42:33	ccarball	> that is objectively false
+2017-10-24 17:44:53	8bit	crying is definitely not self.deprecation()
+2017-10-24 17:45:03	ccarball	shh @8bit
+2017-10-24 17:45:10	ccarball	https://www.facebook.com/humansoftumblrcom/photos/a.595210907194561.1073741828.591801410868844/1853095248072781/?type=3&theater https://www.facebook.com/humansoftumblrcom/photos/a.595210907194561.1073741828.591801410868844/1853095248072781/?type=3&amp;theater 
+2017-10-24 17:45:12	ccarball	teehee
+2017-10-24 17:45:30	catvajiac	if crying is a form of self.deprecation() then im screwed
+2017-10-24 17:45:36	dougsmith	On what planet it the set of feelings equivalent to the set of negative feelings about oneself?
+2017-10-24 17:45:55	dougsmith	And on this planet is it not impossible to have feelings that aren't self-deprecating.
+2017-10-24 17:46:23	ccarball	crying implies there are negative feelings, if those negative feelings are directed toward oneself, then it is self.deprecation()
+2017-10-24 17:46:34	ccarball	_drops mic_
+2017-10-24 17:46:45	ccarball	_picks mic back up because expensive_
+2017-10-24 17:47:14	dougsmith	You've proven overlap and sold it as set equivalence
+2017-10-24 17:47:14	dougsmith	_Claps slowly, like a dolphin_
+2017-10-24 17:47:23	dougsmith	_Goes back to work_
+2017-10-24 17:47:41	dougsmith	Also pnutzh4x0r said nothing about a recurcsive call to DeprecateDoug(). I run on a functional kernel.
+2017-10-24 17:49:16	ccarball	what can I say? I'm a good saleswoman
+2017-10-24 17:50:12	8bit	god, a functional kernel?
+2017-10-24 17:50:24	8bit	that sounds like hell...or heaven, i'm not sure
+2017-10-24 17:50:53	8bit	but i tend to agree with dougsmith, crying isn't sufficient for self deprecation
+2017-10-24 17:53:10	dougsmith	Also, does anyone use a nonstandard browser?
+2017-10-24 17:53:26	8bit	sorta
+2017-10-24 17:53:33	8bit	I play around with nonstandard browsers
+2017-10-24 17:53:39	ccarball	nope
+2017-10-24 17:53:42	ccarball	chromium for me
+2017-10-24 17:53:53	dougsmith	Are any of them javascript extensible/chromium compatible?
+2017-10-24 17:54:08	dougsmith	s/chromium/plugin/
+2017-10-24 17:54:39	8bit	hmmm
+2017-10-24 17:54:39	8bit	I'm not sure.
+2017-10-24 17:54:54	8bit	I think qutebrowser?? Idk.  I know it's very easy to customize, though.
+2017-10-24 17:55:37	ccarball	If anyone is free wednesday/friday 9:25am-10:15am, I am looking for a temporary databases partner-in-crime replacement while jcioffi is in texas
+2017-10-24 17:57:06	dougsmith	THERE'S A SEAT OPEN IN DATABASES!!!!!!?
+2017-10-24 17:57:30	ccarball	dougsmith: yupp, right up front
+2017-10-24 17:58:53	8bit	ooh
+2017-10-24 17:59:15	8bit	~_I'mABinary_~ should we go
+2017-10-24 17:59:22	8bit	oops
+2017-10-24 17:59:28	8bit	it's not a we thing sorry i'll leave
+2017-10-24 18:00:49	8bit	wait, dammit, you all use irc now
+2017-10-24 18:00:56	8bit	imagine all those messages are deleted
+2017-10-24 18:04:35	jcioffi	oh my gosh Tim will totally notice if you replace me with Doug :joy::joy::joy:
+2017-10-24 18:09:06	ccarball	jcioffi: will he?
+2017-10-24 19:07:53	ccarball	@ccarball uploaded a file: skelly.gif https://nd-cse.slack.com/files/U3SU6R6H5/F7PA26XFD/skelly.gif 
+2017-10-24 19:08:09	catvajiac	lol
+2017-10-24 19:08:27	ccarball	his name is skelly
+2017-10-24 19:08:34	ccarball	we should all try to be more like skelly
+2017-10-24 19:09:18	catvajiac	tru
+2017-10-24 19:09:37	dougsmith	Nonliving?
+2017-10-24 19:10:02	catvajiac	dougsmith: be calm
+2017-10-24 19:10:06	catvajiac	oh doug doug doug
+2017-10-24 19:10:08	catvajiac	guess waht
+2017-10-24 19:10:25	dougsmith	What?
+2017-10-24 19:10:26	catvajiac	i promised h4x that i would try to stop self.deprecating()
+2017-10-24 19:10:30	catvajiac	so u know that that means for u
+2017-10-24 19:11:05	dougsmith	Yes, when you conclusively succeed I have to `free DeprecateDoug`
+2017-10-24 19:11:10	dougsmith	Or try to
+2017-10-24 19:25:16	ccarball	yee 
+2017-10-24 19:25:23	ccarball	IM NOT INCLUDED IN THIS
+2017-10-24 19:25:28	catvajiac	yes u r
+2017-10-24 19:25:35	catvajiac	ur not free
+2017-10-24 19:25:42	catvajiac	also help me eat this ice cream
+2017-10-24 19:26:11	ccarball	na heya heya naya noo ah ah na hey ooh noo ah nah
+2017-10-24 19:26:20	catvajiac	ccarball: srs [cc: ccarball]
+2017-10-24 19:26:33	ccarball	nah
+2017-10-24 19:26:48	catvajiac	ccarball: plz [cc: ccarball]
+2017-10-24 19:29:37	ccarball	catvajiac: UNDER DA SEA
+2017-10-24 19:30:25	catvajiac	:]
+2017-10-24 19:33:48	dougsmith	What has this thread devolved to?
+2017-10-24 19:35:28	catvajiac	devolved?
+2017-10-24 19:35:33	catvajiac	no
+2017-10-24 19:35:36	catvajiac	evolved
+2017-10-24 19:35:37	ccarball	s/devolved/evolved
+2017-10-24 19:35:43	catvajiac	stop copycatting
+2017-10-24 19:36:30	dougsmith	This is what I'm talking about, you're sitting five feet from each other and from me having a sitcom-cookie-cutter dialog.
+2017-10-24 19:37:12	ccarball	dougsmith: excuseeee you
+2017-10-24 19:37:16	ccarball	this is not cookie cutter
+2017-10-24 19:37:51	dougsmith	Whatever, cookie dough is distantly involved
+2017-10-24 19:38:06	ccarball	mm cookie dough
+2017-10-24 19:44:01	catvajiac	ccarball: wow [cc: ccarball]
+2017-10-24 19:44:29	ccarball	TYPO 
+2017-10-25 10:35:51	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #w31rd0s
+2017-10-25 10:35:51	--	Topic for #w31rd0s is ""
+2017-10-25 10:35:51	--	Channel #w31rd0s: 8 nicks (0 ops, 0 voices, 8 normals)
+2017-10-25 10:36:02	--	Channel created on Wed, 25 Oct 2017 10:36:02
+2017-10-25 10:42:11	ccarball	lunch?
+2017-10-25 10:50:14	dougsmith	One of the three meals that have existed for millenia
+2017-10-25 10:55:04	ccarball	I mean do people want to get some after this class
+2017-10-26 00:32:40	8bit	is my discrete test in there?
+2017-10-26 00:32:45	8bit	i somehow kost it
+2017-10-26 00:34:09	ccarball	?
+2017-10-26 00:37:36	8bit	tuesday i had my disxrete test
+2017-10-26 00:37:43	8bit	like posessed
+2017-10-26 00:37:49	8bit	and i wanted to ask bafk points
+2017-10-26 00:37:59	8bit	and i no longer possess it and was owndering
+2017-10-26 00:38:08	8bit	if it was in startbub lao
+2017-10-26 00:43:50	dougsmith	Looked around, but don't see. Where would you have been sitting?
+2017-10-26 09:18:05	noah.y	What room is OS in
+2017-10-26 09:49:21	dougsmith	Did you find it or did no one tell you Debart 136?
+2017-10-26 09:53:55	8bit	He his here
+2017-10-26 10:27:37	--	noah.y is now known as silv3r
+2017-10-26 10:39:45	8bit	silv3rboi
+2017-10-26 10:40:23	catvajiac	silv3rboi....silv3rboi...it's christmas time, in the cityyyyyy
+2017-10-26 10:42:57	8bit	Speaking of which i think it's about time I start listening to christmas music
+2017-10-26 10:45:29	8bit	_acquires all of sufjan stevens christmas music in a  legal fashion_
+2017-10-26 13:05:14	dougsmith	8bit: +acquisitions, but if you play a single track of that music before Nov 15, you're committing a felony
+2017-10-26 13:07:06	8bit	oh no
+2017-10-26 13:07:08	8bit	it's too late
+2017-10-26 13:10:42	catvajiac	8bit: christmas music too early is okay if just u listen, and u dont enforce on others
+2017-10-26 13:10:53	catvajiac	but plz dont enforce it on me until after thanksgiving :]
+2017-10-26 13:11:06	dougsmith	^
+2017-10-26 13:11:20	catvajiac	has nightmares about choir, where christmas music was practiced from august-december
+2017-10-26 13:12:11	dougsmith	8bit: As long as MD doesn't go to the effort of tracing IPs, you're probably safe.
+2017-10-26 13:12:20	dougsmith	But you skipped the Halloween music
+2017-10-26 13:13:26	8bit	I'm realizing this more about sufjan stevens than it is about christmas music
+2017-10-26 13:17:45	dougsmith	That's also fair...
+2017-10-26 13:20:07	ccarball	Hey, how many of you guys would be down to do a secret santa?
+2017-10-26 13:20:16	8bit	It's that I finally feel it's beginning to be acceptable to listen to ALL his music.
+2017-10-26 13:20:19	8bit	HOLY SHIT YES
+2017-10-26 13:20:31	8bit	ccarball: me, i am down [cc: ccarball]
+2017-10-26 13:44:17	8bit	https://i.imgur.com/d2n8Auc.png 
+2017-10-26 13:48:00	dougsmith	If you heard a loud _crack_ just now it isn't another storm. That was me :facepalm: -ing
+2017-10-26 13:58:07	catvajiac	this is sad
+2017-10-26 15:18:11	ccarball	8bit: funny
+2017-10-26 15:18:12	ccarball	okay
+2017-10-26 15:18:13	ccarball	but
+2017-10-26 15:18:18	ccarball	secret santa or naw?
+2017-10-26 15:18:45	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #w31rd0s
+2017-10-26 15:18:45	--	Topic for #w31rd0s is ""
+2017-10-26 15:18:45	--	Channel #w31rd0s: 8 nicks (0 ops, 0 voices, 8 normals)
+2017-10-26 15:18:57	--	Channel created on Thu, 26 Oct 2017 15:18:57
+2017-10-26 15:35:55	8bit	yes
+2017-10-26 15:47:54	catvajiac	yes
+2017-10-26 15:48:00	catvajiac	that is cute
+2017-10-26 15:48:02	catvajiac	i love that idea
+2017-10-26 18:17:42	8bit	@8bit uploaded a file: wewt https://nd-cse.slack.com/files/U273L7KJN/F7Q6589B3/hacktoberfest.png 
+2017-10-26 18:31:40	silv3r	has anyone used neovim before / has thought on it
+2017-10-26 18:31:49	silv3r	/ wants to make a vim fork
+2017-10-26 18:31:53	silv3r	ndvim
+2017-10-26 21:09:54	ccarball	silv3r: dougsmith: alitteke: are you guys down for secret santa?
+2017-10-26 21:10:06	silv3r	Yassssssss
+2017-10-26 21:17:01	alitteke	Yes I am
+2017-10-26 21:23:12	ccarball	jcioffi: ^^^^^
+2017-10-26 22:27:44	ccarball	@ccarball uploaded a file: Mr Robot characters mapped to W31RD0S https://nd-cse.slack.com/files/U3SU6R6H5/F7QTNQCGM/mr_robot_characters_mapped_to_w31rd0s.txt  and commented: For Halloween??????
+2017-10-26 22:57:25	silv3r	oooooooOooOoOoOooO
+2017-10-26 22:57:49	silv3r	I’ll OD on addy and wear my black jeans and black hoodie
+2017-10-26 22:58:50	8bit	sounds like an average day
+2017-10-26 22:59:04	silv3r	For 8bit
+2017-10-26 22:59:10	8bit	you know
+2017-10-26 22:59:13	8bit	od'ing on addy
+2017-10-26 22:59:17	silv3r	I am a responsible user of stimulants thank u very much
+2017-10-26 22:59:22	silv3r	Yup
+2017-10-26 22:59:35	silv3r	I saw u snorting koc@ine in discrete today
+2017-10-26 23:01:36	8bit	what can i say, i thought we had a quiz
+2017-10-26 23:08:41	silv3r	+100 updoots
+2017-10-26 23:09:01	silv3r	This meme is certified fresh
+2017-10-26 23:25:55	silv3r	Tim I added u to the 2020 group me (plebs still using GroupMe am I right)
+2017-10-26 23:25:59	silv3r	Cse 2020
+2017-10-26 23:31:08	8bit	cool cool
+2017-10-26 23:31:10	8bit	:D
+2017-10-26 23:36:43	dougsmith	Just caught up on 5 hours of backlog, is it too late to say yes to secret santa?
+2017-10-26 23:37:08	ccarball	yeah, unless you're jcioffi
+2017-10-26 23:37:24	dougsmith	Sad.
+2017-10-26 23:37:32	ccarball	kidding 
+2017-10-26 23:37:35	ccarball	be calm
+2017-10-26 23:37:47	dougsmith	No, I already gave up
+2017-10-26 23:38:03	ccarball	well sucks cause now you're officially in so too bad
+2017-10-26 23:38:37	8bit	"if he's gonna sass me...I can sass him back." - camelot
+2017-10-26 23:42:03	ccarball	everyone check your nd emails plsthx :)
+2017-10-26 23:43:02	dougsmith	ccarball: you accidentally added me. [cc: ccarball]
+2017-10-26 23:45:49	ccarball	dougsmith: oh shite sorry yeah um well i guess you're stuck doing it
+2017-10-26 23:50:19	silv3r	Guys should I go fill hacker mode for the ICPC
+2017-10-26 23:50:26	silv3r	practice my Elliot cosplay
+2017-10-26 23:50:48	8bit	speak monotone
+2017-10-26 23:50:51	8bit	be angery
+2017-10-26 23:51:01	silv3r	I’ll speak to my friend
+2017-10-26 23:51:10	silv3r	And choke myself
+2017-10-26 23:51:14	silv3r	Or are you chocking me?
+2017-10-26 23:51:17	silv3r	Hmm
+2017-10-26 23:51:25	ccarball	kinky
+2017-10-26 23:52:43	silv3r	; )
+2017-10-26 23:52:51	silv3r	Wait so do I call him daddy
+2017-10-26 23:52:58	ccarball	ofc
+2017-10-26 23:53:56	8bit	( ͡° ͜ʖ ͡°)
+2017-10-27 00:26:50	alitteke	Alright, talk me out of trying to preorder and iphone X
+2017-10-27 00:27:23	ccarball	alitteke: DONT DO IT
+2017-10-27 00:27:30	ccarball	sleep instead :]
+2017-10-27 00:27:42	alitteke	haha
+2017-10-27 00:27:52	alitteke	I’ll wake up and do it
+2017-10-27 00:27:56	ccarball	no boy no
+2017-10-27 00:28:39	ccarball	ooh write a script that whenever you go to apple.com your computer shuts off
+2017-10-27 00:29:13	8bit	just rm resolv.conf
+2017-10-27 00:29:29	alitteke	I won’t do it…
+2017-10-27 00:29:32	alitteke	probably
+2017-10-27 00:29:44	ccarball	alitteke: dont do it
+2017-10-27 00:31:16	alitteke	roger that
+2017-10-27 00:34:51	silv3r	I was thinking
+2017-10-27 00:34:56	silv3r	For ICPC we can bring notes right
+2017-10-27 00:35:10	silv3r	I think imma def copy pasta my vimrc and bring that
+2017-10-27 00:35:29	silv3r	They only have command line text editors or eclipse and the guys I’m working with only use sublime I think
+2017-10-27 00:35:39	silv3r	Might be a good idea tho to pound out those programs faster
+2017-10-27 00:36:22	8bit	+vim
+2017-10-27 00:36:28	dougsmith	Smart, but oyou only get one computer for each of you. Who's vimrc to use?
+2017-10-27 00:36:46	dougsmith	_Breaks pool cue and tosses shards amongst programmers_
+2017-10-27 00:36:55	8bit	+reference
+2017-10-27 00:36:59	silv3r	Lol
+2017-10-27 00:37:15	dougsmith	ICPC has tryouts now.
+2017-10-27 00:37:20	8bit	So we have :music: tryouts! :music:
+2017-10-27 00:37:23	silv3r	Also Doug I got my dotfiles up and running in a git repo
+2017-10-27 00:37:26	silv3r	Wait what
+2017-10-27 00:37:26	8bit	oh wow we made the same ref
+2017-10-27 00:37:37	8bit	silv3r: was a reference
+2017-10-27 00:37:42	silv3r	Derp
+2017-10-27 00:37:48	silv3r	4 meta 7 me
+2017-10-27 00:38:06	ccarball	tryouts?
+2017-10-27 00:38:11	ccarball	more like try/except
+2017-10-27 00:38:24	ccarball	its too late for my brain to even think up bad puns
+2017-10-27 00:38:30	dougsmith	8bit: great minds think alike. And apparently different from all other minds
+2017-10-27 00:38:43	silv3r	derp
+2017-10-27 00:38:47	8bit	https://www.youtube.com/watch?v=VCXbib9MahE 
+2017-10-27 00:38:52	silv3r	i am on computar now
+2017-10-27 00:39:08	silv3r	can you hear me?
+2017-10-27 00:39:09	silv3r	yeah you
+2017-10-27 00:39:16	silv3r	you lied to me didn tyou
+2017-10-27 00:39:26	silv3r	you knew something that i didnt and kept that from me
+2017-10-27 00:39:37	silv3r	you didnt tell me who mr robot really was
+2017-10-27 00:39:39	silv3r	its ok
+2017-10-27 00:39:45	silv3r	i now know not to trust you
+2017-10-27 00:39:55	silv3r	> getting in character
+2017-10-27 00:40:18	ccarball	ILOVETHEDARKKNIGHT
+2017-10-27 00:40:37	dougsmith	noah.y: Elliot is intimidating, but being just Mr. Robot is probably more intimidating
+2017-10-27 00:40:38	silv3r	* swallows adderall
+2017-10-27 00:40:44	silv3r	* snorts morphine
+2017-10-27 00:41:00	silv3r	_sigh_
+2017-10-27 00:41:42	silv3r	no spoilerionis pls i is still on s2
+2017-10-27 00:41:58	dougsmith	Thanks for the  warning.
+2017-10-27 00:42:29	silv3r	https://i.imgur.com/bJh09kG.jpg 
+2017-10-27 00:42:30	silv3r	ND
+2017-10-27 00:42:32	ccarball	wasn't that a crappy episode when elliot dies?
+2017-10-27 00:42:38	ccarball	oh fsck sroy silv3r 
+2017-10-27 00:42:46	silv3r	wait
+2017-10-27 00:42:48	silv3r	waiiiiiiiiiit
+2017-10-27 00:42:52	silv3r	PLS
+2017-10-27 00:42:56	silv3r	its like GoT
+2017-10-27 00:43:02	silv3r	I knew most of the spolires cuz reddit
+2017-10-27 00:43:10	silv3r	i thought i could watch one good show without any
+2017-10-27 00:43:29	silv3r	inb4 ccarball.is_troll() == True [cc: ccarball]
+2017-10-27 00:44:39	ccarball	<3
+2017-10-27 03:15:16	alitteke	good news everybody!
+2017-10-27 03:15:19	alitteke	I didn’t buy it
+2017-10-27 03:22:57	ccarball	Woot
+2017-10-27 10:20:41	silv3r	Still in bed
+2017-10-27 10:20:44	silv3r	Mergh
+2017-10-27 10:47:51	silv3r	Oh fml
+2017-10-27 10:47:53	silv3r	Ahh
+2017-10-27 15:16:14	dougsmith	noah.y: 8bit: ccarball: catvajiac: Go Irish, beat ICPC, Code Like a champion today, glhf [cc: ccarball]
+2017-10-27 16:30:21	jcioffi	My weirdos: I just got an offer with Dell
+2017-10-27 16:55:35	ccarball	OMG CONGRATS GIRLIE :purple_heart::purple_heart::purple_heart:
+2017-10-27 16:58:17	jcioffi	:D thanks
+2017-10-27 16:58:22	tmurray5	when i checked wierdos today it said only 10 unread messages :relaxed: so all the congrats to you @jcioffi
+2017-10-27 16:58:35	tmurray5	praise be
+2017-10-27 16:58:40	tmurray5	thank ya jesus
+2017-10-27 17:01:01	jcioffi	:pray::pray: praise be to the lord
+2017-10-27 17:10:43	catvajiac	jcioffi: AYYYYYYYY
+2017-10-27 17:10:56	catvajiac	love u and am so proud :)
+2017-10-27 17:23:12	jcioffi	Thank you :) :heart:
+2017-10-27 17:33:34	dougsmith	Jcioffi: you deserve it! Get all the jobs!!!
+2017-10-27 18:07:10	ccarball	@ccarball uploaded a file: Me https://nd-cse.slack.com/files/U3SU6R6H5/F7R7KRB51/img_6732.jpg 
+2017-10-27 18:40:18	dougsmith	ccarball: I thought I was our groups bad speller. [cc: ccarball]
+2017-10-27 19:01:41	ccarball	And im the grammar nazi
+2017-10-27 19:06:12	dougsmith	... :facepalm:
+2017-10-27 21:19:39	ccarball	Rude
+2017-10-27 22:35:34	8bit	the EBNF grammar nazi
+2017-10-27 22:35:59	catvajiac	ccarball: wow r u a nazi sympathizer [cc: ccarball]
+2017-10-27 22:36:40	ccarball	sympathizer? lol
+2017-10-27 22:36:56	8bit	nazi synthesizer
+2017-10-27 22:37:34	dougsmith	I don't think ccarball even knows 'er [cc: ccarball]
+2017-10-27 22:38:33	8bit	the metajoke game is too advanced
+2017-10-27 22:39:29	ccarball	dougsmith: no ofc I know 'er
+2017-10-27 22:39:31	ccarball	she's me
+2017-10-27 22:39:33	ccarball	duhh
+2017-10-27 22:39:50	dougsmith	Don't sympathize youself in the channel
+2017-10-27 22:40:18	ccarball	okok i guess ill just go back to deprecation then
+2017-10-27 22:40:27	dougsmith	8bit: The metajoke is on easy. We need to shuffle more cards into the deck for advanced.
+2017-10-27 22:40:48	ccarball	dougsmith: #triggered
+2017-10-27 22:41:30	dougsmith	ccarball: is there a theoretical cieling on the trigger words? Cause I [cc: ccarball]
+2017-10-27 22:41:41	dougsmith	am getting tired of resolving triggers
+2017-10-27 22:43:05	ccarball	dougsmith: honestly, I'm not sure yet, haven't hit it yet if that's what you're asking
+2017-10-27 22:43:26	dougsmith	Memory leak waiting to happen
+2017-10-27 22:44:22	ccarball	hmm... maybe that's why i've been so forgetful today
+2017-10-27 22:58:43	silv3r	ccarball: [cc: ccarball]
+2017-10-27 22:58:50	silv3r	after  i submit my assignment can you help me with weechat
+2017-10-27 23:00:24	ccarball	meh _is sleepy_
+2017-10-27 23:00:29	ccarball	can I help on sunday?
+2017-10-28 00:01:34	silv3r	Yee
+2017-10-28 19:20:40	jcioffi	guys I saw Doug in the band
+2017-10-28 19:21:02	jcioffi	I feel so cool now
+2017-10-28 19:40:00	dougsmith	Wasn't sure you would go to game after all the travel. How was it?
+2017-10-28 20:06:55	jcioffi	Travel was exhausting. Game was great. I shouted your name but I doubt you heard me lol
+2017-10-29 00:58:49	--	irc: disconnected from server
+2017-10-29 00:58:59	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #w31rd0s
+2017-10-29 00:58:59	--	Topic for #w31rd0s is ""
+2017-10-29 00:58:59	--	Channel #w31rd0s: 8 nicks (0 ops, 0 voices, 8 normals)
+2017-10-29 00:59:31	--	Channel created on Sun, 29 Oct 2017 00:59:31
+2017-10-29 02:05:26	catvajiac	Every line begins and ends with "boi"
+2017-10-29 02:05:26	catvajiac	https://www.reddit.com/r/ProgrammerHumor/comments/79epl0/every_line_begins_and_ends_with_boi/?st=J9CCPQG3&sh=b9dda9b7 https://www.reddit.com/r/ProgrammerHumor/comments/79epl0/every_line_begins_and_ends_with_boi/?st=J9CCPQG3&amp;sh=b9dda9b7 
+2017-10-29 02:05:34	catvajiac	GUYZ
+2017-10-29 02:05:39	catvajiac	ITS MUH LANGUAGE
+2017-10-29 14:21:14	8bit	hey did any of you get a confirmation email for scarlethacks?
+2017-10-29 14:21:19	8bit	I didn't get _anything_
+2017-10-29 14:21:27	8bit	and I'm wondering if the form submitted correctly
+2017-10-29 14:24:20	catvajiac	no i dont think i did
+2017-10-29 14:25:16	ccarball	Me neither
+2017-10-29 14:26:59	8bit	oh oh ok I won't send another one then lol
+2017-10-29 14:43:27	dougsmith	No stuff from scarlett hacks, we're still two weeks out, I was going to bug them next Monday, but there's no point in re-applying if you got an application confirmation email
+2017-10-29 14:53:04	8bit	oops, I don't think I got that email.
+2017-10-29 14:54:57	8bit	what's it's title?  I am having a hard time searching for it.
+2017-10-29 15:10:14	dougsmith	nvm, you might get a copy of your response if you asked google forms for it, otherwise you get an option to submit a new response/edit an old one.
+2017-10-29 23:26:20	silv3r	so would anyone be down to make oculus game?
+2017-10-29 23:26:35	silv3r	not necessarily for hackathon just in general
+2017-10-29 23:32:15	dougsmith	silv3r: sounds fun. Would be down, but couldn't start until at/after hackathon anyway.
+2017-10-30 18:01:48	8bit	same
+2017-10-30 18:02:00	8bit	oh that was yesterday oops
+2017-10-30 18:02:48	silv3r	Smh
+2017-10-30 18:06:01	8bit	shaking my smh
+2017-10-30 23:10:19	jcioffi	anyone costuming tomorrow
+2017-10-30 23:10:25	jcioffi	Because I am
+2017-10-30 23:13:58	ccarball	i am
+2017-10-30 23:14:05	ccarball	im wearing all black and a hufflepuff scarf
+2017-10-30 23:18:53	jcioffi	im belle
+2017-10-31 00:07:40	catvajiac	jcioffi: so cute :)
+2017-10-31 00:14:00	silv3r	@silv3r uploaded a file: Image uploaded from iOS https://nd-cse.slack.com/files/U6PJXGG0K/F7SASDNAF/image_uploaded_from_ios.png 
+2017-10-31 00:14:04	silv3r	@8bit
+2017-10-31 00:14:51	ccarball	aww cute
+2017-10-31 00:14:54	ccarball	i wish i was that cute
+2017-10-31 00:15:56	catvajiac	silv3r: omg
+2017-10-31 01:07:35	ccarball	NAMES HAVE BEEN DRAWN FOR SECRET SANTA WOOT
+2017-10-31 01:12:08	dougsmith	dun dun dun... ... ...
+2017-10-31 01:13:13	ccarball	guys just so you know I DONT HAVE someone in this chat
+2017-10-31 01:25:37	alitteke	but it’s only halloween!
+2017-10-31 01:25:50	ccarball	yes yes
+2017-10-31 01:25:59	ccarball	but i need time to think of perfect gifts
+2017-10-31 01:39:24	dougsmith	alitteke: It's nice to have a buylist together by Thanksgving break, when it's easiest to buy stuff. It's still a little early, but I'm a slow thinker... and buyer... and mover... Point is I'm really slow guys
+2017-10-31 08:26:43	8bit	:D :D :D I'm so excited
+2017-10-31 08:27:00	8bit	what is the full list of people in on this again?
+2017-10-31 08:27:43	8bit	nvm I found the page
+2017-10-31 08:30:25	8bit	Also are we gonna do the version where people eventually find out or is it secret forever
+2017-10-31 08:44:22	ccarball	Ppl find out when gifts are given i assume(?)
+2017-10-31 08:44:27	ccarball	136?
+2017-10-31 08:45:00	8bit	Yes! 9:30 at 136 debart
+2017-10-31 08:45:18	8bit	I'll probably head over soon.  Haven't quite finished the reading but I'll finish it up there
+2017-10-31 08:45:45	8bit	err, maybe I'll head to buis
+2017-10-31 08:45:47	8bit	idk
+2017-10-31 09:02:00	catvajiac	ccarball: i cant say why, but u really should come to os [cc: ccarball]
+2017-10-31 09:02:06	catvajiac	please
+2017-10-31 09:02:08	catvajiac	<3
+2017-10-31 10:55:22	dougsmith	8bit: Secret santa secrets are the deepest class of secret and will go to your grave...
+2017-11-01 16:18:01	--	irc: disconnected from server
+2017-11-01 16:18:12	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #w31rd0s
+2017-11-01 16:18:12	--	Topic for #w31rd0s is ""
+2017-11-01 16:18:12	--	Channel #w31rd0s: 8 nicks (0 ops, 0 voices, 8 normals)
+2017-11-01 16:19:05	--	Channel created on Wed, 01 Nov 2017 16:19:05
+2017-11-01 17:20:12	jcioffi	LOL AMAZON RESLID INTO MY DMS
+2017-11-01 17:20:31	catvajiac	HOTTTTTTTTTT
+2017-11-01 17:20:36	catvajiac	<3
+2017-11-01 17:20:57	ccarball	ahhh way 3 go jcioffi 
+2017-11-01 17:20:57	jcioffi	i dont even know what to fo
+2017-11-01 17:20:58	jcioffi	*do
+2017-11-01 17:21:05	ccarball	yeeeeee
+2017-11-01 17:21:06	ccarball	<3
+2017-11-01 17:23:38	8bit	JCIOFFI YOU GO :D :D :D
+2017-11-01 17:25:07	jcioffi	what do i even do
+2017-11-01 17:27:29	catvajiac	git lit
+2017-11-01 17:27:49	catvajiac	and answer
+2017-11-01 17:29:04	jcioffi	someone at amazon must have hacked the server
+2017-11-01 17:29:37	catvajiac	was it u
+2017-11-01 17:29:41	catvajiac	hott
+2017-11-01 17:31:51	ccarball	IT WAS DADDY WARD
+2017-11-01 17:32:18	jcioffi	lol
+2017-11-01 17:32:31	ccarball	see? daddy is always ggonna take ccare of his girl
+2017-11-01 17:40:00	--	irc: disconnected from server
+2017-11-01 17:41:32	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #w31rd0s
+2017-11-01 17:41:32	--	Topic for #w31rd0s is ""
+2017-11-01 17:41:32	--	Channel #w31rd0s: 8 nicks (0 ops, 0 voices, 8 normals)
+2017-11-01 17:42:03	--	Channel created on Wed, 01 Nov 2017 17:42:03
+2017-11-01 18:04:37	8bit	omfg
+2017-11-02 09:57:26	--	irc: disconnected from server
+2017-11-02 09:58:58	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #w31rd0s
+2017-11-02 09:58:58	--	Topic for #w31rd0s is ""
+2017-11-02 09:58:58	--	Channel #w31rd0s: 8 nicks (0 ops, 0 voices, 8 normals)
+2017-11-02 09:59:30	--	Channel created on Thu, 02 Nov 2017 09:59:30
+2017-11-02 10:12:27	8bit	test
+2017-11-02 10:14:45	--	irc: disconnected from server
+2017-11-02 10:15:36	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #w31rd0s
+2017-11-02 10:15:36	--	Topic for #w31rd0s is ""
+2017-11-02 10:15:36	--	Channel #w31rd0s: 8 nicks (0 ops, 0 voices, 8 normals)
+2017-11-02 10:15:47	8bit	\query catvajiac maybe a docean weirdness?
+2017-11-02 10:15:53	8bit	blah
+2017-11-02 10:16:20	--	Channel created on Thu, 02 Nov 2017 10:16:20
+2017-11-02 10:16:27	8bit	don't mind us weechat debugging
+2017-11-02 10:16:46	catvajiac	idk but it annoys me
+2017-11-02 10:16:48	catvajiac	lag is gone
+2017-11-02 10:16:53	8bit	same
+2017-11-02 10:17:04	catvajiac	maybe ndguest caused lag bc its dumb
+2017-11-02 10:17:21	8bit	+
+2017-11-02 10:51:12	dougsmith	Isn't ndguest the one part of these two services that's guaranteed to be the same?
+2017-11-02 11:42:41	8bit	I don't think so
+2017-11-02 11:42:44	8bit	Not sure, tbh.
+2017-11-02 22:32:39	catvajiac	cool opportunity for peeps, plz apply: https://uncubed.com/ibm 
+2017-11-04 23:00:36	catvajiac	this just made me laugh for 5 straight minutes
+2017-11-04 23:00:36	catvajiac	https://www.reddit.com/r/funny/comments/7at2ju/im_telling_you_officers_i_didnt_drink_any_alcohol/?st=J9M66FJ6&sh=c878acad https://www.reddit.com/r/funny/comments/7at2ju/im_telling_you_officers_i_didnt_drink_any_alcohol/?st=J9M66FJ6&amp;sh=c878acad 
+2017-11-05 11:53:21	dougsmith	Everyone on Reddit immediately chimed in on how they do this sober... its like a contest to see who can act the most convincingly drunk without BEING drunk.
+2017-11-05 11:58:06	8bit	wait, I think you just described my life
+2017-11-05 11:59:05	dougsmith	_reflects on his own life, facepalms at himself_
+2017-11-06 17:12:08	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #w31rd0s
+2017-11-06 17:12:08	--	Topic for #w31rd0s is ""
+2017-11-06 17:12:08	--	Channel #w31rd0s: 8 nicks (0 ops, 0 voices, 8 normals)
+2017-11-06 17:12:15	--	Channel created on Mon, 06 Nov 2017 17:12:15
+2017-11-07 19:48:19	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #w31rd0s
+2017-11-07 19:48:19	--	Topic for #w31rd0s is ""
+2017-11-07 19:48:19	--	Channel #w31rd0s: 8 nicks (0 ops, 0 voices, 8 normals)
+2017-11-07 19:48:27	--	Channel created on Tue, 07 Nov 2017 19:48:27
+2017-11-08 00:53:28	silv3r	test test
+2017-11-08 00:53:38	catvajiac	sup
+2017-11-08 00:53:46	silv3r	do i show up as noah.y or SILV3R
+2017-11-08 00:53:55	catvajiac	silv3r, no caps
+2017-11-08 00:54:04	silv3r	ok good
+2017-11-08 00:54:07	catvajiac	:]
+2017-11-08 00:54:10	silv3r	huh
+2017-11-08 00:54:21	silv3r	oh the official slack client i am Noah Yoshida again
+2017-11-08 00:54:22	silv3r	like normal
+2017-11-08 00:54:33	catvajiac	nice
+2017-11-08 00:54:37	catvajiac	keep up the facade
+2017-11-08 00:54:41	silv3r	lol...
+2017-11-08 00:54:58	ccarball	ooh hi noah
+2017-11-08 00:55:31	silv3r	woah
+2017-11-08 00:56:10	silv3r	uh
+2017-11-08 00:56:13	silv3r	irssi is broken now
+2017-11-08 07:05:27	8bit	On slack there are two different things your name and your nick.  That's why a lot of people are @'d w/ their netid but their name is displayed
+2017-11-08 23:30:40	tmurray5	Did niemier say that kogge is the one who came up with what we are learning in comp arch right now?
+2017-11-08 23:30:53	alitteke	Pretty much
+2017-11-08 23:31:02	tmurray5	Denngggg
+2017-11-08 23:31:10	tmurray5	That guy is a g
+2017-11-08 23:31:28	tmurray5	He a chill dude?
+2017-11-08 23:31:30	alitteke	He’s come up with a ton of modern computing stuff, including the fastest adder and the first multicore processor
+2017-11-08 23:31:38	alitteke	I worked with him over the summer
+2017-11-08 23:31:43	tmurray5	Oh yea
+2017-11-08 23:31:50	alitteke	terrible at replying to emails, but super smart, and really nice
+2017-11-08 23:32:29	tmurray5	Haha. he was that man at that svs meeting with the big glasses right?
+2017-11-08 23:32:48	tmurray5	Cuz thats what a real g looks like fam
+2017-11-08 23:34:49	alitteke	mmhm
+2017-11-10 10:20:53	8bit	\query ccarball it snowed last night :D [cc: ccarball]
+2017-11-10 10:20:57	8bit	dammit
+2017-11-10 10:21:14	silv3r	Yup
+2017-11-10 10:21:26	silv3r	Started at like 2
+2017-11-14 19:50:04	--	irc: disconnected from server
+2017-11-14 19:50:19	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #w31rd0s
+2017-11-14 19:50:19	--	Topic for #w31rd0s is ""
+2017-11-14 19:50:19	--	Channel #w31rd0s: 8 nicks (0 ops, 0 voices, 8 normals)
+2017-11-14 19:50:26	--	Channel created on Tue, 14 Nov 2017 19:50:26
+2017-11-15 23:20:26	alitteke	@alitteke uploaded a file: Pasted image at 2017-11-15, 11:20 PM https://nd-cse.slack.com/files/U274MQ9PS/F823KPP1U/pasted_image_at_2017_11_15_11_20_pm.png  and commented: The alternate version of the little prince drawing
+2017-11-15 23:21:22	catvajiac	alitteke: YES
+2017-11-15 23:21:29	ccarball	thank you for this
+2017-11-15 23:21:36	catvajiac	alitteke: this is my new favorite thign
+2017-11-15 23:21:40	catvajiac	ty so much for sharing <3
+2017-11-15 23:21:59	alitteke	anytime
+2017-11-15 23:22:13	ccarball	alitteke: you still in hes?
+2017-11-15 23:22:28	catvajiac	alitteke: ur in hes?
+2017-11-15 23:22:31	catvajiac	we are in hes
+2017-11-15 23:22:35	catvajiac	crying over comp arch
+2017-11-15 23:22:37	alitteke	I am not, I’m in hayes XD
+2017-11-15 23:22:38	catvajiac	typical wednesday
+2017-11-15 23:22:40	catvajiac	oh ok
+2017-11-15 23:23:04	alitteke	I end up here most nights it seems
+2017-11-15 23:24:11	alitteke	The XD should be :disappointed:
+2017-11-15 23:24:23	alitteke	Since I can’t edit it so you’ll see
+2017-11-15 23:28:57	catvajiac	oh yeah
+2017-11-15 23:29:03	catvajiac	forgot that was a thing tbh
+2017-11-15 23:29:08	catvajiac	alitteke: hope u have fun in hayes
+2017-11-15 23:29:13	catvajiac	are there nice places to study there?
+2017-11-15 23:29:15	catvajiac	i never really have
+2017-11-15 23:29:29	ccarball	hayes is almost hes (minus 2 letters)
+2017-11-15 23:29:32	alitteke	Well the math library is usually just a quiet place
+2017-11-17 01:01:33	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #w31rd0s
+2017-11-17 01:01:33	--	Topic for #w31rd0s is ""
+2017-11-17 01:01:33	--	Channel #w31rd0s: 8 nicks (0 ops, 0 voices, 8 normals)
+2017-11-17 01:01:45	--	Channel created on Fri, 17 Nov 2017 01:01:45
+2017-11-20 18:39:56	ccarball	tshirt sizes in case anyone wants: 8bit (L) jcioffi (L) ccarball (M) catvajiac (M) dougsmith (M) alitteke (XL)  <-- men's sizes
+2017-11-20 21:24:14	ccarball	oh shite silv3r (M) 
+2017-11-20 21:25:04	silv3r	???
+2017-11-20 21:25:09	silv3r	For what?
+2017-11-20 21:25:11	silv3r	Oh shit
+2017-11-20 21:25:16	silv3r	Can I say I’m an L
+2017-11-20 21:25:30	silv3r	If it’s too late no worries ^_^
+2017-11-20 21:25:35	jcioffi	no once ccarball declares it, it is law [cc: ccarball]
+2017-11-20 21:25:44	silv3r	0_0
+2017-11-20 21:25:55	silv3r	Yes mastah
+2017-11-20 21:26:54	jcioffi	hehe i kid
+2017-11-20 21:27:45	ccarball	okay anyone who wants to get silv3r a shirt, he's (L)
+2017-11-21 02:01:03	tmurray5	Idk where we sign up but def put me down for the open source thing for lug gyys!
+2017-11-21 02:07:53	dougsmith	tmurray5: it'll get more official over break, but you are implicitly down
+2017-11-21 16:13:55	tmurray5	Bruhhhhhhhhhhh
+2017-11-21 16:13:55	tmurray5	https://www.treehacks.com/ 
+2017-11-21 16:36:31	dougsmith	^
+2017-11-21 16:36:33	dougsmith	right?
+2017-11-21 20:21:14	catvajiac	so excite
+2017-11-21 20:21:16	catvajiac	applying asap
+2017-11-21 20:22:27	catvajiac	wait i have to write words
+2017-11-21 20:22:29	catvajiac	sad
+2017-11-21 20:22:32	catvajiac	oh well, i'll still do it
+2017-11-21 23:49:36	ccarball	eeeeep
+2017-11-22 09:10:23	ccarball	just applied to treehacks
+2017-11-22 09:10:24	ccarball	ahh
+2017-11-22 13:16:21	catvajiac	hey i need to write things so i havent yet
+2017-11-22 16:17:36	8bit	i'm gonna pply too
+2017-11-22 16:18:36	8bit	anyone who applies should ask for travel reimbursmement for the non Cali people pls lol
+2017-11-22 16:21:15	8bit	wordssss
+2017-11-22 16:28:53	silv3r	Lit
+2017-11-22 16:46:48	8bit	turned it in :dancing_left_shark:
+2017-11-28 17:59:45	--	irc: disconnected from server
+2017-11-28 17:59:56	-->	ccarball (ccarball@irc.tinyspeck.com) has joined #w31rd0s
+2017-11-28 17:59:56	--	Topic for #w31rd0s is ""
+2017-11-28 17:59:56	--	Channel #w31rd0s: 8 nicks (0 ops, 0 voices, 8 normals)
+2017-11-28 18:00:25	--	Channel created on Tue, 28 Nov 2017 18:00:25
+2017-12-03 23:09:31	ccarball	hi friends! so friday was the planned day for gift exchange. Is everyone still free? We can do a cute little get together to exchange the gifts, maybe order some pizza, watch a christmas movie with hott cocoa (or like we could just all sit down for ten minutes to give away gifts and go our separate ways if thats what you all would prefer)
+2017-12-03 23:09:40	ccarball	(crtl-x saves the day)
+2017-12-03 23:10:28	dougsmith	I have one meeting that I still have to get a time for, and one house to visit, but defs free all evening
+2017-12-03 23:10:48	catvajiac	should work 5me
+2017-12-03 23:17:00	alitteke	Should work for me…as soon as I order my gift
+2017-12-03 23:17:45	ccarball	alitteke: amazon prime hurry hurry hurry
+2017-12-04 03:59:06	jcioffi	Should be good for me
+2017-12-04 03:59:23	jcioffi	I accidentally stayed up all night it’s fine
+2017-12-04 13:04:42	silv3r	Mine should be coming today :)) and yeah I should be free
+2017-12-05 01:56:55	dougsmith	PR update. Just talked to a band guy in LaFun about the startup lab.
+2017-12-05 01:57:03	dougsmith	He's familiar with our squad.
+2017-12-05 01:57:12	dougsmith	"A little rowdy sometimes"
+2017-12-05 12:32:22	ccarball	hey friends, I invited akk to our little christmas shindig on friday, I hope you all dont mind... I shouldve asked before, I know :/ 
+2017-12-05 12:32:37	silv3r	Yay akk!
+2017-12-05 12:44:54	8bit	Woot :D
+2017-12-05 13:00:05	dougsmith	Coolio! We can do gifts before and then shindig.
+2017-12-05 13:38:10	jcioffi	yay akk!
+2017-12-05 13:52:19	ccarball	yay okay :)
+2017-12-05 13:52:39	ccarball	any christmas movie preferences that I should begin to.. ahem... legally aqcuire?
+2017-12-05 13:57:05	dougsmith	How the Grinch Stole Christmas is the only christmas movie as far as I'm concerned
+2017-12-05 13:58:02	dougsmith	And Christmas Vacation is the funniest movie ever made.
+2017-12-05 14:08:23	ccarball	dougsmith: really? not even 'the year without a santa clause' or any of the rudolf ones or 'santa clause is coming to town'???
+2017-12-05 14:08:34	ccarball	put one foot in front of the other?
+2017-12-05 14:15:42	dougsmith	My childhood progressed without them.
+2017-12-05 14:21:40	 *	ccarball acquires all the movies dougsmith was not exposed to as a child
+2017-12-05 14:23:10	dougsmith	ccarball: I guarantee you there won't be enought disk space to hold them. Or time to watch them. [cc: ccarball]
+2017-12-05 14:25:32	ccarball	dougsmith: is that a challenge?
+2017-12-05 14:29:40	dougsmith	No, its a halting problem
+2017-12-05 18:33:58	8bit	Die Hard
+2017-12-05 19:11:33	dougsmith	^
+2017-12-06 13:37:39	dougsmith	Hey guys, the reason I was cryptically asking about Thursday. But the New Orleans Brass Band is performing at 10:00PM in Reckers and it is easily the coolest thing that's happening in the next two weeks. Not saying anyone has to go, but it's where I'll be Thursday night.
+2017-12-06 13:40:49	ccarball	If I'm not sleeping I'll go with you
+2017-12-06 15:25:32	dougsmith	@[everyone who's here next year] if you're looking for projects to work on next summer, app club just sent me an email about a project that's looking for a manager next year. I don't have any details about the project, but the meeting is at 8PM tonight if anyone wants to check it out.
+2017-12-06 15:26:14	dougsmith	tldr; management position is yours if you can come to a meeting tonight.
+2017-12-08 11:58:15	catvajiac	when are we doing gifts again?
+2017-12-08 11:59:32	jcioffi	FARK THATS TONIGHT
+2017-12-08 11:59:35	jcioffi	i might just die
+2017-12-08 11:59:46	jcioffi	i love you all
+2017-12-08 11:59:51	jcioffi	but im dead inside
+2017-12-08 14:33:28	dougsmith	I don't remember a time, but it would be cool to get things exchanged before AKK arrives, and then do Christmas hang-out things.
+2017-12-08 14:33:44	catvajiac	yes
+2017-12-08 14:33:47	jcioffi	agreed
+2017-12-08 14:33:48	dougsmith	Is everyone free by 5 or are we going for later?
+2017-12-08 14:33:58	jcioffi	5 oclock is such a trigger for me
+2017-12-08 14:34:02	jcioffi	but i guess technically yes
+2017-12-08 14:34:13	jcioffi	i have extension until midnight
+2017-12-08 14:34:17	jcioffi	for compilrs
+2017-12-08 14:34:21	jcioffi	and have algs due at 4
+2017-12-08 14:34:26	jcioffi	so technically, yes im free
+2017-12-08 14:34:29	catvajiac	do you want a lil later then?
+2017-12-08 14:34:34	catvajiac	would 6 be better?
+2017-12-08 14:34:50	jcioffi	idek honestly, it is such a coin toss. i can also compilers at the shindig
+2017-12-08 14:34:59	jcioffi	i dont wanna ruin ppls funsies
+2017-12-08 14:35:00	dougsmith	jcioffi: whatever the best time is for you madame pres.
+2017-12-08 14:35:05	ccarball	^^
+2017-12-08 14:35:06	jcioffi	nah pls there is more to lug than me
+2017-12-08 14:35:13	dougsmith	Even "Friday" is arbitrary
+2017-12-08 14:35:22	jcioffi	no stop
+2017-12-08 14:35:23	jcioffi	today is fine
+2017-12-08 14:35:26	jcioffi	5 works
+2017-12-08 14:35:30	jcioffi	were
+2017-12-08 14:35:40	ccarball	i was thinking 7ish cause we can order foodles (plus i need to finish my gift....)
+2017-12-08 14:35:40	dougsmith	jcioffi: all of lug wants to be there for you in your hour of need.
+2017-12-08 14:35:46	dougsmith	patronize them
+2017-12-08 14:36:46	jcioffi	7 for exchange or for shindig
+2017-12-08 14:36:53	ccarball	ahh idk
+2017-12-08 14:36:55	ccarball	ahh
+2017-12-08 14:37:03	ccarball	someone else make a decision
+2017-12-08 14:37:06	ccarball	i have the movies
+2017-12-08 14:37:21	jcioffi	the movies? what movies?
+2017-12-08 14:37:29	ccarball	christmas movies
+2017-12-08 14:37:33	jcioffi	AH
+2017-12-08 15:48:38	8bit	pls later than 5
+2017-12-08 15:48:43	8bit	i need a bit more prep time
+2017-12-08 15:49:03	8bit	becausei'mafailure
+2017-12-08 15:50:16	alitteke	Anytime really works for me
+2017-12-08 15:59:34	ccarball	alitteke dougsmith can we borrow your room? you guys have a tv..
+2017-12-08 16:00:39	dougsmith	from alitteke: "that's fine"
+2017-12-08 16:00:59	dougsmith	We have the TV, but I'll need to go out and buy snacks
+2017-12-08 16:01:44	ccarball	snack shmacks
+2017-12-08 16:12:58	dougsmith	Yeah, but if I were hypothetically at Walmart buying snacks then what would @channel want? [cc: ccarball]
+2017-12-08 16:15:17	jcioffi	I have a bag of ridgey chips
+2017-12-08 16:15:23	jcioffi	and booze
+2017-12-08 16:16:05	8bit	candy canes for thematics
+2017-12-08 16:16:42	8bit	camelot says hot chocolate and sweet tart candy canes
+2017-12-08 16:16:51	8bit	and popcorn
+2017-12-08 16:25:28	tmurray5	:cry: have fun guys
+2017-12-08 16:32:10	alitteke	This is at 7 right?
+2017-12-08 16:32:32	ccarball	yes i think ?
+2017-12-08 16:55:05	dougsmith	Regular popcorn or fancy holiday junk?
+2017-12-08 16:55:19	silv3r	I prefer regular
+2017-12-08 16:55:23	silv3r	Am boring
+2017-12-08 17:24:17	ccarball	dougsmith: your choice 
+2017-12-08 17:24:52	ccarball	I am bringing the following movies: "the year without a santa claus" "santa claus is coming to town" and "the polar express" 
+2017-12-08 17:24:57	ccarball	anybody have any requests?
+2017-12-08 17:24:59	ccarball	other*
+2017-12-08 17:36:45	silv3r	IT
+2017-12-08 17:36:57	silv3r	50 shades darker
+2017-12-08 17:37:06	silv3r	The original Pokémon movie
+2017-12-08 17:39:31	ccarball	omg 
+2017-12-08 17:39:35	ccarball	christmas movies fam
+2017-12-08 17:39:52	silv3r	? In my family we watched 50 shades every Christmas
+2017-12-08 17:39:56	silv3r	???
+2017-12-08 17:40:18	ccarball	no omg no
+2017-12-08 17:40:26	silv3r	:3
+2017-12-08 17:45:14	silv3r	Just finished my last mastering physics assignment ever
+2017-12-08 17:45:18	silv3r	🤩
+2017-12-08 18:04:41	ccarball	woot
+2017-12-08 18:27:37	dougsmith	Me too
+2017-12-08 18:38:58	ccarball	dougsmith: alitteke can tim and i come by?
+2017-12-08 18:42:20	dougsmith	I'm not there presently.
+2017-12-08 18:44:22	ccarball	sad ok
+2017-12-08 18:52:42	silv3r	What room
+2017-12-08 18:52:57	dougsmith	Ok, I'm back. The room hasn't disappeared.
+2017-12-08 18:54:05	silv3r	What’s ur room numberrrrr
+2017-12-08 18:54:49	8bit	uhh.... 3rd floor... it says code h4u5 on a whiteboard
+2017-12-08 18:54:53	8bit	idr the number
+2017-12-08 18:54:55	silv3r	Ok
+2017-12-08 18:55:08	silv3r	1337 4F
+2017-12-08 18:55:51	dougsmith	316
+2017-12-08 20:07:54	silv3r	http://www.steadyhandsapparel.com/ 

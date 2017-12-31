@@ -1,0 +1,114 @@
+2017-10-19 01:33:53	ccarball	greetings from weechat
+2017-10-19 01:48:56	dougsmith	sup
+2017-10-19 01:54:24	ccarball	(just wanted to see if things worked) (sorry for bugging)
+2017-10-19 01:57:06	dougsmith	np, if depending on how much testing you want to do, you may just make a sandbox cannel. Or LUG could share one. It's where I went to play with scripts and bots.
+2017-10-19 02:02:33	ccarball	sandbox channel?
+2017-10-19 02:10:17	dougsmith	Yeah, or I guess a new group with a sandbox channel.
+2017-10-19 02:16:03	dougsmith	[ccarball] Wait no explain.
+2017-10-19 02:16:25	dougsmith	[ccarball] Oh like an open channel just for tests, no actual relevance?
+2017-10-24 16:06:26	ccarball	how do i add a module? 
+2017-10-24 16:06:37	ccarball	i made an ecosia search utility for CHX
+2017-10-24 16:06:45	ccarball	but it isn't working (sad)
+2017-10-24 16:06:57	ccarball	also this extension is super cool
+2017-10-24 16:37:57	dougsmith	You write code and add it to the manifest imports. I'll test it for free this time.
+2017-10-24 16:38:07	dougsmith	The ecosia search was cool. Merged.
+2017-10-24 16:38:41	dougsmith	The extension is okay, I think I'm going to try and generalize it to a plugin and implement a package manager.
+2017-10-24 16:39:33	ccarball	:) yee merge 
+2017-10-26 19:10:49	ccarball	So I figured out where the fourth pull request came from. When you fixed my commit for style and pushed it, I made a pull request from your repo to mine and LOL it counted so wooooo :]
+2017-10-26 19:10:49	 *	dougsmith is away.
+2017-10-27 17:35:52	dougsmith	[ccarball] Random thought: when ur taking apart the mac, before you pull off the metal part, there is a little piece at the bottom of the metal part with one single screw, definitely take that out before removinng the rest of the metal case part or else it’ll be super hard to take out
+2017-10-27 17:37:18	dougsmith	Isn't that the thing that caught the first time? Yeah I wouldn't want to forget that.
+2017-10-27 18:25:33	ccarball	possibly? I couldnt see rly when u guys were first doing it, but yesterday when i was doing it by myself it got stuck and i sat there for like 10 minutes just trying to fit the plastic part on the inside back into placce and it sucked but i got it so yeah dont forget that
+2017-10-27 18:25:33	 *	dougsmith is away.
+2017-10-27 18:26:29	ccarball	also, sorry for being super vague, dont know technical terms for mac parts
+2017-10-27 18:27:31	ccarball	also part 2, mad dog gave bui shit for calling us out in class LOL
+2017-10-27 18:39:36	dougsmith	I don't either, just paint the picture and we'll work from there.
+2017-10-27 19:01:26	dougsmith	[ccarball] Okay okay
+2017-10-27 19:01:26	dougsmith	[ccarball] Do you know the piece im talking about? Or should I physically draw a picture? (Heads up i suck at drawing)
+2017-10-27 19:05:57	dougsmith	I already took the piece out. The one with the philips head.
+2017-10-27 21:22:34	dougsmith	[ccarball] Oh yeah im stupid
+2017-10-27 21:22:34	dougsmith	[ccarball] Its the only one with a different head....
+2017-10-29 00:58:49	--	irc: disconnected from server
+2017-10-29 10:08:49	ccarball	If you're not super busy at around 12, do you think you could quickly explain the cherrypy project to me? I'm really confused on the actual structure of the whole thing and since its due tomorrow I'm kind of freaking out a little bit 
+2017-10-29 10:08:50	 *	dougsmith is away.
+2017-10-29 14:34:44	dougsmith	Sorry, just checked my slack backlog, I'm technically in a meeting until 3? Are you feeling any better or do you still need help?
+2017-10-29 18:13:14	ccarball	I'm passing test_reset.py, but getting a 500 error 
+2017-10-29 18:13:14	 *	dougsmith is away.
+2017-10-29 18:13:24	ccarball	I can't figure out why
+2017-10-29 18:45:26	dougsmith	I don't think test_reset can actually fail. Can I look at it at dinner?
+2017-10-29 18:45:44	ccarball	yes please that'd be great 
+2017-10-31 00:39:49	dougsmith	Do you want to finish this somewhere a Mod isn't? I'm really not sure what I did this time, though I'm sorry b/c its probably several things...
+2017-10-31 00:40:57	ccarball	No. I apologize for always starting shit. 
+2017-10-31 00:41:46	dougsmith	Well, I said it in a stpid way, but I was trying to walk that back. You don't 'start shit', I got carried away with gonzobot.
+2017-10-31 00:42:55	ccarball	I literally made a joke and you attacked me and I don't know why
+2017-10-31 00:46:49	dougsmith	Sorry you perceived an attack: Partially the carried away, partially defensive b/c it interrupted my joke, partially b/c I thought it was withing bounds and it isn't and I didn't walk it back distinctly enough fast enough.
+2017-10-31 00:49:11	ccarball	you just confuse me
+2017-10-31 00:49:56	dougsmith	I get that a lot
+2017-10-31 00:51:39	ccarball	like I really don't get why you're so mean to me sometimes. One second you're normal doug and the next you're saying some crappy things and its always just to me and I don't get it. Did I do something?
+2017-10-31 00:53:56	dougsmith	No you didn't I honestly don't know what you mean. I'm sorry you feel that way and I'll try to correct it.
+2017-10-31 00:54:17	dougsmith	I'm apparently just a reflexively crappy person
+2017-10-31 00:56:45	ccarball	Okay that's objectively false. I overreact sometimes I know, and that's probably most of it, idk. I'm sorry for blowing up at you in #ndlug.
+2017-10-31 01:01:32	dougsmith	It's fine, I'm sorry for moving the convo like I was starting an argument. I have no defense. I fucked up. Again. Be angry if it helps. Yell if you'd like. Maybe I'd learn something. I've got to be a better doug.
+2017-10-31 01:04:03	ccarball	no, you're a great doug. I just need to be a less volatile cami. 
+2017-10-31 01:04:28	ccarball	i'm really bad at being angry at people if you hadn't noticed.
+2017-10-31 01:05:15	dougsmith	No, you're okay. If you don't like something, then a real friend wouldn't do it. You're allowed at least that.
+2017-10-31 01:06:15	ccarball	I'm sorry.
+2017-10-31 01:06:29	dougsmith	You don't have to be.
+2017-10-31 01:06:32	dougsmith	I'm sorry
+2017-10-31 01:06:44	dougsmith	_virtual hand hug_
+2017-10-31 01:06:59	ccarball	_virtual hand hug_
+2017-10-31 01:08:06	dougsmith	<3
+2017-10-31 01:09:22	ccarball	this is objectively the first time i've gotten a heart from you ever
+2017-10-31 01:09:48	dougsmith	Don't get used to it. I don't believe in text emojis.
+2017-10-31 01:11:10	ccarball	I won't. I do appreciate it though.
+2017-10-31 01:11:43	dougsmith	Glad you do. We cool?
+2017-10-31 01:12:37	ccarball	Yeah we're cool. Sorry about that.
+2017-10-31 01:17:07	dougsmith	Stop apologizing... you're not taking fault...
+2017-10-31 01:19:07	ccarball	No, I know I'm difficult to deal with. I don't even know why you guys put up with me most of the time. I'm sorry, I'm not self deprecating, but I know I can be a shitty volatile overreacting sensitive person and I don't know how people put up with my shit
+2017-10-31 01:20:42	dougsmith	Because we love you. Even when you're exploding, you're still Cami, fun and spirited.
+2017-10-31 01:21:25	dougsmith	And your consistently fun to be around, cool, supportive. It's all stuff we kind of need in our friends.
+2017-10-31 01:24:09	ccarball	..thanks
+2017-10-31 01:26:35	dougsmith	No problem. Its the truth. You said you weren't self-deprecating, but you were being hard on yourself. Nobody is the worst parts of themselves, and good people put more weight in their bad side than they should sometimes.
+2017-10-31 01:28:12	ccarball	yeah you guys do that a lot.
+2017-10-31 01:32:54	dougsmith	I'm selfish enough to put off that discussion for later knowing full well I'll lose in the future.
+2017-10-31 01:33:29	dougsmith	Introspection is a good (and increasingly rare) quality. Just make sure its one of your strengths and not a weakness.
+2017-10-31 01:35:28	ccarball	It's also terrrifying.
+2017-10-31 01:36:00	dougsmith	Be brave. It can do you so much more good than harm
+2017-10-31 01:36:43	ccarball	How is it good to look at yourself and only see bad?
+2017-10-31 01:37:48	dougsmith	That's the difference between good introspection and bad (self-deprecation). Look at yourself, see the strengths and weaknesses, and develop as a human.
+2017-10-31 01:37:58	dougsmith	Life is a gradient ascent problem
+2017-10-31 01:38:38	ccarball	That's still scary.. and we both know I'm a wimp.
+2017-10-31 01:39:59	dougsmith	And we both know you put yourself in scary situations willingly for entertainment.
+2017-10-31 01:40:03	dougsmith	You can do it.
+2017-10-31 01:42:44	ccarball	Not too sure about that, but I won't bother arguing.
+2017-10-31 01:43:21	ccarball	By the way, how's your arm? I hope I didn't kill it too much...
+2017-10-31 01:49:25	dougsmith	It's fine. Hope it helped.
+2017-10-31 01:52:41	ccarball	It did, made it significantly less scary to have someone to hide behind. 
+2017-10-31 01:56:05	dougsmith	Good. I always seek purpose.
+2017-10-31 01:58:12	ccarball	Well you're a great protector from scary things and leader through mazes.
+2017-10-31 02:01:17	dougsmith	_confuses right hand rule for left hand rule_
+2017-10-31 02:01:49	ccarball	_only because I abducted your left arm_
+2017-10-31 02:04:01	dougsmith	Sure, that makes sense. We'll go with that.
+2017-10-31 02:08:31	ccarball	Haha. No, but honestly I had a great time. It was terrifying as all hell, but it was nice having someone to hold on to.
+2017-10-31 02:11:36	dougsmith	Haunted houses are fun every once in a while.
+2017-10-31 02:12:45	ccarball	I don't have too much experience with haunted houses, so I don't really have anything to compare this one time to.
+2017-10-31 02:20:14	dougsmith	It was one of the better ones I've been to.
+2017-10-31 02:22:11	ccarball	Cool, so I never have to go to another haunted house ever (thank God).
+2017-10-31 02:25:38	dougsmith	You wouldn't anyway... would you?
+2017-10-31 02:27:07	ccarball	I mean if my friends really wanted to go and they wanted me to go, I would go because I like spending time with them.
+2017-10-31 02:29:51	dougsmith	That's agreeable... time with friends is better than most specific things.
+2017-10-31 02:30:06	dougsmith	Thinking of trying to get sleep... g9 cami! [cc: ccarball]
+2017-10-31 02:30:34	ccarball	night!
+2017-11-01 16:18:01	--	irc: disconnected from server
+2017-11-01 17:40:00	--	irc: disconnected from server
+2017-11-02 09:57:26	--	irc: disconnected from server
+2017-11-02 10:14:45	--	irc: disconnected from server
+2017-11-03 15:09:39	ccarball	https://www.redbubble.com/people/gdxz/works/22678306-sysadmin-because-even-developers-need-heroes?grid_pos=22&p=t-shirt&rbs=54e572dc-5731-4c87-89cc-db18ab567ae3&ref=shop_grid&style=mens
+2017-11-03 15:09:48	ccarball	i think this should be our uniform
+2017-11-03 15:24:45	dougsmith	Yeah... but I'd have to pay for a tshirt...
+2017-11-03 15:26:56	ccarball	or we could get md to fund two tshirts
+2017-11-03 15:26:56	 *	dougsmith is away.
+2017-11-03 15:45:57	dougsmith	Would he do that? I have to start logging some overtime.
+2017-11-03 15:46:29	ccarball	he might? idk. we have to get started on 311 soon
+2017-11-07 00:09:26	ccarball	i pm'd you on irc. idk if it sent.
+2017-11-07 00:09:26	 *	dougsmith is away.

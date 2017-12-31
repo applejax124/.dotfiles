@@ -1,0 +1,84 @@
+2017-10-31 16:20:17	ccarball	Hi professor, I just have a quick question on homework 4. I've read all the documentation and gone through a lot of the code but can't seem to figure out how to run a command other than 'q' on the simpledbms. Where should I be looking for this info?
+2017-10-31 16:20:49	tweninger	create table cami (ssn integer primary key, name varchar(25)); [cc: ccarball]
+2017-10-31 16:20:51	tweninger	try that
+2017-10-31 16:21:01	tweninger	or come to my office. I'm in here for a little while longer
+2017-10-31 16:22:11	ccarball	oh, I was using curly braces. Thank you.
+2017-11-01 16:18:01	--	irc: disconnected from server
+2017-11-01 17:40:00	--	irc: disconnected from server
+2017-11-02 09:57:26	--	irc: disconnected from server
+2017-11-02 10:14:45	--	irc: disconnected from server
+2017-11-06 15:19:49	ccarball	Hi professor, I'm a bit confused on exactly where to start with the marshall() function. I have a good idea on what I'm supposed to do, but at the same time I don't know where to start. What exactly do the variables "self._table" and "self._values" look like?
+2017-11-06 15:19:49	 *	tweninger is away.
+2017-11-06 17:45:21	tweninger	hi Cami
+2017-11-06 17:45:24	tweninger	I'm in my office
+2017-11-06 17:45:31	tweninger	sorry I didn't see this
+2017-11-06 17:50:29	ccarball	where is the get_table() function defined? 
+2017-11-06 17:56:23	tweninger	I dont have a get_table used anywhere in my solution
+2017-11-06 17:56:26	tweninger	I dont think you need it
+2017-11-06 17:57:10	ccarball	that was just me trying to parse through InsertStatement, I found it
+2017-11-06 17:59:47	tweninger	ok
+2017-11-06 18:00:04	tweninger	I'll be online throughout the evening, I'll do my best to help
+2017-11-06 18:00:10	tweninger	but I need to head home for now
+2017-11-06 18:01:00	ccarball	okay, thank yo
+2017-11-06 18:01:00	 *	tweninger is away.
+2017-11-06 19:32:13	ccarball	Quick question: I am getting a weird error when I run the tests that tells me the customer table already exists.
+2017-11-06 19:32:13	 *	tweninger is away.
+2017-11-06 19:33:16	tweninger	If you don't complete the script and exit cleanly then you'll need to manually delete the files from the folder
+2017-11-06 19:34:07	ccarball	oh got it thanks
+2017-11-06 19:39:12	ccarball	what files exactly would I have to delete? I don't want to mess anything up acccidently
+2017-11-06 19:39:12	 *	tweninger is away.
+2017-11-06 19:44:48	tweninger	Whatever you named the tables
+2017-11-06 19:44:58	tweninger	Customer and salesperson for example
+2017-11-06 19:45:10	tweninger	You also might delete catalog.db
+2017-11-06 19:46:50	ccarball	okay got it
+2017-11-06 19:46:50	 *	tweninger is away.
+2017-11-06 19:46:52	ccarball	thank you
+2017-11-06 19:50:42	ccarball	the tests are giving me an error saying that the row couldn't be added because another element with the same primary key already exists
+2017-11-06 20:04:29	tweninger	Well, looks like you be to delete those files
+2017-11-06 20:08:31	ccarball	i delete the customer and catalog.db files before any run and it acts the same way
+2017-11-06 20:08:48	tweninger	and salesperson
+2017-11-06 20:08:50	tweninger	?
+2017-11-06 20:09:06	tweninger	make sure you're deleting from the right folder
+2017-11-06 20:09:16	tweninger	the tests run in a different folder depending on what you're doing
+2017-11-06 20:11:09	ccarball	it definitely adds the first row to the table, but when it gets to the second one it says "there is an existing row with the primary key"
+2017-11-06 20:11:50	tweninger	oh i see
+2017-11-06 20:11:59	tweninger	this is a problem with your code them
+2017-11-06 20:12:21	tweninger	when you write to the key: self._key.write_int() you're writing the same thing somehow somewhere
+2017-11-06 20:18:19	ccarball	but im writing self._values[i]
+2017-11-06 20:18:37	tweninger	how?
+2017-11-06 20:19:57	ccarball	self._key.write_int(int(self._values[i]))
+2017-11-06 20:20:12	tweninger	well that looks right
+2017-11-06 20:20:29	tweninger	somehow somewhere you're writing it twice
+2017-11-06 20:20:40	ccarball	jcioffi thinks im iterating through table.columns wrong
+2017-11-06 20:20:54	tweninger	could be
+2017-11-06 20:20:58	ccarball	I'm doing for column in self._table.columns
+2017-11-06 20:21:06	ccarball	and enumerating it so i can access values
+2017-11-06 20:22:19	tweninger	.columns is a field. You should always always use the accessor method
+2017-11-06 20:22:30	tweninger	but that wont affect anything in this case
+2017-11-06 20:23:26	ccarball	.columns is a list though, right? so i can iterate through the actual columns without having to .get_column(i), right?
+2017-11-06 20:23:47	tweninger	yes - in general you can, but you should always use the accessor instead of directly referencing the field
+2017-11-06 20:24:19	ccarball	do you think that would change anything?
+2017-11-06 20:24:25	tweninger	no
+2017-11-06 20:24:34	tweninger	probbaly not: however, I use:
+2017-11-06 20:24:35	tweninger	for i in range(0, self._table.num_columns()):
+2017-11-06 20:24:35	tweninger	            col = self._table.get_column(i)
+2017-11-06 20:27:40	ccarball	I changed it to that and the code has the same functionality, and the same error
+2017-11-06 20:27:53	tweninger	i figured so
+2017-11-06 20:28:05	tweninger	somewhere somehow you're inserting the same data twie
+2017-11-06 20:28:18	tweninger	consider printing out before every write_x command so you can trace it
+2017-11-06 20:28:43	ccarball	I will try that
+2017-11-06 20:51:45	ccarball	when exactly do I write -2 to self._data?
+2017-11-06 20:51:56	tweninger	-2 is an offset
+2017-11-06 20:52:02	ccarball	when the column is null or the self._values[i] is null?
+2017-11-06 20:52:05	tweninger	it tells the reader to not look for the data... because its missing
+2017-11-06 20:52:12	tweninger	when values[i] is null
+2017-11-06 20:52:24	ccarball	that's what i'm doing wrong
+2017-11-06 20:52:27	ccarball	thank you
+2017-11-15 20:13:11	tweninger	[ccarball] Hi professor,
+2017-11-15 20:13:24	tweninger	Hi Cami
+2017-11-15 20:13:48	tweninger	[ccarball] are you free some time tomorrow? I would like to meet with you to discuss my performance and recent lack of attendance in class.
+2017-11-15 20:14:01	tweninger	Anytime before noon
+2017-11-15 20:14:29	tweninger	[ccarball] Okay, I will come by. Thank you.
+2017-11-15 20:14:43	tweninger	No problem. Hope all is well
+2017-11-15 20:14:51	tweninger	I'm here to help in any way that I can
+2017-11-15 20:15:05	tweninger	[ccarball] Thank you, I appreciate that.

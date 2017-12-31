@@ -1,0 +1,63 @@
+2017-12-16 16:38:49	-->	camila.g.carballo.1 (camila.g.carballo.1@irc.tinyspeck.com) has joined #manager
+2017-12-16 16:38:49	--	Topic for #manager is ""
+2017-12-16 16:38:49	--	Channel #manager: 3 nicks (0 ops, 0 voices, 3 normals)
+2017-12-16 16:38:49	camila.g.carballo.1	@camila.g.carballo.1 has joined the group
+2017-12-16 16:38:50	--	Channel created on Sat, 16 Dec 2017 16:38:49
+2017-12-16 16:39:09	camila.g.carballo.1	ooh fancie
+2017-12-16 16:43:09	dsmith47	@channel hope everyone's break is going awesome and travels are safe. [cc: camila.g.carballo.1]
+2017-12-16 16:43:53	dsmith47	Just posting to talk about our first order of business: the first day of h4x-mas
+2017-12-16 16:45:43	dsmith47	Since the PMs should have issues ready for the start announcement, we can delay a day if necessary, I was thinking Monday start if possible, Tuesday at the latest.
+2017-12-16 16:45:51	dsmith47	What does everyone think?
+2017-12-16 16:55:52	camila.g.carballo.1	Monday works for me. I will be spending most of tomorrow setting up the github for jukestapose and adding issues and whatnot. :) 
+2017-12-16 17:35:51	dsmith47	Cool. I figure this is a good place to hash out formatting questions too, so we all start with a similar idea.
+2017-12-16 18:03:28	tburchfi	I've been doing a bit of bootstrapping for cursello today, and I think moday is a good start date.
+2017-12-16 18:09:53	dsmith47	Cool! The whole project doesn't even need to be done just openning tasks. I'm shooting for 2-3 hours of work per task so people can pick away at things.
+2017-12-16 20:18:00	tburchfi	In our readmes?
+2017-12-16 20:18:09	tburchfi	I think that'd be a good way of organizing
+2017-12-16 20:19:33	dsmith47	If your referring to the tasks, they all file under "issues" traditionally
+2017-12-16 20:22:16	tburchfi	Oh cool.  I often see some sort of a checklist in a readme but issues work too :D
+2017-12-16 20:30:42	dsmith47	Readmes shouldn't change as often as checklists. The form I usually see is checklists included in issues, which can be hidden away. Old projects get lists that are really long. You can track on READMEs if you prefer.
+2017-12-16 20:31:13	dsmith47	Just make sure the readme has a Contributing section to tell people what to do.
+2017-12-17 02:35:13	tburchfi	I've started to bootstrap cursello, very basic fxnality is there, with many bugs.  But enough that there's a direction to go in.
+2017-12-17 02:35:27	tburchfi	I threw a few issues up there too, of various sizes and times to make.
+2017-12-17 12:11:10	camila.g.carballo.1	how do i make issues?
+2017-12-17 12:38:38	dsmith47	Like in life or on GitHub?
+2017-12-17 12:41:12	camila.g.carballo.1	on github
+2017-12-17 12:41:18	camila.g.carballo.1	i have enough irl issues thanks very much
+2017-12-17 12:52:15	dsmith47	Just wasting your time,  on GitHub the repository should have an issues tab, where you can hit a button to submit new issues.
+2017-12-17 12:52:19	dsmith47	https://help.github.com/articles/creating-an-issue/ 
+2017-12-17 13:02:54	camila.g.carballo.1	ty
+2017-12-17 18:07:51	camila.g.carballo.1	https://github.com/camicarballo/Jukestapose/issues
+2017-12-17 18:07:56	camila.g.carballo.1	does this look okay?
+2017-12-18 12:15:53	dsmith47	@channel just a reminder, launching h4xmas at 1PM unless we need an extension for something I don't know about. [cc: camila.g.carballo.1]
+2017-12-18 12:16:18	dsmith47	Did we ever dicsuss what tech stacks everyone was using?
+2017-12-18 12:54:03	camila.g.carballo.1	stacks?
+2017-12-18 12:56:47	dsmith47	https://www.webpagefx.com/blog/web-design/technology-stacks-infographic/ 
+2017-12-18 13:43:44	camila.g.carballo.1	feels like a n00b
+2017-12-20 12:18:43	-->	camila.g.carballo.1 (camila.g.carballo.1@irc.tinyspeck.com) has joined #manager
+2017-12-20 12:18:43	--	Topic for #manager is ""
+2017-12-20 12:18:43	--	Channel #manager: 3 nicks (0 ops, 0 voices, 3 normals)
+2017-12-20 12:18:48	--	Channel created on Wed, 20 Dec 2017 12:18:48
+2017-12-20 12:20:30	camila.g.carballo.1	yee i merged it :) tburchfi 
+2017-12-20 12:26:28	camila.g.carballo.1	dsmith47: also yes pls fix internet thx
+2017-12-21 11:35:40	camila.g.carballo.1	tburchfi: hey quick about cursello usage. I see you can move between 'to do' and 'done' with H and L, but like how do I add a task? Might work on documentation for this
+2017-12-21 11:37:36	tburchfi	Like a new list?  That's a feature I didn't get to.  if you could build that that would be awesome.  It's one of the listed issues
+2017-12-21 11:38:08	tburchfi	'o' makes a new item on a list
+2017-12-21 11:38:18	tburchfi	it isn't too elegant yet, it could use some reworking
+2017-12-21 11:41:50	camila.g.carballo.1	new item cool okay just tryna figure it out
+2017-12-22 13:59:14	-->	camila.g.carballo.1 (camila.g.carballo.1@irc.tinyspeck.com) has joined #manager
+2017-12-22 13:59:14	--	Topic for #manager is ""
+2017-12-22 13:59:14	--	Channel #manager: 3 nicks (0 ops, 0 voices, 3 normals)
+2017-12-22 13:59:20	--	Channel created on Fri, 22 Dec 2017 13:59:20
+2017-12-26 05:48:50	-->	camila.g.carballo.1 (camila.g.carballo.1@irc.tinyspeck.com) has joined #manager
+2017-12-26 05:48:50	--	Topic for #manager is ""
+2017-12-26 05:48:50	--	Channel #manager: 3 nicks (0 ops, 0 voices, 3 normals)
+2017-12-26 05:48:55	--	Channel created on Tue, 26 Dec 2017 05:48:55
+2017-12-26 06:15:17	-->	camila.g.carballo.1 (camila.g.carballo.1@irc.tinyspeck.com) has joined #manager
+2017-12-26 06:15:17	--	Topic for #manager is ""
+2017-12-26 06:15:17	--	Channel #manager: 3 nicks (0 ops, 0 voices, 3 normals)
+2017-12-26 06:15:22	--	Channel created on Tue, 26 Dec 2017 06:15:22
+2017-12-29 14:32:07	-->	camila.g.carballo.1 (camila.g.carballo.1@irc.tinyspeck.com) has joined #manager
+2017-12-29 14:32:07	--	Topic for #manager is ""
+2017-12-29 14:32:07	--	Channel #manager: 3 nicks (0 ops, 0 voices, 3 normals)
+2017-12-29 14:32:11	--	Channel created on Fri, 29 Dec 2017 19:32:41
