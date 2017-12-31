@@ -74,6 +74,7 @@ alias darrow='ssh -X ccarball@darrow.cc.nd.edu'
 alias www='lftp ccarball@www3ftps.nd.edu'
 alias dsg1='ssh ccarball@dsg1.crc.nd.edu'
 alias bork='ssh camelot@104.131.182.72'
+alias pi='ssh camel@192.168.1.19'
 
 # run some programs
 alias armsim='mono ~/Downloads/ARMSim.exe'

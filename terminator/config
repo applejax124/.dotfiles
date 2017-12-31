@@ -1,5 +1,7 @@
 [global_config]
+  broadcast_default = off
   inactive_color_offset = 0.504672897196
+  scroll_tabbar = True
   suppress_multiple_term_dialog = True
   title_font = Bitstream Vera Sans Mono 11
   title_transmit_bg_color = "#222222"
@@ -17,8 +19,9 @@
 [plugins]
 [profiles]
   [[default]]
-    background_color = "#000d1d"
-    background_darkness = 0.3
+    background_darkness = 0.71
+    background_type = transparent
+    enable_real_transparency=true
     cursor_color = "#aaaaaa"
     cursor_shape = ibeam
     font = Bitstream Vera Sans Mono 11

@@ -1,6 +1,6 @@
 # TARDIS i3 config file 
 # by: Cami Carballo 
-# LAST EDIT: 21 December 2017
+# LAST EDIT: 31 December 2017
 
 # For Antergos
 
@@ -15,7 +15,7 @@
 exec --no-startup-id nm-applet
 
 # Low Battery Notifiations
-exec --no-startup-id ~/.config/i3/battery_notification.py
+exec_always --no-startup-id ~/.config/i3/battery_notification.py
 
 # Font for Window Titles
 font pango:courier new 10
@@ -30,7 +30,7 @@ exec --no-startup-id dunst -config ~/.config/dunst/config
 exec --no-startup-id feh --bg-scale ~/Media/Pictures/background.jpg
 
 # Set Transparent Terminal
-exec xcompmgr -c -f -n
+exec compton -b --config ~/.config/compton/config
 
 # i3bar
 bar {
