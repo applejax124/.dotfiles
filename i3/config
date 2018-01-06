@@ -1,21 +1,19 @@
 # TARDIS i3 config file 
 # by: Cami Carballo 
-# LAST EDIT: 25 October 2017
-
-# For Ubuntu
+# LAST EDIT: 5 January 2018
 
 ##############
 ## SETTINGS ##
 ##############
 
 # Start i3lock on startup
-exec_always --no-startup-id xautolock -time 7 -locker "./lock.sh"
+exec_always --no-startup-id xautolock -time 7 -locker "~/.config/i3/lock.sh"
 
 # Start NetworkManager on Startup
 exec --no-startup-id nm-applet
 
 # Low Battery Notifiations
-exec_always --no-startup-id ~/.dotfiles/i3/batt_notify_ubuntu.py
+exec_always --no-startup-id ~/.config/i3/battery_notification.py
 
 # Font for Window Titles
 font pango:courier new 10
@@ -24,29 +22,35 @@ font pango:courier new 10
 exec --no-startup-id synclient NaturalScrolling=1 VertScrollDelta=-113
 
 # Notification-Daemon (Dunst)
-exec --no-startup-id dunst -config ../dunst/config
+exec --no-startup-id dunst -config ~/.config/dunst/config
 
 # Set Background
 exec --no-startup-id feh --bg-scale ~/Media/Pictures/background.jpg
 
+# Set Transparent Terminal
+#exec compton -b --config ~/.config/compton/config
+
+# Start polybar
+exec_always --no-startup-id ~/.config/polybar/launch.sh
+
 # i3bar
-bar {
-  status_command i3status -c ~/.dotfiles/i3/i3status_ubuntu.conf
-  font pango:DejaVu Sans Mono 10
-  position top
-  tray_output primary
-  separator_symbol " | "
-  colors {
-    background #000000
-    statusline #ffffff
-    separator #ffffff
+#bar {
+#  status_command i3status -c ~/.config/i3/i3status.conf
+#  font pango:DejaVu Sans Mono 10
+#  position top
+#  tray_output primary
+#  separator_symbol " | "
+#  colors {
+#    background #000000
+#    statusline #ffffff
+#    separator #ffffff
 #                       border    backgr.   text
-    focused_workspace   #6c7b8b   #9fb6cd   #000000
-    active_workspace    #333333   #5f676a   #ffffff
-    inactive_workspace  #333333   #222222   #888888
-    urgent_workspace    #2f343a   #900000   #ffffff
-  }
-}
+#    focused_workspace   #6c7b8b   #9fb6cd   #000000
+#    active_workspace    #333333   #5f676a   #ffffff
+#    inactive_workspace  #333333   #222222   #888888
+#    urgent_workspace    #2f343a   #900000   #ffffff
+#  }
+#}
 
 # Window Decorations 
 # class                 border    backgr.   text      indicator   child_border
@@ -83,23 +87,17 @@ bindsym Mod4+Shift+e exec "i3-nagbar -t warning -m 'Do you really want to exit i
 # Open Terminal
 bindsym Mod4+Return exec terminator
 
-# Open DMenu
-bindsym Mod4+d exec dmenu_run
-
-# Open Chromium
-bindsym Mod4+c exec chromium-browser
-
-# Open Spotify
-bindsym Mod4+z exec spotify
-
-# Open Slack
-bindsym Mod4+x exec slack
+# Open Firefox (teehee)
+bindsym Mod4+c exec firefox
 
 # Open Google Chrome
-bindsym Mod4+g exec google-chrome
+bindsym Mod4+g exec google-chrome-stable
 
-# Open Messenger
-bindsym Mod4+m exec messengerfordesktop
+# Lock Screen
+bindsym Mod4+l exec ~/.config/i3/lock.sh 
+
+# Open Steam
+bindsym Mod4+z exec steam
 
 #############
 ## WINDOWS ##
