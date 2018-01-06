@@ -1,22 +1,43 @@
-# TARDIS i3 config file 
+# i3 config file 
 # by: Cami Carballo 
-# LAST EDIT: 5 January 2018
+# LAST EDIT: 6 January 2018
 
 ##############
 ## SETTINGS ##
 ##############
 
+# Font for Window Titles
+font pango: Lekton 12
+
+# Windows               border    backgr.   text      indicator   child_border
+client.focused          #6c7b8b   #9fb6cd   #000000   #2e9ef4     #285577
+client.focused_inactive #333333   #5f676a   #ffffff   #484e50     #5f676a
+client.unfocused        #333333   #222222   #888888   #292d2e     #222222
+client.urgent           #2f343a   #900000   #ffffff   #900000     #900000
+client.placeholder      #000000   #0c0c0c   #ffffff   #000000     #0c0c0c
+client.background       #ffffff
+
+# Pulse Audio controls
+bindsym XF86AudioMute exec amixer -D pulse sset Master toggle  
+bindsym XF86AudioLowerVolume exec amixer -D pulse sset Master 5%-
+bindsym XF86AudioRaiseVolume exec amixer -D pulse sset Master 5%+
+
+# Screen brightness controls
+bindsym XF86MonBrightnessUp exec xbacklight -inc 10
+bindsym XF86MonBrightnessDown exec xbacklight -dec 10
+
+##############
+## START UP ##
+##############
+
 # Start i3lock on startup
-exec_always --no-startup-id xautolock -time 7 -locker "~/.config/i3/lock.sh"
+#exec_always --no-startup-id xautolock -time 7 -locker "~/.config/i3/lock.sh"
 
 # Start NetworkManager on Startup
 exec --no-startup-id nm-applet
 
 # Low Battery Notifiations
 exec_always --no-startup-id ~/.config/i3/battery_notification.py
-
-# Font for Window Titles
-font pango:courier new 10
 
 # Natural Scrolling
 exec --no-startup-id synclient NaturalScrolling=1 VertScrollDelta=-113
@@ -33,47 +54,6 @@ exec --no-startup-id feh --bg-scale ~/Media/Pictures/background.jpg
 # Start polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
-# i3bar
-#bar {
-#  status_command i3status -c ~/.config/i3/i3status.conf
-#  font pango:DejaVu Sans Mono 10
-#  position top
-#  tray_output primary
-#  separator_symbol " | "
-#  colors {
-#    background #000000
-#    statusline #ffffff
-#    separator #ffffff
-#                       border    backgr.   text
-#    focused_workspace   #6c7b8b   #9fb6cd   #000000
-#    active_workspace    #333333   #5f676a   #ffffff
-#    inactive_workspace  #333333   #222222   #888888
-#    urgent_workspace    #2f343a   #900000   #ffffff
-#  }
-#}
-
-# Window Decorations 
-# class                 border    backgr.   text      indicator   child_border
-client.focused          #6c7b8b   #9fb6cd   #000000   #2e9ef4     #285577
-client.focused_inactive #333333   #5f676a   #ffffff   #484e50     #5f676a
-client.unfocused        #333333   #222222   #888888   #292d2e     #222222
-client.urgent           #2f343a   #900000   #ffffff   #900000     #900000
-client.placeholder      #000000   #0c0c0c   #ffffff   #000000     #0c0c0c
-
-client.background       #ffffff
-
-# Pulse Audio controls
-bindsym XF86AudioMute exec amixer -D pulse sset Master toggle  
-bindsym XF86AudioLowerVolume exec amixer -D pulse sset Master 5%-
-bindsym XF86AudioRaiseVolume exec amixer -D pulse sset Master 5%+
-
-# Screen brightness controls
-bindsym XF86MonBrightnessUp exec xbacklight -inc 10
-bindsym XF86MonBrightnessDown exec xbacklight -dec 10
-
-# Fonts
-font pango:DejaVu Sans Mono 10
-
 ###################
 ## OPEN PROGRAMS ##
 ###################
@@ -89,9 +69,6 @@ bindsym Mod4+Return exec terminator
 
 # Open Firefox (teehee)
 bindsym Mod4+c exec firefox
-
-# Open Google Chrome
-bindsym Mod4+g exec google-chrome-stable
 
 # Lock Screen
 bindsym Mod4+l exec ~/.config/i3/lock.sh 
