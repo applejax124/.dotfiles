@@ -7,7 +7,7 @@
 ##############
 
 # Font for Window Titles
-font pango: Lekton 12
+font pango: Ubuntu Mono 11
 
 # Windows               border    backgr.   text      indicator   child_border
 client.focused          #6c7b8b   #9fb6cd   #000000   #2e9ef4     #285577
@@ -29,9 +29,6 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 ##############
 ## START UP ##
 ##############
-
-# Start i3lock on startup
-#exec_always --no-startup-id xautolock -time 7 -locker "~/.config/i3/lock.sh"
 
 # Start NetworkManager on Startup
 exec --no-startup-id nm-applet

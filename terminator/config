@@ -21,10 +21,9 @@
   [[default]]
     background_darkness = 0.71
     background_type = transparent
-    enable_real_transparency=true
     cursor_color = "#aaaaaa"
     cursor_shape = ibeam
-    font = Bitstream Vera Sans Mono 11
+    font = Ubuntu Mono 11
     icon_bell = False
     palette = "#86817e:#d75756:#688c7d:#ffb365:#68778c:#fdb3b2:#86abd9:#f7f8f2:#86817e:#a63a3a:#688c7d:#ffb365:#68778c:#8c686a:#86abd9:#f7f8f2"
     scroll_background = False

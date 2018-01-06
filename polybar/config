@@ -11,10 +11,10 @@ black = #000
 lightgrey = #aaa
 darkgrey = #555
 red = #f00
-i3blue = 
+lightblue = #9fb6cd
 
 background = ${self.black}
-foreground = ${self.lightgrey}
+foreground = ${self.lightblue}
 foreground-alt = ${self.darkgrey}
 primary = #ffb52a
 secondary = ${self.darkgrey}
@@ -44,12 +44,13 @@ border-color = ${self.background}
 module-margin-left = 1
 module-margin-right = 1
 
-separator = |
+separator = "%{F#ccc}•%{F-}"
 
-font-0 = Bitstream Vera Sans Mono:size=10;1
+font-0 = Ubuntu Mono:size=12;1
+font-1 = Font Awesome 5 Free:size=12;1
 
 modules-left = i3
-modules-right = xbacklight volume memory cpu wlan eth battery temperature date powermenu
+modules-right = xbacklight volume memory cpu wlan eth battery temperature date time powermenu
 
 tray-position = right
 
@@ -71,15 +72,15 @@ index-sort = true
 enable-scroll = false
 enable-click = false
 
-label-focused = %index%
-label-focused-underline = #9fb6cd
+label-focused = %{F#555}%index%%{F-}
+label-focused-underline = ${colors.lightblue}
 label-focused-padding = 1
 
-label-unfocused = %index%
+label-unfocused = %{F#555}%index%%{F-}
 label-unfocused-padding = 1
 
-label-urgent = %index%
-label-urgent-foreground = #F00
+label-urgent = %{F#555}%index%%{F-}
+label-urgent-underline = ${colors.red}
 label-urgent-padding = 1
 
 #######
@@ -106,7 +107,8 @@ type = internal/xbacklight
 enable-scroll = false
 
 format = <ramp> <label>
-label = %percentage%%
+label = %{F#555}brightness%{F-} %percentage%%
+label-prefix = 
 
 ramp-0 = 🌕
 ramp-1 = 🌔
@@ -157,15 +159,7 @@ interval = 2
 
 format-connected = <label-connected>
 ;format-connected-underline = #9f78e1
-label-connected = %essid% %local_ip%
-
-ramp-signal-0 = 😱
-ramp-signal-1 = 😠
-ramp-signal-2 = 😒
-ramp-signal-3 = 😊
-ramp-signal-4 = 😃
-ramp-signal-5 = 😈
-ramp-signal-foreground = ${colors.foreground}
+label-connected = %{F#555}%essid%%{F-} %local_ip%
 
 #######
 # eth #
@@ -185,15 +179,21 @@ label-connected = %local_ip%
 ########
 [module/date]
 type = internal/date
+
+date = %{F#555}%A%{F-} %b %d %Y
+format = <label>
+label = %date%
+
+########
+# time #
+########
+[module/time]
+type = internal/date
 interval = 1
 
-date = %a. %b %d %Y
-time = %l:%M:%S
-
+time = %H%{F#555}:%{F-}%M%{F#555}:%{F-}%S
 format = <label>
-;format-underline = #0a6cf5
-
-label = %date% %time%
+label = %time%
 
 ##########
 # volume #
@@ -201,14 +201,12 @@ label = %date% %time%
 [module/volume]
 type = internal/volume
 
-format-prefix = "VOL "
-format-prefix-foreground = ${colors.darkgrey}
 format-volume = <label-volume> 
-label-volume = %percentage%%
-label-volume-foreground = ${root.foreground}
+label-volume = %{F#555}volume%{F-} %percentage%%
+label-volume-foreground = ${colors.foreground}
 
-format-muted-freground = ${colors.foreground-alt}
-label-muted = %percentage%%
+format-muted-foreground = ${colors.foreground-alt}
+label-muted = mute
 
 ###########
 # battery #
@@ -218,14 +216,15 @@ type = internal/battery
 battery = BAT0
 adapter = ADP1
 
-label-charging = ➤ %percentage%%
+label-charging = %{F#555}++%{F-}%percentage%%
 format-charging = <label-charging>
 
-label-discharging = ☕ %percentage%%
+label-discharging = %{F#555}--%{F-}%percentage%%
 format-discharging = <label-discharging>
 
-format-full-prefix = "FULL "
-format-full-prefix-foreground = ${colors.foreground-alt}
+label-full = %{F#555}fully charged%{F-}
+;format-full-prefix = "FULL "
+;format-full-prefix-foreground = ${colors.foreground-alt}
 
 #############
 # powermenu #
