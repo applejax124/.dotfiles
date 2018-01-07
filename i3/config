@@ -30,6 +30,9 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 ## START UP ##
 ##############
 
+# Start i3lock to login
+exec --no-startup-id ~/.config/i3/pretty_lock.sh
+
 # Start NetworkManager on Startup
 exec --no-startup-id nm-applet
 
