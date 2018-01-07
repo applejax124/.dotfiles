@@ -1,6 +1,6 @@
-# TARDIS polybar config file 
+# polybar config file 
 # by: Cami Carballo 
-# LAST EDIT: 5 January 2018
+# LAST EDIT: 6 January 2018
 
 ##########
 # COLORS #
@@ -47,10 +47,9 @@ module-margin-right = 1
 separator = "%{F#ccc}•%{F-}"
 
 font-0 = Ubuntu Mono:size=12;1
-font-1 = Font Awesome 5 Free:size=12;1
 
 modules-left = i3
-modules-right = xbacklight volume memory cpu wlan eth battery temperature date time powermenu
+modules-right = xbacklight volume memory cpu wlan eth battery temperature date time
 
 tray-position = right
 
@@ -225,37 +224,5 @@ format-discharging = <label-discharging>
 label-full = %{F#555}fully charged%{F-}
 ;format-full-prefix = "FULL "
 ;format-full-prefix-foreground = ${colors.foreground-alt}
-
-#############
-# powermenu #
-#############
-[module/powermenu]
-type = custom/menu
-
-expand-right = true
-
-format-spacing = 1
-
-label-open = power options
-label-open-foreground = ${colors.secondary}
-label-close = close
-label-close-foreground = ${colors.secondary}
-label-separator = |
-label-separator-foreground = ${colors.foreground-alt}
-
-menu-0-0 = reboot
-menu-0-0-exec = menu-open-1
-menu-0-1 = power off
-menu-0-1-exec = menu-open-2
-
-menu-1-0 = cancel
-menu-1-0-exec = menu-open-0
-menu-1-1 = reboot
-menu-1-1-exec = sudo reboot
-
-menu-2-0 = power off
-menu-2-0-exec = sudo poweroff
-menu-2-1 = cancel
-menu-2-1-exec = menu-open-0
 
 ; vim:ft=dosini
