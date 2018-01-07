@@ -31,13 +31,13 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 ##############
 
 # Start i3lock to login
-exec --no-startup-id i3lock -i ~/Media/Pictures/dark_bolts.jpg
+exec --no-startup-id ./i3lock/login.sh
 
 # Start NetworkManager on Startup
 exec --no-startup-id nm-applet
 
 # Low Battery Notifiations
-exec_always --no-startup-id ~/.config/i3/battery_notification.py
+exec_always --no-startup-id ./battery_notifications.py
 
 # Natural Scrolling
 exec --no-startup-id synclient NaturalScrolling=1 VertScrollDelta=-113
@@ -71,7 +71,7 @@ bindsym Mod4+Return exec terminator
 bindsym Mod4+c exec firefox
 
 # Lock Screen
-bindsym Mod4+l exec ~/.config/i3/lock.sh 
+bindsym Mod4+l exec ./i3lock/lock.sh 
 
 # Open Steam
 bindsym Mod4+z exec steam
