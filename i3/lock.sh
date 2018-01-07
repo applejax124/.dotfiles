@@ -7,7 +7,7 @@
 
 IMAGE=/tmp/i3lock.png
 SCREENSHOT="scrot $IMAGE" # 0.46s
-ICON=./lock-icon.png
+ICON=~/.dotfiles/i3/lock-icon.png
 BLURTYPE="5x2" # 3.80s
 
 $SCREENSHOT
