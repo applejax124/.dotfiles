@@ -31,7 +31,7 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 ##############
 
 # Start i3lock to login
-exec --no-startup-id ./i3lock/login.sh
+exec --no-startup-id i3lock -u -i ./lockscreen.png
 
 # Start NetworkManager on Startup
 exec --no-startup-id nm-applet
@@ -71,7 +71,7 @@ bindsym Mod4+Return exec terminator
 bindsym Mod4+c exec firefox
 
 # Lock Screen
-bindsym Mod4+l exec ./i3lock/lock.sh 
+bindsym Mod4+l exec /lock.sh 
 
 # Open Steam
 bindsym Mod4+z exec steam
