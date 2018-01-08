@@ -46,6 +46,7 @@ module-margin-right = 1
 
 separator = "%{F#ccc}•%{F-}"
 
+font-1 = Font Awesome 5:size=10:antialias=false;1
 font-0 = Ubuntu Mono:size=12;1
 
 modules-left = i3
@@ -106,14 +107,13 @@ type = internal/xbacklight
 enable-scroll = false
 
 format = <ramp> <label>
-label = %{F#555}brightness%{F-} %percentage%%
-label-prefix = 
+label = %percentage%%
 
-ramp-0 = 🌕
-ramp-1 = 🌔
-ramp-2 = 🌓
-ramp-3 = 🌒
-ramp-4 = 🌑 
+ramp-0 = %{F#555}🌕%{F-}
+ramp-1 = %{F#555}🌔%{F-}
+ramp-2 = %{F#555}🌓%{F-}
+ramp-3 = %{F#555}🌒%{F-}
+ramp-4 = %{F#555}🌑%{F-}
 
 #######
 # cpu #
@@ -121,20 +121,9 @@ ramp-4 = 🌑
 [module/cpu]
 type = internal/cpu
 
-interval = 2
+interval = 5
 format = <label>
-format-prefix = "CPU "
-format-prefix-foreground = ${colors.foreground-alt}
-label = %percentage%%
-
-;ramp-load-0 = ▁
-;ramp-load-1 = ▂
-;ramp-load-2 = ▃
-;ramp-load-3 = ▄
-;ramp-load-4 = ▅
-;ramp-load-5 = ▆
-;ramp-load-6 = ▇
-;ramp-load-7 = █
+label = %{F#555}CPU%{F-} %percentage%%
 
 ##########
 # memory #
