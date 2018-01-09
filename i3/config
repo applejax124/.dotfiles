@@ -10,8 +10,8 @@
 font pango: Ubuntu Mono 11
 
 # Windows               border    backgr.   text      indicator   child_border
-client.focused          #6c7b8b   #9fb6cd   #000000   #2e9ef4     #285577
-client.focused_inactive #333333   #5f676a   #ffffff   #484e50     #5f676a
+client.focused          #9fb6cd   #9fb6cd   #000000   #555555     #9fb6cd
+client.focused_inactive #9fb6cd   #5f676a   #ffffff   #484e50     #5f767a
 client.unfocused        #333333   #222222   #888888   #292d2e     #222222
 client.urgent           #2f343a   #900000   #ffffff   #900000     #900000
 client.placeholder      #000000   #0c0c0c   #ffffff   #000000     #0c0c0c
@@ -30,7 +30,7 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 # i3-gaps
 gaps inner 10
 gaps outer 0
-for_window [class="^.*"] border pixel 1
+for_window [class="^.*"] border pixel 2
 
 ##############
 ## START UP ##
