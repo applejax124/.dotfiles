@@ -17,7 +17,6 @@ client.urgent           #2f343a   #900000   #ffffff   #900000     #900000
 client.placeholder      #000000   #0c0c0c   #ffffff   #000000     #0c0c0c
 client.background       #ffffff
 
-for_window [class="^.*"] border pixel 1
 
 # Pulse Audio controls
 bindsym XF86AudioMute exec amixer -D pulse sset Master toggle  
@@ -31,6 +30,7 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 # i3-gaps
 gaps inner 10
 gaps outer 0
+for_window [class="^.*"] border pixel 1
 
 ##############
 ## START UP ##
@@ -58,7 +58,7 @@ exec --no-startup-id dunst -config ~/.config/dunst/config
 exec --no-startup-id feh --bg-scale ~/Media/Pictures/background.jpg
 
 # Set Transparent Terminal
-#exec compton -b --config ~/.config/compton/config
+exec compton -b --config ~/.config/compton/config
 
 # Start polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
