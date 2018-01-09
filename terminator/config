@@ -4,8 +4,8 @@
   scroll_tabbar = True
   suppress_multiple_term_dialog = True
   title_font = Bitstream Vera Sans Mono 11
-  title_transmit_bg_color = "#222222"
-  title_transmit_fg_color = "#bfbfbf"
+  title_transmit_bg_color = "#687a8c"
+  title_transmit_fg_color = "#dce3ea"
   title_use_system_font = False
 [keybindings]
 [layouts]
@@ -19,13 +19,15 @@
 [plugins]
 [profiles]
   [[default]]
+    background_color = "#18243e"
     background_darkness = 0.71
     background_type = transparent
     cursor_color = "#aaaaaa"
     cursor_shape = ibeam
     font = Ubuntu Mono 11
+    foreground_color = "#dce3ea"
     icon_bell = False
-    palette = "#86817e:#d75756:#688c7d:#ffb365:#68778c:#fdb3b2:#86abd9:#f7f8f2:#86817e:#a63a3a:#688c7d:#ffb365:#68778c:#8c686a:#86abd9:#f7f8f2"
+    palette = "#19202e:#a54242:#c6973e:#b18063:#496db7:#554d72:#2e9794:#cdd3dc:#808896:#cc6666:#e9ca8f:#e9bba0:#99b0e2:#9b88da:#80ceca:#cdd3dc"
     scroll_background = False
     scrollback_infinite = True
     scrollbar_position = hidden
