@@ -20,7 +20,7 @@ set tabstop=2       "a tab is 2 spaces
 set softtabstop=2   "backspace pretends like a tab is removed (even if expanded to spaces)
 set expandtab       "expand tabs to spaces
 set shiftwidth=2    "autoindent with 2 spaces
-set number  "show relative line numbers
+set relativenumber  "show relative line numbers
 set showmatch       "show matching parentheses
 
 "Remap JK to be ESC
