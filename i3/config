@@ -85,6 +85,9 @@ bindsym Mod4+l exec ~/.config/i3/lock.sh
 # Open Steam
 bindsym Mod4+z exec steam
 
+# Open Signal
+bindsym Mod4+Shift+s exec signal-desktop
+
 #############
 ## WINDOWS ##
 #############

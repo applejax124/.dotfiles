@@ -1,6 +1,6 @@
 # bash config file
 # by: Cami Carballo
-# LAST EDIT: 14 December 2017
+# LAST EDIT: 14 February 2018
 
 # DEFAULT TEXT EDITOR
 export EDITOR='vim'
@@ -65,16 +65,13 @@ alias l='ls -CF'
 alias rm='rm -i'
 alias woman='man'
 alias vim='vim -S ~/.vimrc'
+alias open='xdg-open'
 
 # connections to remote hosts
-alias s00='ccarball@student00.cse.nd.edu'
-alias s04='ccarball@student04.cse.nd.edu'
-alias s06='ccarball@student06.cse.nd.edu'
 alias darrow='ssh -X ccarball@darrow.cc.nd.edu'
 alias www='lftp ccarball@www3ftps.nd.edu'
-alias dsg1='ssh ccarball@dsg1.crc.nd.edu'
-alias bork='ssh camelot@104.131.182.72'
-alias pi='ssh camel@192.168.1.19'
+alias pi='ssh camel@192.168.2.218'
+alias brazil='sudo openvpn --config /etc/openvpn/client/Privacy-Brazil.conf --auth-user-pass /etc/openvpn/auth'
 
 # run some programs
 alias armsim='mono ~/Downloads/ARMSim.exe'
