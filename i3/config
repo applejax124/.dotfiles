@@ -37,10 +37,10 @@ for_window [class="^.*"] border pixel 2
 ##############
 
 # Start i3lock to login
-exec --no-startup-id i3lock -u -i ~/.config/i3/lockscreen.png
+#exec --no-startup-id i3lock -u -i ~/.config/i3/lockscreen.png
 
 # Start xautolock 
-exec --no-startup-id xautolock -time 7 -locker "~/.config/i3/lock.sh"
+#exec --no-startup-id xautolock -time 7 -locker "~/.config/i3/lock.sh"
 
 # Start NetworkManager on Startup
 exec --no-startup-id nm-applet
@@ -82,11 +82,11 @@ bindsym Mod4+c exec firefox
 # Lock Screen
 bindsym Mod4+l exec ~/.config/i3/lock.sh
 
-# Open Steam
-bindsym Mod4+z exec steam
-
 # Open Signal
-bindsym Mod4+Shift+s exec signal-desktop
+bindsym Mod4+z exec signal-desktop
+
+# Open Spotify
+bindsym Mod4+m exec spotify
 
 #############
 ## WINDOWS ##

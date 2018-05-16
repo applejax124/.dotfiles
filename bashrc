@@ -72,6 +72,7 @@ alias darrow='ssh -X ccarball@darrow.cc.nd.edu'
 alias www='lftp ccarball@www3ftps.nd.edu'
 alias pi='ssh camel@192.168.2.218'
 alias brazil='sudo openvpn --config /etc/openvpn/client/Privacy-Brazil.conf --auth-user-pass /etc/openvpn/auth'
+alias ndvpn='sudo openconnect vpnaccess.nd.edu'
 
 # run some programs
 alias armsim='mono ~/Downloads/ARMSim.exe'
@@ -81,7 +82,6 @@ alias windows='qemu-system-x86_64 -m 6G -cpu host -enable-kvm -drive file=window
 # run virtualenvwrapper
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
 export VIRTUALENVWRAPPER_VIRTUALENV=/usr/bin/virtualenv
-source /usr/bin/virtualenvwrapper.sh
 export WORKON_HOME=~/Environments
 
 # enable programmable completion features (you don't need to enable
