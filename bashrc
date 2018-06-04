@@ -1,6 +1,6 @@
 # bash config file
 # by: Cami Carballo
-# LAST EDIT: 14 February 2018
+# LAST EDIT: 4 June 2018
 
 # DEFAULT TEXT EDITOR
 export EDITOR='vim'
@@ -71,13 +71,7 @@ alias open='xdg-open'
 alias darrow='ssh -X ccarball@darrow.cc.nd.edu'
 alias www='lftp ccarball@www3ftps.nd.edu'
 alias pi='ssh camel@192.168.2.218'
-alias brazil='sudo openvpn --config /etc/openvpn/client/Privacy-Brazil.conf --auth-user-pass /etc/openvpn/auth'
 alias ndvpn='sudo openconnect vpnaccess.nd.edu'
-
-# run some programs
-alias armsim='mono ~/Downloads/ARMSim.exe'
-alias android='/usr/bin/android-studio/bin/studio.sh'
-alias windows='qemu-system-x86_64 -m 6G -cpu host -enable-kvm -drive file=windows.img -cdrom windows.iso'
 
 # run virtualenvwrapper
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
