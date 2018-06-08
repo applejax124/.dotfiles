@@ -1,6 +1,6 @@
 " VIM config file (.vimrc)
 " by: Cami Carballo
-" LAST EDIT : 26 October 2017
+" LAST EDIT : 8 June 2018
 
 " use VIM instead of VI
 set nocompatible
@@ -26,16 +26,7 @@ set showmatch       "show matching parentheses
 "Remap JK to be ESC
 inoremap jk <ESC>
 
-"Force me to use HJKL
-noremap <Up> <NOP>
-noremap <Down> <NOP>
-noremap <Left> <NOP>
-noremap <Right> <NOP>
-
 """"""""""""""""
 " VIM BEHAVIOR "
 """"""""""""""""
 set noswapfile      "don't create swap files
-"set cursorline!
-"hi CursorLine cterm=NONE ctermbg=8
-" ^^ highlight the current line (for quick orientation)
