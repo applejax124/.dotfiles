@@ -1,6 +1,6 @@
 # bash config file
 # by: Cami Carballo
-# LAST EDIT: 4 June 2018
+# LAST EDIT: 8 June 2018
 
 # DEFAULT TEXT EDITOR
 export EDITOR='vim'
@@ -72,6 +72,7 @@ alias darrow='ssh -X ccarball@darrow.cc.nd.edu'
 alias www='lftp ccarball@www3ftps.nd.edu'
 alias pi='ssh camel@192.168.2.218'
 alias ndvpn='sudo openconnect vpnaccess.nd.edu'
+alias crcfe01='ssh -Y ccarball@crcfe01.crc.nd.edu'
 
 # run virtualenvwrapper
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
