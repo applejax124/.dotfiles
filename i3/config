@@ -1,6 +1,6 @@
 # i3 config file 
 # by: Cami Carballo 
-# LAST EDIT: 6 January 2018
+# LAST EDIT: 6 June 2018
 
 ##############
 ## SETTINGS ##
@@ -19,13 +19,13 @@ client.background       #ffffff
 
 
 # Pulse Audio controls
-bindsym XF86AudioMute exec amixer -D pulse sset Master toggle  
-bindsym XF86AudioLowerVolume exec amixer -D pulse sset Master 5%-
-bindsym XF86AudioRaiseVolume exec amixer -D pulse sset Master 5%+
+bindsym XF86AudioMute exec amixer sset Master toggle  
+bindsym XF86AudioLowerVolume exec amixer sset Master 5%-
+bindsym XF86AudioRaiseVolume exec amixer sset Master 5%+
 
 # Screen brightness controls
-bindsym XF86MonBrightnessUp exec xbacklight -inc 10
-bindsym XF86MonBrightnessDown exec xbacklight -dec 10
+bindsym XF86MonBrightnessUp exec light -A 10
+bindsym XF86MonBrightnessDown exec light -U 10
 
 # i3-gaps
 gaps inner 10
@@ -49,16 +49,18 @@ exec --no-startup-id nm-applet
 exec --no-startup-id ~/.config/i3/battery_notifications.py
 
 # Natural Scrolling
-exec --no-startup-id synclient NaturalScrolling=1 VertScrollDelta=-113
+exec --no-startup-id xinput set-prop 11 281 1
+exec --no-startup-id xinput set-prop 11 298 0
+exec --no-startup-id xinput set-prop 11 289 1
 
 # Notification-Daemon (Dunst)
-exec --no-startup-id dunst -config ~/.config/dunst/config
+#exec --no-startup-id dunst -config ~/.config/dunst/config
 
 # Set Background
 exec --no-startup-id feh --bg-scale ~/Media/Pictures/background.jpg
 
 # Set Transparent Terminal
-exec --no-startup-id compton -b --config ~/.config/compton/config
+#exec --no-startup-id compton -b --config ~/.config/compton/config
 
 # Start polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
@@ -82,11 +84,8 @@ bindsym Mod4+c exec firefox
 # Lock Screen
 bindsym Mod4+l exec ~/.config/i3/lock.sh
 
-# Open Signal
-bindsym Mod4+z exec signal-desktop
-
-# Open Spotify
-bindsym Mod4+m exec spotify
+# Open Dmenu
+bindsym Mod4+d exec dmenu_run
 
 #############
 ## WINDOWS ##
