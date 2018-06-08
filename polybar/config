@@ -1,6 +1,6 @@
 # polybar config file 
 # by: Cami Carballo 
-# LAST EDIT: 6 January 2018
+# LAST EDIT: 6 June 2018
 
 ##########
 # COLORS #
@@ -50,7 +50,8 @@ font-1 = Font Awesome 5:size=10:antialias=false;1
 font-0 = Ubuntu Mono:size=12;1
 
 modules-left = i3
-modules-right = xbacklight volume memory cpu wlan eth battery temperature date time
+modules-center = date time
+modules-right = backlight volume battery wlan
 
 tray-position = right
 
@@ -99,11 +100,13 @@ icon-next = 
 label-song-maxlen = 25
 label-song-ellipsis = true
 
-##############
-# xbacklight #
-##############
-[module/xbacklight]
-type = internal/xbacklight
+#############
+# backlight #
+#############
+[module/backlight]
+type = internal/backlight
+card = intel_backlight
+
 enable-scroll = false
 
 format = <ramp> <label>
@@ -142,7 +145,7 @@ label = %gb_used%/%gb_free%
 ########
 [module/wlan]
 type = internal/network
-interface = wlp7s0
+interface = wlp58s0
 interval = 2
 
 format-connected = <label-connected>
@@ -179,7 +182,7 @@ label = %date%
 type = internal/date
 interval = 1
 
-time = %H%{F#555}:%{F-}%M%{F#555}:%{F-}%S
+time = %I%{F#555}:%{F-}%M%{F#555}:%{F-}%S
 format = <label>
 label = %time%
 
