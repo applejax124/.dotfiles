@@ -52,7 +52,7 @@ font-0 = Ubuntu Mono:size=13
 
 modules-left = i3
 modules-center = date time
-modules-right = backlight volume battery wlan powermenu
+modules-right = backlight volume battery nm wlan powermenu
 
 wm-restack = i3
 
