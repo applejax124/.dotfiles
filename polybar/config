@@ -1,6 +1,6 @@
 # polybar config file 
 # by: Cami Carballo 
-# LAST EDIT: 6 June 2018
+# LAST EDIT: 16 June 2018
 
 ##########
 # COLORS #
@@ -9,7 +9,7 @@
 [colors]
 black = #000
 lightgrey = #aaa
-darkgrey = #555
+darkgrey = #666
 red = #f00
 lightblue = #9fb6cd
 
@@ -28,7 +28,7 @@ h1-bg = ${self.background}
 # BAR #
 #######
 
-[bar/cami]
+[bar/top]
 width = 100%
 height = 20
 
@@ -38,7 +38,8 @@ foreground = ${colors.foreground}
 line-size = 3
 line-color = #f00
 
-border-bottom-size = 
+border-top-size = 2
+border-right-size = 5
 border-color = ${self.background}
 
 module-margin-left = 1
@@ -46,14 +47,12 @@ module-margin-right = 1
 
 separator = "%{F#ccc}•%{F-}"
 
-font-1 = Font Awesome 5:size=10:antialias=false;1
-font-0 = Ubuntu Mono:size=12;1
+font-1 = FontAwesome:size=12
+font-0 = Ubuntu Mono:size=13
 
 modules-left = i3
 modules-center = date time
-modules-right = backlight volume battery wlan
-
-tray-position = right
+modules-right = backlight volume battery wlan powermenu
 
 wm-restack = i3
 
@@ -66,6 +65,7 @@ cursor-click = pointer
 ######
 # I3 #
 ######
+
 [module/i3]
 type = internal/i3
 format = <label-state> <label-mode>
@@ -73,20 +73,21 @@ index-sort = true
 enable-scroll = false
 enable-click = false
 
-label-focused = %{F#555}%index%%{F-}
+label-focused = %{F#666}%index%%{F-}
 label-focused-underline = ${colors.lightblue}
 label-focused-padding = 1
 
-label-unfocused = %{F#555}%index%%{F-}
+label-unfocused = %{F#666}%index%%{F-}
 label-unfocused-padding = 1
 
-label-urgent = %{F#555}%index%%{F-}
+label-urgent = %{F#666}%index%%{F-}
 label-urgent-underline = ${colors.red}
 label-urgent-padding = 1
 
 #######
 # mpd #
 #######
+
 [module/mpd]
 type = internal/mpd
 format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
@@ -103,34 +104,31 @@ label-song-ellipsis = true
 #############
 # backlight #
 #############
+
 [module/backlight]
 type = internal/backlight
 card = intel_backlight
 
 enable-scroll = false
 
-format = <ramp> <label>
-label = %percentage%%
-
-ramp-0 = %{F#555}🌕%{F-}
-ramp-1 = %{F#555}🌔%{F-}
-ramp-2 = %{F#555}🌓%{F-}
-ramp-3 = %{F#555}🌒%{F-}
-ramp-4 = %{F#555}🌑%{F-}
+format = <label>
+label = %{F#666} %{F-}%percentage%%
 
 #######
 # cpu #
 #######
+
 [module/cpu]
 type = internal/cpu
 
 interval = 5
 format = <label>
-label = %{F#555}CPU%{F-} %percentage%%
+label = %{F#666}CPU%{F-} %percentage%%
 
 ##########
 # memory #
 ##########
+
 [module/memory]
 type = internal/memory
 
@@ -143,6 +141,7 @@ label = %gb_used%/%gb_free%
 ########
 # wlan #
 ########
+
 [module/wlan]
 type = internal/network
 interface = wlp58s0
@@ -150,51 +149,46 @@ interval = 2
 
 format-connected = <label-connected>
 ;format-connected-underline = #9f78e1
-label-connected = %{F#555}%essid%%{F-} %local_ip%
-
-#######
-# eth #
-#######
-[module/eth]
-type = internal/network
-interface = net0
-interval = 3.0
-
-format-connected-underline = #55aa55
-format-connected-prefix = " "
-format-connected-prefix-foreground = ${colors.foreground-alt}
-label-connected = %local_ip%
+label-connected = %{F#666}%essid%%{F-} %local_ip%
 
 ########
 # date #
 ########
+
 [module/date]
 type = internal/date
 
-date = %{F#555}%A%{F-} %b %d %Y
+date = %{F#666}%A%{F-} %b %d %Y
 format = <label>
 label = %date%
 
 ########
 # time #
 ########
+
 [module/time]
 type = internal/date
 interval = 1
 
-time = %I%{F#555}:%{F-}%M%{F#555}:%{F-}%S
+time = %I%{F#666}:%{F-}%M%{F#666}:%{F-}%S
 format = <label>
 label = %time%
 
 ##########
 # volume #
 ##########
+
 [module/volume]
 type = internal/volume
 
-format-volume = <label-volume> 
-label-volume = %{F#555}volume%{F-} %percentage%%
+format-volume = <ramp-volume> <label-volume> 
+label-volume = %percentage%%
 label-volume-foreground = ${colors.foreground}
+ramp-volume-foreground = ${colors.foreground-alt}
+
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
 
 format-muted-foreground = ${colors.foreground-alt}
 label-muted = mute
@@ -202,19 +196,53 @@ label-muted = mute
 ###########
 # battery #
 ###########
+
 [module/battery]
 type = internal/battery
 battery = BAT0
 adapter = ADP1
 
-label-charging = %{F#555}++%{F-}%percentage%%
-format-charging = <label-charging>
+label-charging =  %percentage%%
+format-charging = <label-charging> 
 
-label-discharging = %{F#555}--%{F-}%percentage%%
-format-discharging = <label-discharging>
+label-discharging = %percentage%%
+format-discharging = <ramp-capacity> <label-discharging>
 
-label-full = %{F#555}fully charged%{F-}
-;format-full-prefix = "FULL "
-;format-full-prefix-foreground = ${colors.foreground-alt}
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
 
-; vim:ft=dosini
+ramp-capacity-foreground = ${colors.foreground-alt}
+
+label-full = %{F#666}fully charged%{F-}
+
+#############
+# powermenu #
+#############
+
+[module/powermenu]
+type = custom/menu
+
+label-open = 
+label-close = 
+label-separator = |
+label-separator-margin = 1
+
+expand-right = true
+
+menu-0-0 = Reboot
+menu-0-0-exec = menu-open-1
+menu-0-1 = Power off
+menu-0-1-exec = menu-open-2
+
+menu-1-0 = Cancel
+menu-1-0-exec = menu-open-0
+menu-1-1 = Reboot
+menu-1-1-exec = systemctl reboot
+
+menu-2-0 = Power off
+menu-2-0-exec = systemctl poweroff
+menu-2-1 = Cancel
+menu-2-1-exec = menu-open-0
