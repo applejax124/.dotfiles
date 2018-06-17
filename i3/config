@@ -1,6 +1,6 @@
 # i3 config file 
 # by: Cami Carballo 
-# LAST EDIT: 16 June 2018
+# LAST EDIT: 17 June 2018
 
 ##############
 ## SETTINGS ##
@@ -40,7 +40,7 @@ for_window [class="^.*"] border pixel 2
 #exec --no-startup-id xautolock -time 7 -locker "~/.config/i3/lock.sh"
 
 # Start NetworkManager on Startup
-#exec --no-startup-id nm-applet
+exec --no-startup-id nm-applet
 
 # Low Battery Notifiations
 exec --no-startup-id ~/.config/i3/battery_notifications.py
