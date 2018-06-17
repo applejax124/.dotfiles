@@ -202,7 +202,7 @@ type = internal/battery
 battery = BAT0
 adapter = ADP1
 
-label-charging =  %percentage%%
+label-charging = %{F#666} %{F-}%percentage%%
 format-charging = <label-charging> 
 
 label-discharging = %percentage%%
