@@ -44,8 +44,7 @@ set_title(){
 ############
 
 # prompt
-PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]\$ '
-
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u\[\033[01;00m\]@\[\033[01;35m\]\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]\$ '
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
