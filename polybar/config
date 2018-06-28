@@ -54,6 +54,8 @@ modules-left = i3
 modules-center = date time
 modules-right = backlight volume battery nm wlan powermenu
 
+;tray-position = right
+
 wm-restack = i3
 
 cursor-click = pointer

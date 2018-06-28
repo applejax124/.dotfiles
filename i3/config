@@ -51,7 +51,7 @@ exec --no-startup-id xinput set-prop 11 298 0
 exec --no-startup-id xinput set-prop 11 289 1
 
 # Notification-Daemon (Dunst)
-exec --no-startup-id dunst -config ~/.config/dunst/config
+exec --no-startup-id dunst
 
 # Set Background
 exec --no-startup-id feh --bg-scale ~/Media/Pictures/background.jpg
