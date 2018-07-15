@@ -42,15 +42,15 @@ SCRIPT_DESC = 'Sends libnotify notifications upon events.'
 # Settings
 # -----------------------------------------------------------------------------
 SETTINGS = {
-    'show_public_message': 'off',
+    'show_public_message': 'on',
     'show_private_message': 'on',
-    'show_public_action_message': 'off',
+    'show_public_action_message': 'on',
     'show_private_action_message': 'on',
     'show_notice_message': 'off',
-    'show_invite_message': 'on',
+    'show_invite_message': 'off',
     'show_highlighted_message': 'on',
     'show_server': 'on',
-    'show_channel_topic': 'on',
+    'show_channel_topic': 'off',
     'show_dcc': 'on',
     'show_upgrade_ended': 'on',
     'sticky': 'off',
