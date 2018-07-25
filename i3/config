@@ -46,9 +46,9 @@ exec --no-startup-id nm-applet
 exec --no-startup-id ~/.config/i3/battery_notifications.py
 
 # Natural Scrolling
-exec --no-startup-id xinput set-prop 11 281 1
-exec --no-startup-id xinput set-prop 11 298 0
-exec --no-startup-id xinput set-prop 11 289 1
+exec --no-startup-id xinput set-prop 11 285 1
+exec --no-startup-id xinput set-prop 11 302 0
+exec --no-startup-id xinput set-prop 11 286 1
 
 # Notification-Daemon (Dunst)
 exec --no-startup-id dunst

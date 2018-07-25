@@ -2,7 +2,7 @@
 
 # Low Battery Notification on i3wm 
 # by: Cami Carballo
-# LAST EDIT: 27 November 2017
+# LAST EDIT: 24 July 2018
 
 import sys, os, time
 
@@ -19,11 +19,11 @@ while True:
   notify_v_low = "zenity --warning --text='BATTERY VERY LOW: {}%'".format(percentage)
   notify_critical = "zenity --warning --text='BATTERY CRITICAL: {}%'".format(percentage)
 
-  if status == "Discharging" and percentage <= 5:
+  if status == "Discharging" and percentage == 5:
     os.system(notify_critical)
-  elif status == "Discharging" and percentage <= 10:
+  elif status == "Discharging" and percentage == 10:
       os.system(notify_v_low)
-  elif status == "Discharging" and percentage <= 20:
+  elif status == "Discharging" and percentage == 20:
       os.system(notify_low)
 
   time.sleep(300)
