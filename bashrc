@@ -1,6 +1,6 @@
 # bash config file
 # by: Cami Carballo
-# LAST EDIT: 8 June 2018
+# LAST EDIT: 27 July 2018
 
 # DEFAULT TEXT EDITOR
 export EDITOR='vim'
@@ -67,9 +67,9 @@ alias vim='vim -S ~/.vimrc'
 alias open='xdg-open'
 
 # connections to remote hosts
-alias darrow='ssh -X ccarball@darrow.cc.nd.edu'
+alias darrow='ssh -Y ccarball@darrow.cc.nd.edu'
 alias www='lftp ccarball@www3ftps.nd.edu'
-alias pi='ssh camel@192.168.2.218'
+alias pi='ssh camelot@10.0.0.164'
 alias ndvpn='sudo openconnect vpnaccess.nd.edu'
 alias crcfe01='ssh -Y ccarball@crcfe01.crc.nd.edu'
 
