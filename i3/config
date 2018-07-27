@@ -62,10 +62,12 @@ exec --no-startup-id feh --bg-scale ~/Media/Pictures/background.jpg
 # Start polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
-# Start Messaging Apps
+# Start apps
 exec --no-startup-id i3-msg 'workspace 1; exec slack'
 exec --no-startup-id i3-msg 'workspace 1; exec signal-desktop'
 exec --no-startup-id i3-msg 'workspace 1; exec terminator -e weechat'
+exec --no-startup-id i3-msg 'workspace 2; exec firefox'
+exec --no-startup-id i3-msg 'workspace 8; exec thunderbird'
 
 ###################
 ## OPEN PROGRAMS ##
@@ -125,6 +127,10 @@ bindsym Mod4+Shift+space floating toggle
 
 # Change Focus Between Tiling & Floating Windows
 bindsym Mod4+space focus mode_toggle
+
+# Assign programs to workspaces
+for_window [class="Spotify"] move to workspace 9
+for_window [class="Thunderbird"] move to workspace 8
 
 # Switch Workspace
 bindsym Mod4+1 workspace 1

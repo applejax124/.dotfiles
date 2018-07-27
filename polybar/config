@@ -1,6 +1,6 @@
 # polybar config file 
 # by: Cami Carballo 
-# LAST EDIT: 16 June 2018
+# LAST EDIT: 26 July 2018
 
 ##########
 # COLORS #
@@ -75,14 +75,25 @@ index-sort = true
 enable-scroll = false
 enable-click = false
 
-label-focused = %{F#666}%index%%{F-}
+ws-icon-0 = 1;
+ws-icon-1 = 2;
+ws-icon-2 = 3;
+ws-icon-3 = 4;
+ws-icon-4 = 5;
+ws-icon-5 = 6;
+ws-icon-6 = 7;
+ws-icon-7 = 8;
+ws-icon-8 = 9;
+ws-icon-9 = 10;
+
+label-focused = %{F#666}%icon%%{F-}
 label-focused-underline = ${colors.lightblue}
 label-focused-padding = 1
 
-label-unfocused = %{F#666}%index%%{F-}
+label-unfocused = %{F#666}%icon%%{F-}
 label-unfocused-padding = 1
 
-label-urgent = %{F#666}%index%%{F-}
+label-urgent = %{F#666}%icon%%{F-}
 label-urgent-underline = ${colors.red}
 label-urgent-padding = 1
 
