@@ -1,6 +1,6 @@
 # i3 config file 
 # by: Cami Carballo 
-# LAST EDIT: 26 July 2018
+# LAST EDIT: 28 July 2018
 
 ##############
 ## SETTINGS ##
@@ -56,18 +56,15 @@ exec --no-startup-id dunst
 # Set Background
 exec --no-startup-id feh --bg-scale ~/Media/Pictures/background.jpg
 
-# Set Transparent Terminal
-#exec --no-startup-id compton -b --config ~/.config/compton/config
-
 # Start polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 # Start apps
-exec --no-startup-id i3-msg 'workspace 1; exec slack'
-exec --no-startup-id i3-msg 'workspace 1; exec signal-desktop'
-exec --no-startup-id i3-msg 'workspace 1; exec terminator -e weechat'
+exec --no-startup-id slack
+exec --no-startup-id signal-desktop
+exec --no-startup-id thunderbird
+exec --no-startup-id i3-msg 'workspace 1; exec terminator -e pi'
 exec --no-startup-id i3-msg 'workspace 2; exec firefox'
-exec --no-startup-id i3-msg 'workspace 8; exec thunderbird'
 
 ###################
 ## OPEN PROGRAMS ##
@@ -131,6 +128,8 @@ bindsym Mod4+space focus mode_toggle
 # Assign programs to workspaces
 for_window [class="Spotify"] move to workspace 9
 for_window [class="Thunderbird"] move to workspace 8
+for_window [class="Signal"] move to workspace 1
+for_window [class="Slack"] move to workspace 1
 
 # Switch Workspace
 bindsym Mod4+1 workspace 1
