@@ -69,9 +69,9 @@ alias open='xdg-open'
 # connections to remote hosts
 alias darrow='ssh -Y ccarball@darrow.cc.nd.edu'
 alias www='lftp ccarball@www3ftps.nd.edu'
-alias pi='ssh camelot@10.0.0.164'
 alias ndvpn='sudo openconnect vpnaccess.nd.edu'
 alias crcfe01='ssh -Y ccarball@crcfe01.crc.nd.edu'
+alias florin-pi='ssh -Y pi@129.74.154.207'
 
 # run virtualenvwrapper
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
