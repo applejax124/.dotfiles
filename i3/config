@@ -63,7 +63,7 @@ exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec --no-startup-id slack
 exec --no-startup-id signal-desktop
 exec --no-startup-id thunderbird
-exec --no-startup-id i3-msg 'workspace 1; exec terminator -e pi'
+exec --no-startup-id i3-msg 'workspace 1; exec terminator'
 exec --no-startup-id i3-msg 'workspace 2; exec firefox'
 
 ###################
