@@ -1,6 +1,6 @@
 # polybar config file 
 # by: Cami Carballo 
-# LAST EDIT: 26 July 2018
+# LAST EDIT: 6 August 2018
 
 ##########
 # COLORS #
@@ -50,9 +50,9 @@ separator = "%{F#ccc}•%{F-}"
 font-1 = FontAwesome:size=12
 font-0 = Ubuntu Mono:size=13
 
-modules-left = i3
+modules-left = i3 spotify
 modules-center = date time
-modules-right = backlight volume battery nm wlan powermenu
+modules-right = backlight volume battery vpn wlan powermenu
 
 ;tray-position = right
 
@@ -97,23 +97,6 @@ label-urgent = %{F#666}%icon%%{F-}
 label-urgent-underline = ${colors.red}
 label-urgent-padding = 1
 
-#######
-# mpd #
-#######
-
-[module/mpd]
-type = internal/mpd
-format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
-
-icon-prev = 
-icon-stop = 
-icon-play = 
-icon-pause = 
-icon-next = 
-
-label-song-maxlen = 25
-label-song-ellipsis = true
-
 #############
 # backlight #
 #############
@@ -128,28 +111,19 @@ format = <label>
 label = %{F#666} %{F-}%percentage%%
 
 #######
-# cpu #
+# vpn #
 #######
 
-[module/cpu]
-type = internal/cpu
-
-interval = 5
-format = <label>
-label = %{F#666}CPU%{F-} %percentage%%
-
-##########
-# memory #
-##########
-
-[module/memory]
-type = internal/memory
-
+[module/vpn]
+type = internal/network
+interface = tun0
 interval = 2
-format-prefix = "RAM "
-format-prefix-foreground = ${colors.foreground-alt}
-;format-underline = #4bffdc
-label = %gb_used%/%gb_free%
+
+unknown-as-up = true
+
+format-connected = <label-connected>
+
+label-connected = %{F#666}%{F-} vpn
 
 ########
 # wlan #
@@ -161,7 +135,6 @@ interface = wlp58s0
 interval = 2
 
 format-connected = <label-connected>
-;format-connected-underline = #9f78e1
 label-connected = %{F#666}%essid%%{F-} %local_ip%
 
 ########
@@ -259,3 +232,14 @@ menu-2-0 = Power off
 menu-2-0-exec = systemctl poweroff
 menu-2-1 = Cancel
 menu-2-1-exec = menu-open-0
+
+###########
+# spotify #
+###########
+
+[module/spotify]
+type = custom/script
+interval = 1
+format-prefix = " "
+format = <label>
+exec = python ~/.dotfiles/polybar/spotify_status.py -f '{song} - {artist}'
