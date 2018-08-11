@@ -24,9 +24,9 @@ upadding = ${self.padding}
 underline = #337733
 h1-bg = ${self.background}
 
-#######
-# BAR #
-#######
+#############
+# BAR - TOP #
+#############
 
 [bar/top]
 width = 100%
@@ -137,6 +137,9 @@ interval = 2
 format-connected = <label-connected>
 label-connected = %{F#666}%essid%%{F-} %local_ip%
 
+format-disconnected = %{F#666} <label-disconnected> %{F-}
+label-disconnected = %{A1:exec terminator -e nmtui:}no wifi%{A}
+
 ########
 # date #
 ########
@@ -240,6 +243,5 @@ menu-2-1-exec = menu-open-0
 [module/spotify]
 type = custom/script
 interval = 1
-format-prefix = " "
 format = <label>
-exec = python ~/.dotfiles/polybar/spotify_status.py -f '{song} - {artist}'
+exec = python ~/.dotfiles/polybar/polybar-spotify/spotify_status.py -f '{play_pause} {song} -- {artist}' -p ','
