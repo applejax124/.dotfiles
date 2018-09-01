@@ -22,6 +22,9 @@ client.background       #ffffff
 bindsym XF86AudioMute exec amixer sset Master toggle  
 bindsym XF86AudioLowerVolume exec amixer sset Master 5%-
 bindsym XF86AudioRaiseVolume exec amixer sset Master 5%+
+bindsym XF86AudioPlay exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause
+bindsym XF86AudioNext exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next 
+bindsym XF86AudioPrev exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous   
 
 # Screen brightness controls
 bindsym XF86MonBrightnessUp exec light -A 10
@@ -62,9 +65,10 @@ exec_always --no-startup-id ~/.config/polybar/launch.sh
 # Start apps
 exec --no-startup-id slack
 exec --no-startup-id signal-desktop
-exec --no-startup-id thunderbird
 exec --no-startup-id i3-msg 'workspace 1; exec terminator'
 exec --no-startup-id i3-msg 'workspace 2; exec firefox'
+exec --no-startup-id i3-msg 'workspace 1; exec messages'
+exec --no-startup-id i3-msg 'workspace 8; exec firefox -new-window https://mail.google.com'
 
 ###################
 ## OPEN PROGRAMS ##
@@ -127,7 +131,6 @@ bindsym Mod4+space focus mode_toggle
 
 # Assign programs to workspaces
 for_window [class="Spotify"] move to workspace 9
-for_window [class="Thunderbird"] move to workspace 8
 for_window [class="Signal"] move to workspace 1
 for_window [class="Slack"] move to workspace 1
 
