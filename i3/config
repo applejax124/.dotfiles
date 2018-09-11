@@ -1,6 +1,6 @@
 # i3 config file 
 # by: Cami Carballo 
-# LAST EDIT: 28 July 2018
+# LAST EDIT: 11 September 2018
 
 ##############
 ## SETTINGS ##
@@ -50,7 +50,8 @@ exec --no-startup-id ~/.config/i3/battery_notifications.py
 
 # Natural Scrolling
 exec --no-startup-id xinput set-prop 11 285 1
-exec --no-startup-id xinput set-prop 11 302 0
+exec --no-startup-id xinput set-prop 11 284 1
+exec --no-startup-id xinput set-prop 11 301 0
 exec --no-startup-id xinput set-prop 11 286 1
 
 # Notification-Daemon (Dunst)
