@@ -65,6 +65,8 @@ alias rm='rm -i'
 alias woman='man'
 alias vim='vim -S ~/.vimrc'
 alias open='xdg-open'
+alias messages='electron /usr/lib/android-messages-desktop/resources/app.asar'
+
 
 # connections to remote hosts
 alias darrow='ssh -Y ccarball@darrow.cc.nd.edu'
