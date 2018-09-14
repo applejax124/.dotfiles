@@ -1,1 +1,3 @@
 .gitconfig
+weechat/logs/*
+weechat/*.log
