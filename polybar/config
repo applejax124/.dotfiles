@@ -159,7 +159,7 @@ label = %date%
 type = internal/date
 interval = 1
 
-time = %I%{F#666}:%{F-}%M%{F#666}:%{F-}%S
+time = %H%{F#666}:%{F-}%M%{F#666}:%{F-}%S
 format = <label>
 label = %time%
 
