@@ -115,15 +115,12 @@ label = %{F#666} %{F-}%percentage%%
 #######
 
 [module/vpn]
-type = internal/network
-interface = tun0
-interval = 2
+type = custom/script
 
-unknown-as-up = true
+exec = echo %{F#666}%{F-} vpn
+exec-if = pgrep openconnect
+interval = 5
 
-format-connected = <label-connected>
-
-label-connected = %{F#666}%{F-} vpn
 
 ########
 # wlan #
