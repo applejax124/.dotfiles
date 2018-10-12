@@ -74,6 +74,7 @@ alias www='lftp ccarball@www3ftps.nd.edu'
 alias ndvpn='sudo openconnect vpnaccess.nd.edu'
 alias crcfe01='ssh -Y ccarball@crcfe01.crc.nd.edu'
 alias florin-pi='ssh -Y pi@129.74.154.207'
+alias disco='ssh -Y ccarball@disc01.crc.nd.edu'
 
 # run virtualenvwrapper
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
