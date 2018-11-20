@@ -1,6 +1,6 @@
 # i3 config file 
 # by: Cami Carballo 
-# LAST EDIT: 11 September 2018
+# LAST EDIT: 20 November 2018
 
 ##############
 ## SETTINGS ##
@@ -64,10 +64,10 @@ exec --no-startup-id feh --bg-scale ~/Media/Pictures/background.jpg
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 # Start apps
-exec --no-startup-id slack
-exec --no-startup-id signal-desktop
-exec --no-startup-id i3-msg 'workspace 1; exec terminator'
-exec --no-startup-id i3-msg 'workspace 2; exec firefox'
+#exec --no-startup-id slack
+#exec --no-startup-id signal-desktop
+#exec --no-startup-id i3-msg 'workspace 1; exec terminator'
+#exec --no-startup-id i3-msg 'workspace 2; exec firefox'
 
 ###################
 ## OPEN PROGRAMS ##
