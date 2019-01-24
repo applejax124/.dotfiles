@@ -1,6 +1,6 @@
 # i3 config file 
 # by: Cami Carballo 
-# LAST EDIT: 6 January 2019
+# LAST EDIT: 24 January 2019
 
 ##############
 ## SETTINGS ##
@@ -49,7 +49,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id ~/.config/i3/battery_notifications.py
 
 # Automatic Display Settings
-exec --no-startup-id ~/.config/xrandr/external_display.py
+#exec --no-startup-id ~/.config/xrandr/external_display.py
 
 # Natural Scrolling
 exec --no-startup-id xinput set-prop 11 285 1
@@ -93,6 +93,9 @@ bindsym Mod4+l exec ~/.config/i3/lock.sh
 
 # Open Dmenu
 bindsym Mod4+d exec dmenu_run
+
+# Connect to an External Display
+bindsym Mod4+x exec ~/.config/xrandr/external_display.py
 
 #############
 ## WINDOWS ##
