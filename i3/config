@@ -67,9 +67,8 @@ exec --no-startup-id feh --bg-scale ~/Media/Pictures/background.jpg
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 # Start apps
-#exec --no-startup-id slack
-#exec --no-startup-id signal-desktop
-#exec --no-startup-id i3-msg 'workspace 1; exec terminator'
+exec --no-startup-id i3-msg 'workspace 1; slack'
+exec --no-startup-id i3-msg 'workspace 1; exec signal-desktop'
 exec --no-startup-id i3-msg 'workspace 2; exec firefox'
 
 ###################
