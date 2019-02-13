@@ -52,6 +52,7 @@ exec --no-startup-id ~/.config/i3/battery_notifications.py
 #exec --no-startup-id ~/.config/xrandr/external_display.py
 
 # Natural Scrolling
+exec --no-startup-id xinput set-prop 11 276 1
 exec --no-startup-id xinput set-prop 11 285 1
 exec --no-startup-id xinput set-prop 11 284 1
 exec --no-startup-id xinput set-prop 11 301 0
