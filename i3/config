@@ -1,6 +1,6 @@
 # i3 config file 
 # by: Cami Carballo 
-# LAST EDIT: 28 January 2019
+# LAST EDIT: 18 February 2019
 
 ##############
 ## SETTINGS ##
@@ -70,6 +70,7 @@ exec_always --no-startup-id ~/.config/polybar/launch.sh
 # Start apps
 exec --no-startup-id i3-msg 'workspace 1; exec slack'
 exec --no-startup-id i3-msg 'workspace 1; exec android-messages-desktop'
+exec --no-startup-id i3-msg 'workspace 1; exec mattermost-desktop'
 exec --no-startup-id i3-msg 'workspace 1; exec signal-desktop'
 exec --no-startup-id i3-msg 'workspace 2; exec firefox'
 
