@@ -47,9 +47,6 @@ exec --no-startup-id nm-applet
 # Low Battery Notifiations
 exec --no-startup-id ~/.config/i3/battery_notifications.py
 
-# Automatic Display Settings
-#exec --no-startup-id ~/.config/xrandr/external_display.py
-
 # Natural Scrolling
 exec --no-startup-id xinput set-prop 11 276 1
 exec --no-startup-id xinput set-prop 11 285 1
@@ -67,7 +64,7 @@ exec --no-startup-id feh --bg-scale ~/Media/Pictures/background.jpg
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 # Start apps
-exec --no-startup-id i3-msg 'workspace 2; exec firefox'
+exec --no-startup-id i3-msg 'workspace 1; exec firefox'
 
 ###################
 ## OPEN PROGRAMS ##
@@ -132,9 +129,6 @@ bindsym Mod4+Shift+space floating toggle
 bindsym Mod4+space focus mode_toggle
 
 # Assign programs to workspaces
-for_window [class="Spotify"] move to workspace 9
-for_window [class="Signal"] move to workspace 1
-for_window [class="Slack"] move to workspace 1
 for_window [class="Steam"] move to workspace 10
 
 # Switch Workspace
