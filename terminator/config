@@ -1,11 +1,6 @@
 [global_config]
-  broadcast_default = off
-  inactive_color_offset = 0.504672897196
-  scroll_tabbar = True
-  suppress_multiple_term_dialog = True
-  title_font = Bitstream Vera Sans Mono 11
-  title_transmit_bg_color = "#687a8c"
-  title_transmit_fg_color = "#dce3ea"
+  inactive_color_offset = 0.509466437177
+  title_font = Ubuntu Mono 11
   title_use_system_font = False
 [keybindings]
 [layouts]
@@ -19,17 +14,11 @@
 [plugins]
 [profiles]
   [[default]]
-    background_color = "#18243e"
-    background_darkness = 0.93
+    background_darkness = 0.9
     background_type = transparent
     cursor_color = "#aaaaaa"
     cursor_shape = ibeam
-    font = Ubuntu Mono 11
-    foreground_color = "#dce3ea"
-    icon_bell = False
-    palette = "#19202e:#a54242:#c6973e:#b18063:#496db7:#554d72:#2e9794:#cdd3dc:#808896:#cc6666:#e9ca8f:#e9bba0:#99b0e2:#9b88da:#80ceca:#cdd3dc"
-    scroll_background = False
     scrollback_infinite = True
+    scrollback_lines = 1000
     scrollbar_position = hidden
     show_titlebar = False
-    use_system_font = False

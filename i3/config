@@ -1,6 +1,6 @@
 # i3 config file 
 # by: Cami Carballo 
-# LAST EDIT: 18 February 2019
+# LAST EDIT: 22 March 2019
 
 ##############
 ## SETTINGS ##
@@ -16,7 +16,6 @@ client.unfocused        #333333   #222222   #888888   #292d2e     #222222
 client.urgent           #2f343a   #900000   #ffffff   #900000     #900000
 client.placeholder      #000000   #0c0c0c   #ffffff   #000000     #0c0c0c
 client.background       #ffffff
-
 
 # Pulse Audio controls
 bindsym XF86AudioMute exec amixer sset Master toggle  
@@ -35,12 +34,12 @@ gaps inner 10
 gaps outer 0
 for_window [class="^.*"] border pixel 2
 
+# transparent terminals (in combination with terminator profile)
+exec compton -cCGfF -b --active-opacity 1.0
+
 ##############
 ## START UP ##
 ##############
-
-# Start xautolock 
-#exec --no-startup-id xautolock -time 7 -locker "~/.config/i3/lock.sh"
 
 # Start NetworkManager on Startup
 exec --no-startup-id nm-applet
@@ -68,10 +67,6 @@ exec --no-startup-id feh --bg-scale ~/Media/Pictures/background.jpg
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 # Start apps
-exec --no-startup-id i3-msg 'workspace 1; exec slack'
-exec --no-startup-id i3-msg 'workspace 1; exec android-messages-desktop'
-exec --no-startup-id i3-msg 'workspace 1; exec mattermost-desktop'
-exec --no-startup-id i3-msg 'workspace 1; exec signal-desktop'
 exec --no-startup-id i3-msg 'workspace 2; exec firefox'
 
 ###################
