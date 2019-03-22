@@ -1,6 +1,6 @@
 # bash config file
 # by: Cami Carballo
-# LAST EDIT: 20 November 2018
+# LAST EDIT: 22 March 2019
 
 # DEFAULT TEXT EDITOR
 export EDITOR='vim'
@@ -64,17 +64,6 @@ alias l='ls -CF'
 alias rm='rm -i'
 alias vim='vim -S ~/.vimrc'
 alias open='xdg-open'
-
-# connections to remote hosts
-alias ndvpn='sudo openconnect vpnaccess.nd.edu'
-alias crcfe01='ssh -Y ccarball@crcfe01.crc.nd.edu'
-alias florin-pi='ssh -Y pi@129.74.154.207'
-alias disco='ssh -Y ccarball@disc01.crc.nd.edu'
-alias pi='ssh camelot@10.0.0.241'
-
-alias s00='ssh -Y ccarball@student00.cse.nd.edu'
-alias s02='ssh -Y ccarball@student02.cse.nd.edu'
-alias s06='ssh -Y ccarball@student06.cse.nd.edu'
 
 # run virtualenvwrapper
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
