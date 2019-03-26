@@ -39,6 +39,10 @@ for line in xrandr_tmp:
 if edp1 and dp1:
     os.system("xrandr-set HDMI only")
     os.system("pacmd set-card-profile 0 output:hdmi-stereo")
+    time.sleep(1)
+    os.system("i3-msg restart")
 elif not eprim and not dp1:
     os.system("xrandr-set HDMI off")
     os.system("pacmd set-card-profile 0 output:analog-stereo")
+    time.sleep(1)
+    os.system("i3-msg restart")
