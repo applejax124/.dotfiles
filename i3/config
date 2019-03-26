@@ -89,7 +89,7 @@ bindsym Mod4+l exec ~/.config/i3/lock.sh
 bindsym Mod4+d exec dmenu_run
 
 # Connect to an External Display
-bindsym Mod4+x exec ~/.config/xrandr/external_display.py
+bindsym Mod4+x exec ~/.config/scripts/connect_monitor.py
 
 #############
 ## WINDOWS ##

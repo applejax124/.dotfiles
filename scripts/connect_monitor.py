@@ -1,8 +1,8 @@
 #!/usr/bin/python
-
-# External Display switch
 # by: Cami Carballo
-# LAST EDIT: 24 January 2019
+# LAST EDIT: 26 March 2019
+
+# Script for sending display to external monitor (xrandr) and audio to external speakers (pacmd)
 
 import sys, os, time
 
@@ -38,5 +38,7 @@ for line in xrandr_tmp:
 
 if edp1 and dp1:
     os.system("xrandr-set HDMI only")
+    os.system("pacmd set-card-profile 0 output:hdmi-stereo")
 elif not eprim and not dp1:
     os.system("xrandr-set HDMI off")
+    os.system("pacmd set-card-profile 0 output:analog-stereo")

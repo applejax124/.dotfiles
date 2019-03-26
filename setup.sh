@@ -14,7 +14,7 @@ DIRS="dunst
 i3
 polybar
 terminator
-xrandr"
+scripts"
 
 for f in $FILES
 do
