@@ -45,7 +45,7 @@ exec compton -cCGfF -b --active-opacity 1.0
 exec --no-startup-id nm-applet
 
 # Low Battery Notifiations
-exec --no-startup-id ~/.config/i3/battery_notifications.py
+exec --no-startup-id ~/.config/scripts/battery_notifications.py
 
 # Natural Scrolling
 exec --no-startup-id xinput set-prop 11 276 1
@@ -61,7 +61,7 @@ exec --no-startup-id dunst -conf ~/.config/dunst/dunstrc
 exec --no-startup-id feh --bg-scale ~/Media/Pictures/background.jpg
 
 # Start polybar
-exec_always --no-startup-id ~/.config/polybar/launch.sh
+exec_always --no-startup-id ~/.config/scripts/launch.sh
 
 # Start apps
 exec --no-startup-id i3-msg 'workspace 1; exec firefox'
@@ -83,7 +83,7 @@ bindsym Mod4+Return exec terminator
 bindsym Mod4+c exec firefox
 
 # Lock Screen
-bindsym Mod4+l exec ~/.config/i3/lock.sh
+bindsym Mod4+l exec ~/.config/scripts/lock.sh
 
 # Open Dmenu
 bindsym Mod4+d exec dmenu_run
