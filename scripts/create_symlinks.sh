@@ -16,8 +16,6 @@ polybar
 terminator
 scripts"
 
-SYSD="/etc/systemd"
-
 for f in $FILES
 do
 
@@ -37,15 +35,3 @@ do
     ln -s ~/.dotfiles/$d ~/.config/$d
 
 done
-
-if [ -f $SYSD/wakelock.service ]; then
-    sudo rm -rf $SYSD/wakelock.service
-fi
-if [ -f $SYSD/wakelock.service ]; then
-    sudo rm -rf $SYSD/wakelock.service 
-fi
-
-sudo ln -s ~/.dotfiles/systemd/wakelock.service $SYSD/sleep.target.wants/wakelock.service
-sudo chown root $SYSD/sleep.target.wants/wakelock.service
-sudo ln -s ~/.dotfiles/systemd/wakelock.service $SYSD/suspend.target.wants/wakelock.service
-sudo chown root $SYSD/suspend.target.wants/wakelock.service
