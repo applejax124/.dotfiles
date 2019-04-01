@@ -3,6 +3,7 @@ dunst
 dzen2
 feh
 firefox
+gdm
 git
 i3-gaps
 i3lock
@@ -25,6 +26,5 @@ ttf-ubuntu-font-family
 valgrind
 vim
 xclip
-org-xwud
 yaourt
 zenity
