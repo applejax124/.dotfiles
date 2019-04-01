@@ -47,12 +47,8 @@ exec --no-startup-id nm-applet
 # Low Battery Notifiations
 exec --no-startup-id ~/.config/scripts/battery_notifications.py
 
-# Natural Scrolling
-exec --no-startup-id xinput set-prop 11 276 1
-exec --no-startup-id xinput set-prop 11 285 1
-exec --no-startup-id xinput set-prop 11 284 1
-exec --no-startup-id xinput set-prop 11 301 0
-exec --no-startup-id xinput set-prop 11 286 1
+# Natural Scrolling and Tapping
+exec --no-startup-id ~/.config/scripts/fix_touchpad.py
 
 # Notification-Daemon (Dunst)
 exec --no-startup-id dunst -conf ~/.config/dunst/dunstrc
