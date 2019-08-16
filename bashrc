@@ -1,9 +1,14 @@
 # bash config file
 # by: Cami Carballo
-# LAST EDIT: 22 March 2019
+# LAST EDIT: 16 August 2019
 
 # DEFAULT TEXT EDITOR
 export EDITOR='vim'
+
+# ZEPHYR SDK
+export ZEPHYR_TOOLCHAIN_VARIANT='zephyr'
+export ZEPHYR_SDK_INSTALL_DIR='/opt/zephyr-sdk'
+export ZEPHYR_BASE='/home/camelot/zephyrproject/zephyr'
 
 # If not running interactively, don't do anything
 case $- in
@@ -64,6 +69,11 @@ alias l='ls -CF'
 alias rm='rm -i'
 alias vim='vim -S ~/.vimrc'
 alias open='xdg-open'
+
+alias zbase='cd /home/camelot/zephyrproject/zephyr' # zephyr alias
+alias steven='camelot@10.0.0.23' #steven alias
+
+alias armgdb='/opt/zephyr-sdj/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb'
 
 # run virtualenvwrapper
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
