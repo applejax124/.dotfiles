@@ -73,7 +73,7 @@ alias open='xdg-open'
 alias zbase='cd /home/camelot/zephyrproject/zephyr' # zephyr alias
 alias steven='camelot@10.0.0.23' #steven alias
 
-alias armgdb='/opt/zephyr-sdj/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb'
+alias armgdb='/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb'
 
 # run virtualenvwrapper
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
