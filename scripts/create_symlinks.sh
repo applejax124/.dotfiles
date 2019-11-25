@@ -1,12 +1,11 @@
-#!/usr/bin/bash
+#!/bin/sh
 # By: Cami Carballo
 # LAST EDIT: 22 March 2019
 
 # This script creates symlinks for all the configuration files and directories in the 
 # ~/.dotfiles directory
 
-FILES="bash_profile
-bashrc
+FILES="zshrc
 vimrc
 xinitrc"
 
