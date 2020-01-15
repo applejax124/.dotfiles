@@ -52,7 +52,7 @@ separator = "%{F#ccc}•%{F-}"
 font-1 = FontAwesome:size=12
 font-0 = Ubuntu Mono:size=13
 
-modules-left = i3 spotify
+modules-left = i3
 modules-center = date time
 modules-right = backlight volume battery vpn wlan powermenu
 
@@ -119,8 +119,7 @@ label = %{F#666} %{F-}%percentage%%
 [module/vpn]
 type = custom/script
 
-exec = echo %{F#666}%{F-} vpn
-exec-if = pgrep openconnect
+exec = ~/.dotfiles/polybar/vpnstatus.sh
 interval = 5
 
 ########
