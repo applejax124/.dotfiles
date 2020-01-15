@@ -1,6 +1,6 @@
 #!/bin/sh
 
-IFACE=`ip address | grep -q cscotun0 | wc -l`
+IFACE=`ip address | grep cscotun0 | wc -l`
 
 if [ $IFACE -ne 0 ]; then
     echo "%{F#666}%{F-} vpn connected"
