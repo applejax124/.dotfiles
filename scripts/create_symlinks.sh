@@ -1,6 +1,6 @@
 #!/bin/sh
-# By: Cami Carballo
-# LAST EDIT: 22 March 2019
+# By: Camila Thompson
+# LAST EDIT: 2 February 2022
 
 # This script creates symlinks for all the configuration files and directories in the 
 # ~/.dotfiles directory
@@ -9,8 +9,7 @@ FILES="zshrc
 vimrc
 xinitrc"
 
-DIRS="dunst
-i3
+DIRS="i3
 polybar
 terminator
 scripts"

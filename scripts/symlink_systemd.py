@@ -1,10 +1,10 @@
-#!/usr/bin/python
-# By: Cami Carballo
-# LAST EDITED: 28 March 2019
+#!/usr/bin/python3
+# By: Camila Thompson
+# LAST EDIT: 2 February 2022
 
 import os
 
-files = ["wakelock", "gdm"]
+files = ["wakelock"]
 
 for file_ in files:
 

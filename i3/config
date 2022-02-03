@@ -1,6 +1,6 @@
 # i3 config file 
-# by: Cami Carballo 
-# LAST EDIT: 24 March 2019
+# by: Camila Thompson
+# LAST EDIT: 2 February 2022
 
 ##############
 ## SETTINGS ##
@@ -45,22 +45,25 @@ exec compton -cCGfF -b --active-opacity 1.0
 exec --no-startup-id nm-applet
 
 # Low Battery Notifiations
-exec --no-startup-id ~/.config/scripts/battery_notifications.py
+#exec --no-startup-id ~/.config/scripts/battery_notifications.py
 
 # Natural Scrolling and Tapping
-exec --no-startup-id ~/.config/scripts/fix_touchpad.py
+#exec --no-startup-id ~/.config/scripts/fix_touchpad.py
 
 # Notification-Daemon (Dunst)
-exec --no-startup-id dunst -conf ~/.config/dunst/dunstrc
+#exec --no-startup-id dunst -conf ~/.config/dunst/dunstrc
 
 # Set Background
-exec --no-startup-id feh --bg-scale ~/Media/Pictures/background.jpg
+#exec --no-startup-id feh --bg-scale ~/Media/Pictures/background.jpg
 
 # Start polybar
 exec_always --no-startup-id ~/.config/scripts/launch.sh
 
 # Start apps
-exec --no-startup-id i3-msg 'workspace 1; exec firefox'
+#exec --no-startup-id i3-msg 'workspace 1; exec firefox'
+
+# Fix messed up monitors
+exec_always --no-startup-id ~/.config/scripts/monitors.sh
 
 ###################
 ## OPEN PROGRAMS ##
@@ -75,8 +78,8 @@ bindsym Mod4+Shift+e exec "i3-nagbar -t warning -m 'Do you really want to exit i
 # Open Terminal
 bindsym Mod4+Return exec terminator
 
-# Open Firefox (teehee)
-bindsym Mod4+c exec firefox
+# Open Google Chrome
+bindsym Mod4+c exec google-chrome
 
 # Lock Screen
 bindsym Mod4+l exec ~/.config/scripts/lock.sh
@@ -85,7 +88,7 @@ bindsym Mod4+l exec ~/.config/scripts/lock.sh
 bindsym Mod4+d exec dmenu_run
 
 # Connect to an External Display
-bindsym Mod4+x exec ~/.config/scripts/connect_monitor.py
+#bindsym Mod4+x exec ~/.config/scripts/connect_monitor.py
 
 #############
 ## WINDOWS ##

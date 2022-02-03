@@ -1,3 +1,7 @@
+# ZSH Config
+# By: Camila Thompson
+# LAST EDIT: 2 February 2022
+
 # System-wide profile for interactive zsh(1) shells.
 
 # Setup user specific overrides for this in ~/.zhsrc. See zshbuiltins(1)
@@ -78,7 +82,7 @@ setopt PROMPT_SUBST
 #PROMPT='%n in ${PWD/#$HOME/~} ${vcs_info_msg_0_} > '
 
 # Default prompt
-PROMPT='%F{red}%n%F{blue}@%F{red}%m %F{green}%~%F{blue}${vcs_info_msg_0_} %f$ '
+PROMPT='%B%F{red}%n%F{red}@%F{red}%m %F{green}%~%b%F{blue}${vcs_info_msg_0_} %f$ '
 
 # Useful support for interacting with Terminal.app or other terminal programs
 [ -r "/etc/zshrc_$TERM_PROGRAM" ] && . "/etc/zshrc_$TERM_PROGRAM"
@@ -86,3 +90,7 @@ PROMPT='%F{red}%n%F{blue}@%F{red}%m %F{green}%~%F{blue}${vcs_info_msg_0_} %f$ '
 unset LSCOLORS
 export CLICOLOR=1
 export CLICOLOR_FORCE=1
+
+### enable colored ls ###
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
