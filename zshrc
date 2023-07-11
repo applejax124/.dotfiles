@@ -1,6 +1,6 @@
 # ZSH Config
-# By: Camila Thompson
-# LAST EDIT: 2 February 2022
+# By: Theo Thompson
+# LAST EDIT: 11 July 2023
 
 # System-wide profile for interactive zsh(1) shells.
 
@@ -19,9 +19,6 @@ disable log
 HISTFILE=${ZDOTDIR:-$HOME}/.zsh_history
 HISTSIZE=2000
 SAVEHIST=1000
-
-# Beep on error
-setopt BEEP
 
 # Use keycodes (generated via zkbd) if present, otherwise fallback on
 # values from terminfo
@@ -79,10 +76,7 @@ zstyle ':vcs_info:git:*' formats ' -> %b'
  
 # Set up the prompt (with git branch name)
 setopt PROMPT_SUBST
-#PROMPT='%n in ${PWD/#$HOME/~} ${vcs_info_msg_0_} > '
-
-# Default prompt
-PROMPT='%B%F{red}%n%F{red}@%F{red}%m %F{green}%~%b%F{blue}${vcs_info_msg_0_} %f$ '
+PROMPT='%F{red}%n%F{red}@%F{red}%m%F{green}${vcs_info_msg_0_}%f $ '
 
 # Useful support for interacting with Terminal.app or other terminal programs
 [ -r "/etc/zshrc_$TERM_PROGRAM" ] && . "/etc/zshrc_$TERM_PROGRAM"
